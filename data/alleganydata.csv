@@ -1,0 +1,582 @@
+Data Source,Time,Location,Indicator,IndicatorValue,Employment Status,Amount,Unemployment Rate,,Percentage,Format for charts,,
+ACS,2007-2011,"Allegany County, Maryland",Employed Individuals by Education,Less than high school graduate,Employed,1014,,,,"1,014",,
+ACS,2007-2011,"Allegany County, Maryland",Employed Individuals by Education,High school graduate (includes equivalency),Employed,9378,,,,"9,378",,
+ACS,2007-2011,"Allegany County, Maryland",Employed Individuals by Education,Some college or associate's degree,Employed,7954,,,,"7,954",,
+ACS,2007-2011,"Allegany County, Maryland",Employed Individuals by Education,Bachelor's degree or higher,Employed,5324,,,,"5,324",,
+ACS,2012-2016,"Allegany County, Maryland",Employed Individuals by Education,Less than high school graduate,Employed,1004,,,,"1,004",,
+ACS,2012-2016,"Allegany County, Maryland",Employed Individuals by Education,High school graduate (includes equivalency),Employed,8026,,,,"8,026",,
+ACS,2012-2016,"Allegany County, Maryland",Employed Individuals by Education,Some college or associate's degree,Employed,7912,,,,"7,912",,
+ACS,2012-2016,"Allegany County, Maryland",Employed Individuals by Education,Bachelor's degree or higher,Employed,5845,,,,"5,845",,
+ACS,2007-2011,"Allegany County, Maryland",Unemplolyment Rate by Gender,Total Population 20 to 64 years,Unemployment Rate,7.6,0.076,,,7.6,,
+ACS,2007-2011,"Allegany County, Maryland",Unemplolyment Rate by Gender,Male,Unemployment Rate,8.3,0.083,,,8.3,,
+ACS,2007-2011,"Allegany County, Maryland",Unemplolyment Rate by Gender,Female,Unemployment Rate,6.7,0.067,,,6.7,,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Gender,Total Population 20 to 64 years,Unemployment Rate,8.8,0.088,,,8.8,,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Gender,Male,Unemployment Rate,10.3,0.103,,,10.3,,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Gender,Female,Unemployment Rate,7.1,0.071,,,7.1,,
+ACS,2007-2011,"Allegany County, Maryland",Unemplolyment Rate by Race/Ethnicity,White,Unemployment Rate,7.6,0.076,,,7.6,,
+ACS,2007-2011,"Allegany County, Maryland",Unemplolyment Rate by Race/Ethnicity,Black,Unemployment Rate,18.8,0.188,,,18.8,,
+ACS,2007-2011,"Allegany County, Maryland",Unemplolyment Rate by Race/Ethnicity,Asian,Unemployment Rate,3.8,0.038,,,3.8,,
+ACS,2007-2011,"Allegany County, Maryland",Unemplolyment Rate by Race/Ethnicity,Hispanic,Unemployment Rate,7,0.07,,,7,,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Race/Ethnicity,White,Unemployment Rate,8.7,0.087,,,8.7,,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Race/Ethnicity,Black,Unemployment Rate,25.8,0.258,,,25.8,,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Race/Ethnicity,Asian,Unemployment Rate,14,0.14,,,14,,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Race/Ethnicity,Hispanic,Unemployment Rate,18.5,0.185,,,18.5,,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Veteran Status,Veteran,Unemployment Rate,12,0.12,,,12,,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Veteran Status,Non Veteran,Unemployment Rate,9.3,0.093,,,9.3,,
+ACS,2007-2011,"Allegany County, Maryland",Unemplolyment Rate by Veteran Status,Veteran,Unemployment Rate,5.2,0.052,,,5.2,,
+ACS,2007-2011,"Allegany County, Maryland",Unemplolyment Rate by Veteran Status,Non Veteran,Unemployment Rate,8.5,0.085,,,8.5,,
+LAUS,2017,"Allegany County, MD",Not Seasonally Adjusted Annual Average,Labor Force,Labor Force,32421,,,,"32,421",,
+LAUS,2017,"Allegany County, MD",Not Seasonally Adjusted Annual Average,Employed,Employed,30576,,,,"30,576",,
+LAUS,2017,"Allegany County, MD",Not Seasonally Adjusted Annual Average,Unemployed,Unemployed,1845,,,,"1,845",,
+LAUS,2017,"Allegany County, MD",Not Seasonally Adjusted Annual Average,Unemployment Rate,Unemployment Rate,5.7,0.057,100,,6,6.1,0
+LAUS,2016,"Allegany County, MD",Not Seasonally Adjusted Annual Average,Labor Force,Labor Force,32427,,,,"32,427",,
+LAUS,2016,"Allegany County, MD",Not Seasonally Adjusted Annual Average,Employed,Employed,30464,,,,"30,464",,
+LAUS,2016,"Allegany County, MD",Not Seasonally Adjusted Annual Average,Unemployed,Unemployed,1963,,,,"1,963",,
+LAUS,2016,"Allegany County, MD",Not Seasonally Adjusted Annual Average,Unemployment Rate,Unemployment Rate,6.1,0.061,100,,6.1,7,0
+LAUS,2015,"Allegany County, MD",Not Seasonally Adjusted Annual Average,Labor Force,Labor Force,32356,,,,"32,356",,
+LAUS,2015,"Allegany County, MD",Not Seasonally Adjusted Annual Average,Employed,Employed,30092,,,,"30,092",,
+LAUS,2015,"Allegany County, MD",Not Seasonally Adjusted Annual Average,Unemployed,Unemployed,2264,,,,"2,264",,
+LAUS,2015,"Allegany County, MD",Not Seasonally Adjusted Annual Average,Unemployment Rate,Unemployment Rate,7,0.07,100,,7,7.6,0
+LAUS,2013,"Allegany County, MD",Not Seasonally Adjusted Annual Average,Labor Force,Labor Force,33604,,,,"33,604",,
+LAUS,2013,"Allegany County, MD",Not Seasonally Adjusted Annual Average,Employed,Employed,30738,,,,"30,738",,
+LAUS,2013,"Allegany County, MD",Not Seasonally Adjusted Annual Average,Unemployed,Unemployed,2866,,,,"2,866",,
+LAUS,2013,"Allegany County, MD",Not Seasonally Adjusted Annual Average,Unemployment Rate,Unemployment Rate,8.5,0.085,100,,8.5,,8.5
+LAUS,"Jan
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32612,0.091,,,"32,612",,
+LAUS,"Feb
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32943,0.091,,,"32,943",,
+LAUS,"Mar
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32896,0.083,,,"32,896",,
+LAUS,"Apr
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32424,0.07,,,"32,424",,
+LAUS,"May
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32529,0.072,,,"32,529",,
+LAUS,"Jun
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32404,0.078,,,"32,404",,
+LAUS,"Jul
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32063,0.078,,,"32,063",,
+LAUS,"Aug
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,31758,0.075,,,"31,758",,
+LAUS,"Sep
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,31900,0.068,,,"31,900",,
+LAUS,"Oct
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32285,0.067,,,"32,285",,
+LAUS,"Nov
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32219,0.067,,,"32,219",,
+LAUS,"Dec
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32230,0.071,,,"32,230",,
+LAUS,"Jan
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32197,0.086,,,"32,197",,
+LAUS,"Feb
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32549,0.082,,,"32,549",,
+LAUS,"Mar
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32561,0.076,,,"32,561",,
+LAUS,"Apr
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32418,0.065,,,"32,418",,
+LAUS,"May
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32584,0.066,,,"32,584",,
+LAUS,"Jun
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32636,0.073,,,"32,636",,
+LAUS,"Jul
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32493,0.073,,,"32,493",,
+LAUS,"Aug
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32184,0.069,,,"32,184",,
+LAUS,"Sep
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32229,0.061,,,"32,229",,
+LAUS,"Oct
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32471,0.061,,,"32,471",,
+LAUS,"Nov
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32407,0.062,,,"32,407",,
+LAUS,"Dec
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32393,0.064,,,"32,393",,
+LAUS,"Jan
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32267,0.075,,,"32,267",,
+LAUS,"Feb
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32645,0.074,,,"32,645",,
+LAUS,"Mar
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32760,0.067,,,"32,760",,
+LAUS,"Apr
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32472,0.058,,,"32,472",,
+LAUS,"May
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32445,0.054,,,"32,445",,
+LAUS,"Jun
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32550,0.063,,,"32,550",,
+LAUS,"Jul
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32577,0.061,,,"32,577",,
+LAUS,"Aug
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32098,0.062,,,"32,098",,
+LAUS,"Sep
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32312,0.054,,,"32,312",,
+LAUS,"Oct
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32443,0.054,,,"32,443",,
+LAUS,"Nov
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32283,0.05,,,"32,283",,
+LAUS,"Dec
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,32197,0.056,,,"32,197",,
+LAUS,"Jan
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,29806,0.091,,,"29,806",,
+LAUS,"Feb
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30226,0.091,,,"30,226",,
+LAUS,"Mar
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30395,0.083,,,"30,395",,
+LAUS,"Apr
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30309,0.07,,,"30,309",,
+LAUS,"May
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30367,0.072,,,"30,367",,
+LAUS,"Jun
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30049,0.078,,,"30,049",,
+LAUS,"Jul
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,29727,0.078,,,"29,727",,
+LAUS,"Aug
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,29561,0.075,,,"29,561",,
+LAUS,"Sep
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,29947,0.068,,,"29,947",,
+LAUS,"Oct
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30329,0.067,,,"30,329",,
+LAUS,"Nov
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30226,0.067,,,"30,226",,
+LAUS,"Dec
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30159,0.071,,,"30,159",,
+LAUS,"Jan
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,29787,0.086,,,"29,787",,
+LAUS,"Feb
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30141,0.082,,,"30,141",,
+LAUS,"Mar
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30384,0.076,,,"30,384",,
+LAUS,"Apr
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30553,0.065,,,"30,553",,
+LAUS,"May
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30834,0.066,,,"30,834",,
+LAUS,"Jun
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30585,0.073,,,"30,585",,
+LAUS,"Jul
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30507,0.073,,,"30,507",,
+LAUS,"Aug
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30201,0.069,,,"30,201",,
+LAUS,"Sep
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30496,0.061,,,"30,496",,
+LAUS,"Oct
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30733,0.061,,,"30,733",,
+LAUS,"Nov
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30775,0.062,,,"30,775",,
+LAUS,"Dec
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30566,0.064,,,"30,566",,
+LAUS,"Jan
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,29988,0.075,,,"29,988",,
+LAUS,"Feb
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30363,0.074,,,"30,363",,
+LAUS,"Mar
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30583,0.067,,,"30,583",,
+LAUS,"Apr
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30658,0.058,,,"30,658",,
+LAUS,"May
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30752,0.054,,,"30,752",,
+LAUS,"Jun
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30667,0.063,,,"30,667",,
+LAUS,"Jul
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30755,0.061,,,"30,755",,
+LAUS,"Aug
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30391,0.062,,,"30,391",,
+LAUS,"Sep
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30866,0.054,,,"30,866",,
+LAUS,"Oct
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30870,0.054,,,"30,870",,
+LAUS,"Nov
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30606,0.05,,,"30,606",,
+LAUS,"Dec
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,30416,0.056,,,"30,416",,
+LAUS,"Jan
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,2806,0.091,,,"2,806",,
+LAUS,"Feb
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,2717,0.091,,,"2,717",,
+LAUS,"Mar
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,2501,0.083,,,"2,501",,
+LAUS,"Apr
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,2115,0.07,,,"2,115",,
+LAUS,"May
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,2162,0.072,,,"2,162",,
+LAUS,"Jun
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,2355,0.078,,,"2,355",,
+LAUS,"Jul
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,2336,0.078,,,"2,336",,
+LAUS,"Aug
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,2197,0.075,,,"2,197",,
+LAUS,"Sep
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,1953,0.068,,,"1,953",,
+LAUS,"Oct
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,1956,0.067,,,"1,956",,
+LAUS,"Nov
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,1993,0.067,,,"1,993",,
+LAUS,"Dec
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,2071,0.071,,,"2,071",,
+LAUS,"Jan
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,2410,0.086,,,"2,410",,
+LAUS,"Feb
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,2408,0.082,,,"2,408",,
+LAUS,"Mar
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,2177,0.076,,,"2,177",,
+LAUS,"Apr
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,1865,0.065,,,"1,865",,
+LAUS,"May
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,1750,0.066,,,"1,750",,
+LAUS,"Jun
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,2051,0.073,,,"2,051",,
+LAUS,"Jul
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,1986,0.073,,,"1,986",,
+LAUS,"Aug
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,1983,0.069,,,"1,983",,
+LAUS,"Sep
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,1733,0.061,,,"1,733",,
+LAUS,"Oct
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,1738,0.061,,,"1,738",,
+LAUS,"Nov
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,1632,0.062,,,"1,632",,
+LAUS,"Dec
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,1827,0.064,,,"1,827",,
+LAUS,"Jan
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,2279,0.075,,,"2,279",,
+LAUS,"Feb
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,2282,0.074,,,"2,282",,
+LAUS,"Mar
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,2177,0.067,,,"2,177",,
+LAUS,"Apr
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,1814,0.058,,,"1,814",,
+LAUS,"May
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,1693,0.054,,,"1,693",,
+LAUS,"Jun
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,1883,0.063,,,"1,883",,
+LAUS,"Jul
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,1822,0.061,,,"1,822",,
+LAUS,"Aug
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,1707,0.062,,,"1,707",,
+LAUS,"Sep
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,1446,0.054,,,"1,446",,
+LAUS,"Oct
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,1573,0.054,,,"1,573",,
+LAUS,"Nov
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,1677,0.05,,,"1,677",,
+LAUS,"Dec
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,1781,0.056,,,"1,781",,
+LAUS,"Jan
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,8.6,0.086,100,,8.6,9.1,0
+LAUS,"Feb
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,8.2,0.082,100,,8.2,9.1,0
+LAUS,"Mar
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,7.6,0.076,100,,7.6,8.3,0
+LAUS,"Apr
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,6.5,0.065,100,,6.5,7,0
+LAUS,"May
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,6.6,0.066,100,,6.6,7.2,0
+LAUS,"Jun
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,7.3,0.073,100,,7.3,7.8,0
+LAUS,"Jul
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,7.3,0.073,100,,7.3,7.8,0
+LAUS,"Aug
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,6.9,0.069,100,,6.9,7.5,0
+LAUS,"Sep
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,6.1,0.061,100,,6.1,6.8,0
+LAUS,"Oct
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,6.1,0.061,100,,6.1,6.7,0
+LAUS,"Nov
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,6.2,0.062,100,,6.2,6.7,0
+LAUS,"Dec
+2015","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,6.4,0.064,100,,6.4,7.1,0
+LAUS,"Jan
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,7.5,0.075,100,,7.5,8.6,0
+LAUS,"Feb
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,7.4,0.074,100,,7.4,8.2,0
+LAUS,"Mar
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,6.7,0.067,100,,6.7,7.6,0
+LAUS,"Apr
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,5.8,0.058,100,,5.8,6.5,0
+LAUS,"May
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,5.4,0.054,100,,5.4,6.6,0
+LAUS,"Jun
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,6.3,0.063,100,,6.3,7.3,0
+LAUS,"Jul
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,6.1,0.061,100,,6.1,7.3,0
+LAUS,"Aug
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,6.2,0.062,100,,6.2,6.9,0
+LAUS,"Sep
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,5.4,0.054,100,,5.4,6.1,0
+LAUS,"Oct
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,5.4,0.054,100,,5.4,6.1,0
+LAUS,"Nov
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,5,0.05,100,,5,6.2,0
+LAUS,"Dec
+2016","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,5.6,0.056,100,,5.6,6.4,0
+LAUS,"Jan
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,7.1,0.071,100,,7.1,,
+LAUS,"Feb
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,7,0.07,100,,7,,
+LAUS,"Mar
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,6.6,0.066,100,,6.6,,
+LAUS,"Apr
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,5.6,0.056,100,,5.6,,
+LAUS,"May
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,5.2,0.052,100,,5.2,,
+LAUS,"Jun
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,5.8,0.058,100,,5.8,,
+LAUS,"Jul
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,5.6,0.056,100,,5.6,,
+LAUS,"Aug
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,5.3,0.053,100,,5.3,,
+LAUS,"Sep
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,4.5,0.045,100,,4.5,,
+LAUS,"Oct
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,4.8,0.048,100,,4.8,,
+LAUS,"Nov
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,5.2,0.052,100,,5.2,,
+LAUS,"Dec
+2017","Allegany County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,5.5,0.055,100,,5.5,,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,Accommodation and food services,,3289,,,,"3,289",,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,Administrative and waste services,,1226,,,,"1,226",,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,"Agriculture, forestry, fishing and hunting",,0,,,,0,,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,"Arts, entertainment, and recreation",,312,,,,312,,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,Construction,,1033,,,,"1,033",,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,Educational services,,2180,,,,"2,180",,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,Finance and insurance,,739,,,,739,,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,Health care and social assistance,,6025,,,,"6,025",,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,Information,,451,,,,451,,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,Management of companies and enterprises,,0,,,,0,,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,Manufacturing,,2659,,,,"2,659",,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,"Mining, quarrying, and oil and gas extraction",,0,,,,0,,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,"Other services, except public administration",,891,,,,891,,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,Professional and technical services,,0,,,,0,,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,Public administration,,2774,,,,"2,774",,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,Real estate and rental and leasing,,157,,,,157,,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,Retail trade,,3714,,,,"3,714",,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,"Total, all industries",,58379,,,,"58,379",,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,Transportation and warehousing,,819,,,,819,,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,Utilities,,0,,,,0,,
+QCEW,2013,"Allegany County, Maryland",Employment by Industry Annual Average,Wholesale trade,,0,,,,0,,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,Accommodation and food services,,3390,,,,"3,390",,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,Administrative and waste services,,1240,,,,"1,240",,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,"Agriculture, forestry, fishing and hunting",,6,,,,6,,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,"Arts, entertainment, and recreation",,293,,,,293,,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,Construction,,891,,,,891,,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,Educational services,,2206,,,,"2,206",,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,Finance and insurance,,756,,,,756,,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,Health care and social assistance,,5975,,,,"5,975",,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,Information,,504,,,,504,,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,Management of companies and enterprises,,0,,,,0,,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,Manufacturing,,2657,,,,"2,657",,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,"Mining, quarrying, and oil and gas extraction",,108,,,,108,,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,"Other services, except public administration",,892,,,,892,,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,Professional and technical services,,0,,,,0,,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,Public administration,,2751,,,,"2,751",,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,Real estate and rental and leasing,,148,,,,148,,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,Retail trade,,3769,,,,"3,769",,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,"Total, all industries",,58294,,,,"58,294",,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,Transportation and warehousing,,753,,,,753,,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,Utilities,,0,,,,0,,
+QCEW,2014,"Allegany County, Maryland",Employment by Industry Annual Average,Wholesale trade,,0,,,,0,,
+QCEW,2015,"Allegany County, Maryland",Employment by Industry Annual Average,Accommodation and food services,,3310,,,,"3,310",,
+QCEW,2015,"Allegany County, Maryland",Employment by Industry Annual Average,Administrative and waste services,,1163,,,,"1,163",,
+QCEW,2015,"Allegany County, Maryland",Employment by Industry Annual Average,"Agriculture, forestry, fishing and hunting",,5,,,,5,,
+QCEW,2015,"Allegany County, Maryland",Employment by Industry Annual Average,"Arts, entertainment, and recreation",,338,,,,338,,
+QCEW,2015,"Allegany County, Maryland",Employment by Industry Annual Average,Construction,,919,,,,919,,
+QCEW,2015,"Allegany County, Maryland",Employment by Industry Annual Average,Educational services,,2165,,,,"2,165",,
+QCEW,2015,"Allegany County, Maryland",Employment by Industry Annual Average,Finance and insurance,,771,,,,771,,
+QCEW,2015,"Allegany County, Maryland",Employment by Industry Annual Average,Health care and social assistance,,6257,,,,"6,257",,
+QCEW,2015,"Allegany County, Maryland",Employment by Industry Annual Average,Information,,519,,,,519,,
+QCEW,2015,"Allegany County, Maryland",Employment by Industry Annual Average,Management of companies and enterprises,,0,,,,0,,
+QCEW,2015,"Allegany County, Maryland",Employment by Industry Annual Average,Manufacturing,,2643,,,,"2,643",,
+QCEW,2015,"Allegany County, Maryland",Employment by Industry Annual Average,"Mining, quarrying, and oil and gas extraction",,84,,,,84,,
+QCEW,2015,"Allegany County, Maryland",Employment by Industry Annual Average,"Other services, except public administration",,831,,,,831,,
+QCEW,2015,"Allegany County, Maryland",Employment by Industry Annual Average,Professional and technical services,,0,,,,0,,
+QCEW,2015,"Allegany County, Maryland",Employment by Industry Annual Average,Public administration,,1227,,,,"1,227",,
+QCEW,2015,"Allegany County, Maryland",Employment by Industry Annual Average,Real estate and rental and leasing,,180,,,,180,,
+QCEW,2015,"Allegany County, Maryland",Employment by Industry Annual Average,Retail trade,,3764,,,,"3,764",,
+QCEW,2015,"Allegany County, Maryland",Employment by Industry Annual Average,Transportation and warehousing,,745,,,,745,,
+QCEW,2015,"Allegany County, Maryland",Employment by Industry Annual Average,Utilities,,0,,,,0,,
+QCEW,2015,"Allegany County, Maryland",Employment by Industry Annual Average,Wholesale trade,,0,,,,0,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Accommodation and food services,,233,,,,233,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Administrative and waste services,,-125,,,,-125,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,"Agriculture, forestry, fishing and hunting",,0,,,,0,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,"Arts, entertainment, and recreation",,96,,,,96,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Construction,,11,,,,11,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Educational services,,-25,,,,-25,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Finance and insurance,,-8,,,,-8,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Health care and social assistance,,-139,,,,-139,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Information,,6,,,,6,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Management of companies and enterprises,,0,,,,0,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Manufacturing,,148,,,,148,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,"Mining, quarrying, and oil and gas extraction",,0,,,,0,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,"Other services, except public administration",,-102,,,,-102,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Professional and technical services,,0,,,,0,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Public administration,,-12,,,,-12,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Real estate and rental and leasing,,10,,,,10,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Retail trade,,-44,,,,-44,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,"Total, all industries",,-138,,,,-138,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Transportation and warehousing,,-7,,,,-7,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Utilities,,0,,,,0,,
+QCEW,2013,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Wholesale trade,,0,,,,0,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Accommodation and food services,,101,,,,101,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Administrative and waste services,,14,,,,14,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,"Agriculture, forestry, fishing and hunting",,0,,,,0,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,"Arts, entertainment, and recreation",,-19,,,,-19,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Construction,,-142,,,,-142,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Educational services,,26,,,,26,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Finance and insurance,,17,,,,17,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Health care and social assistance,,-50,,,,-50,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Information,,53,,,,53,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Management of companies and enterprises,,0,,,,0,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Manufacturing,,-2,,,,-2,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,"Mining, quarrying, and oil and gas extraction",,0,,,,0,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,"Other services, except public administration",,1,,,,1,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Professional and technical services,,0,,,,0,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Public administration,,-23,,,,-23,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Real estate and rental and leasing,,-9,,,,-9,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Retail trade,,55,,,,55,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,"Total, all industries",,-85,,,,-85,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Transportation and warehousing,,-66,,,,-66,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Utilities,,0,,,,0,,
+QCEW,2014,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Wholesale trade,,0,,,,0,,
+QCEW,2015,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Accommodation and food services,,-80,,,,-80,,
+QCEW,2015,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Administrative and waste services,,-77,,,,-77,,
+QCEW,2015,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,"Agriculture, forestry, fishing and hunting",,-1,,,,-1,,
+QCEW,2015,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,"Arts, entertainment, and recreation",,45,,,,45,,
+QCEW,2015,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Construction,,28,,,,28,,
+QCEW,2015,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Educational services,,-41,,,,-41,,
+QCEW,2015,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Finance and insurance,,15,,,,15,,
+QCEW,2015,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Health care and social assistance,,282,,,,282,,
+QCEW,2015,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Information,,15,,,,15,,
+QCEW,2015,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Management of companies and enterprises,,0,,,,0,,
+QCEW,2015,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Manufacturing,,-14,,,,-14,,
+QCEW,2015,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,"Mining, quarrying, and oil and gas extraction",,-24,,,,-24,,
+QCEW,2015,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,"Other services, except public administration",,-61,,,,-61,,
+QCEW,2015,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Professional and technical services,,0,,,,0,,
+QCEW,2015,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Public administration,,-8,,,,-8,,
+QCEW,2015,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Real estate and rental and leasing,,32,,,,32,,
+QCEW,2015,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Retail trade,,-5,,,,-5,,
+QCEW,2015,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Transportation and warehousing,,-8,,,,-8,,
+QCEW,2015,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Utilities,,0,,,,0,,
+QCEW,2015,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Wholesale trade,,0,,,,0,,
+LEHD,2013,"Allegany County, MD",In-Commuters,,,10774,,,,"10,774",,
+LEHD,2013,"Allegany County, MD",Out-Commuters,,,9595,,,,"9,595",,
+LEHD,2014,"Allegany County, MD",In-Commuters,,,9982,,,,"9,982",,
+LEHD,2014,"Allegany County, MD",Out-Commuters,,,8459,,,,"8,459",,
+LEHD,2015,"Allegany County, MD",In-Commuters,,,10192,,,,"10,192",,
+LEHD,2015,"Allegany County, MD",Out-Commuters,,,8922,,,,"8,922",,
+ACS,2007-2011,"Allegany County, Maryland",Education Attainment by Employment Status,Less than high school graduate,Unemployed,140,,,,140,,
+ACS,2007-2011,"Allegany County, Maryland",Education Attainment by Employment Status,High school graduate (includes equivalency),Unemployed,852,,,,852,,
+ACS,2007-2011,"Allegany County, Maryland",Education Attainment by Employment Status,Some college or associate's degree,Unemployed,730,,,,730,,
+ACS,2007-2011,"Allegany County, Maryland",Education Attainment by Employment Status,Bachelor's degree or higher,Unemployed,118,,,,118,,
+ACS,2012-2016,"Allegany County, Maryland",Education Attainment by Employment Status,Less than high school graduate,Unemployed,133,,,,133,,
+ACS,2012-2016,"Allegany County, Maryland",Education Attainment by Employment Status,High school graduate (includes equivalency),Unemployed,891,,,,891,,
+ACS,2012-2016,"Allegany County, Maryland",Education Attainment by Employment Status,Some college or associate's degree,Unemployed,715,,,,715,,
+ACS,2012-2016,"Allegany County, Maryland",Education Attainment by Employment Status,Bachelor's degree or higher,Unemployed,189,,,,189,,
+ACS,2007-2011,"Allegany County, Maryland",Education Attainment by Employment Status,Less than high school graduate,NIL,2604,,,,"2,604",,
+ACS,2007-2011,"Allegany County, Maryland",Education Attainment by Employment Status,High school graduate (includes equivalency),NIL,5596,,,,"5,596",,
+ACS,2007-2011,"Allegany County, Maryland",Education Attainment by Employment Status,Some college or associate's degree,NIL,3078,,,,"3,078",,
+ACS,2007-2011,"Allegany County, Maryland",Education Attainment by Employment Status,Bachelor's degree or higher,NIL,1283,,,,"1,283",,
+ACS,2012-2016,"Allegany County, Maryland",Education Attainment by Employment Status,Less than high school graduate,NIL,2165,,,,"2,165",,
+ACS,2012-2016,"Allegany County, Maryland",Education Attainment by Employment Status,High school graduate (includes equivalency),NIL,5653,,,,"5,653",,
+ACS,2012-2016,"Allegany County, Maryland",Education Attainment by Employment Status,Some college or associate's degree,NIL,3162,,,,"3,162",,
+ACS,2012-2016,"Allegany County, Maryland",Education Attainment by Employment Status,Bachelor's degree or higher,NIL,1158,,,,"1,158",,
+ACS,2007-2011,"Allegany County, Maryland",Total Population,,,74788,,,,"74,788",,
+ACS,2012-2016,"Allegany County, Maryland",Total Population,,,73060,,,,"73,060",,
+ACS,2007-2011,"Allegany County, Maryland",Median Household Income,,,39408,,,,"$39,408 ",,
+ACS,2012-2016,"Allegany County, Maryland",Median Household Income,,,41559,,,,"$41,559 ",,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Disability Status,Disabled Individuals ,Labor Force,2569,,,,"2,569",,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Disability Status,Disabled Individuals ,Employed,2034,,,,"2,034",,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Disability Status,Disabled Individuals ,Unemployed,535,,,,535,,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Disability Status,Disabled Individuals ,Unemployment Rate,20.83,0.2083,100,,20.8,,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Disability Status,Individuals without Disabilities,Labor Force,27995,,,,"27,995",,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Disability Status,Individuals without Disabilities,Employed,25638,,,,"25,638",,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Disability Status,Individuals without Disabilities,Unemployed,2357,,,,"2,357",,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Disability Status,Individuals without Disabilities,Unemployment Rate,8.42,0.0842,100,,8.4,,
+ACS,2008-2011,"Allegany County, Maryland",Unemplolyment Rate by Disability Status,Disabled Individuals ,Labor Force,2670,,,,"2,670",,
+ACS,2008-2011,"Allegany County, Maryland",Unemplolyment Rate by Disability Status,Disabled Individuals ,Employed,2164,,,,"2,164",,
+ACS,2008-2011,"Allegany County, Maryland",Unemplolyment Rate by Disability Status,Disabled Individuals ,Unemployed,506,,,,506,,
+ACS,2008-2011,"Allegany County, Maryland",Unemplolyment Rate by Disability Status,Disabled Individuals ,Unemployment Rate,19,0.19,100,,19.0,,
+ACS,2008-2011,"Allegany County, Maryland",Unemplolyment Rate by Disability Status,Individuals without Disabilities,Labor Force,29085,,,,"29,085",,
+ACS,2008-2011,"Allegany County, Maryland",Unemplolyment Rate by Disability Status,Individuals without Disabilities,Employed,26777,,,,"26,777",,
+ACS,2008-2011,"Allegany County, Maryland",Unemplolyment Rate by Disability Status,Individuals without Disabilities,Unemployed,2308,,,,"2,308",,
+ACS,2008-2011,"Allegany County, Maryland",Unemplolyment Rate by Disability Status,Individuals without Disabilities,Unemployment Rate,7.9,0.079,100,,7.9,,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months below poverty level,Labor Force,3597,,,,"3,597",,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months below poverty level,Employed,2456,,,,"2,456",,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months below poverty level,Unemployed,1141,,,,"1,141",,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months below poverty level,Unemployment Rate,31.72,0.3172,100,,31.7,,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months at or above poverty level,Labor Force,28271,,,,"28,271",,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months at or above poverty level,Employed,26534,,,,"26,534",,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months at or above poverty level,Unemployed,1737,,,,"1,737",,
+ACS,2012-2016,"Allegany County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months at or above poverty level,Unemployment Rate,6.14,0.0614,100,,6.1,,
+ACS,2007-2011,"Allegany County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months below poverty level,Labor Force,3211,,,,"3,211",,
+ACS,2007-2011,"Allegany County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months below poverty level,Employed,2376,,,,"2,376",,
+ACS,2007-2011,"Allegany County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months below poverty level,Unemployed,835,,,,835,,
+ACS,2007-2011,"Allegany County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months below poverty level,Unemployment Rate,26,0.26,100,,26.0,,
+ACS,2007-2011,"Allegany County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months at or above poverty level,Labor Force,30205,,,,"30,205",,
+ACS,2007-2011,"Allegany County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months at or above poverty level,Employed,28395,,,,"28,395",,
+ACS,2007-2011,"Allegany County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months at or above poverty level,Unemployed,1810,,,,"1,810",,
+ACS,2007-2011,"Allegany County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months at or above poverty level,Unemployment Rate,5.99,0.0599,100,,6.0,,
+Administrative Data from TANF and MD Wage Records,2015Q1,"Allegany County, Maryland",Number of TANF Recipient Workers,,Employed,69,,,,69,,
+Administrative Data from TANF and MD Wage Records,2015Q2,"Allegany County, Maryland",Number of TANF Recipient Workers,,Employed,92,,,,92,,
+Administrative Data from TANF and MD Wage Records,2015Q3,"Allegany County, Maryland",Number of TANF Recipient Workers,,Employed,90,,,,90,,
+Administrative Data from TANF and MD Wage Records,2015Q4,"Allegany County, Maryland",Number of TANF Recipient Workers,,Employed,79,,,,79,,
+Administrative Data from TANF and MD Wage Records,2016Q1,"Allegany County, Maryland",Number of TANF Recipient Workers,,Employed,69,,,,69,,
+Administrative Data from TANF and MD Wage Records,2016Q2,"Allegany County, Maryland",Number of TANF Recipient Workers,,Employed,60,,,,60,,
+Administrative Data from TANF and MD Wage Records,2016Q3,"Allegany County, Maryland",Number of TANF Recipient Workers,,Employed,62,,,,62,,
+Administrative Data from TANF and MD Wage Records,2016Q4,"Allegany County, Maryland",Number of TANF Recipient Workers,,Employed,69,,,,69,,
+Administrative Data from TANF and Workforce Records,2015Q1,"Allegany County, Maryland",Percentage of Workforce Training Program/Service Participants in TANF,,Employed,0.055137845,0.055,100,,0.055,,
+Administrative Data from TANF and Workforce Records,2015Q2,"Allegany County, Maryland",Percentage of Workforce Training Program/Service Participants in TANF,,Employed,0.064610866,0.065,100,,0.065,,
+Administrative Data from TANF and Workforce Records,2015Q3,"Allegany County, Maryland",Percentage of Workforce Training Program/Service Participants in TANF,,Employed,0.0609375,0.061,100,0.0609375,6.10%,,
+Administrative Data from TANF and Workforce Records,2015Q4,"Allegany County, Maryland",Percentage of Workforce Training Program/Service Participants in TANF,,Employed,0.049618321,0.05,100,0.049618321,5.00%,,
+Administrative Data from TANF and Workforce Records,2016Q1,"Allegany County, Maryland",Percentage of Workforce Training Program/Service Participants in TANF,,Employed,0.056621005,0.057,100,0.056621005,5.70%,,
+Administrative Data from TANF and Workforce Records,2016Q2,"Allegany County, Maryland",Percentage of Workforce Training Program/Service Participants in TANF,,Employed,0.05234657,0.052,100,0.05234657,5.20%,,
+Administrative Data from TANF and Workforce Records,2016Q3,"Allegany County, Maryland",Percentage of Workforce Training Program/Service Participants in TANF,,Employed,0.046224961,0.046,,0.046224961,4.60%,,
+Administrative Data from TANF and Workforce Records,2016Q4,"Allegany County, Maryland",Percentage of Workforce Training Program/Service Participants in TANF,,Employed,0.047945205,0.048,,0.047945205,4.80%,,
+Change,2010-2011,"Allegany County, Maryland",Total Population Change,,,-1728,,,,"-1,728",,
+Change,2010-2015,"Allegany County, Maryland",Median Household Income Change,,,2151,,,,"$2,151 ",,
+Change ,2016-2015,"Allegany County, MD",,Labor Force Change,,-6,,,,-6,,
+Change ,2016-2015,"Allegany County, MD",,Employment Change,,112,,,,112,,
+Change ,2016-2015,"Allegany County, MD",,Unemployment Change,,-118,,,,-118,,
+QCEW,2016,"Allegany County, Maryland",Employment by Industry Annual Average,Accommodation and food services,,3568,,,,"3,568",,
+QCEW,2016,"Allegany County, Maryland",Employment by Industry Annual Average,Administrative and waste services,,1143,,,,"1,143",,
+QCEW,2016,"Allegany County, Maryland",Employment by Industry Annual Average,"Agriculture, forestry, fishing and hunting",,4,,,,4,,
+QCEW,2016,"Allegany County, Maryland",Employment by Industry Annual Average,"Arts, entertainment, and recreation",,305,,,,305,,
+QCEW,2016,"Allegany County, Maryland",Employment by Industry Annual Average,Construction,,910,,,,910,,
+QCEW,2016,"Allegany County, Maryland",Employment by Industry Annual Average,Educational services,,2078,,,,"2,078",,
+QCEW,2016,"Allegany County, Maryland",Employment by Industry Annual Average,Finance and insurance,,770,,,,770,,
+QCEW,2016,"Allegany County, Maryland",Employment by Industry Annual Average,Health care and social assistance,,6356,,,,"6,356",,
+QCEW,2016,"Allegany County, Maryland",Employment by Industry Annual Average,Information,,528,,,,528,,
+QCEW,2016,"Allegany County, Maryland",Employment by Industry Annual Average,Management of companies and enterprises,,0,,,,0,,
+QCEW,2016,"Allegany County, Maryland",Employment by Industry Annual Average,Manufacturing,,2772,,,,"2,772",,
+QCEW,2016,"Allegany County, Maryland",Employment by Industry Annual Average,"Mining, quarrying, and oil and gas extraction",,66,,,,66,,
+QCEW,2016,"Allegany County, Maryland",Employment by Industry Annual Average,"Other services, except public administration",,804,,,,804,,
+QCEW,2016,"Allegany County, Maryland",Employment by Industry Annual Average,Professional and technical services,,0,,,,0,,
+QCEW,2016,"Allegany County, Maryland",Employment by Industry Annual Average,Public administration,,1202,,,,"1,202",,
+QCEW,2016,"Allegany County, Maryland",Employment by Industry Annual Average,Real estate and rental and leasing,,182,,,,182,,
+QCEW,2016,"Allegany County, Maryland",Employment by Industry Annual Average,Retail trade,,3774,,,,"3,774",,
+QCEW,2016,"Allegany County, Maryland",Employment by Industry Annual Average,Transportation and warehousing,,136,,,,136,,
+QCEW,2016,"Allegany County, Maryland",Employment by Industry Annual Average,Utilities,,0,,,,0,,
+QCEW,2016,"Allegany County, Maryland",Employment by Industry Annual Average,Wholesale trade,,681,,,,681,,
+QCEW,2016,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Accommodation and food services,,258,,,,258,,
+QCEW,2016,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Administrative and waste services,,-20,,,,-20,,
+QCEW,2016,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,"Agriculture, forestry, fishing and hunting",,-1,,,,-1,,
+QCEW,2016,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,"Arts, entertainment, and recreation",,-33,,,,-33,,
+QCEW,2016,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Construction,,-9,,,,-9,,
+QCEW,2016,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Educational services,,-87,,,,-87,,
+QCEW,2016,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Finance and insurance,,-1,,,,-1,,
+QCEW,2016,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Health care and social assistance,,99,,,,99,,
+QCEW,2016,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Information,,9,,,,9,,
+QCEW,2016,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Management of companies and enterprises,,0,,,,0,,
+QCEW,2016,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Manufacturing,,129,,,,129,,
+QCEW,2016,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,"Mining, quarrying, and oil and gas extraction",,-18,,,,-18,,
+QCEW,2016,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,"Other services, except public administration",,-27,,,,-27,,
+QCEW,2016,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Professional and technical services,,0,,,,0,,
+QCEW,2016,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Public administration,,-25,,,,-25,,
+QCEW,2016,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Real estate and rental and leasing,,2,,,,2,,
+QCEW,2016,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Retail trade,,10,,,,10,,
+QCEW,2016,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Transportation and warehousing,,1,,,,1,,
+QCEW,2016,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Utilities,,0,,,,0,,
+QCEW,2016,"Allegany County, Maryland",Over-the-Year Employment Change by Industry,Wholesale trade,,0,,,,0,,
+Administrative Data from TANF and MD Wage Records,2017Q1,"Allegany County, Maryland",Number of TANF Recipient Workers,,Employed,35,,,,35,,
+Administrative Data from TANF and MD Wage Records,2017Q2,"Allegany County, Maryland",Number of TANF Recipient Workers,,Employed,44,,,,44,,
+Administrative Data from TANF and Workforce Records,2017Q1,"Allegany County, Maryland",Percentage of Workforce Training Program/Service Participants in TANF,,Employed,0.04852071,,,0.04852071,4.90%,,
+Administrative Data from TANF and Workforce Records,2017Q2,"Allegany County, Maryland",Percentage of Workforce Training Program/Service Participants in TANF,,Employed,0.053824363,,,0.053824363,5.40%,,
+Administrative Data from TANF and MD Wage Records,2016Q3,"Allegany County, Maryland",Percentage of TANF Recipients among Maryland Workers,,Employed,0.00213985,,,0.00213985,0.21%,,
+Administrative Data from TANF and MD Wage Records,2016Q4,"Allegany County, Maryland",Percentage of TANF Recipients among Maryland Workers,,Employed,0.002304763,,,0.002304763,0.23%,,
+Administrative Data from TANF and MD Wage Records,2017Q1,"Allegany County, Maryland",Percentage of TANF Recipients among Maryland Workers,,Employed,0.001212289,,,0.001212289,0.12%,,
+Administrative Data from TANF and MD Wage Records,2017Q2,"Allegany County, Maryland",Percentage of TANF Recipients among Maryland Workers,,Employed,0.001496446,,,0.001496446,0.15%,,

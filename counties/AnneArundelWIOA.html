@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../styleSheet.css"> <title>LMI Dashboard</title> <link href="../favicon.ico" rel="icon" type="image/x-icon" />
+        
+        
+        
+        <style>
+            
+            
+            
+        </style> 
+        
+        <script src="../js/d3.v3.min.js" charset="utf-8"></script>
+                        <script src="../js/dimple.v2.2.0.min.js"></script>
+                        <script src="jquery.csv.min.js"></script>
+                        <script src="../js/jquery-1.12.0.min.js"></script>
+                        <script src="jquery.csv.min.js"></script>
+                        <script type="text/javascript">
+                            
+                            
+                            
+                            var CountyName = "Anne Arundel LWDA";
+                            
+                            var CountyName1 = "Anne Arundel WIA -- Maryland Statewide"
+                            
+                            var CountyName2 = "Anne Arundel WIA"
+                            
+                            
+                        
+                        </script>
+                        <script src="../js/WIAD3.js"></script>
+        
+    </head> 
+    
+    <div class="sidebutton">
+                <select onChange="window.location.href=this.value" style="margin: 0px 0px 2px 3px; margin-bottom: 10px; padding-right: 0%;">
+            <option selected="selected">LWDA DATA...</option>
+            <option value="AnneArundelWIOA.html">Anne Arundel LWDA</option>
+            <option value="BaltimoreCityWIOA.html">Baltimore City LWDA</option>
+            <option value="BaltimoreCountyWIOA.html">Baltimore County LWDA</option>
+            <option value="FrederickWIOA.html">Frederick LWDA</option>
+            <option value="LowerShoreWIOA.html">Lower Shore LWDA</option>
+            <option value="MidMDWIOA.html">Mid Maryland LWDA</option>
+            <option value="MontgomeryWIOA.html">Montgomery LWDA</option>
+            <option value="PGWIOA.html">Prince George's LWDA</option>
+            <option value="SouthMDWIOA.html">Southern MD LWDA</option>
+            <option value="SusquehannaWIOA.html">Susquehanna LWDA</option>
+            <option value="UpperShoreWIOA.html">Upper Shore LWDA</option>
+            <option value="WestMDWIOA.html">Western MD LWDA</option>
+         </select>
+                <div class="dropdown">
+            <button class="button" id="button1" onclick="popchart()">Number of Workers <br>&<br> Average Monthly Earnings</button>
+                    </div>
+                
+            <div class="dropdown">    
+                
+            <button class="button" onclick="educhart()" style="padding-left: 15%; padding-right: 12.5%">New Hires <br>& <br>Job Net Changes</button>
+        </div>
+                <div class="dropdown">    
+                <button class="button" onclick="racechart()" style="padding-left: 17%; padding-right: 17%">Turnover Rate</button>
+                </div>
+            <div class="dropdown">    
+            <button class="button" onclick="vetchart()" style="padding-left: 15%; padding-right: 1%;">Industry Metrics
+ </button>
+                
+                </div>
+            </div>
+    
+    <div id="Wrapper">
+        <div class="content">
+            
+    <div class="Header"><p class="RightText"><a href="../homemap.html">Start Over</a>    |    <button onclick="printClick()">Print This Snapshot</button>    |    <button onclick="printAll()" > Print Whole Page</button></p><p>Select Different Snapshot and/or County</p>  </div>
+            
+            <div class="County">
+            <p class="title1">Anne Arundel Local Workforce Development Area  </p>
+                
+            </div>
+            
+             
+            
+            </div>
+                        
+            
+            
+            
+            <div id="collapse1" style="display: none;">
+            
+            
+            <div class="ChartTitle">
+                <div class="buttons">
+                    <p> Time: 
+                        <select id="btn3">
+                            <option>2016-Q1</option>
+                            <option>2016-Q2</option>
+                            <option>2016-Q3</option>
+                            <option>2016-Q4</option>
+                            <option>2017-Q1</option>
+                            <option>2017-Q2</option>
+                            <option>2017-Q3</option>
+                            <option selected="selected">2017-Q4</option>
+                        </select>            
+                    </p>
+                    <p>
+                        Indicator: 
+                        <select id="btn31">
+                             
+                            <option>By Age</option>
+                            <option>By Gender</option>
+                        </select>            
+                    </p>
+                </div>
+                
+                <p>Demographics</p>
+            </div>
+            
+            <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart3">
+                        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+                        <script src="http://dimplejs.org/dist/dimple.v2.1.6.min.js"></script>    
+                        <script type="text/javascript">
+
+                            
+                            
+                            
+                  /**          window.onresize = function () {
+                                chart.draw(0, true);
+                                chart1.draw(0, true);
+                                chart2.draw(0, true);
+                                chart3.draw(0, true);
+                            }; **/
+                            
+                            
+                            
+
+                        </script>
+                        <p></p>
+                    </div>
+                
+                
+
+            <div id="Print3" class="print"></div>
+                
+            </div>
+            
+            
+            <div class="Table">
+                            <table id ="table3" style="font-size: 80%">
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>Allegany 2007-2011: </th>
+                        <th>Age 14-18</th>
+                        <th>Age 19-21</th>
+                        <th>Age 22-24</th>
+                        <th>Age 25-34</th>
+                        <th>Age 35-44</th>
+                        <th>Age 45-54</th>
+                        <th>Age 55-64</th>
+                        <th>Age 65-99</th>
+                        <th rowspan="7" style="border-style: solid;
+                border-color: #5281B7;">Gender Data</th>
+                        <th>Female</th>
+                        <th>Male</th>
+                    </tr>
+                    <tr class="HeadRow">
+                                <th>2017Q2</th>
+                            <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        
+                        <th></th>
+                                </tr>
+                                
+                                <tr>
+                        <th>Number of Workers</th>
+                        <td id="W1">#1</td>
+                        <td id="W2">#2</td>
+                        <td id="W3">#3</td>
+                        <td id="W4">#4</td>
+                        <td id="W5">#5</td>
+                        <tD id="W6">#6</tD>
+                        <td id="W7">#7</td>
+                        <td id="W8">#8</td>
+                        <td id="WM1">#8</td>
+                        <td id="WF1">#9</td>
+                    </tr>
+                    <tr class="HeadRow">
+                                <th>2016Q4</th>
+                            <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                                </tr>
+                    <tr class="FootRow">
+                        <th>Average Monthly Earnings</th>
+                        <td id="A1">#1</td>
+                        <td id="A2">#2</td>
+                        <td id="A3">#3</td>
+                        <td id="A4">#4</td>
+                        <td id="A5">#5</td>
+                        <td id="A6">#6</td>
+                        <td id="A7">#7</td>
+                        <td id="A8">#8</td>
+                        <td id="AM1">#8</td>
+                        <td id="AF1">#9</td>
+                    </tr>
+                </table>
+                
+                
+            </div>
+                
+        </div>
+
+            <div id="collapse2" style="display: none;">
+
+            <div class="ChartTitle">
+                <div class="buttons">
+                    <p> Time: 
+                        <select id="btn4">
+                            <option>2016-Q1</option>
+                            <option>2016-Q2</option>
+                            <option>2016-Q3</option>
+                            <option>2016-Q4</option>
+                            <option>2017-Q1</option>
+                            <option>2017-Q2</option>
+                            <option>2017-Q3</option>
+                            <option selected="selected">2017-Q4</option>
+                        </select>            
+                    </p>
+                    <p>
+                        Indicator: 
+                        <select id="btn41">
+                            <option>By Education</option>
+                             
+                            <option>By Gender</option>
+                        </select>            
+                    </p>
+                </div>
+                
+                <p>Demographics</p>
+            </div>
+
+            <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart4">
+                        
+                    </div>
+                
+                
+            <div id="Print4" class="print"></div>
+                
+            </div>
+        
+        
+            
+        
+            
+           <div class="Table">
+                            <table id="table4">
+                     <tr class="HeadRow" style="background-color: white;">
+                        <th style="border-right-style: solid;">Allegany 2007-2011: </th>
+                        <th>Less than high school</th>
+                        <th>High school or equivalent, no college</th>
+                        <th>Some college or Associate degree</th>
+                        <th>Bachelor's degree or advanced degree</th>
+                        <th>Educational attainment not available (workers aged 24 or younger)</th>
+                        <th rowspan="7" style="border-style: solid;
+                border-color: #5281B7;">Gender Data</th>
+                        <th>Female</th>
+                        <th>Male</th>
+                    </tr>
+                    <tr class="HeadRow">
+                                <th>2017Q2</th>
+                            <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                                </tr>
+                    <tr>
+                        <th>New Hires</th>
+                        <td id="H1">#1</td>
+                        <td id="H2">#2</td>
+                        <td id="H3">#3</td>
+                        <td id="H4">#4</td>
+                        <td id="H5">#5</td>
+                        <td id="HM1">#8</td>
+                        <td id="HF1">#9</td>
+                    </tr>
+                        <tr class="HeadRow">
+                                <th>2016Q4</th>
+                            <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                                </tr>
+                                
+                                <tr>
+                        <th class="FootRow">Job Net Change</th>
+                        <td id="N1">#1</td>
+                        <td id="N2">#2</td>
+                        <td id="N3">#3</td>
+                        <td id="N4">#4</td>
+                        <td id="N5">#5</td>
+                        <td id="NM1">#8</td>
+                        <td id="NF1">#9</td>
+                    </tr>
+                    
+                </table>
+                
+                
+            </div>
+          
+        </div>
+        
+        
+        <div id="collapse3" style="display: none;">
+
+        <div class="ChartTitle">
+                <div class="buttons">
+                    <p> Time: 
+                        <select id="btn5">
+                           <option>2016-Q1</option>
+                            <option>2016-Q2</option>
+                            <option>2016-Q3</option>
+                            <option>2016-Q4</option>
+                            <option>2017-Q1</option>
+                            <option>2017-Q2</option>
+                            <option>2017-Q3</option>
+                            <option selected="selected">2017-Q4</option>
+                            
+                        </select>            
+                    </p>
+                    <p>
+                        Indicator: 
+                        <select id="btn51">
+                            <option>By Education</option>
+                             
+                            <option>By Gender</option>
+                        </select>            
+                    </p>
+                </div>
+                
+                <p>Demographics</p>
+            </div>
+        <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="ChartFive">
+                        
+                    </div>
+                    
+                    <div id="PrintFive" class="print"></div>
+
+             <div class="Table">
+                     <table id="table5">
+                     <tr class="HeadRow" style="background-color: white;">
+                        <th style="border-right-style: solid;">Allegany 2007-2011: </th>
+                        <th>Less than high school</th>
+                        <th>High school or equivalent, no college</th>
+                        <th>Some college or Associate degree</th>
+                        <th>Bachelor's degree or advanced degree</th>
+                        <th>Educational attainment not available (workers aged 24 or younger)</th>
+                        <th rowspan="7" style="border-style: solid;
+                border-color: #5281B7;">Gender Data</th>
+                        <th>Female</th>
+                        <th>Male</th>
+                         </tr>
+                         <tr class="HeadRow">
+                         <th colspan="6">2016Q4</th>
+                         <th></th>
+                         <th></th>
+                         </tr>
+                        <tr>
+                        <th>Turnover Rate</th>
+                        <td id="T1">#1</td>
+                        <td id="T2">#2</td>
+                        <td id="T3">#3</td>
+                        <td id="T4">#4</td>
+                        <td id="T5">#5</td>
+                        <td id="TM1">#8</td>
+                        <td id="TF1">#9</td>
+                    </tr>
+                         <tr class="FootRow"></tr>
+                </table>
+                
+                
+
+                
+            </div>
+            
+        </div>
+            
+        </div>
+        
+        <div id="collapse4" style="display: none;">
+            
+        <div class="ChartTitle">
+            <div class="buttons">
+                <button type="button" id="btn6">Toggle Labels</button>
+                <p>Time Period:
+                    <select id="btn7">
+                        <option>2016-Q1</option>
+                            <option>2016-Q2</option>
+                            <option>2016-Q3</option>
+                            <option>2016-Q4</option>
+                            <option>2017-Q1</option>
+                            <option>2017-Q2</option>
+                            <option>2017-Q3</option>
+                            <option selected="selected">2017-Q4</option>
+                    </select>
+                </p>
+                <p>Indicator:
+                    <select id="btn10">
+                        <option>Average Monthly Earnings</option>
+                        <option>Job Net Changes</option>
+                        <option>New Hires</option>
+                        <option>Turnover Rate</option>
+                        <option selected="selected">Workers</option>
+                    </select>
+                </p>
+                </div>
+                <p>Data by Industry</p>
+            </div>
+       
+        
+        <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart6">
+                        
+                    </div>
+                
+                
+                    <div id="Print6" class="print"></div>
+                
+            
+        
+        
+        <div id="table">
+            <table id="table6" >
+                <thead>
+                    <tr>
+                        <th class="HeadRow" rowspan="7">LWDA Data by Industry</th>
+                    </tr>
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>Workers</th>
+                        <th>New Hires</th>
+                        <th>Turnover Rate</th>
+                        <th>Job Net Change</th>
+                        <th>Average Monthly Earnings</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    
+            <tr class="HeadRow">
+            <th>Year and Quarter</th>
+                <th colspan="2" style="border-right-style: solid;">2017 Q2</th>
+                <th style="border-left-style:solid;"></th>
+                <th>2016Q4</th>
+                <th></th>
+            </tr>
+            <tr>
+                        <th id="I1a">Industry 1</th>
+                        <td id="Td1">#1</td>
+                        <td id="Td2" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td3">#1</td>
+                        <td id="Td4">#1</td>
+                        <td id="Td5">#1</td>
+                    </tr>
+                    <tr>
+                        <th id="I21">Industry 2</th>
+                        <td id="Td6">#1</td>
+                        <td id="Td7" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td8">#1</td>
+                        <td id="Td9">#1</td>
+                        <td id="Td10">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I31">Industry 3</th>
+                        <td id="Td11">#1</td>
+                        <td id="Td12" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td13">#1</td>
+                        <td id="Td14">#1</td>
+                        <td id="Td15">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I41">Industry 4</th>
+                        <td id="Td16">#1</td>
+                        <td id="Td17" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td18">#1</td>
+                        <td id="Td19">#1</td>
+                        <td id="Td20">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I51">Industry 5</th>
+                        <td id="Td21">#1</td>
+                        <td id="Td22" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td23">#1</td>
+                        <td id="Td24">#1</td>
+                        <td id="Td25">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I61">Industry 6</th>
+                        <td id="Td26">#1</td>
+                        <td id="Td27" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td28">#1</td>
+                        <td id="Td29">#1</td>
+                        <td id="Td30">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I71">Industry 7</th>
+                        <td id="Td31">#1</td>
+                        <td id="Td32" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td33">#1</td>
+                        <td id="Td34">#1</td>
+                        <td id="Td35">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I81">Industry 8</th>
+                        <td id="Td36">#1</td>
+                        <td id="Td37" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td38">#1</td>
+                        <td id="Td39">#1</td>
+                        <td id="Td40">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I91">Industry 9</th>
+                        <td id="Td41">#1</td>
+                        <td id="Td42" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td43">#1</td>
+                        <td id="Td44">#1</td>
+                        <td id="Td45">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I101">Industry 10</th>
+                        <td id="Td46">#1</td>
+                        <td id="Td47" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td48">#1</td>
+                        <td id="Td49">#1</td>
+                        <td id="Td50">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I111">Industry 11</th>
+                        <td id="Td51">#1</td>
+                        <td id="Td52" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td53">#1</td>
+                        <td id="Td54">#1</td>
+                        <td id="Td55">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I121">Industry 12</th>
+                        <td id="Td56">#1</td>
+                        <td id="Td57" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td58">#1</td>
+                        <td id="Td59">#1</td>
+                        <td id="Td60">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I131">Industry 13</th>
+                        <td id="Td61">#1</td>
+                        <td id="Td62" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td63">#1</td>
+                        <td id="Td64">#1</td>
+                        <td id="Td65">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I141">Industry 14</th>
+                        <td id="Td66">#1</td>
+                        <td id="Td67" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td68">#1</td>
+                        <td id="Td69">#1</td>
+                        <td id="Td70">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I151">Industry 15</th>
+                        <td id="Td71">#1</td>
+                        <td id="Td72" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td73">#1</td>
+                        <td id="Td74">#1</td>
+                        <td id="Td75">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I161">Industry 16</th>
+                        <td id="Td76">#1</td>
+                        <td id="Td77" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td78">#1</td>
+                        <td id="Td79">#1</td>
+                        <td id="Td80">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I171">Industry 17</th>
+                        <td id="Td81">#1</td>
+                        <td id="Td82" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td83">#1</td>
+                        <td id="Td84">#1</td>
+                        <td id="Td85">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I181">Industry 18</th>
+                        <td id="Td86">#1</td>
+                        <td id="Td87" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td88">#1</td>
+                        <td id="Td89">#1</td>
+                        <td id="Td90">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I191">Industry 19</th>
+    
+                        <td id="Td91">#1</td>
+                        <td id="Td92" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td93">#1</td>
+                        <td id="Td94">#1</td>
+                        <td id="Td95">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr class="FootRow">
+                        <th id="I201">Industry 20</th>
+                        <td id="Td96">#1</td>
+                        <td id="Td97" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td98">#1</td>
+                        <td id="Td99">#1</td>
+                        <td id="Td100">#1</td>
+                    </tr>
+                </tbody>
+
+            </table>
+                
+                
+            </div>
+            </div>
+         
+        
+    </div>
+       
+       
+        
+    <div class="Footer" id="collapse5" style="display: none;">
+        <p class="FootLeft">Source: U.S.Census Bureau, Center for Economic Studies, LEHD. </p>
+                    
+                    <p class="FootLeft">The table shows the latest data available for the indicator as of 2/28/2018.</p>
+                
+        </div>
+           
+        </div>
+   
+    
+                
+                
+            
+    
+
+    <script type="text/javascript">
+        //table script   
+        var csvData = [];
+
+        $.ajax({
+            url: "../data/AAQWI.csv",
+            async: false,
+            success: function (csvd) {
+                csvData = $.csv.toArrays(csvd);
+            },
+            dataType: "text",
+
+
+        });
+        //  var CountyName = "Allegany County"; 
+        
+        
+
+        var myTable3 = document.getElementById('table3');
+        myTable3.rows[0].cells[0].innerHTML = CountyName;
+        var myTable4 = document.getElementById('table4');
+        myTable4.rows[0].cells[0].innerHTML = CountyName;
+         var myTable5 = document.getElementById('table5');
+        myTable5.rows[0].cells[0].innerHTML = CountyName;
+        var myTable6 = document.getElementById('table6');
+        myTable6.rows[0].cells[0].innerHTML = CountyName;
+
+         
+        //table 3
+        
+        //wcord = worker
+        var wCord = [10];
+        //average
+        var aCord = [10];
+        //net change
+        var nCord = [7];
+        //new hires
+        var hCord = [7];
+        //turnover
+        var tCord = [7];
+        
+        var iTitle = [20];
+        iTitle[0] = 301;
+        var coord = [100];
+        
+        //double slash means verified
+        
+        wCord[0] = 944; //+4per
+        wCord[8] = 1222;//+4 per
+        aCord[0] = 1025;// 4 per 
+        aCord[8] = 1245;//4 per
+        nCord[0] = 1190;//4 per
+        nCord[6] = 1314;//4 per
+        hCord[0] = 1094;//4 per
+        hCord[6] = 1268;//4per
+        tCord[0] = 1141;//4 per
+        tCord[6] = 1290;//4 per
+        
+
+        //remember to subtract 1 for the 0 cell
+        //Add 19 per different LWDA section
+
+        //wdata by ind
+        coord[0] = 301; //
+        //nhires by indus
+        coord[1] = 501; //
+        //turn by indus
+        coord[2] = 681; 
+        //job net by indus
+        coord[3] = 861;
+        //avg month by indus
+        coord[4] = 321;
+        
+        
+        for(var i = 0; i<7; i++){
+            wCord[i+1] = (wCord[i] + 4);
+        }
+        
+       
+        for(var i = 8; i < 9; i++){
+            wCord[i+1] = (wCord[i] + 4);
+        }
+        
+        //new cells
+        $("#W1").text(csvData[wCord[0]][7]);
+        $("#W2").text(csvData[wCord[1]][7]);
+        $("#W3").text(csvData[wCord[2]][7]);
+        $("#W4").text(csvData[wCord[3]][7]);
+        $("#W5").text(csvData[wCord[4]][7]);
+        $("#W6").text(csvData[wCord[5]][7]);
+        $("#W7").text(csvData[wCord[6]][7]);
+        $("#W8").text(csvData[wCord[7]][7]);
+        $("#WF1").text(csvData[wCord[8]][7]);
+        $("#WM1").text(csvData[wCord[9]][7]);
+        
+        //acord = average 
+        
+        for(var i = 0; i<7; i++){
+            aCord[i+1] = (aCord[i] + 4);
+        }
+        
+        
+        for(var i = 8; i < 9; i++){
+            aCord[i+1] = (aCord[i] + 4);
+        }
+        
+        $("#A1").text(csvData[aCord[0]][7]);
+        $("#A2").text(csvData[aCord[1]][7]);
+        $("#A3").text(csvData[aCord[2]][7]);
+        $("#A4").text(csvData[aCord[3]][7]);
+        $("#A5").text(csvData[aCord[4]][7]);
+        $("#A6").text(csvData[aCord[5]][7]);
+        $("#A7").text(csvData[aCord[6]][7]);
+        $("#A8").text(csvData[aCord[7]][7]);
+        $("#AF1").text(csvData[aCord[8]][7]);
+        $("#AM1").text(csvData[aCord[9]][7]);
+        
+        //ncord = net change
+        
+        
+        for(var i = 0; i<5; i++){
+            nCord[i+1] = (nCord[i] + 4);
+        }
+        
+       
+        for(var i = 6; i < 7; i++){
+            nCord[i+1] = (nCord[i] + 4);
+        }
+        
+        $("#N1").text(csvData[nCord[0]][7]);
+        $("#N2").text(csvData[nCord[1]][7]);
+        $("#N3").text(csvData[nCord[2]][7]);
+        $("#N4").text(csvData[nCord[3]][7]);
+        $("#N5").text(csvData[nCord[4]][7]);
+        $("#NF1").text(csvData[nCord[6]][7]);
+        $("#NM1").text(csvData[nCord[7]][7]);
+        
+        //hCord = new hires
+        
+        
+        for(var i = 0; i<5; i++){
+            hCord[i+1] = (hCord[i] + 4);
+        }
+        
+        
+        for(var i = 6; i < 7; i++){
+            hCord[i+1] = (hCord[i] + 4);
+        }
+        
+        $("#H1").text(csvData[hCord[0]][7]);
+        $("#H2").text(csvData[hCord[1]][7]);
+        $("#H3").text(csvData[hCord[2]][7]);
+        $("#H4").text(csvData[hCord[3]][7]);
+        $("#H5").text(csvData[hCord[4]][7]);
+        $("#HF1").text(csvData[hCord[6]][7]);
+        $("#HM1").text(csvData[hCord[7]][7]);
+        
+        //tcord = turnover
+        
+        
+        for(var i = 0; i<5; i++){
+            tCord[i+1] = (tCord[i] + 4);
+        }
+        
+        
+        for(var i = 6; i < 7; i++){
+            tCord[i+1] = (tCord[i] + 4);
+        }
+        
+        $("#T1").text(csvData[tCord[0]][7]);
+        $("#T2").text(csvData[tCord[1]][7]);
+        $("#T3").text(csvData[tCord[2]][7]);
+        $("#T4").text(csvData[tCord[3]][7]);
+        $("#T5").text(csvData[tCord[4]][7]);
+        $("#TF1").text(csvData[tCord[6]][7]);
+        $("#TM1").text(csvData[tCord[7]][7]);
+       
+        
+
+        //table 6
+        
+        //iTitle = industry title
+        
+        
+        
+        for(var i = 1; i < 20; i++){
+            iTitle[i] = (iTitle[i-1] + 1);
+        }
+        //Industry Titles
+        $("#I1a").text(csvData[iTitle[0]][6]);
+        $("#I21").text(csvData[iTitle[1]][6]);
+        $("#I31").text(csvData[iTitle[2]][6]);
+        $("#I41").text(csvData[iTitle[3]][6]);
+        $("#I51").text(csvData[iTitle[4]][6]);
+        $("#I61").text(csvData[iTitle[5]][6]);
+        $("#I71").text(csvData[iTitle[6]][6]);
+        $("#I81").text(csvData[iTitle[7]][6]);
+        $("#I91").text(csvData[iTitle[8]][6]);
+        $("#I101").text(csvData[iTitle[9]][6]);
+        $("#I111").text(csvData[iTitle[10]][6]);
+        $("#I121").text(csvData[iTitle[11]][6]);
+        $("#I131").text(csvData[iTitle[12]][6]);
+        $("#I141").text(csvData[iTitle[13]][6]);
+        $("#I151").text(csvData[iTitle[14]][6]);
+        $("#I161").text(csvData[iTitle[15]][6]);
+        $("#I171").text(csvData[iTitle[16]][6]);
+        $("#I181").text(csvData[iTitle[17]][6]);
+        $("#I191").text(csvData[iTitle[18]][6]);
+        $("#I201").text(csvData[iTitle[19]][6]);
+
+
+        //section 1
+        // 0&5 worker data
+        // 1&6 new hires
+        // 2&7 turnover
+        // 3&8 job net change
+        // 4&9 average monthly earnings
+        //1-5
+
+        
+
+
+        for (var i = 5; i <= 99; i++) {
+            coord[i] = (coord[i - 5] + 1);
+        }
+        /*
+        I'm gonna write my idea down while its still fresh in my head, 
+
+        If I can pass the Y coordinate into the above array and use that instead, I'll be able to make an algorithm that will automatically change the data from page to page, 
+        all I'll need to do is run a loop that adds the amount that it will have to move for a range of coordinates.
+
+        So far for row one industry 1 to row 2 industry 2
+
+        coords11 11665
+        coords12 14471
+        coords13 17277
+        coords14 20083
+        coords15 23201
+
+        coords16 11666
+        coords17 14471
+        coords18 17278
+        coords19 20084
+        coords20 23202
+
+        so each coordinate would simply need to be incremented by 1 for every 5 until we reach 100, interesting. 
+
+        now lets see about the county to county differences
+
+        ANNE ARUNDEL LWDA        BALTIMORE CITY LWDA
+
+        coords11 11665          coords11 11705  = add 40
+        coords12 14471          coords12 14511  = add 40
+        coords13 17277          coords13 17317  = add 40
+        coords14 20083          coords14 20123  = add 40
+        coords15 23201          coords15 23241  = add 40
+
+        INTERESTING INDEED, I would simply need to modify the first 5 values to have an additional 40 then, if the logic remains consistent, 
+        I can run the above algorithm to add 1 after modifiying the first 5 values to have an additional 40. Oh my god this is going to save me so much work I could cry.
+
+        So we add 40 for each county, so county1 = +0 county2 = +40 county3 = +80 etc...
+
+        other option would be to take all the table data needed and put it into a seperate excel sheet and organize it from start to finish, that however seems suboptimal 
+        as it would increase the file size drastically as well as add extra work to my already mountain.
+        */
+
+
+        $("#Td1").text(csvData[coord[0]][7]);
+        $("#Td2").text(csvData[coord[1]][7]);
+        $("#Td3").text(csvData[coord[2]][7]);
+        $("#Td4").text(csvData[coord[3]][7]);
+        $("#Td5").text(csvData[coord[4]][7]);
+        //6-10
+        $("#Td6").text(csvData[coord[5]][7]);
+        $("#Td7").text(csvData[coord[6]][7]);
+        $("#Td8").text(csvData[coord[7]][7]);
+        $("#Td9").text(csvData[coord[8]][7]);
+        $("#Td10").text(csvData[coord[9]][7]);
+        //11-15
+        $("#Td11").text(csvData[coord[10]][7]);
+        $("#Td12").text(csvData[coord[11]][7]);
+        $("#Td13").text(csvData[coord[12]][7]);
+        $("#Td14").text(csvData[coord[13]][7]);
+        $("#Td15").text(csvData[coord[14]][7]);
+        //16-20
+        $("#Td16").text(csvData[coord[15]][7]);
+        $("#Td17").text(csvData[coord[16]][7]);
+        $("#Td18").text(csvData[coord[17]][7]);
+        $("#Td19").text(csvData[coord[18]][7]);
+        $("#Td20").text(csvData[coord[19]][7]);
+        //21-25
+        $("#Td21").text(csvData[coord[20]][7]);
+        $("#Td22").text(csvData[coord[21]][7]);
+        $("#Td23").text(csvData[coord[22]][7]);
+        $("#Td24").text(csvData[coord[23]][7]);
+        $("#Td25").text(csvData[coord[24]][7]);
+        //26-30
+        $("#Td26").text(csvData[coord[25]][7]);
+        $("#Td27").text(csvData[coord[26]][7]);
+        $("#Td28").text(csvData[coord[27]][7]);
+        $("#Td29").text(csvData[coord[28]][7]);
+        $("#Td30").text(csvData[coord[29]][7]);
+        //31-35
+        $("#Td31").text(csvData[coord[30]][7]);
+        $("#Td32").text(csvData[coord[31]][7]);
+        $("#Td33").text(csvData[coord[32]][7]);
+        $("#Td34").text(csvData[coord[33]][7]);
+        $("#Td35").text(csvData[coord[34]][7]);
+        //36-40
+        $("#Td36").text(csvData[coord[35]][7]);
+        $("#Td37").text(csvData[coord[36]][7]);
+        $("#Td38").text(csvData[coord[37]][7]);
+        $("#Td39").text(csvData[coord[38]][7]);
+        $("#Td40").text(csvData[coord[39]][7]);
+        //41-45
+        $("#Td41").text(csvData[coord[40]][7]);
+        $("#Td42").text(csvData[coord[41]][7]);
+        $("#Td43").text(csvData[coord[42]][7]);
+        $("#Td44").text(csvData[coord[43]][7]);
+        $("#Td45").text(csvData[coord[44]][7]);
+        //46-50
+        $("#Td46").text(csvData[coord[45]][7]);
+        $("#Td47").text(csvData[coord[46]][7]);
+        $("#Td48").text(csvData[coord[47]][7]);
+        $("#Td49").text(csvData[coord[48]][7]);
+        $("#Td50").text(csvData[coord[49]][7]);
+        //51-55
+        $("#Td51").text(csvData[coord[50]][7]);
+        $("#Td52").text(csvData[coord[51]][7]);
+        $("#Td53").text(csvData[coord[52]][7]);
+        $("#Td54").text(csvData[coord[53]][7]);
+        $("#Td55").text(csvData[coord[54]][7]);
+        //56-60
+        $("#Td56").text(csvData[coord[55]][7]);
+        $("#Td57").text(csvData[coord[56]][7]);
+        $("#Td58").text(csvData[coord[57]][7]);
+        $("#Td59").text(csvData[coord[58]][7]);
+        $("#Td60").text(csvData[coord[59]][7]);
+        //61-65
+        $("#Td61").text(csvData[coord[60]][7]);
+        $("#Td62").text(csvData[coord[61]][7]);
+        $("#Td63").text(csvData[coord[62]][7]);
+        $("#Td64").text(csvData[coord[63]][7]);
+        $("#Td65").text(csvData[coord[64]][7]);
+        //66-70
+        $("#Td66").text(csvData[coord[65]][7]);
+        $("#Td67").text(csvData[coord[66]][7]);
+        $("#Td68").text(csvData[coord[67]][7]);
+        $("#Td69").text(csvData[coord[68]][7]);
+        $("#Td70").text(csvData[coord[69]][7]);
+        //71-75
+        $("#Td71").text(csvData[coord[70]][7]);
+        $("#Td72").text(csvData[coord[71]][7]);
+        $("#Td73").text(csvData[coord[72]][7]);
+        $("#Td74").text(csvData[coord[73]][7]);
+        $("#Td75").text(csvData[coord[74]][7]);
+        //76-80
+        $("#Td76").text(csvData[coord[75]][7]);
+        $("#Td77").text(csvData[coord[76]][7]);
+        $("#Td78").text(csvData[coord[77]][7]);
+        $("#Td79").text(csvData[coord[78]][7]);
+        $("#Td80").text(csvData[coord[79]][7]);
+        //81-85
+        $("#Td81").text(csvData[coord[80]][7]);
+        $("#Td82").text(csvData[coord[81]][7]);
+        $("#Td83").text(csvData[coord[82]][7]);
+        $("#Td84").text(csvData[coord[83]][7]);
+        $("#Td85").text(csvData[coord[84]][7]);
+        //86-90
+        $("#Td86").text(csvData[coord[85]][7]);
+        $("#Td87").text(csvData[coord[86]][7]);
+        $("#Td88").text(csvData[coord[87]][7]);
+        $("#Td89").text(csvData[coord[88]][7]);
+        $("#Td90").text(csvData[coord[89]][7]);
+        //91-95
+        $("#Td91").text(csvData[coord[90]][7]);
+        $("#Td92").text(csvData[coord[91]][7]);
+        $("#Td93").text(csvData[coord[92]][7]);
+        $("#Td94").text(csvData[coord[93]][7]);
+        $("#Td95").text(csvData[coord[94]][7]);
+        //96-100
+        $("#Td96").text(csvData[coord[95]][7]);
+        $("#Td97").text(csvData[coord[96]][7]);
+        $("#Td98").text(csvData[coord[97]][7]);
+        $("#Td99").text(csvData[coord[98]][7]);
+        $("#Td100").text(csvData[coord[99]][7]);
+
+
+        
+</script>
+
+</html>

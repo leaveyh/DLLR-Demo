@@ -1,0 +1,2518 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../styleSheet.css"> <title>LMI Dashboard</title> <link href="../favicon.ico" rel="icon" type="image/x-icon" />
+        
+        
+        <style>
+            
+            
+            
+            
+        </style> 
+        
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+                        <script src="http://dimplejs.org/dist/dimple.v2.2.0.min.js"></script>    
+                        <script src="jquery.csv.min.js"></script>
+                        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+                        <script src="jquery.csv.min.js"></script>
+                        <script type="text/javascript">
+                            
+                            
+                            
+                            var CountyName = "Maryland";
+                            
+                            var CountyName1 = "Maryland";
+                            
+                            var CountyName2 = "Maryland";
+                            
+                            var CountyName3 = "Maryland";
+                            
+                            
+                            
+                        </script>
+                        
+        
+    </head>
+
+<div class="sidebutton">
+    
+                <select onChange="window.location.href=this.value" style="margin: 0px 0px 10px 4px; margin-bottom: 10px; padding-right: 18%;">
+            <option selected="selected">Choose a county...</option>
+            <option value="Maryland.html" >Maryland</option>
+          <option value="AlleganyCounty.html" >Allegany</option>
+            <option  value="AnneArundelCounty.html">Anne Arundel</option>
+            <option  value="BaltimoreCounty.html" >Baltimore</option>
+            <option value="Baltimorecity.html">Baltimore City</option>
+            <option value="CalvertCounty.html">Calvert</option>
+            <option value="CarolineCounty.html">Caroline</option>
+            <option value="CarrollCounty.html">Carroll</option>
+            <option value="CecilCounty.html">Cecil</option>
+            <option value="CharlesCounty.html">Charles</option>
+            <option value="DorchesterCounty.html">Dorchester</option>
+            <option value="FrederickCounty.html">Frederick</option>
+            <option value="GarrettCounty.html">Garrett</option>
+            <option value="HarfordCounty.html">Harford</option>
+            <option value="HowardCounty.html">Howard</option>
+            <option value="KentCounty.html">Kent</option>
+            <option value="MontgomeryCounty.html">Montgomery</option>
+            <option value="PrinceGeorgesCounty.html">Prince George's</option>
+            <option value="QueenAnnesCounty.html">Queen Anne's</option>
+            <option value="StMarysCounty.html">St. Mary's</option>
+            <option value="SomersetCounty.html">Somerset</option>
+            <option value="TalbotCounty.html">Talbot</option>
+            <option value="WashingtonCounty.html">Washington</option>
+            <option value="WicomicoCounty.html">Wicomico</option>
+            <option value="WorcesterCounty.html">Worcester</option>
+         </select>
+    
+                <select onChange="window.location.href=this.value" style="margin: 0px 0px 2px 3px; margin-bottom: 10px; padding-right: 0%;">
+            <option selected="selected">LWDA DATA...</option>
+            <option value="AnneArundelWIOA.html">Anne Arundel LWDA</option>
+            <option value="BaltimoreCityWIOA.html">Baltimore City LWDA</option>
+            <option value="BaltimoreCountyWIOA.html">Baltimore County LWDA</option>
+            <option value="FrederickWIOA.html">Frederick LWDA</option>
+            <option value="LowerShoreWIOA.html">Lower Shore LWDA</option>
+            <option value="MidMDWIOA.html">Mid Maryland LWDA</option>
+            <option value="MontgomeryWIOA.html">Montgomery LWDA</option>
+            <option value="PGWIOA.html">Prince George's LWDA</option>
+            <option value="SouthMDWIOA.html">Southern MD LWDA</option>
+            <option value="SusquehannaWIOA.html">Susquehanna LWDA</option>
+            <option value="UpperShoreWIOA.html">Upper Shore LWDA</option>
+            <option value="WestMDWIOA.html">Western MD LWDA</option>
+         </select>
+                <div class="dropdown">
+            <button class="button" id="button1" onclick="collapse1()">Population and Median Household Income</button>
+                    </div>
+
+            
+                
+            <div class="dropdown">    
+                
+            <button class="button" style="padding-left: 13%; padding-right: 13%">Demographics</button>
+                <div class="dropdown-content">
+                <button class="button" onclick="collapse3()"style="padding-left: 28%; padding-right: 28%"> Gender</button>
+                <button class="button" onclick="collapse4()">Race and Ethnicity</button>
+                <button class="button" onclick="collapse5()" style="padding-left: 14%; padding-right: 12%">Veteran Status</button>
+                </div>
+                </div>
+            <div class="dropdown">    
+            <button class="button" onclick="collapse6()">Disability and Poverty</button>
+                </div>
+            <div class="dropdown">    
+            <button class="button" style="padding-left: 20%; padding-right: 20%">TANF Data</button>
+                <div class="dropdown-content">
+                <button class="button" onclick="collapse7()">Workers and Participants</button>
+                <button class="button" onclick="collapse8()">Recipients % MD</button>
+                </div>
+                </div>
+            <div class="dropdown">
+            <button class="button" style="padding-left: 1%; padding-right: 1%" onclick="collapse9()">Apprenticeship Completers</button>
+                    </div>
+                
+            <div class="dropdown">    
+            
+            <div class="dropdown">
+            <button class="button" id="button1" onclick="collapse10()">Number of Workers and Average Monthly Earnings</button>
+                    </div>
+                
+            <div class="dropdown">    
+                
+            <button class="button" onclick="collapse11()" style="padding-left: 15%; padding-right: 12.5%">New Hires and Job Net Changes</button>
+        </div>
+                <div class="dropdown">    
+                <button class="button" onclick="collapse12()" style="padding-left: 20%; padding-right: 20%">Turnover Rate</button>
+                </div>
+            <div class="dropdown">    
+            <button class="button" onclick="collapse13()" style="padding-left: 20%; padding-right: 20%">Industry Metrics</button>
+                </div>
+            </div>
+    <div class="dropdown">
+            <button class="button" id="button2" onclick="collapse2()" style="padding-left: 2%; padding-right: 5%">Long Term Unemployed</button>
+                    </div>
+    </div>
+    
+    <div id="Wrapper">
+        <div class="content">
+            
+    <div class="Header"><p class="RightText"><a href="../homemap.html">Start Over</a>    |    <button onclick="printClick()">Print This Snapshot</button>    |    <button onclick="printAll()" > Print Whole Page</button></p><p>Select Different Snapshot and/or County</p>  </div>
+            
+            <div class="County">
+            <p id="pTitle">Maryland</p>
+                
+            </div>
+            
+
+            <div id="collapse1" style="display: none;">
+             <div class="ChartTitle">
+                <p>Population and Median Household Income</p>
+            </div>
+            
+            <div class="ChartDiv">
+                <div id="Chart0">
+                <script src="../js/MD3.js"></script>
+                
+                
+                </div>
+                   
+                   <div id="Print0" class="print"></div>
+                
+            
+                    
+            <div class="Table">
+                            <table id="table0">
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>Maryland:</th>
+                        <th>2016</th>
+                        <th>2017</th>
+                        <th>Change</th>
+                    </tr>
+                    <tr>
+                        <th>Population</th>
+                        <td id="P1">#1</td>
+                        <td id="P2">#2</td>
+                        <td id="P3">#3</td>
+                    </tr>
+                    <tr class="FootRow">
+                        <th>Median Household Income</th>
+                        <td id="H1">#1</td>
+                        <td id="H2">#2</td>
+                        <td id="H3">#3</td>
+                    </tr>
+                </table>
+                
+                
+            </div>
+                
+                <div class="Footer">
+            <div class="FootRight">
+                
+            </div>
+            <div class="FootLeft">
+                
+                <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: 02/28/2018)</p>
+            </div>
+            
+            </div>
+                
+                
+                        
+                </div>
+
+            </div>
+                
+            
+            
+           
+            
+            
+         <div id="collapse2" style="display: none;">   
+        <div class="ChartTitle">
+                <p>Long Term Unemployed</p>
+            </div>
+            
+            
+                    <div id="Chart2">
+                        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+                        <script src="http://dimplejs.org/dist/dimple.v2.1.6.min.js"></script>    
+                        <script type="text/javascript">
+
+                            
+                            
+
+                        </script>
+                        <p></p>
+                    </div>
+                    
+                    <div id="Print2" class="print"></div>
+                
+           
+
+                
+            
+            
+            <div class="Table">
+                            <table id="table2">
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th> </th>
+                        <th>2013</th>
+                        <th>2014</th>
+                        <th>2015</th>
+                    </tr>
+                    <tr class="FootRow">
+                        <th>Maryland</th>
+                        <td id="LT1">#1</td>
+                        <td id="LT2">#2</td>
+                        <td id="LT3">#3</td>
+                    </tr>
+
+                </table>
+                
+                
+            </div>
+            
+            <div class="Footer">
+            
+            <div class="FootLeft">
+                
+                <p>Source: Current Population Survey</p>
+            </div>
+            
+            </div>
+            
+            </div>
+
+            <div id="collapse3" style="display: none;">
+            
+            <div class="ChartTitle">
+                <div class="buttons">
+                    <p>
+                        Employment Status: 
+                        <select id="btn3">
+                            <option>Pick a Time Period</option>
+                            <option>2016</option>
+                            <option>2017</option>
+                        </select>            
+                    </p>
+                </div>
+                
+                <p>Demographics</p>
+            </div>
+            
+            <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart3">
+                        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+                        <script src="http://dimplejs.org/dist/dimple.v2.1.6.min.js"></script>    
+                        <script type="text/javascript">
+
+                            
+                            
+                            
+                  /**          window.onresize = function () {
+                                chart.draw(0, true);
+                                chart1.draw(0, true);
+                                chart2.draw(0, true);
+                                chart3.draw(0, true);
+                            }; **/
+                            
+                            
+                            
+
+                        </script>
+                        <p></p>
+                    </div>
+                
+                <div id="Print3" class="print"></div>
+                
+            
+
+                
+            </div>
+            
+            <div class="Table">
+                            <table id ="table3">
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>Maryland 2007-2011: </th>
+                        
+                        <th>Male</th>
+                        <th>Female</th>
+                    </tr>
+                    <tr>
+                                <th>2016</th>
+                            
+                        <th></th>
+                        <th></th>
+                        
+                                </tr>
+                    <tr>
+                        <th>Unemployment Rate</th>
+                        
+                        <td id="EM1">#5</td>
+                        <td id="EF1">#6</td>
+                    </tr>
+                    
+                    
+                    <tr>
+                        <th>2012-2016: </th>
+                        
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr class="FootRow">
+                        <th>Unemployment Rate</th>
+                        
+                        <td id="EM2">#5</td>
+                        <td id="EF2">#6</td>
+                    </tr>
+                    
+                </table>
+                
+                
+            </div>
+               
+               <div class="Footer">
+            <div class="FootLeft">
+                
+                <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: 02/28/2018)</p>
+            </div>
+            
+            </div>
+                
+            </div>
+
+    
+
+            <div id="collapse4" style="display: none;">
+            <div class="ChartTitle">
+                <div class="buttons">
+                    <p>
+                        Employment Status: 
+                        <select id="btn31">
+                            <option>Pick a Time Period</option>
+                            <option>2016</option>
+                            <option>2017</option>
+                        </select>            
+                    </p>
+                </div>
+                
+                <p>Demographics</p>
+            </div>
+                
+
+            <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart4">
+                        
+                    </div>
+                
+                <div id="Print4" class="print"></div>
+
+                
+            </div>
+            
+            <div class="Table">
+                            <table id="table4">
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>Maryland:</th>
+                        <th>White</th>
+                        <th>Black</th>
+                        <th>Asian</th>
+                        <th>Hispanic or Latino <br> (Any Race)</th>
+                    </tr>
+                                <tr class="HeadRow">
+                                    <th>2007-2011
+                                    </th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                    <tr>
+                        <th>Unemployment Rate</th>
+                        <td id="RE1">#1</td>
+                        <td id="RE2">#2</td>
+                        <td id="RE3">#3</td>
+                        <td id="RE4">#4</td>
+                    </tr>
+                    <tr class="HeadRow">
+                        <th>2017</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr class="FootRow">
+                        <th>Unemployment Rate</th>
+                        <td id="RE8">#1</td>
+                        <td id="RE9">#2</td>
+                        <td id="RE10">#3</td>
+                        <td id="RE11">#4</td>
+                    </tr>
+                </table>
+                
+                
+            </div>
+            
+            <div class="Footer">
+            <div class="FootLeft">
+                
+                <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: 02/28/2018)</p>
+            </div>
+            
+            </div>
+
+            </div>
+        
+            <div id="collapse5" style="display: none;">
+            
+                <div class="ChartTitle">
+                <div class="buttons">
+                    <p>
+                        Employment Status: 
+                        <select id="btn32">
+                            <option>Pick a Time Period</option>
+                            <option>2016</option>
+                            <option>2017</option>
+                        </select>            
+                    </p>
+                </div>
+                
+                <p>Demographics</p>
+            </div>
+            <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="ChartFive">
+                        
+                    </div>
+                
+                    <div id="PrintFive" class="print"></div>
+
+                
+            </div>
+            
+            <div class="Table">
+                            <table id="table10">
+                    <tr class="HeadRow" style="background-color: white;">
+                        <td>Maryland:</td>
+                        <td>Veteran</td>
+                        <td>Non Veteran</td>
+                    </tr>
+                                <tr class="HeadRow">
+                                    <th>2016</th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                    <tr>
+                        <th>Unemployment Rate</th>
+                        <td id="VetU1">#5</td>
+                        <td id="VetU2">#6</td>
+                    </tr>
+                    <tr class="HeadRow">
+                        <th>2017</th>
+                        <th></th>
+                        <th></th>
+                        
+                    </tr>
+                     <tr class="FootRow">
+                        <th>Unemployment Rate</th>
+                        <td id="VetU3">#5</td>
+                        <td id="VetU4">#6</td>
+                    </tr>
+                </table>
+                
+                
+            </div>
+            
+            <div class="Footer">
+            <div class="FootLeft">
+                
+                <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: 02/28/2018)</p>
+            </div>
+            
+            </div>
+        
+                    
+            
+            </div>
+
+            <div id="collapse6" style="display: none;">
+        
+          <div class="ChartTitle">
+                <div class="buttons">
+                    <p> 
+                        <select id="btn91">
+                            <option>Pick a Time Period</option>
+                            <option>2016</option>
+                            <option>2017</option>
+                        </select>            
+                    </p>
+                </div>
+                
+                <p></p>
+            </div>  
+         <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart8">
+                        
+                    </div>
+                
+                <div id="Print8" class="print"></div>
+
+                
+            </div>
+        
+        <div class="Table">
+                            <table id ="table8">
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>Maryland: </th>
+                        <th>Disabled Individuals</th>
+                        <th>Individuals without Disabilities</th>
+                        <th></th>
+                        <th>Income in the past 12 months below poverty level</th>
+                    </tr>
+                    <tr class="HeadRow" style="background-color: white;">
+                                <th>2008-2011</th>
+                            <th></th>
+                        <th></th>
+                        <th>*</th>
+                        <th></th>
+                                </tr>
+                                
+                                <tr>
+                        <th>Labor Force</th>
+                        <td id="t1">#1</td>
+                        <td id="t2">#2</td>
+                        <td ></td>
+                        <td id="t3">#4</td>
+                    </tr>
+                    <tr>
+                        <th>Employed</th>
+                        <td id="t4">#1</td>
+                        <td id="t5">#2</td>
+                        <td></td>
+                        <td id="t6">#4</td>
+                    </tr>
+                    <tr>
+                        <th>Unemployed</th>
+                        <td id="t7">#1</td>
+                        <td id="t8">#2</td>
+                        <td ></td>
+                        <td id="t9">#4</td>
+                    </tr>
+                    
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>2012-2016: </th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>Labor Force</th>
+                        <td id="t13">#1</td>
+                        <td id="t14">#2</td>
+                        <td></td>
+                        <td id="t15">#4</td>
+                    </tr>
+                                
+                    <tr>
+                        <th>Employed</th>
+                        <td id="t16">#1</td>
+                        <td id="t17">#2</td>
+                        <td></td>
+                        <td id="t18">#4</td>
+                    </tr>
+                    <tr>
+                        <th>Unemployed</th>
+                        <td id="t19">#1</td>
+                        <td id="t20">#2</td>
+                        <td></td>
+                        <td id="t21">#4</td>
+                    </tr>
+                   
+                    
+                </table>
+                
+                
+            </div>
+        
+        <div class="Footer">
+            <div class="FootLeft">
+                <p>*: Income Below Poverty Level Estimates from 2007-2011</p>
+                <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: 02/28/2018)</p>
+            </div>
+            
+            </div>
+
+            </div>
+            
+            <div id="collapse7" style="display: none;">
+        
+        <div class="ChartTitle">
+                <div class="buttons">
+                    <p>
+                        TANF Workers: 
+                        <select id="btn8">
+                            <option>Pick a Time Period</option>
+                            <option>All</option>
+                            <option>2015Q3-2016Q2</option>
+                            <option>2016Q3-2017Q2</option>
+                        </select>            
+                    </p>
+                </div>
+                
+                <p>TANF Stats</p> 
+            </div>
+        
+        <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart9">
+                        
+                    </div>
+                
+                
+<div id="Print9" class="print"></div>
+                
+            </div>
+        
+        <div class="Table">
+            <table id="table9">
+            <tr class="HeadRow" style="background-color: white;">
+                        <th>Maryland:</th>
+                        <th>TANF Recipient Workers</th>
+                        <th>Service Participants in TANF by Percentage</th>
+                    </tr>
+                                <tr class="HeadRow">
+                                    <th>2015Q3 - 2016Q2</th>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                    <tr>
+                        <th>2015 Q3</th>
+                        <td id="Tanf1">#5</td>
+                        <td id="Ptanf1">#6</td>
+                    </tr>
+                    <tr>
+                        <th>2015 Q4</th>
+                        <td id="Tanf2">#5</td>
+                        <td id="Ptanf2">#6</td>
+                    </tr>
+                    <tr>
+                        <th>2016 Q1</th>
+                        <td id="Tanf3">#5</td>
+                        <td id="Ptanf3">#6</td>
+                    </tr>
+                    <tr>
+                        <th>2016 Q2</th>
+                        <td id="Tanf4">#5</td>
+                        <td id="Ptanf4">#6</td>
+                    </tr>
+                    <tr class="HeadRow">
+                        <th>2016Q3 - 2017Q2</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>2016 Q3</th>
+                        <td id="Tanf5">#5</td>
+                        <td id="Ptanf5">#6</td>
+                    </tr>
+                    <tr>
+                        <th>2016 Q4</th>
+                        <td id="Tanf6">#5</td>
+                        <td id="Ptanf6">#6</td>
+                    </tr>
+                    <tr>
+                        <th>2017 Q1</th>
+                        <td id="Tanf7"></td>
+                        <td id="Ptanf7">#6</td>
+                    </tr>
+                    <tr class="FootRow">
+                        <th>2017 Q2</th>
+                        <td id="Tanf8"></td>
+                        <td id="Ptanf8">#6</td>
+                    </tr>
+            </table>
+        </div>
+               
+               <div class="Footer">
+            <div class="FootLeft"> 
+                <p>Source: Administrative Data from Temporary Assistance to Needy Families (TANF) and MD Wage Records (Date Last Accessed: 03/14/18)</p>
+            </div>
+            
+            </div>
+                
+            </div>
+            
+            <div id="collapse8" style="display: none;">
+        
+        <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart10">
+                        
+                    </div>
+                
+                <div id="Print10" class="print"></div>
+
+                
+            </div>
+            
+            <div class="Table">
+                            <table id="table10">
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>Maryland:</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                                <tr class="HeadRow">
+                                    <th></th>
+                                    <th>Percentage of TANF Recipients among Maryland Workers</th>
+                                    <th>2015 Q3</th>
+                                    <th>2015 Q4</th>
+                                    <th>2016 Q1</th>
+                                    <th>2016 Q2</th>
+                                    <th>2016 Q3</th>
+                                    <th>2016 Q4</th>
+                                    <th>2017 Q1</th>
+                                    <th>2017 Q2</th>
+                                </tr>
+                    <tr class="FootRow">
+                        <th>Percentage:</th>
+                        <td></td>
+                        <td id="t28">#1</td>
+                        <td id="t29">#2</td>
+                        <td id="t30">#3</td>
+                        <td id="t31">#4</td>
+                        <td id="t32">#1</td>
+                        <td id="t33">#2</td>
+                        <td id="t34">#3</td>
+                        <td id="t35">#4</td>
+                    </tr>
+                </table>
+        
+        <div class="Footer">
+            <div class="FootLeft"> 
+                <p>Source: Administrative Data from Temporary Assistance to Needy Families (TANF) and MD Wage Records (Date Last Accessed: 03/14/18)</p>
+            </div>
+            
+            </div>
+                
+                </div>
+                
+            </div>
+                
+            <div id="collapse9" style="display: none;">
+                
+                <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart11">
+                        
+                    </div>
+                
+                <div id="Print11" class="print"></div>
+
+                
+            </div>
+                
+                <div class="Table">
+                    <table id="table11">
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>Apprenticeship Program Completers in Maryland</th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>2015</th>
+                        <td id="t36">#1</td>
+                        </tr>
+                        <tR>
+                        <th>2016</th>
+                        <td id="t37">#2</td>
+                        </tR>
+                        <tR>
+                        <th>2017</th>
+                        <td id="t377">#3</td>
+                        </tR>
+                    </table>
+                
+                </div>
+                
+                <div class="Footer">
+            <div class="FootLeft"> 
+                <p>Source: United States Department of Labor (Date Last Accessed: 02/28/2018)</p>
+            </div>
+            
+            </div>
+                    
+            </div>
+            
+       
+
+
+
+<div style="display: none;">
+        <div class="ChartDiv"> 
+            <div id="Chart7">
+            </div>
+            <div id="Print7" class="print"></div>
+        </div>
+
+
+
+
+
+<div class="Footer">
+            <div class="FootRight">
+                <a class="button" target="_blank" href="http://lehd.ces.census.gov/">See More ►</a>
+            </div>
+            <div class="FootLeft">
+                
+                <p>Source: Longitudinal Employer-Household Dynamics (Date Last Accessed: 02/28/2018)</p>
+            </div>
+            
+            </div>
+    
+            </div>
+            
+            
+                
+                
+            <div id="collapse10" style="display: none;"> 
+            
+            
+             
+            
+            
+                        
+                
+            
+            
+            
+            
+            
+            
+            <div class="ChartTitle">
+                <div class="buttons">
+                    <p>
+                        Time: 
+                        <select id="btn13">
+                            <option>2016-Q1</option>
+                            <option>2016-Q2</option>
+                            <option>2016-Q3</option>
+                            <option>2016-Q4</option>
+                            <option>2017-Q1</option>
+                            <option>2017-Q2</option>
+                            <option>2017-Q3</option>
+                            <option selected="selected">2017-Q4</option>
+                        </select>            
+                    </p>
+                    <p>
+                        Indicator: 
+                        <select id="btn131">
+                            <option>By Age</option>
+                            <option>By Gender</option>
+                        </select>            
+                    </p>
+                </div>
+                
+            </div>
+            
+            <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart12">
+                    </div>
+                <div id="Print12" class="print"></div>
+                
+
+                
+            </div>
+            
+            <div class="Table" style="font-size: 80%" >
+                <table id="table12">
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>Maryland:</th>
+                        <th>Age 14-18</th>
+                        <th>Age 19-21</th>
+                        <th>Age 22-24</th>
+                        <th>Age 25-34</th>
+                        <th>Age 35-44</th>
+                        <th>Age 45-54</th>
+                        <th>Age 55-64</th>
+                        <th>Age 65-99</th>
+                        <th></th>
+                        <th>Female</th>
+                        <th>Male</th>
+                    </tr>
+                    <tr class="HeadRow">
+                                <th>2017Q2</th>
+                            <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                                </tr>
+                                
+                                <tr>
+                        <th>Number of Workers</th>
+                        <td id="W1">#1</td>
+                        <td id="W2">#2</td>
+                        <td id="W3">#3</td>
+                        <td id="W4">#4</td>
+                        <td id="W5">#5</td>
+                        <tD id="W6">#6</tD>
+                        <td id="W7">#7</td>
+                        <td id="W8">#8</td>
+                        <th rowspan="6" style="border-style: solid;
+                border-color: #5281B7;">Gender Data</th>
+                        <td id="WM1">#8</td>
+                        <td id="WF1">#9</td>
+                    </tr>
+
+                     <tr style="border-top-style: solid;
+                border-color: #5281B7; border-bottom-style: solid;">
+                                <th>2016Q4</th>
+                            <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        
+                                </tr>               
+                    <tr class="FootRow">
+                        <th>Average Monthly Earnings</th>
+                        <td id="A1">#1</td>
+                        <td id="A2">#2</td>
+                        <td id="A3">#3</td>
+                        <td id="A4">#4</td>
+                        <td id="A5">#5</td>
+                        <td id="A6">#6</td>
+                        <td id="A7">#7</td>
+                        <td id="A8">#8</td>
+                        <td id="AM1">#8</td>
+                        <td id="AF1">#9</td>
+                    </tr>
+                </table>
+                
+                
+            </div>
+
+        </div>
+                
+                
+
+            <div id="collapse11" style="display: none;">
+                
+                <div class="ChartTitle">
+                <div class="buttons">
+                    <p>
+                        Time: 
+                        <select id="btn14">
+                            <option>2016-Q1</option>
+                            <option>2016-Q2</option>
+                            <option>2016-Q3</option>
+                            <option>2016-Q4</option>
+                            <option>2017-Q1</option>
+                            <option>2017-Q2</option>
+                            <option>2017-Q3</option>
+                            <option selected="selected">2017-Q4</option>
+                        </select>            
+                    </p>
+                    <p>
+                        Indicator: 
+                        <select id="btn141">
+                            <option>By Education</option>
+                            <option>By Gender</option>
+                        </select>            
+                    </p>
+                </div>
+                
+            </div>
+            <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart13">
+                        
+                    </div>
+                <div id="Print13" class="print"></div>
+                
+
+                
+            </div>
+                
+            
+        
+        
+            
+       
+            
+           <div class="Table">
+                            <table id="table13">
+                     <tr class="HeadRow" style="background-color: white;">
+                        <th>Maryland: </th>
+                        <th>Less than high school</th>
+                        <th>High school or equivalent, no college</th>
+                        <th>Some college or Associate degree</th>
+                        <th>Bachelor's degree or advanced degree</th>
+                        <th>Educational attainment not available (workers aged 24 or younger)</th>
+                        <th></th>
+                        <th>Female</th>
+                        <th>Male</th>
+                    </tr>
+                    <tr class="HeadRow">
+                                <th>2017Q2</th>
+                            <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                                </tr>
+
+                        <tr>
+                        <th>New Hires</th>
+                        <td id="NH1">#1</td>
+                        <td id="NH2">#2</td>
+                        <td id="NH3">#3</td>
+                        <td id="NH4">#4</td>
+                        <td id="NH5">#5</td>
+                        <th rowspan="5" style="border-style: solid;
+                border-color: #5281B7;">Gender Data</th>
+                        <td id="HM1">#8</td>
+                        <td id="HF1">#9</td>
+                    </tr>
+
+                    <tr style="border-top-style: solid;
+                border-color: #5281B7; border-bottom-style: solid;">
+                                <th>2016Q4</th>
+                            <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                                </tr>
+                                
+                                <tr class="FootRow">
+                        <th>Job Net Change</th>
+                        <td id="N1">#1</td>
+                        <td id="N2">#2</td>
+                        <td id="N3">#3</td>
+                        <td id="N4">#4</td>
+                        <td id="N5">#5</td>
+                
+                        <td id="NM1">#8</td>
+                        <td id="NF1">#9</td>   
+                    </tr>
+                </table>
+                
+                
+            </div>
+                
+            </div>
+            
+            <div id="collapse12" style="display: none;">
+                
+                <div class="ChartTitle">
+                <div class="buttons">
+                    <p>
+                        Time: 
+                        <select id="btn15">
+                            <option>2016-Q1</option>
+                            <option>2016-Q2</option>
+                            <option>2016-Q3</option>
+                            <option>2016-Q4</option>
+                            <option>2017-Q1</option>
+                            <option>2017-Q2</option>
+                            <option selected="selected">2017-Q3</option>
+                        </select>            
+                    </p>
+                    <p>
+                        Indicator: 
+                        <select id="btn151">
+                            <option>By Education</option>
+                            <option>By Gender</option>
+                        </select>            
+                    </p>
+                </div>
+                
+            </div>
+
+ <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart14">
+                        
+                    </div>
+                
+                <div id="Print14" class="print"></div>
+
+                
+            </div>
+                
+                
+             <div class="Table">
+                     <table id="table5">
+                     <tr class="HeadRow" style="background-color: white;">
+                        <th style="border-right-style: solid;">Allegany 2007-2011: </th>
+                        <th>Less than high school</th>
+                        <th>High school or equivalent, no college</th>
+                        <th>Some college or Associate degree</th>
+                        <th>Bachelor's degree or advanced degree</th>
+                        <th>Educational attainment not available (workers aged 24 or younger)</th>
+                        <th rowspan="3" style="border-style: solid;
+                border-color: #5281B7;">Gender Data</th>
+                        <th>Female</th>
+                        <th>Male</th>
+                         </tr>
+                         <tr class="HeadRow">
+                         <th colspan="6">2016Q4</th>
+                         <th></th>
+                         <th></th>
+                         </tr>
+                        <tr class="FootRow">
+                        <th>Turnover Rate</th>
+                        <td id="TR1">#1</td>
+                        <td id="TR2">#2</td>
+                        <td id="TR3">#3</td>
+                        <td id="TR4">#4</td>
+                        <td id="TR5">#5</td>
+                        <td id="TM1" style="border-top-style: solid; border-color: #5281B7;">#8</td>
+                        <td id="TF1" style="border-top-style: solid; border-color: #5281B7;">#9</td>
+                    </tr>
+                         
+                </table>
+                
+                
+
+                
+            </div>
+
+            </div>
+          
+        
+        <div id="collapse13" style="display: none;">
+        
+        <div class="ChartTitle">
+            <div class="buttons">
+                
+                <p>Time Period:
+                    <select id="btn17">
+                        <option>2016-Q1</option>
+                            <option>2016-Q2</option>
+                            <option>2016-Q3</option>
+                            <option>2016-Q4</option>
+                            <option>2017-Q1</option>
+                            <option>2017-Q2</option>
+                            <option>2017-Q3</option>
+                            <option selected="selected">2017-Q4</option>
+                    </select>
+                </p>
+                <p>Indicator:
+                    <select id="btn101">
+                        <option>Average Monthly Earnings</option>
+                        <option>Job Net Changes</option>
+                        <option>New Hires</option>
+                        <option>Turnover Rate</option>
+                        <option selected="selected">Workers</option>
+                    </select>
+                </p>
+                </div>
+                <p>Data by Industry</p>
+            </div>
+       
+        
+        <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart15">
+                        
+                    </div>
+                
+                <div id="Print15" class="print"></div>
+
+                
+            </div>
+        
+        
+        <div id="scrollTable">
+            <table id="table5">
+                <thead>
+                    <tr>
+                        <th class="HeadRow" rowspan="7">LWDA Data by Industry</th>
+                    </tr>
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>Workers</th>
+                        <th>New Hires</th>
+                        <th>Turnover Rate</th>
+                        <th>Job Net Change</th>
+                        <th>Average Monthly Earnings</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    
+            <tr class="HeadRow">
+            <th>Year and Quarter</th>
+                <th colspan="2" style="border-right-style: solid;">2017 Q2</th>
+                <th style="border-left-style:solid;"></th>
+                <th>2016Q4</th>
+                <th></th>
+            </tr>
+            <tr>
+                        <th id="I1a1">Industry 1</th>
+                        <td id="Td1">#1</td>
+                        <td id="Td2" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td3">#1</td>
+                        <td id="Td4">#1</td>
+                        <td id="Td5">#1</td>
+                    </tr>
+                    <tr>
+                        <th id="I211">Industry 2</th>
+                        <td id="Td6">#1</td>
+                        <td id="Td7" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td8">#1</td>
+                        <td id="Td9">#1</td>
+                        <td id="Td10">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I311">Industry 3</th>
+                        <td id="Td11">#1</td>
+                        <td id="Td12" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td13">#1</td>
+                        <td id="Td14">#1</td>
+                        <td id="Td15">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I411">Industry 4</th>
+                        <td id="Td16">#1</td>
+                        <td id="Td17" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td18">#1</td>
+                        <td id="Td19">#1</td>
+                        <td id="Td20">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I511">Industry 5</th>
+                        <td id="Td21">#1</td>
+                        <td id="Td22" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td23">#1</td>
+                        <td id="Td24">#1</td>
+                        <td id="Td25">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I611">Industry 6</th>
+                        <td id="Td26">#1</td>
+                        <td id="Td27" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td28">#1</td>
+                        <td id="Td29">#1</td>
+                        <td id="Td30">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I711">Industry 7</th>
+                        <td id="Td31">#1</td>
+                        <td id="Td32" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td33">#1</td>
+                        <td id="Td34">#1</td>
+                        <td id="Td35">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I811">Industry 8</th>
+                        <td id="Td36">#1</td>
+                        <td id="Td37" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td38">#1</td>
+                        <td id="Td39">#1</td>
+                        <td id="Td40">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I911">Industry 9</th>
+                        <td id="Td41">#1</td>
+                        <td id="Td42" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td43">#1</td>
+                        <td id="Td44">#1</td>
+                        <td id="Td45">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I1011">Industry 10</th>
+                        <td id="Td46">#1</td>
+                        <td id="Td47" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td48">#1</td>
+                        <td id="Td49">#1</td>
+                        <td id="Td50">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I1111">Industry 11</th>
+                        <td id="Td51">#1</td>
+                        <td id="Td52" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td53">#1</td>
+                        <td id="Td54">#1</td>
+                        <td id="Td55">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I1211">Industry 12</th>
+                        <td id="Td56">#1</td>
+                        <td id="Td57" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td58">#1</td>
+                        <td id="Td59">#1</td>
+                        <td id="Td60">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I1311">Industry 13</th>
+                        <td id="Td61">#1</td>
+                        <td id="Td62" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td63">#1</td>
+                        <td id="Td64">#1</td>
+                        <td id="Td65">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I1411">Industry 14</th>
+                        <td id="Td66">#1</td>
+                        <td id="Td67" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td68">#1</td>
+                        <td id="Td69">#1</td>
+                        <td id="Td70">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I1511">Industry 15</th>
+                        <td id="Td71">#1</td>
+                        <td id="Td72" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td73">#1</td>
+                        <td id="Td74">#1</td>
+                        <td id="Td75">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I1611">Industry 16</th>
+                        <td id="Td76">#1</td>
+                        <td id="Td77" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td78">#1</td>
+                        <td id="Td79">#1</td>
+                        <td id="Td80">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I1711">Industry 17</th>
+                        <td id="Td81">#1</td>
+                        <td id="Td82" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td83">#1</td>
+                        <td id="Td84">#1</td>
+                        <td id="Td85">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I1811">Industry 18</th>
+                        <td id="Td86">#1</td>
+                        <td id="Td87" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td88">#1</td>
+                        <td id="Td89">#1</td>
+                        <td id="Td90">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <th id="I1911">Industry 19</th>
+                        <td id="Td91">#1</td>
+                        <td id="Td92" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td93">#1</td>
+                        <td id="Td94">#1</td>
+                        <td id="Td95">#1</td>
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr class="FootRow">
+                        <th id="I2011">Industry 20</th>
+                        <td id="Td96">#1</td>
+                        <td id="Td97" style="border-right-style:solid; border-color: #5281B7;">#1</td>
+                        <td id="Td98">#1</td>
+                        <td id="Td99">#1</td>
+                        <td id="Td100">#1</td>
+                    </tr>
+                </tbody>
+
+             </table>
+                
+                
+            </div>
+        
+         
+        
+    </div>
+        
+    <div class="Footer" id="collapse14" style="display: none;">
+        <p style="margin-left: 5%">Source: U.S.Census Bureau, Center for Economic Studies, LEHD. </p>
+                    
+                    <p style="margin-left: 5%">The table shows the latest data available for the indicator as of 2/28/2018.</p>
+                
+        </div>
+           
+        </div>
+        </div>
+
+
+
+
+
+<script type="text/javascript">
+ //table script   
+    var csvData = [];
+    
+    $.ajax({
+    url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSYGyb5ZuboimWwbEHuGueIRIC3MF-JnriyRzfPMfCJxJkDfJ_ikrO_8WG-OAXRYa2cam-F-rp1De6F/pub?gid=1487184230&single=true&output=csv",
+    async: false,
+    success: function (csvd) {
+        csvData = $.csv.toArrays(csvd);
+    },
+    dataType: "text",
+
+                        
+});
+      //  var CountyName = "Maryland County"; 
+        
+        var myTable0 = document.getElementById('table0');
+            myTable0.rows[0].cells[0].innerHTML = CountyName;
+                            
+        
+                            
+   //     var myTable2 = document.getElementById('table2');
+     //       myTable2.rows[0].cells[0].innerHTML = CountyName;
+                            
+        var myTable3 = document.getElementById('table3');
+            myTable3.rows[0].cells[0].innerHTML = CountyName;
+        var myTable4 = document.getElementById('table4');
+            myTable4.rows[0].cells[0].innerHTML = CountyName;
+        var myTable5 = document.getElementById('table5');
+            myTable5.rows[0].cells[0].innerHTML = CountyName;
+
+    //table 0
+    //population data
+    //2010
+    //double slash means verified
+        var datacords = [100];
+    
+        //pop
+        datacords[0] = 35;//
+        //income
+        datacords[2] = 36;//
+    
+      /*  //labor force
+        datacords[4] = 29;//
+        //employed
+        datacords[6] = 30;//
+        //unemployed
+        datacords[8] = 31;//
+        //UR
+        datacords[10] = 32;//
+    */
+        //special note about this one, lt unemp
+        datacords[12] = 1851;//
+        //only starts for the next 2 and not the first value
+        //mf
+        datacords[14] = 49;//
+        //all
+        datacords[16] = 40;//
+    
+        //mf
+        datacords[17] = 83;//
+        //all
+        datacords[20] = 32;//
+    
+        //race 
+        datacords[21] = 51;//
+        datacords[25] = 85;//
+    
+        //VET 2006
+        datacords[29] = 55;//
+        //vet 2015
+        datacords[31] = 89;//
+    
+        //tanf
+        //disability 2008
+    
+        //disabled labor force
+        //no disabled labor force
+        //below poverty labor force
+        datacords[33] = 63;//
+        datacords[34] = 64;//
+        datacords[35] = 58;//
+    
+        //2011
+        datacords[45] = 97;//
+        datacords[46] = 98;//
+        datacords[47] = 92;//
+    
+        //tanf recipient and percentages
+        datacords[57] = 1818;//
+        datacords[58] = 1834;//
+        //tanf recip for 2016q3q4
+        datacords[69] = 1840;//
+        datacords[70] = 1842;
+        
+        //tanf percentage among maryland workers
+        datacords[73] = 1826;//
+        datacords[79] = 1844;
+        
+        //program completers
+        datacords[81] = 1846;//
+
+        var indcoord = [40];
+        //numbers
+        indcoord[0] = 1513;//
+        //change
+        indcoord[20] = 1533;//
+
+        //commute
+        //datacords[81] = 312;//
+
+        var wCord = [10];
+        wCord[0] = 203;//
+        wCord[8] = 335;//
+
+        var aCord = [10];
+        aCord[0] = 239;
+        aCord[8] = 348;//
+
+        var nCord = [7];
+        nCord[0] = 515;//
+        nCord[6] = 371;//
+
+        var hCord = [7];
+        hCord[0] = 491;//
+        hCord[6] = 359;//
+
+        var tCord = [7];
+        tCord[0] = 533;//
+        tCord[6] = 380;//
+
+
+        var iTitle = [20];
+        iTitle[0] = 1022;//
+    
+    
+        var coord = [100];
+
+        //remember to subtract 1 for the 0 cell
+        
+        //wdata by ind
+        coord[0] = 1022;//
+        //nhires by indus
+        coord[1] = 1102;//
+        //turn by indus
+        coord[2] = 1983;//
+        //job net by indus
+        coord[3] = 1262;//
+        //avg month by indus
+        coord[4] = 1342;//
+    
+      var changecords = [7];
+        changecords[0] = 1852;
+    
+    
+    
+    for(var i = 1; i < 2; i++){
+        datacords[i] = (datacords[i-1] + 34);
+    }
+    
+     for(var i = 1; i < 5; i++){
+        changecords[i] = (changecords[i-1] + 1);
+    }
+    
+    $("#P1").text(csvData[datacords[0]][7]);
+    
+    //2015
+    $("#P2").text(csvData[datacords[1]][7]);
+    
+    $("#P3").text(csvData[changecords[0]][7]);
+    
+    
+   
+    for(var i = 3; i<4; i++){
+        datacords[i] = (datacords[i-1] + 34);
+    }
+    
+    //household income data
+    
+    $("#H1").text(csvData[datacords[2]][7]);
+    $("#H2").text(csvData[datacords[3]][7]);
+    
+    $("#H3").text(csvData[changecords[1]][7]);
+    
+    //table 1
+    
+    //row 1
+    
+    //Labor force
+   
+  /*  for(var i = 5; i < 6; i++){
+        datacords[i] = datacords[i-1] -4;
+    }
+    $("#LF1").text(csvData[datacords[4]][7]);
+    $("#LF2").text(csvData[datacords[5]][7]);
+    
+    $("#LF3").text(csvData[changecords[2]][7]);
+    
+    //row 2
+    //employment
+    
+    for(var i = 7; i < 8; i++){
+        datacords[i] = datacords[i-1] -4;
+    }
+    $("#Emp1").text(csvData[datacords[6]][7]);
+    $("#Emp2").text(csvData[datacords[7]][7]);
+    
+    $("#Emp3").text(csvData[changecords[3]][7]);
+    
+    //row 3
+     
+    for(var i = 9; i < 10; i++){
+        datacords[i] = datacords[i-1] -4;
+    }
+    $("#Unemp1").text(csvData[datacords[8]][7]);
+    $("#Unemp2").text(csvData[datacords[9]][7]);
+    $("#Unemp3").text(csvData[changecords[4]][7]);
+    
+    //row 4
+    //unemployment rate
+    
+    for(var i = 11; i < 12; i++){
+        datacords[i] = datacords[i-1] -4;
+    }
+    $("#UR1").text(csvData[datacords[10]][7]);
+    $("#UR2").text(csvData[datacords[11]][7]);
+    $("#UR3").text(csvData[0][0]);
+    */
+   
+    
+   
+    
+   
+    
+    //table 2
+    //long term unemployment
+    
+    for(var i = 13; i < 14; i++){
+        datacords[i] = datacords[i-1] -1;
+    }
+    $("#LT1").text(csvData[311][7]);
+    $("#LT2").text(csvData[datacords[12]][7]);
+    $("#LT3").text(csvData[datacords[13]][7]);
+    
+    //table 3
+    
+    //row 1
+    //employed males/females
+   
+    for(var i = 15; i < 16; i++){
+        datacords[i] = datacords[i-1] +1;
+    }
+    $("#EM1").text(csvData[datacords[14]][7]);
+    $("#EF1").text(csvData[datacords[15]][7]);
+    
+    
+    
+    //row 2
+    //percentage for all
+    
+    $("#PM1").text(csvData[datacords[16]][7]);
+    
+    //row 3
+    
+    for(var i = 18; i < 19; i++){
+        datacords[i] = datacords[i-1] +1;
+    }
+    $("#EM2").text(csvData[datacords[17]][7]);
+    $("#EF2").text(csvData[datacords[18]][7]);
+    
+    
+                              
+    //row 4
+  
+    //percentage for all
+    $("#PM2").text(csvData[datacords[20]][7]);
+    
+    //table 4
+    //unemployment rate by race
+   
+    for(var i = 22; i < 25; i++){
+        datacords[i] = datacords[i-1] + 1;
+    }
+    //white
+    $("#RE1").text(csvData[datacords[21]][7]);
+    //black
+    $("#RE2").text(csvData[datacords[22]][7]);
+    //asian
+    $("#RE3").text(csvData[datacords[23]][7]);
+    //hispanic
+    $("#RE4").text(csvData[datacords[24]][7]);
+    
+    for(var i = 26; i < 29; i++){
+        datacords[i] = datacords[i-1] + 1;
+    }
+    //row 2
+    $("#RE8").text(csvData[datacords[25]][7]);
+    $("#RE9").text(csvData[datacords[26]][7]);
+    $("#RE10").text(csvData[datacords[27]][7]);
+    $("#RE11").text(csvData[datacords[28]][7]);
+    
+
+    
+    //table 5
+    //unemployment by veteran status
+   
+    for(var i = 30; i < 31; i++){
+        datacords[i] = datacords[i-1] +1;
+    }
+    
+    for(var i = 32; i < 33; i++){
+        datacords[i] = datacords[i-1] +1;
+    }
+    $("#VetU1").text(csvData[datacords[29]][7]);
+    $("#VetU2").text(csvData[datacords[30]][7]);
+    
+    //row 2
+   
+    $("#VetU3").text(csvData[datacords[31]][7]);
+    $("#VetU4").text(csvData[datacords[32]][7]);
+    
+    
+    //tanf tables
+    
+    
+    
+    for(var i = 36; i < 45; i++){
+        datacords[i] = datacords[i-3] + 2;
+    }
+    
+    $("#t1").text(csvData[datacords[33]][7]);
+    $("#t2").text(csvData[datacords[34]][7]);
+    $("#t3").text(csvData[datacords[35]][7]);
+    
+    $("#t4").text(csvData[datacords[36]][7]);
+    $("#t5").text(csvData[datacords[37]][7]);
+    $("#t6").text(csvData[datacords[38]][7]);
+    
+    $("#t7").text(csvData[datacords[39]][7]);
+    $("#t8").text(csvData[datacords[40]][7]);
+    $("#t9").text(csvData[datacords[41]][7]);
+    
+  /*  $("#t10").text(csvData[datacords[42]][7]);
+    $("#t11").text(csvData[datacords[43]][7]);
+    $("#t12").text(csvData[datacords[44]][7]);*/
+    
+   
+    
+    for(var i = 48; i < 57; i++){
+        datacords[i] = datacords[i-3] + 2;
+    }
+    
+     
+    $("#t13").text(csvData[datacords[45]][7]);
+    $("#t14").text(csvData[datacords[46]][7]);
+    $("#t15").text(csvData[datacords[47]][7]);
+    
+    $("#t16").text(csvData[datacords[48]][7]);
+    $("#t17").text(csvData[datacords[49]][7]);
+    $("#t18").text(csvData[datacords[50]][7]);
+    
+    $("#t19").text(csvData[datacords[51]][7]);
+    $("#t20").text(csvData[datacords[52]][7]);
+    $("#t21").text(csvData[datacords[53]][7]);
+    
+   /* $("#t22").text(csvData[datacords[54]][7]);
+    $("#t23").text(csvData[datacords[55]][7]);
+    $("#t24").text(csvData[datacords[56]][7]);
+    */
+    
+    //tanf recipient and percentage
+   
+    
+    for(var i = 59; i < 69; i++){
+        datacords[i] = datacords[i-2] + 1;
+    }
+    
+    
+    $("#Tanf1").text(csvData[datacords[57]][7]);
+    $("#Ptanf1").text(csvData[datacords[58]][7]);
+    
+    $("#Tanf2").text(csvData[datacords[59]][7]);
+    $("#Ptanf2").text(csvData[datacords[60]][7]);
+    
+    $("#Tanf3").text(csvData[datacords[61]][7]);
+    $("#Ptanf3").text(csvData[datacords[62]][7]);
+    
+    $("#Tanf4").text(csvData[datacords[63]][7]);
+    $("#Ptanf4").text(csvData[datacords[64]][7]);
+    
+    //2016
+    $("#Tanf5").text(csvData[datacords[65]][7]);
+    $("#Ptanf5").text(csvData[datacords[66]][7]);
+    
+    $("#Tanf6").text(csvData[datacords[67]][7]);
+    $("#Ptanf6").text(csvData[datacords[68]][7]);
+    
+    //no more ptanf
+    
+   
+    
+    for(var i = 70; i < 73; i++){
+        datacords[i] = datacords[i-1] + 1;
+    }
+    
+    $("#Tanf7").text(csvData[datacords[69]][7]);
+    $("#Ptanf7").text(csvData[datacords[71]][7]);
+    $("#Tanf8").text(csvData[datacords[70]][7]);
+    $("#Ptanf8").text(csvData[datacords[72]][7]);
+    //tanf percentage
+   
+    
+    for(var i = 74; i < 79; i++){
+        datacords[i] = datacords[i-1] + 1;
+    }
+    
+    $("#t28").text(csvData[datacords[73]][7]);
+    $("#t29").text(csvData[datacords[74]][7]);
+    $("#t30").text(csvData[datacords[75]][7]);
+    $("#t31").text(csvData[datacords[76]][7]);
+    
+    //2016
+    $("#t32").text(csvData[datacords[77]][7]);
+    $("#t33").text(csvData[datacords[78]][7]);
+    
+    for(var i = 80; i < 81; i++){
+        datacords[i] = datacords[i-1] + 1;
+    }
+    $("#t34").text(csvData[datacords[79]][7]);
+    $("#t35").text(csvData[datacords[80]][7]);
+    
+    //fy program completions
+   
+    for(var i = 82; i < 83; i++){
+        datacords[i] = datacords[i - 1] + 1;
+    }
+    
+    
+     $("#t36").text(csvData[datacords[81]][7]);
+     $("#t37").text(csvData[datacords[82]][7]);
+    
+     $("#t377").text(csvData[1848][7]);
+    //table 6
+    
+    //table 6
+    
+    //section 1
+    //I = industry
+    //W industry annual average
+    //WC industry change
+    
+   
+    for(var i = 1; i < 20; i++){
+        indcoord[i] = (indcoord[i-1] + 1);
+    }
+    for(var i = 21; i < 40; i++){
+        indcoord[i] = (indcoord[i-1] + 1);
+    }
+    
+    $("#I1a").text(csvData[indcoord[0]][4]);
+    $("#W1a").text(csvData[indcoord[0]][7]);
+    $("#WC1a").text(csvData[indcoord[20]][7]);
+    
+    $("#I21").text(csvData[indcoord[1]][4]);
+    $("#W21").text(csvData[indcoord[1]][7]);
+    $("#WC21").text(csvData[indcoord[21]][7]);
+    
+    $("#I31").text(csvData[indcoord[2]][4]);
+    $("#W31").text(csvData[indcoord[2]][7]);
+    $("#WC31").text(csvData[indcoord[22]][7]);
+    
+    $("#I41").text(csvData[indcoord[3]][4]);
+    $("#W41").text(csvData[indcoord[3]][7]);
+    $("#WC41").text(csvData[indcoord[23]][7]);
+    
+    $("#I51").text(csvData[indcoord[4]][4]);
+    $("#W51").text(csvData[indcoord[4]][7]);
+    $("#WC51").text(csvData[indcoord[24]][7]);
+    
+    $("#I61").text(csvData[indcoord[5]][4]);
+    $("#W61").text(csvData[indcoord[5]][7]);
+    $("#WC61").text(csvData[indcoord[25]][7]);
+    
+    $("#I71").text(csvData[indcoord[6]][4]);
+    $("#W71").text(csvData[indcoord[6]][7]);
+    $("#WC71").text(csvData[indcoord[26]][7]);
+    
+    $("#I81").text(csvData[indcoord[7]][4]);
+    $("#W81").text(csvData[indcoord[7]][7]);
+    $("#WC81").text(csvData[indcoord[27]][7]);
+    
+    $("#I91").text(csvData[indcoord[8]][4]);
+    $("#W91").text(csvData[indcoord[8]][7]);
+    $("#WC91").text(csvData[indcoord[28]][7]);
+    
+    $("#I101").text(csvData[indcoord[9]][4]);
+    $("#W101").text(csvData[indcoord[9]][7]);
+    $("#WC101").text(csvData[indcoord[29]][7]);
+    
+    $("#I111").text(csvData[indcoord[10]][4]);
+    $("#W111").text(csvData[indcoord[10]][7]);
+    $("#WC111").text(csvData[indcoord[30]][7]);
+    
+    $("#I121").text(csvData[indcoord[11]][4]);
+    $("#W121").text(csvData[indcoord[11]][7]);
+    $("#WC121").text(csvData[indcoord[31]][7]);
+    
+    $("#I131").text(csvData[indcoord[12]][4]);
+    $("#W131").text(csvData[indcoord[12]][7]);
+    $("#WC131").text(csvData[indcoord[32]][7]);
+    
+    $("#I141").text(csvData[indcoord[13]][4]);
+    $("#W141").text(csvData[indcoord[13]][7]);
+    $("#WC141").text(csvData[indcoord[33]][7]);
+    
+    $("#I151").text(csvData[indcoord[14]][4]);
+    $("#W151").text(csvData[indcoord[14]][7]);
+    $("#WC151").text(csvData[indcoord[34]][7]);
+    
+    $("#I161").text(csvData[indcoord[15]][4]);
+    $("#W161").text(csvData[indcoord[15]][7]);
+    $("#WC161").text(csvData[indcoord[35]][7]);
+    
+    $("#I171").text(csvData[indcoord[16]][4]);
+    $("#W171").text(csvData[indcoord[16]][7]);
+    $("#WC171").text(csvData[indcoord[36]][7]);
+    
+    $("#I181").text(csvData[indcoord[17]][4]);
+    $("#W181").text(csvData[indcoord[17]][7]);
+    $("#WC181").text(csvData[indcoord[37]][7]);
+    
+    $("#I191").text(csvData[indcoord[18]][4]);
+    $("#W191").text(csvData[indcoord[18]][7]);
+    $("#WC191").text(csvData[indcoord[38]][7]);
+    
+    $("#I201").text(csvData[indcoord[19]][4]);
+    $("#W201").text(csvData[indcoord[19]][7]);
+    $("#WC201").text(csvData[indcoord[39]][7]);
+    
+    
+    
+    
+
+
+    
+    //section 2
+    
+    /**  
+    $("#I1a").text(csvData[4082][4]);
+    $("#W1a").text(csvData[4082][7]);
+    $("#WC1a").text(csvData[5174][7]);
+    
+    $("#I21").text(csvData[4108][4]);
+    $("#W21").text(csvData[4108][7]);
+    $("#WC21").text(csvData[5200][7]);
+    
+    $("#I31").text(csvData[4134][4]);
+    $("#W31").text(csvData[4134][7]);
+    $("#WC31").text(csvData[5226][7]);
+    
+    $("#I41").text(csvData[4160][4]);
+    $("#W41").text(csvData[4160][7]);
+    $("#WC41").text(csvData[5252][7]);
+    
+    $("#I51").text(csvData[4186][4]);
+    $("#W51").text(csvData[4186][7]);
+    $("#WC51").text(csvData[5278][7]);
+    
+    $("#I61").text(csvData[4212][4]);
+    $("#W61").text(csvData[4212][7]);
+    $("#WC61").text(csvData[5304][7]);
+    
+    $("#I71").text(csvData[4238][4]);
+    $("#W71").text(csvData[4238][7]);
+    $("#WC71").text(csvData[5330][7]);
+    
+    $("#I81").text(csvData[4264][4]);
+    $("#W81").text(csvData[4264][7]);
+    $("#WC81").text(csvData[5356][7]);
+    
+    $("#I91").text(csvData[4290][4]);
+    $("#W91").text(csvData[4290][7]);
+    $("#WC91").text(csvData[5382][7]);
+    
+    $("#I101").text(csvData[4316][4]);
+    $("#W101").text(csvData[4316][7]);
+    $("#WC101").text(csvData[5408][7]);
+    
+    $("#I111").text(csvData[4342][4]);
+    $("#W111").text(csvData[4342][7]);
+    $("#WC111").text(csvData[5434][7]);
+    
+    $("#I121").text(csvData[4368][4]);
+    $("#W121").text(csvData[4368][7]);
+    $("#WC121").text(csvData[5460][7]);
+    
+    $("#I131").text(csvData[4394][4]);
+    $("#W131").text(csvData[4394][7]);
+    $("#WC131").text(csvData[5486][7]);
+    
+    $("#I141").text(csvData[4420][4]);
+    $("#W141").text(csvData[4420][7]);
+    $("#WC141").text(csvData[5512][7]);
+    
+    $("#I151").text(csvData[4446][4]);
+    $("#W151").text(csvData[4446][7]);
+    $("#WC151").text(csvData[5538][7]);
+    
+    $("#I161").text(csvData[4472][4]);
+    $("#W161").text(csvData[4472][7]);
+    $("#WC161").text(csvData[5564][7]);
+    
+    $("#I171").text(csvData[4498][4]);
+    $("#W171").text(csvData[4498][7]);
+    $("#WC171").text(csvData[5590][7]);
+    
+    $("#I181").text(csvData[4550][4]);
+    $("#W181").text(csvData[4550][7]);
+    $("#WC181").text(csvData[5642][7]);
+    
+    $("#I191").text(csvData[4576][4]);
+    $("#W191").text(csvData[4576][7]);
+    $("#WC191").text(csvData[5668][7]);
+    
+    $("#I201").text(csvData[4602][4]);
+    $("#W201").text(csvData[4602][7]);
+    $("#WC201").text(csvData[5694][7]);
+                            
+    **/        
+            
+    //table 7
+    
+    //commute data 
+    for(var i = 82; i < 87; i++){
+        datacords[i] = datacords[i-1] + 1;
+    }
+    
+    
+    $("#C1").text(csvData[datacords[81]][7]);
+    $("#S1").text(csvData[datacords[82]][7]);
+    
+    $("#C2").text(csvData[datacords[83]][7]);
+    $("#S2").text(csvData[datacords[84]][7]); 
+    
+    $("#C3").text(csvData[datacords[85]][7]);
+    $("#S3").text(csvData[datacords[86]][7]);
+    
+    
+    //wcord = worker
+        
+        for(var i = 0; i<7; i++){
+            wCord[i+1] = (wCord[i] + 1);
+        }
+        
+       
+        for(var i = 8; i < 9; i++){
+            wCord[i+1] = (wCord[i] + 1);
+        }
+        
+        //new cells
+        $("#W1").text(csvData[wCord[0]][7]);
+        $("#W2").text(csvData[wCord[1]][7]);
+        $("#W3").text(csvData[wCord[2]][7]);
+        $("#W4").text(csvData[wCord[3]][7]);
+        $("#W5").text(csvData[wCord[4]][7]);
+        $("#W6").text(csvData[wCord[5]][7]);
+        $("#W7").text(csvData[wCord[6]][7]);
+        $("#W8").text(csvData[wCord[7]][7]);
+        $("#WF1").text(csvData[wCord[8]][7]);
+        $("#WM1").text(csvData[wCord[9]][7]);
+        
+        //acord = average 
+       
+        for(var i = 0; i<7; i++){
+            aCord[i+1] = (aCord[i] + 1);
+        }
+        
+       
+        for(var i = 8; i < 9; i++){
+            aCord[i+1] = (aCord[i] + 1);
+        }
+        
+        $("#A1").text(csvData[aCord[0]][7]);
+        $("#A2").text(csvData[aCord[1]][7]);
+        $("#A3").text(csvData[aCord[2]][7]);
+        $("#A4").text(csvData[aCord[3]][7]);
+        $("#A5").text(csvData[aCord[4]][7]);
+        $("#A6").text(csvData[aCord[5]][7]);
+        $("#A7").text(csvData[aCord[6]][7]);
+        $("#A8").text(csvData[aCord[7]][7]);
+        $("#AF1").text(csvData[aCord[8]][7]);
+        $("#AM1").text(csvData[aCord[9]][7]);
+        
+        //ncord = net change
+        
+        
+        for(var i = 0; i<5; i++){
+            nCord[i+1] = (nCord[i] + 1);
+        }
+        
+        
+        for(var i = 6; i < 7; i++){
+            nCord[i+1] = (nCord[i] + 1);
+        }
+        
+        $("#N1").text(csvData[nCord[0]][7]);
+        $("#N2").text(csvData[nCord[1]][7]);
+        $("#N3").text(csvData[nCord[2]][7]);
+        $("#N4").text(csvData[nCord[3]][7]);
+        $("#N5").text(csvData[nCord[4]][7]);
+        $("#NF1").text(csvData[nCord[6]][7]);
+        $("#NM1").text(csvData[nCord[7]][7]);
+        
+        //hCord = new hires
+        
+        
+        for(var i = 0; i<5; i++){
+            hCord[i+1] = (hCord[i] + 1);
+        }
+        
+        
+        for(var i = 6; i < 7; i++){
+            hCord[i+1] = (hCord[i] + 1);
+        }
+        
+        $("#NH1").text(csvData[hCord[0]][7]);
+        $("#NH2").text(csvData[hCord[1]][7]);
+        $("#NH3").text(csvData[hCord[2]][7]);
+        $("#NH4").text(csvData[hCord[3]][7]);
+        $("#NH5").text(csvData[hCord[4]][7]);
+        $("#HF1").text(csvData[hCord[6]][7]);
+        $("#HM1").text(csvData[hCord[7]][7]);
+        
+        //tcord = turnover
+        
+        
+        for(var i = 0; i<5; i++){
+            tCord[i+1] = (tCord[i] + 1);
+        }
+        
+        
+        for(var i = 6; i < 7; i++){
+            tCord[i+1] = (tCord[i] + 1);
+        }
+        
+        $("#TR1").text(csvData[tCord[0]][7]);
+        $("#TR2").text(csvData[tCord[1]][7]);
+        $("#TR3").text(csvData[tCord[2]][7]);
+        $("#TR4").text(csvData[tCord[3]][7]);
+        $("#TR5").text(csvData[tCord[4]][7]);
+        $("#TF1").text(csvData[tCord[6]][7]);
+        $("#TM1").text(csvData[tCord[7]][7]);
+       
+        
+
+        //table 6
+        
+        //iTitle = industry title
+        
+        
+        
+        for(var i = 1; i < 20; i++){
+            iTitle[i] = (iTitle[i-1] + 1);
+        }
+        //Industry Titles
+        $("#I1a1").text(csvData[iTitle[0]][4]);
+        $("#I211").text(csvData[iTitle[1]][4]);
+        $("#I311").text(csvData[iTitle[2]][4]);
+        $("#I411").text(csvData[iTitle[3]][4]);
+        $("#I511").text(csvData[iTitle[4]][4]);
+        $("#I611").text(csvData[iTitle[5]][4]);
+        $("#I711").text(csvData[iTitle[6]][4]);
+        $("#I811").text(csvData[iTitle[7]][4]);
+        $("#I911").text(csvData[iTitle[8]][4]);
+        $("#I1011").text(csvData[iTitle[9]][4]);
+        $("#I1111").text(csvData[iTitle[10]][4]);
+        $("#I1211").text(csvData[iTitle[11]][4]);
+        $("#I1311").text(csvData[iTitle[12]][4]);
+        $("#I1411").text(csvData[iTitle[13]][4]);
+        $("#I1511").text(csvData[iTitle[14]][4]);
+        $("#I1611").text(csvData[iTitle[15]][4]);
+        $("#I1711").text(csvData[iTitle[16]][4]);
+        $("#I1811").text(csvData[iTitle[17]][4]);
+        $("#I1911").text(csvData[iTitle[18]][4]);
+        $("#I2011").text(csvData[iTitle[19]][4]);
+
+
+        //section 1
+        // 0&5 worker data
+        // 1&6 new hires
+        // 2&7 turnover
+        // 3&8 job net change
+        // 4&9 average monthly earnings
+        //1-5
+
+        
+
+
+        for (var i = 5; i <= 99; i++) {
+            coord[i] = (coord[i - 5] + 1);
+        }
+    
+        /*
+        I'm gonna write my idea down while its still fresh in my head, 
+
+        If I can pass the Y coordinate into the above array and use that instead, I'll be able to make an algorithm that will automatically change the data from page to page, 
+        all I'll need to do is run a loop that adds the amount that it will have to move for a range of coordinates.
+
+        So far for row one industry 1 to row 2 industry 2
+
+        coords11 11665
+        coords12 14471
+        coords13 17277
+        coords14 20083
+        coords15 23201
+
+        coords16 11666
+        coords17 14471
+        coords18 17278
+        coords19 20084
+        coords20 23202
+
+        so each coordinate would simply need to be incremented by 1 for every 5 until we reach 100, interesting. 
+
+        now lets see about the county to county differences
+
+        ANNE ARUNDEL LWDA        BALTIMORE CITY LWDA
+
+        coords11 11665          coords11 11705  = add 40
+        coords12 14471          coords12 14511  = add 40
+        coords13 17277          coords13 17317  = add 40
+        coords14 20083          coords14 20123  = add 40
+        coords15 23201          coords15 23241  = add 40
+
+        INTERESTING INDEED, I would simply need to modify the first 5 values to have an additional 40 then, if the logic remains consistent, 
+        I can run the above algorithm to add 1 after modifiying the first 5 values to have an additional 40. Oh my god this is going to save me so much work I could cry.
+
+        So we add 40 for each county, so county1 = +0 county2 = +40 county3 = +80 etc...
+
+        other option would be to take all the table data needed and put it into a seperate excel sheet and organize it from start to finish, that however seems suboptimal 
+        as it would increase the file size drastically as well as add extra work to my already mountain.
+        */
+
+
+        $("#Td1").text(csvData[coord[0]][7]);
+        $("#Td2").text(csvData[coord[1]][7]);
+        $("#Td3").text(csvData[coord[2]][7]);
+        $("#Td4").text(csvData[coord[3]][7]);
+        $("#Td5").text(csvData[coord[4]][7]);
+        //6-10
+        $("#Td6").text(csvData[coord[5]][7]);
+        $("#Td7").text(csvData[coord[6]][7]);
+        $("#Td8").text(csvData[coord[7]][7]);
+        $("#Td9").text(csvData[coord[8]][7]);
+        $("#Td10").text(csvData[coord[9]][7]);
+        //11-15
+        $("#Td11").text(csvData[coord[10]][7]);
+        $("#Td12").text(csvData[coord[11]][7]);
+        $("#Td13").text(csvData[coord[12]][7]);
+        $("#Td14").text(csvData[coord[13]][7]);
+        $("#Td15").text(csvData[coord[14]][7]);
+        //16-20
+        $("#Td16").text(csvData[coord[15]][7]);
+        $("#Td17").text(csvData[coord[16]][7]);
+        $("#Td18").text(csvData[coord[17]][7]);
+        $("#Td19").text(csvData[coord[18]][7]);
+        $("#Td20").text(csvData[coord[19]][7]);
+        //21-25
+        $("#Td21").text(csvData[coord[20]][7]);
+        $("#Td22").text(csvData[coord[21]][7]);
+        $("#Td23").text(csvData[coord[22]][7]);
+        $("#Td24").text(csvData[coord[23]][7]);
+        $("#Td25").text(csvData[coord[24]][7]);
+        //26-30
+        $("#Td26").text(csvData[coord[25]][7]);
+        $("#Td27").text(csvData[coord[26]][7]);
+        $("#Td28").text(csvData[coord[27]][7]);
+        $("#Td29").text(csvData[coord[28]][7]);
+        $("#Td30").text(csvData[coord[29]][7]);
+        //31-35
+        $("#Td31").text(csvData[coord[30]][7]);
+        $("#Td32").text(csvData[coord[31]][7]);
+        $("#Td33").text(csvData[coord[32]][7]);
+        $("#Td34").text(csvData[coord[33]][7]);
+        $("#Td35").text(csvData[coord[34]][7]);
+        //36-40
+        $("#Td36").text(csvData[coord[35]][7]);
+        $("#Td37").text(csvData[coord[36]][7]);
+        $("#Td38").text(csvData[coord[37]][7]);
+        $("#Td39").text(csvData[coord[38]][7]);
+        $("#Td40").text(csvData[coord[39]][7]);
+        //41-45
+        $("#Td41").text(csvData[coord[40]][7]);
+        $("#Td42").text(csvData[coord[41]][7]);
+        $("#Td43").text(csvData[coord[42]][7]);
+        $("#Td44").text(csvData[coord[43]][7]);
+        $("#Td45").text(csvData[coord[44]][7]);
+        //46-50
+        $("#Td46").text(csvData[coord[45]][7]);
+        $("#Td47").text(csvData[coord[46]][7]);
+        $("#Td48").text(csvData[coord[47]][7]);
+        $("#Td49").text(csvData[coord[48]][7]);
+        $("#Td50").text(csvData[coord[49]][7]);
+        //51-55
+        $("#Td51").text(csvData[coord[50]][7]);
+        $("#Td52").text(csvData[coord[51]][7]);
+        $("#Td53").text(csvData[coord[52]][7]);
+        $("#Td54").text(csvData[coord[53]][7]);
+        $("#Td55").text(csvData[coord[54]][7]);
+        //56-60
+        $("#Td56").text(csvData[coord[55]][7]);
+        $("#Td57").text(csvData[coord[56]][7]);
+        $("#Td58").text(csvData[coord[57]][7]);
+        $("#Td59").text(csvData[coord[58]][7]);
+        $("#Td60").text(csvData[coord[59]][7]);
+        //61-65
+        $("#Td61").text(csvData[coord[60]][7]);
+        $("#Td62").text(csvData[coord[61]][7]);
+        $("#Td63").text(csvData[coord[62]][7]);
+        $("#Td64").text(csvData[coord[63]][7]);
+        $("#Td65").text(csvData[coord[64]][7]);
+        //66-70
+        $("#Td66").text(csvData[coord[65]][7]);
+        $("#Td67").text(csvData[coord[66]][7]);
+        $("#Td68").text(csvData[coord[67]][7]);
+        $("#Td69").text(csvData[coord[68]][7]);
+        $("#Td70").text(csvData[coord[69]][7]);
+        //71-75
+        $("#Td71").text(csvData[coord[70]][7]);
+        $("#Td72").text(csvData[coord[71]][7]);
+        $("#Td73").text(csvData[coord[72]][7]);
+        $("#Td74").text(csvData[coord[73]][7]);
+        $("#Td75").text(csvData[coord[74]][7]);
+        //76-80
+        $("#Td76").text(csvData[coord[75]][7]);
+        $("#Td77").text(csvData[coord[76]][7]);
+        $("#Td78").text(csvData[coord[77]][7]);
+        $("#Td79").text(csvData[coord[78]][7]);
+        $("#Td80").text(csvData[coord[79]][7]);
+        //81-85
+        $("#Td81").text(csvData[coord[80]][7]);
+        $("#Td82").text(csvData[coord[81]][7]);
+        $("#Td83").text(csvData[coord[82]][7]);
+        $("#Td84").text(csvData[coord[83]][7]);
+        $("#Td85").text(csvData[coord[84]][7]);
+        //86-90
+        $("#Td86").text(csvData[coord[85]][7]);
+        $("#Td87").text(csvData[coord[86]][7]);
+        $("#Td88").text(csvData[coord[87]][7]);
+        $("#Td89").text(csvData[coord[88]][7]);
+        $("#Td90").text(csvData[coord[89]][7]);
+        //91-95
+        $("#Td91").text(csvData[coord[90]][7]);
+        $("#Td92").text(csvData[coord[91]][7]);
+        $("#Td93").text(csvData[coord[92]][7]);
+        $("#Td94").text(csvData[coord[93]][7]);
+        $("#Td95").text(csvData[coord[94]][7]);
+        //96-100
+        $("#Td96").text(csvData[coord[95]][7]);
+        $("#Td97").text(csvData[coord[96]][7]);
+        $("#Td98").text(csvData[coord[97]][7]);
+        $("#Td99").text(csvData[coord[98]][7]);
+        $("#Td100").text(csvData[coord[99]][7]);
+    
+                            
+
+
+</script>
+</html>

@@ -1,0 +1,582 @@
+Data Source,Time,Location,Indicator,IndicatorValue,Employment Status,Amount,Unemployment Rate,,Percentage,Format for charts,,
+ACS,2007-2011,"Anne Arundel County, Maryland",Employed Individuals by Education,Less than high school graduate,Employed,12486,,,,"12,486",,
+ACS,2007-2011,"Anne Arundel County, Maryland",Employed Individuals by Education,High school graduate (includes equivalency),Employed,52699,,,,"52,699",,
+ACS,2007-2011,"Anne Arundel County, Maryland",Employed Individuals by Education,Some college or associate's degree,Employed,67828,,,,"67,828",,
+ACS,2007-2011,"Anne Arundel County, Maryland",Employed Individuals by Education,Bachelor's degree or higher,Employed,94044,,,,"94,044",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Employed Individuals by Education,Less than high school graduate,Employed,11246,,,,"11,246",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Employed Individuals by Education,High school graduate (includes equivalency),Employed,50548,,,,"50,548",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Employed Individuals by Education,Some college or associate's degree,Employed,67314,,,,"67,314",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Employed Individuals by Education,Bachelor's degree or higher,Employed,108401,,,,"108,401",,
+ACS,2007-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Gender,Total Population 20 to 64 years,Unemployment Rate,5.3,0.053,,,5.3,,
+ACS,2007-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Gender,Male,Unemployment Rate,5.5,0.055,,,5.5,,
+ACS,2007-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Gender,Female,Unemployment Rate,5.2,0.052,,,5.2,,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Gender,Total Population 20 to 64 years,Unemployment Rate,5.2,0.052,,,5.2,,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Gender,Male,Unemployment Rate,5.3,0.053,,,5.3,,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Gender,Female,Unemployment Rate,5,0.05,,,5,,
+ACS,2007-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Race/Ethnicity,White,Unemployment Rate,5.4,0.054,,,5.4,,
+ACS,2007-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Race/Ethnicity,Black,Unemployment Rate,9.3,0.093,,,9.3,,
+ACS,2007-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Race/Ethnicity,Asian,Unemployment Rate,5.5,0.055,,,5.5,,
+ACS,2007-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Race/Ethnicity,Hispanic,Unemployment Rate,7.4,0.074,,,7.4,,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Race/Ethnicity,White,Unemployment Rate,5.1,0.051,,,5.1,,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Race/Ethnicity,Black,Unemployment Rate,8.1,0.081,,,8.1,,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Race/Ethnicity,Asian,Unemployment Rate,4.6,0.046,,,4.6,,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Race/Ethnicity,Hispanic,Unemployment Rate,4.9,0.049,,,4.9,,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Veteran Status,Veteran,Unemployment Rate,3.5,0.035,,,3.5,,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Veteran Status,Non Veteran,Unemployment Rate,5.6,0.056,,,5.6,,
+ACS,2007-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Veteran Status,Veteran,Unemployment Rate,3.2,0.032,,,3.2,,
+ACS,2007-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Veteran Status,Non Veteran,Unemployment Rate,6.2,0.062,,,6.2,,
+LAUS,2017,"Anne Arundel County, MD",Not Seasonally Adjusted Annual Average,Labor Force,Labor Force,308474,,,,"308,474",,
+LAUS,2017,"Anne Arundel County, MD",Not Seasonally Adjusted Annual Average,Employed,Employed,297713,,,,"297,713",,
+LAUS,2017,"Anne Arundel County, MD",Not Seasonally Adjusted Annual Average,Unemployed,Unemployed,10761,,,,"10,761",,
+LAUS,2017,"Anne Arundel County, MD",Not Seasonally Adjusted Annual Average,Unemployment Rate,Unemployment Rate,3.5,0.035,100,,4,3.7,0
+LAUS,2016,"Anne Arundel County, MD",Not Seasonally Adjusted Annual Average,Labor Force,Labor Force,303850,,,,"303,850",,
+LAUS,2016,"Anne Arundel County, MD",Not Seasonally Adjusted Annual Average,Employed,Employed,292682,,,,"292,682",,
+LAUS,2016,"Anne Arundel County, MD",Not Seasonally Adjusted Annual Average,Unemployed,Unemployed,11168,,,,"11,168",,
+LAUS,2016,"Anne Arundel County, MD",Not Seasonally Adjusted Annual Average,Unemployment Rate,Unemployment Rate,3.7,0.037,100,,3.7,4.4,0
+LAUS,2015,"Anne Arundel County, MD",Not Seasonally Adjusted Annual Average,Labor Force,Labor Force,301503,,,,"301,503",,
+LAUS,2015,"Anne Arundel County, MD",Not Seasonally Adjusted Annual Average,Employed,Employed,288221,,,,"288,221",,
+LAUS,2015,"Anne Arundel County, MD",Not Seasonally Adjusted Annual Average,Unemployed,Unemployed,13282,,,,"13,282",,
+LAUS,2015,"Anne Arundel County, MD",Not Seasonally Adjusted Annual Average,Unemployment Rate,Unemployment Rate,4.4,0.044,100,,4.4,5.1,0
+LAUS,2013,"Anne Arundel County, MD",Not Seasonally Adjusted Annual Average,Labor Force,Labor Force,296317,,,,"296,317",,
+LAUS,2013,"Anne Arundel County, MD",Not Seasonally Adjusted Annual Average,Employed,Employed,279361,,,,"279,361",,
+LAUS,2013,"Anne Arundel County, MD",Not Seasonally Adjusted Annual Average,Unemployed,Unemployed,16956,,,,"16,956",,
+LAUS,2013,"Anne Arundel County, MD",Not Seasonally Adjusted Annual Average,Unemployment Rate,Unemployment Rate,5.7,0.057,100,,5.7,,5.7
+LAUS,"Jan
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,298156,0.054,,,"298,156",,
+LAUS,"Feb
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,297596,0.054,,,"297,596",,
+LAUS,"Mar
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,299054,0.053,,,"299,054",,
+LAUS,"Apr
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,299470,0.047,,,"299,470",,
+LAUS,"May
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,302055,0.05,,,"302,055",,
+LAUS,"Jun
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,303659,0.053,,,"303,659",,
+LAUS,"Jul
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,305707,0.055,,,"305,707",,
+LAUS,"Aug
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,303505,0.054,,,"303,505",,
+LAUS,"Sep
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,300752,0.049,,,"300,752",,
+LAUS,"Oct
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,303062,0.048,,,"303,062",,
+LAUS,"Nov
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,302924,0.047,,,"302,924",,
+LAUS,"Dec
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,302103,0.044,,,"302,103",,
+LAUS,"Jan
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,300619,0.05,,,"300,619",,
+LAUS,"Feb
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,300674,0.048,,,"300,674",,
+LAUS,"Mar
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,302017,0.046,,,"302,017",,
+LAUS,"Apr
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,300972,0.042,,,"300,972",,
+LAUS,"May
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,302701,0.045,,,"302,701",,
+LAUS,"Jun
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,305428,0.047,,,"305,428",,
+LAUS,"Jul
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,307860,0.046,,,"307,860",,
+LAUS,"Aug
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,305918,0.044,,,"305,918",,
+LAUS,"Sep
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,304626,0.042,,,"304,626",,
+LAUS,"Oct
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,305644,0.042,,,"305,644",,
+LAUS,"Nov
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,305514,0.04,,,"305,514",,
+LAUS,"Dec
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,304235,0.037,,,"304,235",,
+LAUS,"Jan
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,304051,0.04,,,"304,051",,
+LAUS,"Feb
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,304353,0.039,,,"304,353",,
+LAUS,"Mar
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,306799,0.037,,,"306,799",,
+LAUS,"Apr
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,306399,0.034,,,"306,399",,
+LAUS,"May
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,306504,0.034,,,"306,504",,
+LAUS,"Jun
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,311353,0.039,,,"311,353",,
+LAUS,"Jul
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,314670,0.039,,,"314,670",,
+LAUS,"Aug
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,312314,0.038,,,"312,314",,
+LAUS,"Sep
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,309792,0.036,,,"309,792",,
+LAUS,"Oct
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,310132,0.036,,,"310,132",,
+LAUS,"Nov
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,309462,0.034,,,"309,462",,
+LAUS,"Dec
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Labor Force,Labor Force,305863,0.033,,,"305,863",,
+LAUS,"Jan
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,283213,0.054,,,"283,213",,
+LAUS,"Feb
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,283405,0.054,,,"283,405",,
+LAUS,"Mar
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,285241,0.053,,,"285,241",,
+LAUS,"Apr
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,287002,0.047,,,"287,002",,
+LAUS,"May
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,288488,0.05,,,"288,488",,
+LAUS,"Jun
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,289447,0.053,,,"289,447",,
+LAUS,"Jul
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,291611,0.055,,,"291,611",,
+LAUS,"Aug
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,290006,0.054,,,"290,006",,
+LAUS,"Sep
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,288075,0.049,,,"288,075",,
+LAUS,"Oct
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,290336,0.048,,,"290,336",,
+LAUS,"Nov
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,290792,0.047,,,"290,792",,
+LAUS,"Dec
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,291038,0.044,,,"291,038",,
+LAUS,"Jan
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,288519,0.05,,,"288,519",,
+LAUS,"Feb
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,288807,0.048,,,"288,807",,
+LAUS,"Mar
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,290706,0.046,,,"290,706",,
+LAUS,"Apr
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,290839,0.042,,,"290,839",,
+LAUS,"May
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,292332,0.045,,,"292,332",,
+LAUS,"Jun
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,293542,0.047,,,"293,542",,
+LAUS,"Jul
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,295872,0.046,,,"295,872",,
+LAUS,"Aug
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,294160,0.044,,,"294,160",,
+LAUS,"Sep
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,293515,0.042,,,"293,515",,
+LAUS,"Oct
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,294539,0.042,,,"294,539",,
+LAUS,"Nov
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,295020,0.04,,,"295,020",,
+LAUS,"Dec
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,294336,0.037,,,"294,336",,
+LAUS,"Jan
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,292758,0.04,,,"292,758",,
+LAUS,"Feb
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,292835,0.039,,,"292,835",,
+LAUS,"Mar
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,295718,0.037,,,"295,718",,
+LAUS,"Apr
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,295893,0.034,,,"295,893",,
+LAUS,"May
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,295975,0.034,,,"295,975",,
+LAUS,"Jun
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,299576,0.039,,,"299,576",,
+LAUS,"Jul
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,303047,0.039,,,"303,047",,
+LAUS,"Aug
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,301291,0.038,,,"301,291",,
+LAUS,"Sep
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,300461,0.036,,,"300,461",,
+LAUS,"Oct
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,299972,0.036,,,"299,972",,
+LAUS,"Nov
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,298773,0.034,,,"298,773",,
+LAUS,"Dec
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Employed,Employed,296260,0.033,,,"296,260",,
+LAUS,"Jan
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,14943,0.054,,,"14,943",,
+LAUS,"Feb
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,14191,0.054,,,"14,191",,
+LAUS,"Mar
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,13813,0.053,,,"13,813",,
+LAUS,"Apr
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,12468,0.047,,,"12,468",,
+LAUS,"May
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,13567,0.05,,,"13,567",,
+LAUS,"Jun
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,14212,0.053,,,"14,212",,
+LAUS,"Jul
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,14096,0.055,,,"14,096",,
+LAUS,"Aug
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,13499,0.054,,,"13,499",,
+LAUS,"Sep
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,12677,0.049,,,"12,677",,
+LAUS,"Oct
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,12726,0.048,,,"12,726",,
+LAUS,"Nov
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,12132,0.047,,,"12,132",,
+LAUS,"Dec
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,11065,0.044,,,"11,065",,
+LAUS,"Jan
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,12100,0.05,,,"12,100",,
+LAUS,"Feb
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,11867,0.048,,,"11,867",,
+LAUS,"Mar
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,11311,0.046,,,"11,311",,
+LAUS,"Apr
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,10133,0.042,,,"10,133",,
+LAUS,"May
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,10369,0.045,,,"10,369",,
+LAUS,"Jun
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,11886,0.047,,,"11,886",,
+LAUS,"Jul
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,11988,0.046,,,"11,988",,
+LAUS,"Aug
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,11758,0.044,,,"11,758",,
+LAUS,"Sep
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,11111,0.042,,,"11,111",,
+LAUS,"Oct
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,11105,0.042,,,"11,105",,
+LAUS,"Nov
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,10494,0.04,,,"10,494",,
+LAUS,"Dec
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,9899,0.037,,,"9,899",,
+LAUS,"Jan
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,11293,0.04,,,"11,293",,
+LAUS,"Feb
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,11518,0.039,,,"11,518",,
+LAUS,"Mar
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,11081,0.037,,,"11,081",,
+LAUS,"Apr
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,10506,0.034,,,"10,506",,
+LAUS,"May
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,10529,0.034,,,"10,529",,
+LAUS,"Jun
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,11777,0.039,,,"11,777",,
+LAUS,"Jul
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,11623,0.039,,,"11,623",,
+LAUS,"Aug
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,11023,0.038,,,"11,023",,
+LAUS,"Sep
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,9331,0.036,,,"9,331",,
+LAUS,"Oct
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,10160,0.036,,,"10,160",,
+LAUS,"Nov
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,10689,0.034,,,"10,689",,
+LAUS,"Dec
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployed,Unemployed,9603,0.033,,,"9,603",,
+LAUS,"Jan
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,5,0.05,100,,5,5.4,0
+LAUS,"Feb
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,4.8,0.048,100,,4.8,5.4,0
+LAUS,"Mar
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,4.6,0.046,100,,4.6,5.3,0
+LAUS,"Apr
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,4.2,0.042,100,,4.2,4.7,0
+LAUS,"May
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,4.5,0.045,100,,4.5,5,0
+LAUS,"Jun
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,4.7,0.047,100,,4.7,5.3,0
+LAUS,"Jul
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,4.6,0.046,100,,4.6,5.5,0
+LAUS,"Aug
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,4.4,0.044,100,,4.4,5.4,0
+LAUS,"Sep
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,4.2,0.042,100,,4.2,4.9,0
+LAUS,"Oct
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,4.2,0.042,100,,4.2,4.8,0
+LAUS,"Nov
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,4,0.04,100,,4,4.7,0
+LAUS,"Dec
+2015","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.7,0.037,100,,3.7,4.4,0
+LAUS,"Jan
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,4,0.04,100,,4,5,0
+LAUS,"Feb
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.9,0.039,100,,3.9,4.8,0
+LAUS,"Mar
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.7,0.037,100,,3.7,4.6,0
+LAUS,"Apr
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.4,0.034,100,,3.4,4.2,0
+LAUS,"May
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.4,0.034,100,,3.4,4.5,0
+LAUS,"Jun
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.9,0.039,100,,3.9,4.7,0
+LAUS,"Jul
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.9,0.039,100,,3.9,4.6,0
+LAUS,"Aug
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.8,0.038,100,,3.8,4.4,0
+LAUS,"Sep
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.6,0.036,100,,3.6,4.2,0
+LAUS,"Oct
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.6,0.036,100,,3.6,4.2,0
+LAUS,"Nov
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.4,0.034,100,,3.4,4,0
+LAUS,"Dec
+2016","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.3,0.033,100,,3.3,3.7,0
+LAUS,"Jan
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.7,0.037,100,,3.7,,
+LAUS,"Feb
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.8,0.038,100,,3.8,,
+LAUS,"Mar
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.6,0.036,100,,3.6,,
+LAUS,"Apr
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.4,0.034,100,,3.4,,
+LAUS,"May
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.4,0.034,100,,3.4,,
+LAUS,"Jun
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.8,0.038,100,,3.8,,
+LAUS,"Jul
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.7,0.037,100,,3.7,,
+LAUS,"Aug
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.5,0.035,100,,3.5,,
+LAUS,"Sep
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3,0.03,100,,3,,
+LAUS,"Oct
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.3,0.033,100,,3.3,,
+LAUS,"Nov
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.5,0.035,100,,3.5,,
+LAUS,"Dec
+2017","Anne Arundel County, MD",Not Seasonally Adjusted Monthly,Unemployment Rate,Unemployment Rate,3.1,0.031,100,,3.1,,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Accommodation and food services,,26519,,,,"26,519",,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Administrative and waste services,,14201,,,,"14,201",,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,"Agriculture, forestry, fishing and hunting",,119,,,,119,,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,"Arts, entertainment, and recreation",,6288,,,,"6,288",,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Construction,,14931,,,,"14,931",,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Educational services,,18314,,,,"18,314",,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Finance and insurance,,5731,,,,"5,731",,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Health care and social assistance,,26908,,,,"26,908",,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Information,,2568,,,,"2,568",,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Management of companies and enterprises,,2637,,,,"2,637",,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Manufacturing,,12225,,,,"12,225",,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,"Mining, quarrying, and oil and gas extraction",,63,,,,63,,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,"Other services, except public administration",,9170,,,,"9,170",,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Professional and technical services,,24278,,,,"24,278",,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Public administration,,28365,,,,"28,365",,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Real estate and rental and leasing,,4445,,,,"4,445",,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Retail trade,,32568,,,,"32,568",,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,"Total, all industries",,503952,,,,"503,952",,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Transportation and warehousing,,11196,,,,"11,196",,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Utilities,,907,,,,907,,
+QCEW,2013,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Wholesale trade,,9805,,,,"9,805",,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Accommodation and food services,,27071,,,,"27,071",,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Administrative and waste services,,15196,,,,"15,196",,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,"Agriculture, forestry, fishing and hunting",,148,,,,148,,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,"Arts, entertainment, and recreation",,7010,,,,"7,010",,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Construction,,15575,,,,"15,575",,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Educational services,,18683,,,,"18,683",,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Finance and insurance,,5737,,,,"5,737",,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Health care and social assistance,,27711,,,,"27,711",,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Information,,2506,,,,"2,506",,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Management of companies and enterprises,,2998,,,,"2,998",,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Manufacturing,,11455,,,,"11,455",,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,"Mining, quarrying, and oil and gas extraction",,44,,,,44,,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,"Other services, except public administration",,9487,,,,"9,487",,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Professional and technical services,,23615,,,,"23,615",,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Public administration,,28400,,,,"28,400",,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Real estate and rental and leasing,,4430,,,,"4,430",,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Retail trade,,32441,,,,"32,441",,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,"Total, all industries",,510746,,,,"510,746",,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Transportation and warehousing,,11246,,,,"11,246",,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Utilities,,659,,,,659,,
+QCEW,2014,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Wholesale trade,,10267,,,,"10,267",,
+QCEW,2015,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Accommodation and food services,,28035,,,,"28,035",,
+QCEW,2015,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Administrative and waste services,,16541,,,,"16,541",,
+QCEW,2015,"Anne Arundel County, Maryland",Employment by Industry Annual Average,"Agriculture, forestry, fishing and hunting",,138,,,,138,,
+QCEW,2015,"Anne Arundel County, Maryland",Employment by Industry Annual Average,"Arts, entertainment, and recreation",,6837,,,,"6,837",,
+QCEW,2015,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Construction,,16187,,,,"16,187",,
+QCEW,2015,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Educational services,,18923,,,,"18,923",,
+QCEW,2015,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Finance and insurance,,5862,,,,"5,862",,
+QCEW,2015,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Health care and social assistance,,28680,,,,"28,680",,
+QCEW,2015,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Information,,2364,,,,"2,364",,
+QCEW,2015,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Management of companies and enterprises,,2813,,,,"2,813",,
+QCEW,2015,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Manufacturing,,11369,,,,"11,369",,
+QCEW,2015,"Anne Arundel County, Maryland",Employment by Industry Annual Average,"Mining, quarrying, and oil and gas extraction",,53,,,,53,,
+QCEW,2015,"Anne Arundel County, Maryland",Employment by Industry Annual Average,"Other services, except public administration",,9853,,,,"9,853",,
+QCEW,2015,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Professional and technical services,,23777,,,,"23,777",,
+QCEW,2015,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Public administration,,26804,,,,"26,804",,
+QCEW,2015,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Real estate and rental and leasing,,4495,,,,"4,495",,
+QCEW,2015,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Retail trade,,33253,,,,"33,253",,
+QCEW,2015,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Transportation and warehousing,,12583,,,,"12,583",,
+QCEW,2015,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Utilities,,600,,,,600,,
+QCEW,2015,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Wholesale trade,,10559,,,,"10,559",,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Accommodation and food services,,1151,,,,"1,151",,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Administrative and waste services,,-908,,,,-908,,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,"Agriculture, forestry, fishing and hunting",,20,,,,20,,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,"Arts, entertainment, and recreation",,1468,,,,"1,468",,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Construction,,780,,,,780,,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Educational services,,802,,,,802,,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Finance and insurance,,252,,,,252,,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Health care and social assistance,,1293,,,,"1,293",,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Information,,37,,,,37,,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Management of companies and enterprises,,102,,,,102,,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Manufacturing,,-522,,,,-522,,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,"Mining, quarrying, and oil and gas extraction",,9,,,,9,,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,"Other services, except public administration",,138,,,,138,,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Professional and technical services,,2225,,,,"2,225",,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Public administration,,3229,,,,"3,229",,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Real estate and rental and leasing,,258,,,,258,,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Retail trade,,138,,,,138,,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,"Total, all industries",,23118,,,,"23,118",,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Transportation and warehousing,,207,,,,207,,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Utilities,,595,,,,595,,
+QCEW,2013,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Wholesale trade,,-90,,,,-90,,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Accommodation and food services,,552,,,,552,,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Administrative and waste services,,995,,,,995,,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,"Agriculture, forestry, fishing and hunting",,29,,,,29,,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,"Arts, entertainment, and recreation",,722,,,,722,,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Construction,,644,,,,644,,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Educational services,,369,,,,369,,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Finance and insurance,,6,,,,6,,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Health care and social assistance,,803,,,,803,,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Information,,-62,,,,-62,,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Management of companies and enterprises,,361,,,,361,,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Manufacturing,,-770,,,,-770,,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,"Mining, quarrying, and oil and gas extraction",,-19,,,,-19,,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,"Other services, except public administration",,317,,,,317,,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Professional and technical services,,-663,,,,-663,,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Public administration,,35,,,,35,,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Real estate and rental and leasing,,-15,,,,-15,,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Retail trade,,-127,,,,-127,,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,"Total, all industries",,6794,,,,"6,794",,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Transportation and warehousing,,50,,,,50,,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Utilities,,-248,,,,-248,,
+QCEW,2014,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Wholesale trade,,462,,,,462,,
+QCEW,2015,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Accommodation and food services,,964,,,,964,,
+QCEW,2015,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Administrative and waste services,,1345,,,,"1,345",,
+QCEW,2015,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,"Agriculture, forestry, fishing and hunting",,-10,,,,-10,,
+QCEW,2015,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,"Arts, entertainment, and recreation",,-173,,,,-173,,
+QCEW,2015,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Construction,,612,,,,612,,
+QCEW,2015,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Educational services,,240,,,,240,,
+QCEW,2015,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Finance and insurance,,125,,,,125,,
+QCEW,2015,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Health care and social assistance,,969,,,,969,,
+QCEW,2015,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Information,,-142,,,,-142,,
+QCEW,2015,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Management of companies and enterprises,,-185,,,,-185,,
+QCEW,2015,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Manufacturing,,-86,,,,-86,,
+QCEW,2015,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,"Mining, quarrying, and oil and gas extraction",,9,,,,9,,
+QCEW,2015,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,"Other services, except public administration",,366,,,,366,,
+QCEW,2015,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Professional and technical services,,162,,,,162,,
+QCEW,2015,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Public administration,,-1596,,,,"-1,596",,
+QCEW,2015,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Real estate and rental and leasing,,65,,,,65,,
+QCEW,2015,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Retail trade,,812,,,,812,,
+QCEW,2015,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Transportation and warehousing,,1337,,,,"1,337",,
+QCEW,2015,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Utilities,,-59,,,,-59,,
+QCEW,2015,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Wholesale trade,,292,,,,292,,
+LEHD,2013,"Anne Arundel County, MD",In-Commuters,,,138130,,,,"138,130",,
+LEHD,2013,"Anne Arundel County, MD",Out-Commuters,,,138824,,,,"138,824",,
+LEHD,2014,"Anne Arundel County, MD",In-Commuters,,,138753,,,,"138,753",,
+LEHD,2014,"Anne Arundel County, MD",Out-Commuters,,,137306,,,,"137,306",,
+LEHD,2015,"Anne Arundel County, MD",In-Commuters,,,148772,,,,"148,772",,
+LEHD,2015,"Anne Arundel County, MD",Out-Commuters,,,149038,,,,"149,038",,
+ACS,2007-2011,"Anne Arundel County, Maryland",Education Attainment by Employment Status,Less than high school graduate,Unemployed,1596,,,,"1,596",,
+ACS,2007-2011,"Anne Arundel County, Maryland",Education Attainment by Employment Status,High school graduate (includes equivalency),Unemployed,3831,,,,"3,831",,
+ACS,2007-2011,"Anne Arundel County, Maryland",Education Attainment by Employment Status,Some college or associate's degree,Unemployed,3307,,,,"3,307",,
+ACS,2007-2011,"Anne Arundel County, Maryland",Education Attainment by Employment Status,Bachelor's degree or higher,Unemployed,2571,,,,"2,571",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Education Attainment by Employment Status,Less than high school graduate,Unemployed,1711,,,,"1,711",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Education Attainment by Employment Status,High school graduate (includes equivalency),Unemployed,3597,,,,"3,597",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Education Attainment by Employment Status,Some college or associate's degree,Unemployed,3290,,,,"3,290",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Education Attainment by Employment Status,Bachelor's degree or higher,Unemployed,2617,,,,"2,617",,
+ACS,2007-2011,"Anne Arundel County, Maryland",Education Attainment by Employment Status,Less than high school graduate,NIL,8637,,,,"8,637",,
+ACS,2007-2011,"Anne Arundel County, Maryland",Education Attainment by Employment Status,High school graduate (includes equivalency),NIL,15976,,,,"15,976",,
+ACS,2007-2011,"Anne Arundel County, Maryland",Education Attainment by Employment Status,Some college or associate's degree,NIL,14564,,,,"14,564",,
+ACS,2007-2011,"Anne Arundel County, Maryland",Education Attainment by Employment Status,Bachelor's degree or higher,NIL,14161,,,,"14,161",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Education Attainment by Employment Status,Less than high school graduate,NIL,7695,,,,"7,695",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Education Attainment by Employment Status,High school graduate (includes equivalency),NIL,16350,,,,"16,350",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Education Attainment by Employment Status,Some college or associate's degree,NIL,16037,,,,"16,037",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Education Attainment by Employment Status,Bachelor's degree or higher,NIL,12929,,,,"12,929",,
+ACS,2007-2011,"Anne Arundel County, Maryland",Total Population,,,532369,,,,"532,369",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Total Population,,,559737,,,,"559,737",,
+ACS,2007-2011,"Anne Arundel County, Maryland",Median Household Income,,,85690,,,,"$85,690 ",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Median Household Income,,,91918,,,,"$91,918 ",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Disability Status,Disabled Individuals ,Labor Force,14043,,,,"14,043",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Disability Status,Disabled Individuals ,Employed,12139,,,,"12,139",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Disability Status,Disabled Individuals ,Unemployed,1904,,,,"1,904",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Disability Status,Disabled Individuals ,Unemployment Rate,13.56,0.1356,100,,13.6,,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Disability Status,Individuals without Disabilities,Labor Force,267940,,,,"267,940",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Disability Status,Individuals without Disabilities,Employed,254591,,,,"254,591",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Disability Status,Individuals without Disabilities,Unemployed,13349,,,,"13,349",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Disability Status,Individuals without Disabilities,Unemployment Rate,4.98,0.0498,100,,5.0,,
+ACS,2008-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Disability Status,Disabled Individuals ,Labor Force,14395,,,,"14,395",,
+ACS,2008-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Disability Status,Disabled Individuals ,Employed,12860,,,,"12,860",,
+ACS,2008-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Disability Status,Disabled Individuals ,Unemployed,1535,,,,"1,535",,
+ACS,2008-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Disability Status,Disabled Individuals ,Unemployment Rate,10.7,0.107,100,,10.7,,
+ACS,2008-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Disability Status,Individuals without Disabilities,Labor Force,256629,,,,"256,629",,
+ACS,2008-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Disability Status,Individuals without Disabilities,Employed,241903,,,,"241,903",,
+ACS,2008-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Disability Status,Individuals without Disabilities,Unemployed,14726,,,,"14,726",,
+ACS,2008-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Disability Status,Individuals without Disabilities,Unemployment Rate,5.7,0.057,100,,5.7,,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months below poverty level,Labor Force,11387,,,,"11,387",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months below poverty level,Employed,7770,,,,"7,770",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months below poverty level,Unemployed,3617,,,,"3,617",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months below poverty level,Unemployment Rate,31.76,0.3176,100,,31.8,,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months at or above poverty level,Labor Force,291986,,,,"291,986",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months at or above poverty level,Employed,278848,,,,"278,848",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months at or above poverty level,Unemployed,13138,,,,"13,138",,
+ACS,2012-2016,"Anne Arundel County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months at or above poverty level,Unemployment Rate,4.5,0.045,100,,4.5,,
+ACS,2007-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months below poverty level,Labor Force,9176,,,,"9,176",,
+ACS,2007-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months below poverty level,Employed,6408,,,,"6,408",,
+ACS,2007-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months below poverty level,Unemployed,2768,,,,"2,768",,
+ACS,2007-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months below poverty level,Unemployment Rate,30.17,0.3017,100,,30.2,,
+ACS,2007-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months at or above poverty level,Labor Force,279828,,,,"279,828",,
+ACS,2007-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months at or above poverty level,Employed,265213,,,,"265,213",,
+ACS,2007-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months at or above poverty level,Unemployed,14615,,,,"14,615",,
+ACS,2007-2011,"Anne Arundel County, Maryland",Unemplolyment Rate by Poverty Status,Income in the past 12 months at or above poverty level,Unemployment Rate,5.22,0.0522,100,,5.2,,
+Administrative Data from TANF and MD Wage Records,2015Q1,"Anne Arundel County, Maryland",Number of TANF Recipient Workers,,Employed,282,,,,282,,
+Administrative Data from TANF and MD Wage Records,2015Q2,"Anne Arundel County, Maryland",Number of TANF Recipient Workers,,Employed,302,,,,302,,
+Administrative Data from TANF and MD Wage Records,2015Q3,"Anne Arundel County, Maryland",Number of TANF Recipient Workers,,Employed,317,,,,317,,
+Administrative Data from TANF and MD Wage Records,2015Q4,"Anne Arundel County, Maryland",Number of TANF Recipient Workers,,Employed,361,,,,361,,
+Administrative Data from TANF and MD Wage Records,2016Q1,"Anne Arundel County, Maryland",Number of TANF Recipient Workers,,Employed,256,,,,256,,
+Administrative Data from TANF and MD Wage Records,2016Q2,"Anne Arundel County, Maryland",Number of TANF Recipient Workers,,Employed,263,,,,263,,
+Administrative Data from TANF and MD Wage Records,2016Q3,"Anne Arundel County, Maryland",Number of TANF Recipient Workers,,Employed,283,,,,283,,
+Administrative Data from TANF and MD Wage Records,2016Q4,"Anne Arundel County, Maryland",Number of TANF Recipient Workers,,Employed,278,,,,278,,
+Administrative Data from TANF and Workforce Records,2015Q1,"Anne Arundel County, Maryland",Percentage of Workforce Training Program/Service Participants in TANF,,Employed,0.028232834,0.028,100,,0.028,,
+Administrative Data from TANF and Workforce Records,2015Q2,"Anne Arundel County, Maryland",Percentage of Workforce Training Program/Service Participants in TANF,,Employed,0.039365774,0.039,100,,0.039,,
+Administrative Data from TANF and Workforce Records,2015Q3,"Anne Arundel County, Maryland",Percentage of Workforce Training Program/Service Participants in TANF,,Employed,0.035190616,0.035,100,0.035190616,3.50%,,
+Administrative Data from TANF and Workforce Records,2015Q4,"Anne Arundel County, Maryland",Percentage of Workforce Training Program/Service Participants in TANF,,Employed,0.039259259,0.039,100,0.039259259,3.90%,,
+Administrative Data from TANF and Workforce Records,2016Q1,"Anne Arundel County, Maryland",Percentage of Workforce Training Program/Service Participants in TANF,,Employed,0.03083004,0.031,100,0.03083004,3.10%,,
+Administrative Data from TANF and Workforce Records,2016Q2,"Anne Arundel County, Maryland",Percentage of Workforce Training Program/Service Participants in TANF,,Employed,0.041953232,0.042,100,0.041953232,4.20%,,
+Administrative Data from TANF and Workforce Records,2016Q3,"Anne Arundel County, Maryland",Percentage of Workforce Training Program/Service Participants in TANF,,Employed,0.018208661,0.018,,0.018208661,1.80%,,
+Administrative Data from TANF and Workforce Records,2016Q4,"Anne Arundel County, Maryland",Percentage of Workforce Training Program/Service Participants in TANF,,Employed,0.026684758,0.027,,0.026684758,2.70%,,
+Change,2010-2011,"Anne Arundel County, Maryland",Total Population Change,,,27368,,,,"27,368",,
+Change,2010-2015,"Anne Arundel County, Maryland",Median Household Income Change,,,6228,,,,"$6,228 ",,
+Change ,2016-2015,"Anne Arundel County, MD",,Labor Force Change,,4624,,,,"4,624",,
+Change ,2016-2015,"Anne Arundel County, MD",,Employment Change,,5031,,,,"5,031",,
+Change ,2016-2015,"Anne Arundel County, MD",,Unemployment Change,,-407,,,,-407,,
+QCEW,2016,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Accommodation and food services,,29045,,,,"29,045",,
+QCEW,2016,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Administrative and waste services,,16980,,,,"16,980",,
+QCEW,2016,"Anne Arundel County, Maryland",Employment by Industry Annual Average,"Agriculture, forestry, fishing and hunting",,151,,,,151,,
+QCEW,2016,"Anne Arundel County, Maryland",Employment by Industry Annual Average,"Arts, entertainment, and recreation",,6829,,,,"6,829",,
+QCEW,2016,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Construction,,16500,,,,"16,500",,
+QCEW,2016,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Educational services,,18932,,,,"18,932",,
+QCEW,2016,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Finance and insurance,,6087,,,,"6,087",,
+QCEW,2016,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Health care and social assistance,,30273,,,,"30,273",,
+QCEW,2016,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Information,,2353,,,,"2,353",,
+QCEW,2016,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Management of companies and enterprises,,2927,,,,"2,927",,
+QCEW,2016,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Manufacturing,,11733,,,,"11,733",,
+QCEW,2016,"Anne Arundel County, Maryland",Employment by Industry Annual Average,"Mining, quarrying, and oil and gas extraction",,72,,,,72,,
+QCEW,2016,"Anne Arundel County, Maryland",Employment by Industry Annual Average,"Other services, except public administration",,9840,,,,"9,840",,
+QCEW,2016,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Professional and technical services,,25021,,,,"25,021",,
+QCEW,2016,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Public administration,,26871,,,,"26,871",,
+QCEW,2016,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Real estate and rental and leasing,,4496,,,,"4,496",,
+QCEW,2016,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Retail trade,,34166,,,,"34,166",,
+QCEW,2016,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Transportation and warehousing,,13720,,,,"13,720",,
+QCEW,2016,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Utilities,,605,,,,605,,
+QCEW,2016,"Anne Arundel County, Maryland",Employment by Industry Annual Average,Wholesale trade,,10317,,,,"10,317",,
+QCEW,2016,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Accommodation and food services,,1010,,,,"1,010",,
+QCEW,2016,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Administrative and waste services,,439,,,,439,,
+QCEW,2016,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,"Agriculture, forestry, fishing and hunting",,13,,,,13,,
+QCEW,2016,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,"Arts, entertainment, and recreation",,-8,,,,-8,,
+QCEW,2016,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Construction,,313,,,,313,,
+QCEW,2016,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Educational services,,9,,,,9,,
+QCEW,2016,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Finance and insurance,,225,,,,225,,
+QCEW,2016,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Health care and social assistance,,1593,,,,"1,593",,
+QCEW,2016,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Information,,-11,,,,-11,,
+QCEW,2016,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Management of companies and enterprises,,114,,,,114,,
+QCEW,2016,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Manufacturing,,364,,,,364,,
+QCEW,2016,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,"Mining, quarrying, and oil and gas extraction",,19,,,,19,,
+QCEW,2016,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,"Other services, except public administration",,-13,,,,-13,,
+QCEW,2016,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Professional and technical services,,1244,,,,"1,244",,
+QCEW,2016,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Public administration,,67,,,,67,,
+QCEW,2016,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Real estate and rental and leasing,,1,,,,1,,
+QCEW,2016,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Retail trade,,913,,,,913,,
+QCEW,2016,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Transportation and warehousing,,1137,,,,"1,137",,
+QCEW,2016,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Utilities,,5,,,,5,,
+QCEW,2016,"Anne Arundel County, Maryland",Over-the-Year Employment Change by Industry,Wholesale trade,,-242,,,,-242,,
+Administrative Data from TANF and MD Wage Records,2017Q1,"Anne Arundel County, Maryland",Number of TANF Recipient Workers,,Employed,229,,,,229,,
+Administrative Data from TANF and MD Wage Records,2017Q2,"Anne Arundel County, Maryland",Number of TANF Recipient Workers,,Employed,262,,,,262,,
+Administrative Data from TANF and Workforce Records,2017Q1,"Anne Arundel County, Maryland",Percentage of Workforce Training Program/Service Participants in TANF,,Employed,0.022565321,,,0.022565321,2.30%,,
+Administrative Data from TANF and Workforce Records,2017Q2,"Anne Arundel County, Maryland",Percentage of Workforce Training Program/Service Participants in TANF,,Employed,0.018027041,,,0.018027041,1.80%,,
+Administrative Data from TANF and MD Wage Records,2016Q3,"Anne Arundel County, Maryland",Percentage of TANF Recipients among Maryland Workers,,Employed,0.001040828,,,0.001040828,0.10%,,
+Administrative Data from TANF and MD Wage Records,2016Q4,"Anne Arundel County, Maryland",Percentage of TANF Recipients among Maryland Workers,,Employed,0.001019136,,,0.001019136,0.10%,,
+Administrative Data from TANF and MD Wage Records,2017Q1,"Anne Arundel County, Maryland",Percentage of TANF Recipients among Maryland Workers,,Employed,0.000856312,,,0.000856312,0.09%,,
+Administrative Data from TANF and MD Wage Records,2017Q2,"Anne Arundel County, Maryland",Percentage of TANF Recipients among Maryland Workers,,Employed,0.00097724,,,0.00097724,0.10%,,
