@@ -2008,7 +2008,7 @@ d3.select("#btn10").on("change", function() {
         aprog3 = dimple.filterData(dimple.filterData(data, "Indicator", "New Maryland Apprenticeship Programs"), "Location", CountyName2);
         
                             var aprogChart = new dimple.chart(svg81, aprog3);
-                            aprogChart.setBounds("9%", "12%", "50%", "50%")
+                            aprogChart.setBounds("9%", "12%", "80%", "45%")
                             var px2 = aprogChart.addCategoryAxis("x", ["Time", "Indicator Value"]);
                             var py2 = aprogChart.addMeasureAxis("y", "Amount");
                             py2.tickFormat = ',.1f';
@@ -2040,7 +2040,7 @@ d3.select("#btn10").on("change", function() {
         aNew3 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Apprentices"), "Location", CountyName2)
         
                             var aNewChart = new dimple.chart(svg91, aNew3);
-                            aNewChart.setBounds("9%", "12%", "50%", "50%")
+                            aNewChart.setBounds("9%", "12%", "80%", "45%")
                             var px2 = aNewChart.addCategoryAxis("x", ["Time", "Indicator Value"]);
                             var py2 = aNewChart.addMeasureAxis("y", "Amount");
                             py2.tickFormat = ',.1f';
