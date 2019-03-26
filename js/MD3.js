@@ -2013,7 +2013,7 @@ d3.select("#btn10").on("change", function() {
                             var py2 = aprogChart.addMeasureAxis("y", "Amount");
                             py2.tickFormat = ',.1f';
                             var pseries8 = aprogChart.addSeries("Indicator Value", dimple.plot.bar);
-                            var pqLegend = aprogChart.addLegend("65%", "5%", "40%", "95%");
+                            //var pqLegend = aprogChart.addLegend("65%", "5%", "40%", "95%");
                             pqLegend.fontSizechart61 = "1px";
                             pseries8.addOrderRule(true);
         
@@ -2025,7 +2025,7 @@ d3.select("#btn10").on("change", function() {
                             var py2 = paprogChart.addMeasureAxis("y", "Amount");
                             py2.tickFormat = ',f';
                             var pseries8 = paprogChart.addSeries("Indicator Value", dimple.plot.bar);
-                            var pqLegend = paprogChart.addLegend("65%", "5%", "40%", "95%");
+                            //var pqLegend = paprogChart.addLegend("65%", "5%", "40%", "95%");
                             pqLegend.fontSize = "1px";
                             pseries8.addOrderRule(true);
         
@@ -2045,7 +2045,7 @@ d3.select("#btn10").on("change", function() {
                             var py2 = aNewChart.addMeasureAxis("y", "Amount");
                             py2.tickFormat = ',.1f';
                             var pseries8 = aNewChart.addSeries("Indicator Value", dimple.plot.bar);
-                            var pqLegend = aNewChart.addLegend("65%", "5%", "40%", "95%");
+                            //var pqLegend = aNewChart.addLegend("65%", "5%", "40%", "95%");
                             pqLegend.fontSizechart61 = "1px";
                             pseries8.addOrderRule(true);
         
@@ -2057,7 +2057,7 @@ d3.select("#btn10").on("change", function() {
                             var py2 = paNewChart.addMeasureAxis("y", "Amount");
                             py2.tickFormat = ',.1f';
                             var pseries8 = paNewChart.addSeries("Indicator Value", dimple.plot.bar);
-                            var pqLegend = paNewChart.addLegend("65%", "5%", "40%", "95%");
+                            //var pqLegend = paNewChart.addLegend("65%", "5%", "40%", "95%");
                             pqLegend.fontSizechart61 = "1px";
                             pseries8.addOrderRule(true);
         
