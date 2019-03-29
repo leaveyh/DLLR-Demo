@@ -2008,7 +2008,7 @@ d3.select("#btn10").on("change", function() {
         aprog3 = dimple.filterData(dimple.filterData(data, "Indicator", "New Maryland Apprenticeship Programs"), "Location", CountyName2);
         
                             var aprogChart = new dimple.chart(svg81, aprog3);
-                            aprogChart.setBounds("9%", "12%", "80%", "45%")
+                            aprogChart.setBounds("9%", "12%", "80%", "60%")
                             var px2 = aprogChart.addCategoryAxis("x", ["Time", "Indicator Value"]);
                             var py2 = aprogChart.addMeasureAxis("y", "Amount");
                             py2.tickFormat = ',.1f';
@@ -2020,7 +2020,7 @@ d3.select("#btn10").on("change", function() {
                             aprogChart.draw();
         
                             var paprogChart = new dimple.chart(print81, aprog3);
-                            paprogChart.setBounds("9%", "12%", "50%", 300)
+                            paprogChart.setBounds("10%", "12%", "50%", 300)
                             var px2 = paprogChart.addCategoryAxis("x", ["Time", "Indicator Value"]);
                             var py2 = paprogChart.addMeasureAxis("y", "Amount");
                             py2.tickFormat = ',f';
@@ -2040,7 +2040,7 @@ d3.select("#btn10").on("change", function() {
         aNew3 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Apprentices"), "Location", CountyName2)
         
                             var aNewChart = new dimple.chart(svg91, aNew3);
-                            aNewChart.setBounds("9%", "12%", "80%", "45%")
+                            aNewChart.setBounds("10%", "12%", "80%", "60%")
                             var px2 = aNewChart.addCategoryAxis("x", ["Time", "Indicator Value"]);
                             var py2 = aNewChart.addMeasureAxis("y", "Amount");
                             py2.tickFormat = ',.1f';
@@ -2901,7 +2901,7 @@ if(strUser7 == "2017-Q3"){
                     avgChart.data = averageData81;
                     jc.data = jobData81;
                     newHireChart.data = newHireData81;
-                    turnChart.data = turnOverData81;
+                    //turnChart.data = turnOverData81;
                     turnChart.draw(1000);
                 }
 
@@ -3316,7 +3316,7 @@ if(strUser7 == "2017-Q3"){
                     avgChart.data = averageData81;
                     jc.data = jobData81;
                     newHireChart.data = newHireData81;
-                    turnChart.data = turnOverData81;
+                    //turnChart.data = turnOverData81;
                     turnChart.draw(1000);
                 }
 
@@ -3731,7 +3731,7 @@ if(strUser7 == "2017-Q3"){
                     avgChart.data = averageData81;
                     jc.data = jobData81;
                     newHireChart.data = newHireData81;
-                    turnChart.data = turnOverData81;
+                  //  turnChart.data = turnOverData81;
                     turnChart.draw(1000);
                 }
 

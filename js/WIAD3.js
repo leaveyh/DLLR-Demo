@@ -14,6 +14,13 @@ var togNum1 = 1;
                 var print4 = dimple.newSvg("#Print4", 750, 400);
                 var print5 = dimple.newSvg("#PrintFive", 750, 400); 
                 var print6 = dimple.newSvg("#Print6", 750, 450); 
+        
+                var svg71 = dimple.newSvg("#Chart17", "100%", 400);
+               /* var svg81 = dimple.newSvg("#Chart18", "100%", 400);
+                var svg91 = dimple.newSvg("#Chart19", "100%", 400);*/
+                var print71 = dimple.newSvg("#Print17", 750, 400);
+                /*var print81 = dimple.newSvg("#Print18", 750, 400);
+                var print91 = dimple.newSvg("#Print19", 750, 400);*/
                             
         
                             workData = dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", ["2016-Q1","2016-Q2","2016-Q3","2016-Q4","2017-Q1","2017-Q2","2017-Q3", "2017-Q4", "2018-Q1"]), "Indicator", ["Maryland Workers by Age", "Maryland Workers by Gender", "Maryland Workers by Industry"]), "Location", CountyName2);
@@ -808,6 +815,163 @@ var togNum1 = 1;
         */
         
         //chart 8 button
+        
+        //seperation
+        
+                          isepdata1 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Industry"), "Indicator Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Location", CountyName2), "Time", "2016-Q1"  );
+        
+                           isepdata2 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Industry"), "Indicator Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Location", CountyName2), "Time", "2016-Q2"  );
+
+                           isepdata3 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Industry"), "Indicator Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Location", CountyName2), "Time", "2016-Q3"  );
+
+                           isepdata4 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Industry"), "Indicator Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Location", CountyName2), "Time", "2016-Q4"  );
+
+                           isepdata5 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Industry"), "Indicator Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Location", CountyName2), "Time", "2017-Q1"  );
+
+                           isepdata6 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Industry"), "Indicator Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Location", CountyName2), "Time", "2017-Q2"  );
+
+                           isepdata7 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Industry"), "Indicator Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Location", CountyName2), "Time", "2017-Q3"  );
+
+                           isepdata8 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Industry"), "Indicator Value", ["Accommodation and Food Services", "Administrative and Support and Waste Management and Remediation Services", "Agriculture, Forestry, Fishing and Hunting", "Arts, Entertainment, and Recreation", "Construction", "Educational Services", "Finance and Insurance", "Health Care and Social Assistance", "Information", "Management of Companies and Enterprises", "Manufacturing", "Mining, Quarrying, and Oil and Gas Extraction", "Other Services (except Public Administration)", "Professional, Scientific, and Technical Services", "Public Administration", "Real Estate and Rental and Leasing", "Retail Trade", "Transportation and Warehousing", "Utilities", "Wholesale Trade"]), "Location", CountyName2), "Time", "2017-Q4"  );
+        
+                           asepdata1 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Age"), "Location", CountyName2), "Time", "2016-Q1");
+        
+                           asepdata2 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Age"), "Location", CountyName2), "Time", "2016-Q2");
+
+                           asepdata3 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Age"), "Location", CountyName2), "Time", "2016-Q3");
+
+                           asepdata4 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Age"), "Location", CountyName2), "Time", "2016-Q4");
+
+                           asepdata5 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Age"), "Location", CountyName2), "Time", "2017-Q1");
+                           asepdata6 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Age"), "Location", CountyName2), "Time", "2017-Q2");
+
+                           asepdata7 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Age"), "Location", CountyName2), "Time", "2017-Q3");
+
+                           asepdata8 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Age"), "Location", CountyName2), "Time", "2017-Q4");
+        
+                           gsepdata1 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Gender"), "Location", CountyName2), "Time", "2016-Q1");
+        
+                           gsepdata2 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Gender"), "Location", CountyName2), "Time", "2016-Q2");
+
+                           gsepdata3 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Gender"), "Location", CountyName2), "Time", "2016-Q3");
+
+                           gsepdata4 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Gender"), "Location", CountyName2), "Time", "2016-Q4");
+
+                           gsepdata5 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Gender"), "Location", CountyName2), "Time", "2017-Q1");
+                           gsepdata6 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Gender"), "Location", CountyName2), "Time", "2017-Q2");
+
+                           gsepdata7 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Gender"), "Location", CountyName2), "Time", "2017-Q3");
+
+                           gsepdata8 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Gender"), "Location", CountyName2), "Time", "2017-Q4");
+        
+                           esepdata1 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Education"), "Location", CountyName2), "Time", "2016-Q1");
+        
+                           esepdata2 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Education"), "Location", CountyName2), "Time", "2016-Q2");
+
+                           esepdata3 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Education"), "Location", CountyName2), "Time", "2016-Q3");
+
+                           esepdata4 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Education"), "Location", CountyName2), "Time", "2016-Q4");
+
+                           esepdata5 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Education"), "Location", CountyName2), "Time", "2017-Q1");
+                           esepdata6 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Education"), "Location", CountyName2), "Time", "2017-Q2");
+
+                           esepdata7 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Education"), "Location", CountyName2), "Time", "2017-Q3");
+
+                           esepdata8 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Seperation by Education"), "Location", CountyName2), "Time", "2017-Q4");
+
+                          
+
+        
+                             var chart61 = new dimple.chart(svg71, isepdata8);
+                            chart61.setBounds("9%", "12%", "50%", "50%")
+                            var px2 = chart61.addCategoryAxis("x", ["Time", "Indicator Value"]);
+                            var py2 = chart61.addMeasureAxis("y", "Amount");
+                            py2.tickFormat = ',.1f';
+                            var pseries8 = chart61.addSeries("Indicator Value", dimple.plot.bar);
+                            var pqLegend = chart61.addLegend("65%", "5%", "40%", "95%");
+                            pqLegend.fontSizechart61 = "1px";
+                            pseries8.addOrderRule(true);
+        
+                            chart61.draw();
+        
+                            var pchart61 = new dimple.chart(print71, isepdata8);
+                            pchart61.setBounds("9%", "12%", "50%", 300)
+                            var px2 = pchart61.addCategoryAxis("x", ["Time", "Indicator Value"]);
+                            var py2 = pchart61.addMeasureAxis("y", "Amount");
+                            py2.tickFormat = ',f';
+                            var pseries8 = pchart61.addSeries("Indicator Value", dimple.plot.bar);
+                            var pqLegend = pchart61.addLegend("65%", "5%", "40%", "95%");
+                            pqLegend.fontSize = "1px";
+                            pseries8.addOrderRule(true);
+        
+                            pchart61.draw();
+        
+        
+        //chart 8 button
+        
+        //new apprenticeship programs
+        
+        aprog1 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "New Maryland Apprenticeship Programs"), "Location", CountyName2), "Time", "2016");
+        
+        aprog2 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "New Maryland Apprenticeship Programs"), "Location", CountyName2), "Time", "2017");
+        
+        aprog3 = dimple.filterData(dimple.filterData(data, "Indicator", "New Maryland Apprenticeship Programs"), "Location", CountyName2);
+        
+                            /*var aprogChart = new dimple.chart(svg81, aprog3);
+                            aprogChart.setBounds("9%", "12%", "80%", "60%")
+                            var px2 = aprogChart.addCategoryAxis("x", ["Time", "Indicator Value"]);
+                            var py2 = aprogChart.addMeasureAxis("y", "Amount");
+                            py2.tickFormat = ',.1f';
+                            var pseries8 = aprogChart.addSeries("Indicator Value", dimple.plot.bar);
+                            //var pqLegend = aprogChart.addLegend("65%", "5%", "40%", "95%");
+                            pqLegend.fontSizechart61 = "1px";
+                            pseries8.addOrderRule(true);
+        
+                            aprogChart.draw();
+        
+                            var paprogChart = new dimple.chart(print81, aprog3);
+                            paprogChart.setBounds("10%", "12%", "50%", 300)
+                            var px2 = paprogChart.addCategoryAxis("x", ["Time", "Indicator Value"]);
+                            var py2 = paprogChart.addMeasureAxis("y", "Amount");
+                            py2.tickFormat = ',f';
+                            var pseries8 = paprogChart.addSeries("Indicator Value", dimple.plot.bar);
+                            //var pqLegend = paprogChart.addLegend("65%", "5%", "40%", "95%");
+                            pqLegend.fontSize = "1px";
+                            pseries8.addOrderRule(true);
+        
+                            paprogChart.draw();*/
+
+        //Maryland Apprentices
+        
+         aNew1 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Apprentices"), "Location", CountyName2), "Time", "2016");
+        
+        aNew2 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Apprentices"), "Location", CountyName2), "Time", "2017");
+        
+        aNew3 = dimple.filterData(dimple.filterData(data, "Indicator", "Maryland Apprentices"), "Location", CountyName2)
+        
+                            /*var aNewChart = new dimple.chart(svg91, aNew3);
+                            aNewChart.setBounds("10%", "12%", "80%", "60%")
+                            var px2 = aNewChart.addCategoryAxis("x", ["Time", "Indicator Value"]);
+                            var py2 = aNewChart.addMeasureAxis("y", "Amount");
+                            py2.tickFormat = ',.1f';
+                            var pseries8 = aNewChart.addSeries("Indicator Value", dimple.plot.bar);
+                            //var pqLegend = aNewChart.addLegend("65%", "5%", "40%", "95%");
+                            pqLegend.fontSizechart61 = "1px";
+                            pseries8.addOrderRule(true);
+        
+                            aNewChart.draw();
+        
+                             var paNewChart = new dimple.chart(print91, aNew3);
+                            paNewChart.setBounds("9%", "12%", "50%", "50%")
+                            var px2 = paNewChart.addCategoryAxis("x", ["Time", "Indicator Value"]);
+                            var py2 = paNewChart.addMeasureAxis("y", "Amount");
+                            py2.tickFormat = ',.1f';
+                            var pseries8 = paNewChart.addSeries("Indicator Value", dimple.plot.bar);
+                            //var pqLegend = paNewChart.addLegend("65%", "5%", "40%", "95%");
+                            pqLegend.fontSizechart61 = "1px";
+                            pseries8.addOrderRule(true);
+        
+                            paNewChart.draw();*/
         
 d3.select("#btn7").on("change", function() {
    y2.tickFormat = ',.1f';
@@ -3942,6 +4106,9 @@ window.dataSwap23 = function () {
                                 turnChart.draw(0, true);
                                 
                                 chart8.draw(0, true);
+                                chart61.draw(0, true);
+                                //aprogChart.draw(0, true);
+                                //aNewChart.draw(0, true);
                  
                                 pwChart.draw(0, true);
                                 pavgChart.draw(0, true);
@@ -3950,6 +4117,10 @@ window.dataSwap23 = function () {
                                 pturnChart.draw(0, true);
                                 
                                 pchart8.draw(0, true);
+                                pchart61.draw(0, true);
+                               // paprogChart.draw(0, true);
+                                //paNewChart.draw(0, true);
+                                
                                 /**     vetX.shapes.selectAll("text").attr("transform",
     function (d) {
       return d3.select(this).attr("transform") + " translate(5, 15) rotate(-30)";
@@ -4007,6 +4178,9 @@ function hidePrint(){
     document.getElementById("Print4").style.display="none";
     document.getElementById("PrintFive").style.display="none";
     document.getElementById("Print6").style.display="none";
+    document.getElementById("Print17").style.display="none";
+    //document.getElementById("Print18").style.display="none";
+    //document.getElementById("Print19").style.display="none";
     
 }
 
@@ -4015,6 +4189,10 @@ function hideChart(){
     document.getElementById("Chart4").style.display="none";
     document.getElementById("ChartFive").style.display="none";
     document.getElementById("Chart6").style.display="none";
+    document.getElementById("Chart17").style.display="none";
+    //document.getElementById("Chart18").style.display="none";
+    //document.getElementById("Chart19").style.display="none";
+    
 }
 
 function showChart(){
@@ -4022,6 +4200,9 @@ function showChart(){
     document.getElementById("Chart4").style.display="inline";
     document.getElementById("ChartFive").style.display="inline";
     document.getElementById("Chart6").style.display="inline";
+    document.getElementById("Chart17").style.display="inline";
+    //document.getElementById("Chart18").style.display="inline";
+    //document.getElementById("Chart19").style.display="inline";
 }
 
 function showPrint(){
@@ -4029,6 +4210,10 @@ function showPrint(){
     document.getElementById("Print4").style.display="inline";
     document.getElementById("PrintFive").style.display="inline";
     document.getElementById("Print6").style.display="inline";
+    document.getElementById("Print17").style.display="inline";
+    //document.getElementById("Print18").style.display="inline";
+    //document.getElementById("Print19").style.display="inline";
+    
 }
 
 
@@ -4040,6 +4225,7 @@ function popchart() {
         document.getElementById("collapse4").style.display="none";
         //document.getElementById("collapse41").style.display="none";
         document.getElementById("collapse5").style.display="inline";
+     document.getElementById("collapse15").style.display="none"; //document.getElementById("collapse16").style.display="none"; //document.getElementById("collapse17").style.display="none";
         whichChart = 1;
         
         drawAll();
@@ -4054,6 +4240,10 @@ function popchart() {
         document.getElementById("collapse4").style.display="none";
        // document.getElementById("collapse41").style.display="none";
         document.getElementById("collapse5").style.display="inline";
+        
+        document.getElementById("collapse15").style.display="none"; //document.getElementById("collapse16").style.display="none"; //document.getElementById("collapse17").style.display="none";
+        
+        
         whichChart = 2;
         
         drawAll();
@@ -4068,6 +4258,8 @@ function popchart() {
         document.getElementById("collapse4").style.display="none";
         //document.getElementById("collapse41").style.display="none";
         document.getElementById("collapse5").style.display="inline";
+        
+        document.getElementById("collapse15").style.display="none"; //document.getElementById("collapse16").style.display="none"; //document.getElementById("collapse17").style.display="none";
         whichChart = 3;
         
         drawAll();
@@ -4081,6 +4273,8 @@ function popchart() {
         document.getElementById("collapse4").style.display="inline";
         //document.getElementById("collapse41").style.display="none";
         document.getElementById("collapse5").style.display="inline";
+        
+        document.getElementById("collapse15").style.display="none"; //document.getElementById("collapse16").style.display="none"; //document.getElementById("collapse17").style.display="none";
         whichChart = 4;
         
         drawAll();
@@ -4092,9 +4286,38 @@ function popchart() {
         document.getElementById("collapse2").style.display="none";
         document.getElementById("collapse3").style.display="none";
         document.getElementById("collapse4").style.display="none";
-        //document.getElementById("collapse41").style.display="inline";
         document.getElementById("collapse5").style.display="inline";
-        whichChart = 4;
+        
+        document.getElementById("collapse15").style.display="inline"; //document.getElementById("collapse16").style.display="none"; //document.getElementById("collapse17").style.display="none";
+        whichChart = 5;
+        
+        drawAll();
+        hidePrint();
+    }
+
+     function appchart() {
+        document.getElementById("collapse1").style.display="none";
+        document.getElementById("collapse2").style.display="none";
+        document.getElementById("collapse3").style.display="none";
+        document.getElementById("collapse4").style.display="none";
+        document.getElementById("collapse5").style.display="inline";
+        
+        document.getElementById("collapse15").style.display="none"; //document.getElementById("collapse16").style.display="inline"; //document.getElementById("collapse17").style.display="none";
+        whichChart = 6;
+        
+        drawAll();
+        hidePrint();
+    }
+
+     function progchart() {
+        document.getElementById("collapse1").style.display="none";
+        document.getElementById("collapse2").style.display="none";
+        document.getElementById("collapse3").style.display="none";
+        document.getElementById("collapse4").style.display="none";
+        document.getElementById("collapse5").style.display="inline";
+        
+        document.getElementById("collapse15").style.display="none"; //document.getElementById("collapse16").style.display="none"; //document.getElementById("collapse17").style.display="inline";
+        whichChart = 7;
         
         drawAll();
         hidePrint();
@@ -4109,6 +4332,8 @@ function showAll() {
         document.getElementById("collapse4").style.display="inline";
        // document.getElementById("collapse41").style.display="inline";
         document.getElementById("collapse5").style.display="inline";
+    
+        document.getElementById("collapse15").style.display="inline"; //document.getElementById("collapse16").style.display="inline"; //document.getElementById("collapse17").style.display="inline";
         
         hideChart();
         showPrint();
@@ -4122,7 +4347,9 @@ function hideAll() {
         document.getElementById("collapse3").style.display="none";
         document.getElementById("collapse4").style.display="none";
        // document.getElementById("collapse41").style.display="none";
-        document.getElementById("collapse5").style.display="none";
+        document.getElementById("collapse5").style.display="none"; 
+    
+         document.getElementById("collapse15").style.display="none"; //document.getElementById("collapse16").style.display="none"; //document.getElementById("collapse17").style.display="none";
         
         
         drawAll();
@@ -4151,7 +4378,22 @@ window.printClick = function(){
         document.getElementById("Chart6").style.display="none";
         document.getElementById("Print6").style.display="inline";
         drawAll();
-    }
+    }else if(whichChart ==5){
+        sepchart();
+        document.getElementById("Chart17").style.display="none";
+        document.getElementById("Print17").style.display="inline";
+        drawAll();
+    }/*else if(whichChart ==6){
+        progchart();
+        document.getElementById("Chart18").style.display="none";
+        document.getElementById("Print18").style.display="inline";
+        drawAll();
+    }else if(whichChart ==7){
+        appchart();
+        document.getElementById("Chart19").style.display="none";
+        document.getElementById("Print19").style.display="inline";
+        drawAll();
+    }*/
 window.print();
 }
 

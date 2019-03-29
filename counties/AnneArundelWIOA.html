@@ -58,6 +58,10 @@
  </button>
                 
                 </div>
+                <div class="dropdown">    
+            <button class="button" onclick="sepchart()" style="padding-left: 20%; padding-right: 20%">Seperations</button>
+                </div>
+                
             </div>
     
     <div id="Wrapper">
@@ -725,7 +729,244 @@
          
         
     </div>
+      
+      <div id="collapse15" style="display:none;">
+        <div class="ChartTitle">
+            <div class="buttons">
+                
+                <p>Time Period:
+                    <select id="btn18">
+                        <option>2016-Q1</option>
+                            <option>2016-Q2</option>
+                            <option>2016-Q3</option>
+                            <option>2016-Q4</option>
+                            <option>2017-Q1</option>
+                            <option>2017-Q2</option>
+                            <option>2017-Q3</option>
+                            <option selected="selected">2017-Q4</option>
+                    </select>
+                </p>
+                <p>Indicator:
+                    <select id="btn102">
+                        <option selected="selected">Industry</option>
+                        <option>Gender</option>
+                        <option>Education</option>
+                        <option>Age</option>
+                    </select>
+                </p>
+                </div>
+                <p>Seperations</p>
+            </div>
        
+    
+        <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart17">
+                        
+                    </div>
+                
+                <div id="Print17" class="print"></div>
+
+                
+            </div>
+            <div id="scrollTable">
+            <table id="table5">
+                <thead>
+                    <tr>
+                        <th class="HeadRow" colspan="2">Seperations by Industry</th>
+                    </tr>
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>Industry</th>
+                        <th>Seperations</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                 <tr>
+                        <td id="indust1">Industry 1</td>
+                        <td id="sep1">#1</td>
+                 </tr>
+                  <tr>
+                        <td id="indust2">Industry 2</td>
+                        <td id="sep2">#1</td>
+                 </tr>
+                  <tr>
+                        <td id="indust3">Industry 3</td>
+                        <td id="sep3">#1</td>
+                 </tr>
+                  <tr>
+                        <td id="indust4">Industry 4</td>
+                        <td id="sep4">#1</td>
+                 </tr>
+                  <tr>
+                        <td id="indust5">Industry 5</td>
+                        <td id="sep5">#1</td>
+                 </tr>
+                  <tr>
+                        <td id="indust6">Industry 6</td>
+                        <td id="sep6">#1</td>
+                 </tr>
+                  <tr>
+                        <td id="indust7">Industry 7</td>
+                        <td id="sep7">#1</td>
+                 </tr>
+                  <tr>
+                        <td id="indust8">Industry 8</td>
+                        <td id="sep8">#1</td>
+                 </tr>
+                  <tr>
+                        <td id="indust9">Industry 9</td>
+                        <td id="sep9">#1</td>
+                 </tr>
+                  <tr>
+                        <td id="indust10">Industry 10</td>
+                        <td id="sep10">#1</td>
+                 </tr>
+                  <tr>
+                        <td id="indust11">Industry 11</td>
+                        <td id="sep11">#1</td>
+                 </tr>
+                  <tr>
+                        <td id="indust12">Industry 12</td>
+                        <td id="sep12">#1</td>
+                 </tr>
+                  <tr>
+                        <td id="indust13">Industry 13</td>
+                        <td id="sep13">#1</td>
+                 </tr>
+                  <tr>
+                        <td id="indust14">Industry 14</td>
+                        <td id="sep14">#1</td>
+                 </tr>
+                  <tr>
+                        <td id="indust15">Industry 15</td>
+                        <td id="sep15">#1</td>
+                 </tr>
+                  <tr>
+                        <td id="indust16">Industry 16</td>
+                        <td id="sep16">#1</td>
+                 </tr>
+                  <tr>
+                        <td id="indust17">Industry 17</td>
+                        <td id="sep17">#1</td>
+                 </tr>
+                  <tr>
+                        <td id="indust18">Industry 18</td>
+                        <td id="sep18">#1</td>
+                 </tr>
+                  <tr>
+                        <td id="indust19">Industry 19</td>
+                        <td id="sep19">#1</td>
+                 </tr>
+                  <tr>
+                        <td id="indust20">Industry 20</td>
+                        <td id="sep20">#1</td>
+                 </tr>
+                </tbody>
+                <thead>
+                   <tr>
+                        <th class="HeadRow" colspan="2">Seperations by Gender</th>
+                    </tr>
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>Gender</th>
+                        <th>Seperations</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   <tr>
+                        <td>Male</td>
+                        <td id="gensep1">#1</td>
+                 </tr>
+                <tr>
+                        <td>Female</td>
+                        <td id="gensep2">#1</td>
+                 </tr>
+                    
+                </tbody>
+                <thead>
+                   <tr>
+                        <th class="HeadRow" colspan="2">Seperations by Education</th>
+                    </tr>
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>Education Level</th>
+                        <th>Seperations</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   <tr>
+                        <td>Less than High school</td>
+                        <td id="edusep1">#1</td>
+                 </tr>
+                <tr>
+                        <td>High school</td>
+                        <td id="edusep2">#2</td>
+                 </tr>
+                 <tr>
+                        <td>Some College</td>
+                        <td id="edusep3">#3</td>
+                 </tr>
+                 <tr>
+                        <td>Bachelor's or Higher</td>
+                        <td id="edusep4">#4</td>
+                 </tr>
+                 <tr class="FootRow">
+                        <td>N/A</td>
+                        <td id="edusep5" >#5</td>
+                 </tr>
+                    
+                </tbody>
+                <thead>
+                   <tr>
+                        <th class="HeadRow" colspan="2">Seperations by Age</th>
+                    </tr>
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>Age Range</th>
+                        <th>Seperations</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   <tr>
+                        <td>Age 14-18</td>
+                        <td id="agesep1">#1</td>
+                 </tr>
+                <tr>
+                        <td>Age 19-21</td>
+                        <td id="agesep2">#2</td>
+                 </tr>
+                 <tr>
+                        <td>Age 22-24</td>
+                        <td id="agesep3">#3</td>
+                 </tr>
+                 <tr>
+                        <td>Age 25-34</td>
+                        <td id="agesep4">#4</td>
+                 </tr>
+                 <tr>
+                        <td>Age 35-44</td>
+                        <td id="agesep5">#4</td>
+                 </tr>
+                 <tr>
+                        <td>Age 45-54</td>
+                        <td id="agesep6">#4</td>
+                 </tr>
+                 <tr>
+                        <td>Age 55-64</td>
+                        <td id="agesep7">#4</td>
+                 </tr>
+                 <tr class="FootRow">
+                        <td>Age 64-99</td>
+                        <td id="agesep8">#5</td>
+                 </tr>
+                    
+                </tbody>
+                </table>
+           </div>
+            </div>
+            
+            
        
         
     <div class="Footer" id="collapse5" style="display: none;">
@@ -827,16 +1068,16 @@
         }
         
         //new cells
-        $("#W1").text(csvData[wCord[0]][7]);
-        $("#W2").text(csvData[wCord[1]][7]);
-        $("#W3").text(csvData[wCord[2]][7]);
-        $("#W4").text(csvData[wCord[3]][7]);
-        $("#W5").text(csvData[wCord[4]][7]);
-        $("#W6").text(csvData[wCord[5]][7]);
-        $("#W7").text(csvData[wCord[6]][7]);
-        $("#W8").text(csvData[wCord[7]][7]);
-        $("#WF1").text(csvData[wCord[8]][7]);
-        $("#WM1").text(csvData[wCord[9]][7]);
+        $("#W1").text(csvData[wCord[0]][8]);
+        $("#W2").text(csvData[wCord[1]][8]);
+        $("#W3").text(csvData[wCord[2]][8]);
+        $("#W4").text(csvData[wCord[3]][8]);
+        $("#W5").text(csvData[wCord[4]][8]);
+        $("#W6").text(csvData[wCord[5]][8]);
+        $("#W7").text(csvData[wCord[6]][8]);
+        $("#W8").text(csvData[wCord[7]][8]);
+        $("#WF1").text(csvData[wCord[8]][8]);
+        $("#WM1").text(csvData[wCord[9]][8]);
         
         //acord = average 
         
@@ -849,16 +1090,16 @@
             aCord[i+1] = (aCord[i] + 4);
         }
         
-        $("#A1").text(csvData[aCord[0]][7]);
-        $("#A2").text(csvData[aCord[1]][7]);
-        $("#A3").text(csvData[aCord[2]][7]);
-        $("#A4").text(csvData[aCord[3]][7]);
-        $("#A5").text(csvData[aCord[4]][7]);
-        $("#A6").text(csvData[aCord[5]][7]);
-        $("#A7").text(csvData[aCord[6]][7]);
-        $("#A8").text(csvData[aCord[7]][7]);
-        $("#AF1").text(csvData[aCord[8]][7]);
-        $("#AM1").text(csvData[aCord[9]][7]);
+        $("#A1").text(csvData[aCord[0]][8]);
+        $("#A2").text(csvData[aCord[1]][8]);
+        $("#A3").text(csvData[aCord[2]][8]);
+        $("#A4").text(csvData[aCord[3]][8]);
+        $("#A5").text(csvData[aCord[4]][8]);
+        $("#A6").text(csvData[aCord[5]][8]);
+        $("#A7").text(csvData[aCord[6]][8]);
+        $("#A8").text(csvData[aCord[7]][8]);
+        $("#AF1").text(csvData[aCord[8]][8]);
+        $("#AM1").text(csvData[aCord[9]][8]);
         
         //ncord = net change
         
@@ -872,13 +1113,13 @@
             nCord[i+1] = (nCord[i] + 4);
         }
         
-        $("#N1").text(csvData[nCord[0]][7]);
-        $("#N2").text(csvData[nCord[1]][7]);
-        $("#N3").text(csvData[nCord[2]][7]);
-        $("#N4").text(csvData[nCord[3]][7]);
-        $("#N5").text(csvData[nCord[4]][7]);
-        $("#NF1").text(csvData[nCord[6]][7]);
-        $("#NM1").text(csvData[nCord[7]][7]);
+        $("#N1").text(csvData[nCord[0]][8]);
+        $("#N2").text(csvData[nCord[1]][8]);
+        $("#N3").text(csvData[nCord[2]][8]);
+        $("#N4").text(csvData[nCord[3]][8]);
+        $("#N5").text(csvData[nCord[4]][8]);
+        $("#NF1").text(csvData[nCord[6]][8]);
+        $("#NM1").text(csvData[nCord[7]][8]);
         
         //hCord = new hires
         
@@ -892,13 +1133,13 @@
             hCord[i+1] = (hCord[i] + 4);
         }
         
-        $("#H1").text(csvData[hCord[0]][7]);
-        $("#H2").text(csvData[hCord[1]][7]);
-        $("#H3").text(csvData[hCord[2]][7]);
-        $("#H4").text(csvData[hCord[3]][7]);
-        $("#H5").text(csvData[hCord[4]][7]);
-        $("#HF1").text(csvData[hCord[6]][7]);
-        $("#HM1").text(csvData[hCord[7]][7]);
+        $("#H1").text(csvData[hCord[0]][8]);
+        $("#H2").text(csvData[hCord[1]][8]);
+        $("#H3").text(csvData[hCord[2]][8]);
+        $("#H4").text(csvData[hCord[3]][8]);
+        $("#H5").text(csvData[hCord[4]][8]);
+        $("#HF1").text(csvData[hCord[6]][8]);
+        $("#HM1").text(csvData[hCord[7]][8]);
         
         //tcord = turnover
         
@@ -912,13 +1153,13 @@
             tCord[i+1] = (tCord[i] + 4);
         }
         
-        $("#T1").text(csvData[tCord[0]][7]);
-        $("#T2").text(csvData[tCord[1]][7]);
-        $("#T3").text(csvData[tCord[2]][7]);
-        $("#T4").text(csvData[tCord[3]][7]);
-        $("#T5").text(csvData[tCord[4]][7]);
-        $("#TF1").text(csvData[tCord[6]][7]);
-        $("#TM1").text(csvData[tCord[7]][7]);
+        $("#T1").text(csvData[tCord[0]][8]);
+        $("#T2").text(csvData[tCord[1]][8]);
+        $("#T3").text(csvData[tCord[2]][8]);
+        $("#T4").text(csvData[tCord[3]][8]);
+        $("#T5").text(csvData[tCord[4]][8]);
+        $("#TF1").text(csvData[tCord[6]][8]);
+        $("#TM1").text(csvData[tCord[7]][8]);
        
         
 
@@ -1010,125 +1251,125 @@
         */
 
 
-        $("#Td1").text(csvData[coord[0]][7]);
-        $("#Td2").text(csvData[coord[1]][7]);
-        $("#Td3").text(csvData[coord[2]][7]);
-        $("#Td4").text(csvData[coord[3]][7]);
-        $("#Td5").text(csvData[coord[4]][7]);
+        $("#Td1").text(csvData[coord[0]][8]);
+        $("#Td2").text(csvData[coord[1]][8]);
+        $("#Td3").text(csvData[coord[2]][8]);
+        $("#Td4").text(csvData[coord[3]][8]);
+        $("#Td5").text(csvData[coord[4]][8]);
         //6-10
-        $("#Td6").text(csvData[coord[5]][7]);
-        $("#Td7").text(csvData[coord[6]][7]);
-        $("#Td8").text(csvData[coord[7]][7]);
-        $("#Td9").text(csvData[coord[8]][7]);
-        $("#Td10").text(csvData[coord[9]][7]);
+        $("#Td6").text(csvData[coord[5]][8]);
+        $("#Td7").text(csvData[coord[6]][8]);
+        $("#Td8").text(csvData[coord[7]][8]);
+        $("#Td9").text(csvData[coord[8]][8]);
+        $("#Td10").text(csvData[coord[9]][8]);
         //11-15
-        $("#Td11").text(csvData[coord[10]][7]);
-        $("#Td12").text(csvData[coord[11]][7]);
-        $("#Td13").text(csvData[coord[12]][7]);
-        $("#Td14").text(csvData[coord[13]][7]);
-        $("#Td15").text(csvData[coord[14]][7]);
+        $("#Td11").text(csvData[coord[10]][8]);
+        $("#Td12").text(csvData[coord[11]][8]);
+        $("#Td13").text(csvData[coord[12]][8]);
+        $("#Td14").text(csvData[coord[13]][8]);
+        $("#Td15").text(csvData[coord[14]][8]);
         //16-20
-        $("#Td16").text(csvData[coord[15]][7]);
-        $("#Td17").text(csvData[coord[16]][7]);
-        $("#Td18").text(csvData[coord[17]][7]);
-        $("#Td19").text(csvData[coord[18]][7]);
-        $("#Td20").text(csvData[coord[19]][7]);
+        $("#Td16").text(csvData[coord[15]][8]);
+        $("#Td17").text(csvData[coord[16]][8]);
+        $("#Td18").text(csvData[coord[17]][8]);
+        $("#Td19").text(csvData[coord[18]][8]);
+        $("#Td20").text(csvData[coord[19]][8]);
         //21-25
-        $("#Td21").text(csvData[coord[20]][7]);
-        $("#Td22").text(csvData[coord[21]][7]);
-        $("#Td23").text(csvData[coord[22]][7]);
-        $("#Td24").text(csvData[coord[23]][7]);
-        $("#Td25").text(csvData[coord[24]][7]);
+        $("#Td21").text(csvData[coord[20]][8]);
+        $("#Td22").text(csvData[coord[21]][8]);
+        $("#Td23").text(csvData[coord[22]][8]);
+        $("#Td24").text(csvData[coord[23]][8]);
+        $("#Td25").text(csvData[coord[24]][8]);
         //26-30
-        $("#Td26").text(csvData[coord[25]][7]);
-        $("#Td27").text(csvData[coord[26]][7]);
-        $("#Td28").text(csvData[coord[27]][7]);
-        $("#Td29").text(csvData[coord[28]][7]);
-        $("#Td30").text(csvData[coord[29]][7]);
+        $("#Td26").text(csvData[coord[25]][8]);
+        $("#Td27").text(csvData[coord[26]][8]);
+        $("#Td28").text(csvData[coord[27]][8]);
+        $("#Td29").text(csvData[coord[28]][8]);
+        $("#Td30").text(csvData[coord[29]][8]);
         //31-35
-        $("#Td31").text(csvData[coord[30]][7]);
-        $("#Td32").text(csvData[coord[31]][7]);
-        $("#Td33").text(csvData[coord[32]][7]);
-        $("#Td34").text(csvData[coord[33]][7]);
-        $("#Td35").text(csvData[coord[34]][7]);
+        $("#Td31").text(csvData[coord[30]][8]);
+        $("#Td32").text(csvData[coord[31]][8]);
+        $("#Td33").text(csvData[coord[32]][8]);
+        $("#Td34").text(csvData[coord[33]][8]);
+        $("#Td35").text(csvData[coord[34]][8]);
         //36-40
-        $("#Td36").text(csvData[coord[35]][7]);
-        $("#Td37").text(csvData[coord[36]][7]);
-        $("#Td38").text(csvData[coord[37]][7]);
-        $("#Td39").text(csvData[coord[38]][7]);
-        $("#Td40").text(csvData[coord[39]][7]);
+        $("#Td36").text(csvData[coord[35]][8]);
+        $("#Td37").text(csvData[coord[36]][8]);
+        $("#Td38").text(csvData[coord[37]][8]);
+        $("#Td39").text(csvData[coord[38]][8]);
+        $("#Td40").text(csvData[coord[39]][8]);
         //41-45
-        $("#Td41").text(csvData[coord[40]][7]);
-        $("#Td42").text(csvData[coord[41]][7]);
-        $("#Td43").text(csvData[coord[42]][7]);
-        $("#Td44").text(csvData[coord[43]][7]);
-        $("#Td45").text(csvData[coord[44]][7]);
+        $("#Td41").text(csvData[coord[40]][8]);
+        $("#Td42").text(csvData[coord[41]][8]);
+        $("#Td43").text(csvData[coord[42]][8]);
+        $("#Td44").text(csvData[coord[43]][8]);
+        $("#Td45").text(csvData[coord[44]][8]);
         //46-50
-        $("#Td46").text(csvData[coord[45]][7]);
-        $("#Td47").text(csvData[coord[46]][7]);
-        $("#Td48").text(csvData[coord[47]][7]);
-        $("#Td49").text(csvData[coord[48]][7]);
-        $("#Td50").text(csvData[coord[49]][7]);
+        $("#Td46").text(csvData[coord[45]][8]);
+        $("#Td47").text(csvData[coord[46]][8]);
+        $("#Td48").text(csvData[coord[47]][8]);
+        $("#Td49").text(csvData[coord[48]][8]);
+        $("#Td50").text(csvData[coord[49]][8]);
         //51-55
-        $("#Td51").text(csvData[coord[50]][7]);
-        $("#Td52").text(csvData[coord[51]][7]);
-        $("#Td53").text(csvData[coord[52]][7]);
-        $("#Td54").text(csvData[coord[53]][7]);
-        $("#Td55").text(csvData[coord[54]][7]);
+        $("#Td51").text(csvData[coord[50]][8]);
+        $("#Td52").text(csvData[coord[51]][8]);
+        $("#Td53").text(csvData[coord[52]][8]);
+        $("#Td54").text(csvData[coord[53]][8]);
+        $("#Td55").text(csvData[coord[54]][8]);
         //56-60
-        $("#Td56").text(csvData[coord[55]][7]);
-        $("#Td57").text(csvData[coord[56]][7]);
-        $("#Td58").text(csvData[coord[57]][7]);
-        $("#Td59").text(csvData[coord[58]][7]);
-        $("#Td60").text(csvData[coord[59]][7]);
+        $("#Td56").text(csvData[coord[55]][8]);
+        $("#Td57").text(csvData[coord[56]][8]);
+        $("#Td58").text(csvData[coord[57]][8]);
+        $("#Td59").text(csvData[coord[58]][8]);
+        $("#Td60").text(csvData[coord[59]][8]);
         //61-65
-        $("#Td61").text(csvData[coord[60]][7]);
-        $("#Td62").text(csvData[coord[61]][7]);
-        $("#Td63").text(csvData[coord[62]][7]);
-        $("#Td64").text(csvData[coord[63]][7]);
-        $("#Td65").text(csvData[coord[64]][7]);
+        $("#Td61").text(csvData[coord[60]][8]);
+        $("#Td62").text(csvData[coord[61]][8]);
+        $("#Td63").text(csvData[coord[62]][8]);
+        $("#Td64").text(csvData[coord[63]][8]);
+        $("#Td65").text(csvData[coord[64]][8]);
         //66-70
-        $("#Td66").text(csvData[coord[65]][7]);
-        $("#Td67").text(csvData[coord[66]][7]);
-        $("#Td68").text(csvData[coord[67]][7]);
-        $("#Td69").text(csvData[coord[68]][7]);
-        $("#Td70").text(csvData[coord[69]][7]);
+        $("#Td66").text(csvData[coord[65]][8]);
+        $("#Td67").text(csvData[coord[66]][8]);
+        $("#Td68").text(csvData[coord[67]][8]);
+        $("#Td69").text(csvData[coord[68]][8]);
+        $("#Td70").text(csvData[coord[69]][8]);
         //71-75
-        $("#Td71").text(csvData[coord[70]][7]);
-        $("#Td72").text(csvData[coord[71]][7]);
-        $("#Td73").text(csvData[coord[72]][7]);
-        $("#Td74").text(csvData[coord[73]][7]);
-        $("#Td75").text(csvData[coord[74]][7]);
+        $("#Td71").text(csvData[coord[70]][8]);
+        $("#Td72").text(csvData[coord[71]][8]);
+        $("#Td73").text(csvData[coord[72]][8]);
+        $("#Td74").text(csvData[coord[73]][8]);
+        $("#Td75").text(csvData[coord[74]][8]);
         //76-80
-        $("#Td76").text(csvData[coord[75]][7]);
-        $("#Td77").text(csvData[coord[76]][7]);
-        $("#Td78").text(csvData[coord[77]][7]);
-        $("#Td79").text(csvData[coord[78]][7]);
-        $("#Td80").text(csvData[coord[79]][7]);
+        $("#Td76").text(csvData[coord[75]][8]);
+        $("#Td77").text(csvData[coord[76]][8]);
+        $("#Td78").text(csvData[coord[77]][8]);
+        $("#Td79").text(csvData[coord[78]][8]);
+        $("#Td80").text(csvData[coord[79]][8]);
         //81-85
-        $("#Td81").text(csvData[coord[80]][7]);
-        $("#Td82").text(csvData[coord[81]][7]);
-        $("#Td83").text(csvData[coord[82]][7]);
-        $("#Td84").text(csvData[coord[83]][7]);
-        $("#Td85").text(csvData[coord[84]][7]);
+        $("#Td81").text(csvData[coord[80]][8]);
+        $("#Td82").text(csvData[coord[81]][8]);
+        $("#Td83").text(csvData[coord[82]][8]);
+        $("#Td84").text(csvData[coord[83]][8]);
+        $("#Td85").text(csvData[coord[84]][8]);
         //86-90
-        $("#Td86").text(csvData[coord[85]][7]);
-        $("#Td87").text(csvData[coord[86]][7]);
-        $("#Td88").text(csvData[coord[87]][7]);
-        $("#Td89").text(csvData[coord[88]][7]);
-        $("#Td90").text(csvData[coord[89]][7]);
+        $("#Td86").text(csvData[coord[85]][8]);
+        $("#Td87").text(csvData[coord[86]][8]);
+        $("#Td88").text(csvData[coord[87]][8]);
+        $("#Td89").text(csvData[coord[88]][8]);
+        $("#Td90").text(csvData[coord[89]][8]);
         //91-95
-        $("#Td91").text(csvData[coord[90]][7]);
-        $("#Td92").text(csvData[coord[91]][7]);
-        $("#Td93").text(csvData[coord[92]][7]);
-        $("#Td94").text(csvData[coord[93]][7]);
-        $("#Td95").text(csvData[coord[94]][7]);
+        $("#Td91").text(csvData[coord[90]][8]);
+        $("#Td92").text(csvData[coord[91]][8]);
+        $("#Td93").text(csvData[coord[92]][8]);
+        $("#Td94").text(csvData[coord[93]][8]);
+        $("#Td95").text(csvData[coord[94]][8]);
         //96-100
-        $("#Td96").text(csvData[coord[95]][7]);
-        $("#Td97").text(csvData[coord[96]][7]);
-        $("#Td98").text(csvData[coord[97]][7]);
-        $("#Td99").text(csvData[coord[98]][7]);
-        $("#Td100").text(csvData[coord[99]][7]);
+        $("#Td96").text(csvData[coord[95]][8]);
+        $("#Td97").text(csvData[coord[96]][8]);
+        $("#Td98").text(csvData[coord[97]][8]);
+        $("#Td99").text(csvData[coord[98]][8]);
+        $("#Td100").text(csvData[coord[99]][8]);
 
 
         
