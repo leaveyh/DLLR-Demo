@@ -706,7 +706,7 @@ var togNum1 = 1;
                             chart8.setBounds("9%", "12%", "55%", "55%")
                             var x2 = chart8.addCategoryAxis("x", ["Time", "Indicator Value"]);
                             var y2 = chart8.addMeasureAxis("y", "Amount");
-                            y2.tickFormat = ',.1f';
+                            y2.tickFormat = ',f';
                             var series8 = chart8.addSeries("Indicator Value", dimple.plot.bar);
                             var qLegend = chart8.addLegend("65%", "5%", "40%", "95%");
                             qLegend.fontSize = "1px";
@@ -886,11 +886,57 @@ var togNum1 = 1;
                             chart61.setBounds("9%", "12%", "50%", "50%")
                             var px2 = chart61.addCategoryAxis("x", ["Time", "Indicator Value"]);
                             var py2 = chart61.addMeasureAxis("y", "Amount");
-                            py2.tickFormat = ',.1f';
+                            py2.tickFormat = ',f';
                             var pseries8 = chart61.addSeries("Indicator Value", dimple.plot.bar);
                             var pqLegend = chart61.addLegend("65%", "5%", "40%", "95%");
                             pqLegend.fontSizechart61 = "1px";
                             pseries8.addOrderRule(true);
+        
+                            chart61.assignColor("Accommodation and Food Services", "red", "black", 0.8);
+                            chart61.assignColor("Administrative and Support and Waste Management and Remediation Services", "Green", "black", 0.8);
+                            chart61.assignColor("Agriculture, Forestry, Fishing and Hunting", "Yellow", "black", 0.8);
+                            chart61.assignColor("Arts, Entertainment, and Recreation", "blue", "black", 0.8);
+                            chart61.assignColor("Construction", "Orange", "black", 0.8);
+                            chart61.assignColor("Educational Services", "Purple", "black", 0.8);
+                            chart61.assignColor("Finance and Insurance", "Cyan", "black", 0.8);
+                            chart61.assignColor("Health Care and Social Assistance", "Magenta", "black", 0.8);
+        
+        //needs new colors
+                            chart61.assignColor("Information", "Lime","black", 0.8);
+                            chart61.assignColor("Management of Companies and Enterprises", "Pink","black", 0.8);
+        
+        
+                            chart61.assignColor("Manufacturing", "Teal", "black", 0.8);
+                            chart61.assignColor("Mining, Quarrying, and Oil and Gas Extraction", "Lavender", "black", 0.8);
+                            chart61.assignColor("Other Services (except Public Administration)", "Brown", "black", 0.8);
+                            chart61.assignColor("Professional, Scientific, and Technical Services", "Beige", "black", 0.8);
+                            chart61.assignColor("Public Administration", "Maroon", "black", 0.8);
+                            chart61.assignColor("Real Estate and Rental and Leasing", "#aaffc3", "black", 0.8);
+                            chart61.assignColor("Retail Trade", "Olive", "black", 0.8);
+                            chart61.assignColor("Transportation and Warehousing", "Coral", "black", 0.8);
+                            chart61.assignColor("Utilities", "Navy","black", 0.8);
+                            chart61.assignColor("Wholesale Trade", "Grey","black", 0.8);
+                            chart61.assignColor("Less than High school", "#4dc3ff", "black", 0.7);
+                            chart61.assignColor("High school", "#ff5c33", "black", 0.7);
+                            chart61.assignColor("Some college", "#66ff66", "black", 0.7);
+                            chart61.assignColor("Bachelor's or Higher", "#ffdb4d", "black", 0.7);
+                            chart61.assignColor("N/A", "#919191", "black", 0.7);
+                            chart61.assignColor("Age 14-18", "#4dc3ff", "black", 0.7);
+                            chart61.assignColor("Age 19-21", "#ff5c33", "black", 0.7);
+                            chart61.assignColor("Age 22-24", "#66ff66", "black", 0.7);
+                            chart61.assignColor("Age 25-34", "#ffdb4d", "black", 0.7);
+                            chart61.assignColor("Age 35-44", "#ffb84d", "black", 0.7);
+                            chart61.assignColor("Age 45-54", "#00cccc", "black", 0.7);
+                            chart61.assignColor("Age 55-64", "#6666ff", "black", 0.7);
+                            chart61.assignColor("Age 65-99", "#ffcc99", "black", 0.7);
+                            
+                            chart61.assignColor("Male", "#3366ff","black", 0.7);
+                            chart61.assignColor("Female", "pink","black", 0.7);
+                            
+                            var pe712 = document.getElementById("btn102");
+                            var pstrUser712 = pe712.options[pe712.selectedIndex].text;
+                            py2.title = pstrUser712;
+                            px2.title = " ";
         
                             chart61.draw();
         
@@ -903,6 +949,52 @@ var togNum1 = 1;
                             var pqLegend = pchart61.addLegend("65%", "5%", "40%", "95%");
                             pqLegend.fontSize = "1px";
                             pseries8.addOrderRule(true);
+        
+                            pchart61.assignColor("Accommodation and Food Services", "red", "black", 0.8);
+                            pchart61.assignColor("Administrative and Support and Waste Management and Remediation Services", "Green", "black", 0.8);
+                            pchart61.assignColor("Agriculture, Forestry, Fishing and Hunting", "Yellow", "black", 0.8);
+                            pchart61.assignColor("Arts, Entertainment, and Recreation", "blue", "black", 0.8);
+                            pchart61.assignColor("Construction", "Orange", "black", 0.8);
+                            pchart61.assignColor("Educational Services", "Purple", "black", 0.8);
+                            pchart61.assignColor("Finance and Insurance", "Cyan", "black", 0.8);
+                            pchart61.assignColor("Health Care and Social Assistance", "Magenta", "black", 0.8);
+        
+        //needs new colors
+                            pchart61.assignColor("Information", "Lime","black", 0.8);
+                            pchart61.assignColor("Management of Companies and Enterprises", "Pink","black", 0.8);
+        
+        
+                            pchart61.assignColor("Manufacturing", "Teal", "black", 0.8);
+                            pchart61.assignColor("Mining, Quarrying, and Oil and Gas Extraction", "Lavender", "black", 0.8);
+                            pchart61.assignColor("Other Services (except Public Administration)", "Brown", "black", 0.8);
+                            pchart61.assignColor("Professional, Scientific, and Technical Services", "Beige", "black", 0.8);
+                            pchart61.assignColor("Public Administration", "Maroon", "black", 0.8);
+                            pchart61.assignColor("Real Estate and Rental and Leasing", "#aaffc3", "black", 0.8);
+                            pchart61.assignColor("Retail Trade", "Olive", "black", 0.8);
+                            pchart61.assignColor("Transportation and Warehousing", "Coral", "black", 0.8);
+                            pchart61.assignColor("Utilities", "Navy","black", 0.8);
+                            pchart61.assignColor("Wholesale Trade", "Grey","black", 0.8);
+                            pchart61.assignColor("Less than High school", "#4dc3ff", "black", 0.7);
+                            pchart61.assignColor("High school", "#ff5c33", "black", 0.7);
+                            pchart61.assignColor("Some college", "#66ff66", "black", 0.7);
+                            pchart61.assignColor("Bachelor's or Higher", "#ffdb4d", "black", 0.7);
+                            pchart61.assignColor("N/A", "#919191", "black", 0.7);
+                            pchart61.assignColor("Age 14-18", "#4dc3ff", "black", 0.7);
+                            pchart61.assignColor("Age 19-21", "#ff5c33", "black", 0.7);
+                            pchart61.assignColor("Age 22-24", "#66ff66", "black", 0.7);
+                            pchart61.assignColor("Age 25-34", "#ffdb4d", "black", 0.7);
+                            pchart61.assignColor("Age 35-44", "#ffb84d", "black", 0.7);
+                            pchart61.assignColor("Age 45-54", "#00cccc", "black", 0.7);
+                            pchart61.assignColor("Age 55-64", "#6666ff", "black", 0.7);
+                            pchart61.assignColor("Age 65-99", "#ffcc99", "black", 0.7);
+                            
+                            pchart61.assignColor("Male", "#3366ff","black", 0.7);
+                            pchart61.assignColor("Female", "pink","black", 0.7);
+                            
+                            var pe712 = document.getElementById("btn102");
+                            var pstrUser712 = pe712.options[pe712.selectedIndex].text;
+                            py2.title = pstrUser712;
+                            px2.title = " ";
         
                             pchart61.draw();
         
@@ -984,7 +1076,7 @@ d3.select("#btn7").on("change", function() {
    if(strUser7 == "2016-Q1"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata1;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1006,7 +1098,7 @@ d3.select("#btn7").on("change", function() {
    if(strUser7 == "2016-Q2"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata2;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1028,7 +1120,7 @@ d3.select("#btn7").on("change", function() {
   if(strUser7 == "2016-Q3"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata3;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1050,7 +1142,7 @@ d3.select("#btn7").on("change", function() {
 if(strUser7 == "2016-Q4"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata4;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1072,7 +1164,7 @@ if(strUser7 == "2016-Q4"){
 if(strUser7 == "2017-Q1"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata5;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1094,7 +1186,7 @@ if(strUser7 == "2017-Q1"){
 if(strUser7 == "2017-Q2"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata6;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1116,7 +1208,7 @@ if(strUser7 == "2017-Q2"){
 if(strUser7 == "2017-Q3"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata7;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1138,7 +1230,7 @@ if(strUser7 == "2017-Q3"){
     if(strUser7 == "2017-Q4"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata8;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1160,7 +1252,7 @@ if(strUser7 == "2017-Q3"){
     if(strUser7 == "2018-Q1"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata9;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1181,7 +1273,7 @@ if(strUser7 == "2017-Q3"){
     if(strUser7 == "2016Q4"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata10;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1203,7 +1295,7 @@ if(strUser7 == "2017-Q3"){
     if(strUser7 == "2017Q1"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata10;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1224,7 +1316,7 @@ if(strUser7 == "2017-Q3"){
     if(strUser7 == "2017Q2"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata10;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1263,7 +1355,7 @@ d3.select("#btn10").on("change", function() {
    if(strUser7 == "2016-Q1"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata1;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1285,7 +1377,7 @@ d3.select("#btn10").on("change", function() {
    if(strUser7 == "2016-Q2"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata2;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1307,7 +1399,7 @@ d3.select("#btn10").on("change", function() {
   if(strUser7 == "2016-Q3"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata3;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1329,7 +1421,7 @@ d3.select("#btn10").on("change", function() {
 if(strUser7 == "2016-Q4"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata4;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1351,7 +1443,7 @@ if(strUser7 == "2016-Q4"){
 if(strUser7 == "2017-Q1"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata5;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1373,7 +1465,7 @@ if(strUser7 == "2017-Q1"){
 if(strUser7 == "2017-Q2"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata6;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1395,7 +1487,7 @@ if(strUser7 == "2017-Q2"){
 if(strUser7 == "2017-Q3"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata7;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1417,7 +1509,7 @@ if(strUser7 == "2017-Q3"){
     if(strUser7 == "2017-Q4"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata8;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1439,7 +1531,7 @@ if(strUser7 == "2017-Q3"){
     if(strUser7 == "2018-Q1"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata9;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1460,7 +1552,7 @@ if(strUser7 == "2017-Q3"){
     if(strUser7 == "2016Q4"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata10;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1482,7 +1574,7 @@ if(strUser7 == "2017-Q3"){
     if(strUser7 == "2017Q1"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata10;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1503,7 +1595,7 @@ if(strUser7 == "2017-Q3"){
     if(strUser7 == "2017Q2"){
         
        if(strUser10 == "Average Monthly Earnings"){
-           y2.tickFormat = '$,.1f';
+           y2.tickFormat = '$,f';
            chart8.data = avgdata10;
        }
        if(strUser10 == "Job Net Changes"){
@@ -1552,14 +1644,14 @@ if(strUser7 == "2017-Q3"){
 });
         
 window.dataSwapi2 = function () {
-    y2.tickFormat = ',f';
+    py2.tickFormat = ',f';
   
   
 	var e7 = document.getElementById("btn18");
     var e10 = document.getElementById("btn102");
   var strUser7 = e7.options[e7.selectedIndex].text;
   var strUser10 = e10.options[e10.selectedIndex].text;
-    y2.title = strUser10;
+    py2.title = strUser10;
    if(strUser7 == "2016-Q1"){
         
        if(strUser10 == "Industry"){
@@ -2047,7 +2139,7 @@ if(strUser7 == "2017-Q3"){
                     avgChart.data = averageData8;
                     jc.data = jobData8;
                     newHireChart.data = newHireData8;
-                    turnChart.data = turnOverData8;
+                    turnChart.data = turnOverData7;
                     turnChart.draw(1000);
           /**     vetX.shapes.selectAll("text").attr("transform",
     function (d) {
@@ -2059,7 +2151,7 @@ if(strUser7 == "2017-Q3"){
                     avgChart.data = averageData8;
                     jc.data = jobData8;
                     newHireChart.data = newHireData8;
-                    turnChart.data = turnOverData8;
+                    turnChart.data = turnOverData7;
                     turnChart.draw(1000);
            /**     vetX.shapes.selectAll("text").attr("transform",
     function (d) {
@@ -2476,7 +2568,7 @@ if(strUser7 == "2017-Q3"){
                     avgChart.data = averageData8;
                     jc.data = jobData8;
                     newHireChart.data = newHireData8;
-                    turnChart.data = turnOverData8;
+                    turnChart.data = turnOverData7;
                     turnChart.draw(1000);
         /**     vetX.shapes.selectAll("text").attr("transform",
     function (d) {
@@ -2487,7 +2579,7 @@ if(strUser7 == "2017-Q3"){
                     avgChart.data = averageData8;
                     jc.data = jobData8;
                     newHireChart.data = newHireData8;
-                    turnChart.data = turnOverData8;
+                    turnChart.data = turnOverData7;
                     turnChart.draw(1000);
          /**     vetX.shapes.selectAll("text").attr("transform",
     function (d) {
@@ -2901,7 +2993,7 @@ if(strUser7 == "2017-Q3"){
                     avgChart.data = averageData8;
                     jc.data = jobData8;
                     newHireChart.data = newHireData8;
-                    turnChart.data = turnOverData8;
+                    turnChart.data = turnOverData7;
                     turnChart.draw(1000);
           /**     vetX.shapes.selectAll("text").attr("transform",
     function (d) {
@@ -2912,7 +3004,7 @@ if(strUser7 == "2017-Q3"){
                     avgChart.data = averageData8;
                     jc.data = jobData8;
                     newHireChart.data = newHireData8;
-                    turnChart.data = turnOverData8;
+                    turnChart.data = turnOverData7;
                     turnChart.draw(1000);
         /**     vetX.shapes.selectAll("text").attr("transform",
     function (d) {
@@ -3326,7 +3418,7 @@ if(strUser7 == "2017-Q3"){
               avgChart.data = averageData8;
               jc.data = jobData8;
               newHireChart.data = newHireData8;
-              turnChart.data = turnOverData8;
+              turnChart.data = turnOverData7;
               turnChart.draw(1000);
           /**     vetX.shapes.selectAll("text").attr("transform",
     function (d) {
@@ -3337,7 +3429,7 @@ if(strUser7 == "2017-Q3"){
               avgChart.data = averageData8;
               jc.data = jobData8;
               newHireChart.data = newHireData8;
-              turnChart.data = turnOverData8;
+              turnChart.data = turnOverData7;
               turnChart.draw(1000);
           /**     vetX.shapes.selectAll("text").attr("transform",
     function (d) {
@@ -3747,7 +3839,7 @@ window.dataSwap22 = function () {
               avgChart.data = averageData8;
               jc.data = jobData8;
               newHireChart.data = newHireData8;
-              turnChart.data = turnOverData8;
+              turnChart.data = turnOverData7;
               turnChart.draw(1000);
      /**     vetX.shapes.selectAll("text").attr("transform",
     function (d) {
@@ -3758,7 +3850,7 @@ window.dataSwap22 = function () {
               avgChart.data = averageData8;
               jc.data = jobData8;
               newHireChart.data = newHireData8;
-              turnChart.data = turnOverData8;
+              turnChart.data = turnOverData7;
               turnChart.draw(1000);
     /**     vetX.shapes.selectAll("text").attr("transform",
     function (d) {
@@ -4168,7 +4260,7 @@ window.dataSwap23 = function () {
               avgChart.data = averageData8;
               jc.data = jobData8;
               newHireChart.data = newHireData8;
-              turnChart.data = turnOverData8;
+              turnChart.data = turnOverData7;
               turnChart.draw(1000);
      /**     vetX.shapes.selectAll("text").attr("transform",
     function (d) {
@@ -4179,7 +4271,7 @@ window.dataSwap23 = function () {
               avgChart.data = averageData8;
               jc.data = jobData8;
               newHireChart.data = newHireData8;
-              turnChart.data = turnOverData8;
+              turnChart.data = turnOverData7;
               turnChart.draw(1000);
     /**     vetX.shapes.selectAll("text").attr("transform",
     function (d) {

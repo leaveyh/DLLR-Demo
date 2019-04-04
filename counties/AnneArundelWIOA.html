@@ -38,17 +38,7 @@
                 <select onChange="window.location.href=this.value" style="margin: 0px 0px 2px 3px; margin-bottom: 10px; padding-right: 0%;">
             <option selected="selected">LWDA DATA...</option>
             <option value="Maryland.html" >Maryland</option>
-            <option value="AnneArundelWIOA.html">Anne Arundel LWDA</option>
-            <option value="BaltimoreCityWIOA.html">Baltimore City LWDA</option>
-            <option value="BaltimoreCountyWIOA.html">Baltimore County LWDA</option>
-            <option value="FrederickWIOA.html">Frederick LWDA</option>
-            <option value="LowerShoreWIOA.html">Lower Shore LWDA</option>
-            <option value="MidMarylandWIOA.html">Mid Maryland LWDA</option>
-            <option value="MontgomeryWIOA.html">Montgomery LWDA</option>
-            <option value="PrinceGeorgesWIOA.html">Prince George's LWDA</option>
-            <option value="SouthernMarylandWIOA.html">Southern Maryland LWDA</option>
-            <option value="UpperShoreWIOA.html">Upper Shore LWDA</option>
-            <option value="WesternMarylandWIOA.html">Western Maryland LWDA</option>
+            
      
         
          </select>
@@ -128,7 +118,7 @@
                 
                     <div id="Chart3">
                         <script src="../js/d3.v3.min.js" charset="utf-8"></script>
-                        <script src="../js/dimple.v2.1.6.min.js"></script>    
+                        <script src="../js/dimple.v2.2.0.min.js"></script>    
                         <script type="text/javascript">
 
                             
@@ -494,7 +484,7 @@
                 <th colspan="2" >2017 Q4</th>
                 <th ></th>
                 <th></th>
-                <th></th>
+                <th>2017 Q3</th>
             </tr>
             <tr>
                         <th id="I1a">Industry 1</th>
@@ -782,7 +772,7 @@
 
                 
             </div>
-            <div id="scrollTable">
+            <div id="table">
             <table id="table5">
                 <thead>
                     <tr>
@@ -1045,11 +1035,11 @@
         wCord[0] = 44; //+4per
         wCord[8] = 236;//+4 per
         aCord[0] = 116;// 4 per 
-        aCord[8] = 256;//4 per
+        aCord[8] = 260;//4 per
         nCord[0] = 440;//4 per
         nCord[6] = 308;//4 per
         hCord[0] = 392;//4 per
-        hCord[6] = 392;//4per
+        hCord[6] = 284;//4per
         tCord[0] = 487;//4 per
         tCord[6] = 331;//4 per
         
@@ -1218,7 +1208,7 @@
 
 
         for (var i = 5; i <= 99; i++) {
-            coord[i] = (coord[i - 5] + 1);
+            coord[i] = (coord[i - 5] + 4);
         }
         /*
         I'm gonna write my idea down while its still fresh in my head, 
