@@ -21,16 +21,16 @@
                             
                             
                             
-                            var CountyName = "Anne Arundel LWDA";
+                            var CountyName = "Western Maryland WIA";
                             
-                            var CountyName1 = "Anne Arundel WIA -- Maryland Statewide"
+                            var CountyName1 = "Western Maryland WIA"
                             
-                            var CountyName2 = "Anne Arundel WIA"
+                            var CountyName2 = "Western Maryland WIA"
                             
                             
                         
                         </script>
-                        <script src="../js/AAWIA.js"></script>
+                        <script src="../js/WMWIA.js"></script>
         
     </head> 
     
@@ -80,7 +80,7 @@
     <div class="Header"><p class="RightText"><a href="../index.html">Start Over</a>    |    <button onclick="printClick()">Print This Snapshot</button>    |    <button onclick="printAll()" > Print Whole Page</button></p><p>Select Different Snapshot and/or County</p>  </div>
             
             <div class="County">
-            <p class="title1">Anne Arundel Local Workforce Development Area  </p>
+            <p class="title1">Western Maryland Local Workforce Development Area  </p>
                 
             </div>
             
@@ -360,7 +360,7 @@
                             <option selected="selected">2017-Q3</option>
                             
                             
-                        </select>            
+                        </select>          
                     </p>
                     <p>
                         Indicator: 
@@ -999,7 +999,7 @@
         var csvData = [];
 
         $.ajax({
-            url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSDkI0yGIEMnHCxUVsIZL6K50rwdYODEJJJeiT6bYfw9Msw2S9UAyxSPnZZ31U1ZL13ZqI-2cdQX3dv/pub?gid=414287731&single=true&output=csv",
+            url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSsGmPp9-CKgxsSeHtlth8PG9HD8tJmGsA6aJ8gbrgkpird1oSnObMYXpR4f0ZVyGF7Fuska1fTMueL/pub?gid=414287731&single=true&output=csv",
             async: false,
             success: function (csvd) {
                 csvData = $.csv.toArrays(csvd);
@@ -1243,7 +1243,7 @@
 
         now lets see about the county to county differences
 
-        ANNE ARUNDEL LWDA        BALTIMORE CITY LWDA
+        Western Maryland LWDA        BALTIMORE CITY LWDA
 
         coords11 11665          coords11 11705  = add 40
         coords12 14471          coords12 14511  = add 40

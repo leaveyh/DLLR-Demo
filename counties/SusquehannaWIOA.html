@@ -21,16 +21,16 @@
                             
                             
                             
-                            var CountyName = "Anne Arundel LWDA";
+                            var CountyName = "Susquehanna WIA";
                             
-                            var CountyName1 = "Anne Arundel WIA -- Maryland Statewide"
+                            var CountyName1 = "Susquehanna WIA"
                             
-                            var CountyName2 = "Anne Arundel WIA"
+                            var CountyName2 = "Susquehanna WIA"
                             
                             
                         
                         </script>
-                        <script src="../js/AAWIA.js"></script>
+                        <script src="../js/SQWIA.js"></script>
         
     </head> 
     
@@ -80,7 +80,7 @@
     <div class="Header"><p class="RightText"><a href="../index.html">Start Over</a>    |    <button onclick="printClick()">Print This Snapshot</button>    |    <button onclick="printAll()" > Print Whole Page</button></p><p>Select Different Snapshot and/or County</p>  </div>
             
             <div class="County">
-            <p class="title1">Anne Arundel Local Workforce Development Area  </p>
+            <p class="title1">Susquehanna Local Workforce Development Area  </p>
                 
             </div>
             
@@ -350,7 +350,7 @@
         <div class="ChartTitle">
                 <div class="buttons">
                     <p> Time: 
-                        <select id="btn5">
+                       <select id="btn5">
                            <option>2016-Q1</option>
                             <option>2016-Q2</option>
                             <option>2016-Q3</option>
@@ -999,7 +999,7 @@
         var csvData = [];
 
         $.ajax({
-            url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSDkI0yGIEMnHCxUVsIZL6K50rwdYODEJJJeiT6bYfw9Msw2S9UAyxSPnZZ31U1ZL13ZqI-2cdQX3dv/pub?gid=414287731&single=true&output=csv",
+            url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQgY5bde8tiKlKAM7MDwdEjLkiSNGOF674fsNRbQuIQiRotUgqHkU5Jjui8ThPe82U-Up5HNITDhwfc/pub?gid=414287731&single=true&output=csv",
             async: false,
             success: function (csvd) {
                 csvData = $.csv.toArrays(csvd);
@@ -1243,7 +1243,7 @@
 
         now lets see about the county to county differences
 
-        ANNE ARUNDEL LWDA        BALTIMORE CITY LWDA
+        Susquehanna LWDA        BALTIMORE CITY LWDA
 
         coords11 11665          coords11 11705  = add 40
         coords12 14471          coords12 14511  = add 40
