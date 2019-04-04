@@ -2162,7 +2162,7 @@ if(strUser7 == "2017-Q3"){
                     avgChart.data = averageData81;
                     jc.data = jobData81;
                     newHireChart.data = newHireData81;
-                    turnChart.data = turnOverData81;
+                    turnChart.data = turnOverData71;
                     turnChart.draw(1000);
                 }
 
@@ -2590,7 +2590,7 @@ if(strUser7 == "2017-Q3"){
                     avgChart.data = averageData81;
                     jc.data = jobData81;
                     newHireChart.data = newHireData81;
-                    turnChart.data = turnOverData81;
+                    turnChart.data = turnOverData71;
                     turnChart.draw(1000);
                 }
 
@@ -3015,7 +3015,7 @@ if(strUser7 == "2017-Q3"){
                     avgChart.data = averageData81;
                     jc.data = jobData81;
                     newHireChart.data = newHireData81;
-                    turnChart.data = turnOverData81;
+                    turnChart.data = turnOverData71;
                     turnChart.draw(1000);
                 }
 
@@ -3440,7 +3440,7 @@ if(strUser7 == "2017-Q3"){
               avgChart.data = averageData81;
               jc.data = jobData81;
               newHireChart.data = newHireData81;
-              turnChart.data = turnOverData81;
+              turnChart.data = turnOverData71;
               turnChart.draw(1000);
           }
 
@@ -3861,7 +3861,7 @@ window.dataSwap22 = function () {
               avgChart.data = averageData81;
               jc.data = jobData81;
               newHireChart.data = newHireData81;
-              turnChart.data = turnOverData81;
+              turnChart.data = turnOverData71;
               turnChart.draw(1000);
           }
 
@@ -4282,7 +4282,7 @@ window.dataSwap23 = function () {
               avgChart.data = averageData81;
               jc.data = jobData81;
               newHireChart.data = newHireData81;
-              turnChart.data = turnOverData81;
+              turnChart.data = turnOverData71;
               turnChart.draw(1000);
           }
 
