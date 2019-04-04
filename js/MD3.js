@@ -4081,6 +4081,9 @@ d3.select("#btn6").on("click", function(){
                                 pjc.draw(0, true);
                                 pnewHireChart.draw(0, true);
                                 pturnChart.draw(0, true);
+                                 paprogChart.draw(0, true);
+                                paNewChart.draw(0, true);
+                                
                                 
                                 pwiaChart.draw(0, true);
                                 pvetX.shapes.selectAll("text").attr("transform",
