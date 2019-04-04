@@ -302,14 +302,14 @@ var togNum1 = 1;
                             var raceX = jc.addCategoryAxis("x", "Indicator Value");
                             var raceY = jc.addMeasureAxis("y", "Amount");
                             var rSeries = jc.addSeries("Indicator Value", dimple.plot.bar);
-                            raceX.addOrderRule(["Less than high school", "High School", "Some College", "Bachelor's", "Not Available", "Female", "Male"]);
+                            raceX.addOrderRule(["Less than High school", "High school", "Some college", "Bachelor's or Higher", "N/A", "Female", "Male"]);
         
         
-                            jc.assignColor("Less than high school", "#4dc3ff", "black", 0.7);
-                            jc.assignColor("High School", "#ff5c33", "black", 0.7);
-                            jc.assignColor("Some College", "#66ff66", "black", 0.7);
-                            jc.assignColor("Bachelor's", "#ffdb4d", "black", 0.7);
-                            jc.assignColor("Not Available", "#919191", "black", 0.7);
+                            jc.assignColor("Less than High school", "#4dc3ff", "black", 0.7);
+                            jc.assignColor("High school", "#ff5c33", "black", 0.7);
+                            jc.assignColor("Some college", "#66ff66", "black", 0.7);
+                            jc.assignColor("Bachelor's or Higher", "#ffdb4d", "black", 0.7);
+                            jc.assignColor("N/A", "#919191", "black", 0.7);
                             
                             jc.assignColor("Male", "#3366ff","black", 0.7);
                             jc.assignColor("Female", "pink","black", 0.7);
@@ -331,11 +331,11 @@ var togNum1 = 1;
                             var praceY = pjc.addMeasureAxis("y", "Amount");
                             var prSeries = pjc.addSeries("Indicator Value", dimple.plot.bar);
         
-                            pjc.assignColor("Less than high school", "#4dc3ff", "black", 0.7);
-                            pjc.assignColor("High School", "#ff5c33", "black", 0.7);
-                            pjc.assignColor("Some College", "#66ff66", "black", 0.7);
-                            pjc.assignColor("Bachelor's", "#ffdb4d", "black", 0.7);
-                            pjc.assignColor("Not Available", "#919191", "black", 0.7);
+                            pjc.assignColor("Less than High school", "#4dc3ff", "black", 0.7);
+                            pjc.assignColor("High school", "#ff5c33", "black", 0.7);
+                            pjc.assignColor("Some college", "#66ff66", "black", 0.7);
+                            pjc.assignColor("Bachelor's or Higher", "#ffdb4d", "black", 0.7);
+                            pjc.assignColor("N/A", "#919191", "black", 0.7);
                             
                             pjc.assignColor("Male", "#3366ff","black", 0.7);
                             pjc.assignColor("Female", "pink","black", 0.7);
@@ -345,7 +345,7 @@ var togNum1 = 1;
                             praceX.title = " ";
         
                             praceY.tickFormat = ',f';
-                            praceX.addOrderRule(["Less than high school", "High School", "Some College", "Bachelor's", "Not Available", "Female", "Male"]);
+                            praceX.addOrderRule(["Less than High school", "High school", "Some college", "Bachelor's or Higher", "N/A", "Female", "Male"]);
                             
                             
                             newHireData = dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", ["2016-Q1", "2016-Q2", "2016-Q3", "2016-Q4", "2017-Q1", "2017-Q2", "2017-Q3", "2017-Q4", "2018-Q1", "2016Q4", "2017Q1", "2017Q2"]), "Indicator", ["Maryland New Hires by Education", "Maryland New Hires by Gender", "Maryland Workers by Industry"]), "Location", CountyName2);
@@ -411,16 +411,16 @@ var togNum1 = 1;
                             ethY.title = "New Hires";
                             ethX.title = " ";
         
-                            newHireChart.assignColor("Less than high school", "#4dc3ff", "black", 0.7);
-                            newHireChart.assignColor("High School", "#ff5c33", "black", 0.7);
-                            newHireChart.assignColor("Some College", "#66ff66", "black", 0.7);
-                            newHireChart.assignColor("Bachelor's", "#ffdb4d", "black", 0.7);
-                            newHireChart.assignColor("Not Available", "#919191", "black", 0.7);
+                            newHireChart.assignColor("Less than High school", "#4dc3ff", "black", 0.7);
+                            newHireChart.assignColor("High school", "#ff5c33", "black", 0.7);
+                            newHireChart.assignColor("Some college", "#66ff66", "black", 0.7);
+                            newHireChart.assignColor("Bachelor's or Higher", "#ffdb4d", "black", 0.7);
+                            newHireChart.assignColor("N/A", "#919191", "black", 0.7);
                             
                             newHireChart.assignColor("Male", "#3366ff","black", 0.7);
                             newHireChart.assignColor("Female", "pink","black", 0.7);
                             newHireChart.draw();
-                            ethX.addOrderRule(["Less than high school", "High School", "Some College", "Bachelor's", "Not Available", "Female", "Male"]);
+                            ethX.addOrderRule(["Less than High school", "High school", "Some college", "Bachelor's or Higher", "N/A", "Female", "Male"]);
         
                             var pnewHireChart = new dimple.chart(print4, newHireData8);
                             pnewHireChart.setBounds("11%", "8%", "35%", 175)
@@ -431,17 +431,17 @@ var togNum1 = 1;
                             pethY.title = "New Hires";
                             pethX.title = " ";
         
-                            pnewHireChart.assignColor("Less than high school", "#4dc3ff", "black", 0.7);
-                            pnewHireChart.assignColor("High School", "#ff5c33", "black", 0.7);
-                            pnewHireChart.assignColor("Some College", "#66ff66", "black", 0.7);
-                            pnewHireChart.assignColor("Bachelor's", "#ffdb4d", "black", 0.7);
-                            pnewHireChart.assignColor("Not Available", "#919191", "black", 0.7);
+                            pnewHireChart.assignColor("Less than High school", "#4dc3ff", "black", 0.7);
+                            pnewHireChart.assignColor("High school", "#ff5c33", "black", 0.7);
+                            pnewHireChart.assignColor("Some college", "#66ff66", "black", 0.7);
+                            pnewHireChart.assignColor("Bachelor's or Higher", "#ffdb4d", "black", 0.7);
+                            pnewHireChart.assignColor("N/A", "#919191", "black", 0.7);
                             
                             pnewHireChart.assignColor("Male", "#3366ff","black", 0.7);
                             pnewHireChart.assignColor("Female", "pink","black", 0.7);
                             pnewHireChart.draw();
         
-                            pethX.addOrderRule(["Less than high school", "High School", "Some College", "Bachelor's", "Not Available", "Female", "Male"]);
+                            pethX.addOrderRule(["Less than High school", "High school", "Some college", "Bachelor's or Higher", "N/A", "Female", "Male"]);
        /* 
         svg4.append("text")
                        .attr("x", (jc._xPixels() + jc._widthPixels() / 2)-200)
@@ -517,18 +517,18 @@ var togNum1 = 1;
                             vetY.tickFormat = '.1%';
                             vetY.title = " ";
                        //     var vetLegend = turnChart.addLegend("16%", "90%", "50%", "70%", "right");
-                            turnChart.assignColor("Less than high school", "#4dc3ff", "black", 0.7);
-                            turnChart.assignColor("High School", "#ff5c33", "black", 0.7);
-                            turnChart.assignColor("Some College", "#66ff66", "black", 0.7);
-                            turnChart.assignColor("Bachelor's", "#ffdb4d", "black", 0.7);
-                            turnChart.assignColor("Not Available", "#919191", "black", 0.7);
+                            turnChart.assignColor("Less than High school", "#4dc3ff", "black", 0.7);
+                            turnChart.assignColor("High school", "#ff5c33", "black", 0.7);
+                            turnChart.assignColor("Some college", "#66ff66", "black", 0.7);
+                            turnChart.assignColor("Bachelor's or Higher", "#ffdb4d", "black", 0.7);
+                            turnChart.assignColor("N/A", "#919191", "black", 0.7);
                             
                             turnChart.assignColor("Male", "#3366ff","black", 0.7);
                             turnChart.assignColor("Female", "pink","black", 0.7);
         
                             turnChart.draw();
                 
-                            vetX.addOrderRule(["Less than high school", "High School", "Some College", "Bachelor's", "Not Available", "Female", "Male"]);
+                            vetX.addOrderRule(["Less than High school", "High school", "Some college", "Bachelor's or Higher", "N/A", "Female", "Male"]);
                             vetX.title = "Turnover Rate";
         
                             var pturnChart = new dimple.chart(print5, turnOverData7);
@@ -539,18 +539,18 @@ var togNum1 = 1;
                             pvetY.tickFormat = '.1%';
                             pvetY.title = "Turnover Rate";
         
-                            pturnChart.assignColor("Less than high school", "#4dc3ff", "black", 0.7);
-                            pturnChart.assignColor("High School", "#ff5c33", "black", 0.7);
-                            pturnChart.assignColor("Some College", "#66ff66", "black", 0.7);
-                            pturnChart.assignColor("Bachelor's", "#ffdb4d", "black", 0.7);
-                            pturnChart.assignColor("Not Available", "#919191", "black", 0.7);
+                            pturnChart.assignColor("Less than High school", "#4dc3ff", "black", 0.7);
+                            pturnChart.assignColor("High school", "#ff5c33", "black", 0.7);
+                            pturnChart.assignColor("Some college", "#66ff66", "black", 0.7);
+                            pturnChart.assignColor("Bachelor's or Higher", "#ffdb4d", "black", 0.7);
+                            pturnChart.assignColor("N/A", "#919191", "black", 0.7);
                             
                             pturnChart.assignColor("Male", "#3366ff","black", 0.7);
                             pturnChart.assignColor("Female", "pink","black", 0.7);
         
                             pturnChart.draw();
         
-                            pvetX.addOrderRule(["Less than high school", "High School", "Some College", "Bachelor's", "Not Available", "Female", "Male"]);
+                            pvetX.addOrderRule(["Less than High school", "High school", "Some college", "Bachelor's or Higher", "N/A", "Female", "Male"]);
                             pvetX.title = " ";
         
         
@@ -994,6 +994,7 @@ d3.select("#btn7").on("change", function() {
            chart8.data = hiredata1;
        }
        if(strUser10 == "Turnover Rate"){
+           y2.tickFormat = '.1%';
            chart8.data = turndata1;
        }
        if(strUser10 == "Workers"){
@@ -1015,6 +1016,7 @@ d3.select("#btn7").on("change", function() {
            chart8.data = hiredata2;
        }
        if(strUser10 == "Turnover Rate"){
+           y2.tickFormat = '.1%';
            chart8.data = turndata2;
        }
        if(strUser10 == "Workers"){
@@ -1036,6 +1038,7 @@ d3.select("#btn7").on("change", function() {
            chart8.data = hiredata3;
        }
        if(strUser10 == "Turnover Rate"){
+           y2.tickFormat = '.1%';
            chart8.data = turndata3;
        }
        if(strUser10 == "Workers"){
@@ -1057,6 +1060,7 @@ if(strUser7 == "2016-Q4"){
            chart8.data = hiredata4;
        }
        if(strUser10 == "Turnover Rate"){
+           y2.tickFormat = '.1%';
            chart8.data = turndata4;
        }
        if(strUser10 == "Workers"){
@@ -1078,6 +1082,7 @@ if(strUser7 == "2017-Q1"){
            chart8.data = hiredata5;
        }
        if(strUser10 == "Turnover Rate"){
+           y2.tickFormat = '.1%';
            chart8.data = turndata5;
        }
        if(strUser10 == "Workers"){
@@ -1099,6 +1104,7 @@ if(strUser7 == "2017-Q2"){
            chart8.data = hiredata6;
        }
        if(strUser10 == "Turnover Rate"){
+           y2.tickFormat = '.1%';
            chart8.data = turndata6;
        }
        if(strUser10 == "Workers"){
@@ -1120,6 +1126,7 @@ if(strUser7 == "2017-Q3"){
            chart8.data = hiredata7;
        }
        if(strUser10 == "Turnover Rate"){
+           y2.tickFormat = '.1%';
            chart8.data = turndata7;
        }
        if(strUser10 == "Workers"){
@@ -1141,7 +1148,8 @@ if(strUser7 == "2017-Q3"){
            chart8.data = hiredata8;
        }
        if(strUser10 == "Turnover Rate"){
-           chart8.data = turndata8;
+           y2.tickFormat = '.1%';
+           chart8.data = turndata7;
        }
        if(strUser10 == "Workers"){
            chart8.data = wdata8;
@@ -1265,6 +1273,7 @@ d3.select("#btn10").on("change", function() {
            chart8.data = hiredata1;
        }
        if(strUser10 == "Turnover Rate"){
+           y2.tickFormat = '.1%';
            chart8.data = turndata1;
        }
        if(strUser10 == "Workers"){
@@ -1286,6 +1295,7 @@ d3.select("#btn10").on("change", function() {
            chart8.data = hiredata2;
        }
        if(strUser10 == "Turnover Rate"){
+           y2.tickFormat = '.1%';
            chart8.data = turndata2;
        }
        if(strUser10 == "Workers"){
@@ -1307,6 +1317,7 @@ d3.select("#btn10").on("change", function() {
            chart8.data = hiredata3;
        }
        if(strUser10 == "Turnover Rate"){
+           y2.tickFormat = '.1%';
            chart8.data = turndata3;
        }
        if(strUser10 == "Workers"){
@@ -1328,6 +1339,7 @@ if(strUser7 == "2016-Q4"){
            chart8.data = hiredata4;
        }
        if(strUser10 == "Turnover Rate"){
+           y2.tickFormat = '.1%';
            chart8.data = turndata4;
        }
        if(strUser10 == "Workers"){
@@ -1349,6 +1361,7 @@ if(strUser7 == "2017-Q1"){
            chart8.data = hiredata5;
        }
        if(strUser10 == "Turnover Rate"){
+           y2.tickFormat = '.1%';
            chart8.data = turndata5;
        }
        if(strUser10 == "Workers"){
@@ -1370,6 +1383,7 @@ if(strUser7 == "2017-Q2"){
            chart8.data = hiredata6;
        }
        if(strUser10 == "Turnover Rate"){
+           y2.tickFormat = '.1%';
            chart8.data = turndata6;
        }
        if(strUser10 == "Workers"){
@@ -1391,6 +1405,7 @@ if(strUser7 == "2017-Q3"){
            chart8.data = hiredata7;
        }
        if(strUser10 == "Turnover Rate"){
+           y2.tickFormat = '.1%';
            chart8.data = turndata7;
        }
        if(strUser10 == "Workers"){
@@ -1412,7 +1427,8 @@ if(strUser7 == "2017-Q3"){
            chart8.data = hiredata8;
        }
        if(strUser10 == "Turnover Rate"){
-           chart8.data = turndata8;
+           y2.tickFormat = '.1%';
+           chart8.data = turndata7;
        }
        if(strUser10 == "Workers"){
            chart8.data = wdata8;
