@@ -883,9 +883,9 @@ var togNum1 = 1;
 
         
                              var chart61 = new dimple.chart(svg71, isepdata8);
-                            chart61.setBounds("9%", "12%", "50%", "50%")
+                            chart61.setBounds("9%", "12%", "55%", "55%")
                             var px2 = chart61.addCategoryAxis("x", ["Time", "Indicator Value"]);
-                            var py2 = chart61.addMeasureAxis("y", "Amount");
+                            var sepy2 = chart61.addMeasureAxis("y", "Amount");
                             py2.tickFormat = ',f';
                             var pseries8 = chart61.addSeries("Indicator Value", dimple.plot.bar);
                             var pqLegend = chart61.addLegend("65%", "5%", "40%", "95%");
@@ -935,7 +935,7 @@ var togNum1 = 1;
                             
                             var pe712 = document.getElementById("btn102");
                             var pstrUser712 = pe712.options[pe712.selectedIndex].text;
-                            py2.title = pstrUser712;
+                            sepy2.title = pstrUser712;
                             px2.title = " ";
         
                             chart61.draw();
@@ -943,7 +943,7 @@ var togNum1 = 1;
                             var pchart61 = new dimple.chart(print71, isepdata8);
                             pchart61.setBounds("9%", "12%", "50%", 300)
                             var px2 = pchart61.addCategoryAxis("x", ["Time", "Indicator Value"]);
-                            var py2 = pchart61.addMeasureAxis("y", "Amount");
+                            var psepy2 = pchart61.addMeasureAxis("y", "Amount");
                             py2.tickFormat = ',f';
                             var pseries8 = pchart61.addSeries("Indicator Value", dimple.plot.bar);
                             var pqLegend = pchart61.addLegend("65%", "5%", "40%", "95%");
@@ -993,7 +993,7 @@ var togNum1 = 1;
                             
                             var pe712 = document.getElementById("btn102");
                             var pstrUser712 = pe712.options[pe712.selectedIndex].text;
-                            py2.title = pstrUser712;
+                            psepy2.title = pstrUser712;
                             px2.title = " ";
         
                             pchart61.draw();
@@ -1066,7 +1066,7 @@ var togNum1 = 1;
                             paNewChart.draw();*/
         
 d3.select("#btn7").on("change", function() {
-   y2.tickFormat = ',.1f';
+   y2.tickFormat = ',f';
   
 	var e7 = document.getElementById("btn7");
     var e10 = document.getElementById("btn10");
@@ -1345,7 +1345,7 @@ if(strUser7 == "2017-Q3"){
  });
         
 d3.select("#btn10").on("change", function() {
-    y2.tickFormat = ',.1f';
+    y2.tickFormat = ',f';
   
 	var e7 = document.getElementById("btn7");
     var e10 = document.getElementById("btn10");
@@ -1644,14 +1644,14 @@ if(strUser7 == "2017-Q3"){
 });
         
 window.dataSwapi2 = function () {
-    py2.tickFormat = ',f';
+    sepy2.tickFormat = ',f';
   
   
 	var e7 = document.getElementById("btn18");
     var e10 = document.getElementById("btn102");
   var strUser7 = e7.options[e7.selectedIndex].text;
   var strUser10 = e10.options[e10.selectedIndex].text;
-    py2.title = strUser10;
+    sepy2.title = strUser10;
    if(strUser7 == "2016-Q1"){
         
        if(strUser10 == "Industry"){
@@ -1878,7 +1878,7 @@ if(strUser7 == "2017-Q3"){
        }
         
    } **/
-    py2.tickFormat = y2.tickFormat;
+    psepy2.tickFormat = sepy2.tickFormat;
     pchart61.data = chart61.data;    
     pchart61.draw(1000);    
          
