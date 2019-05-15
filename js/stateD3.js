@@ -914,6 +914,8 @@ var print11 = dimple.newSvg("#Print11", 750, 400);
                             var workY = chart15.addMeasureAxis("y", "Amount");
                             //mTanfY.overrideMax = .003;
                             var workLine = chart15.addSeries("Employment Status", dimple.plot.bar);
+        
+                            chart15.addLegend("26%", "5%", "50%", "70%", "right");
                            
                             
         
