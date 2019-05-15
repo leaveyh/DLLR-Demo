@@ -912,6 +912,8 @@ var print11 = dimple.newSvg("#Print11", 750, 400);
                             chart15.setBounds("11%", "12%", "80%", "65%")
                             var workX = chart15.addCategoryAxis("x", "Indicator Status")
                             var workY = chart15.addMeasureAxis("y", "Amount");
+                            workY.tickFormat = ",.2f";
+        
                             //mTanfY.overrideMax = .003;
                             var workLine = chart15.addSeries("Employment Status", dimple.plot.bar);
         
@@ -926,6 +928,7 @@ var print11 = dimple.newSvg("#Print11", 750, 400);
                             pchart15.setBounds("11%", "12%", "80%", "65%")
                             var workX = pchart15.addCategoryAxis("x", "Indicator Status")
                             var workY = pchart15.addMeasureAxis("y", "Amount");
+                            workY.tickFormat = ",.2f";
                             //mTanfY.overrideMax = .003;
                             var workLine = pchart15.addSeries("Employment Status", dimple.plot.bar);
         
@@ -1042,7 +1045,7 @@ var print12 = dimple.newSvg("#Print12", 750, 400);
                             var workX = pchart16.addCategoryAxis("x", "Time")
                             var workY = pchart16.addMeasureAxis("y", "Amount");
         
-                            workX.tickFormat = ',f';
+                            workY.tickFormat = ',f';
                             //mTanfY.overrideMax = .003;
                             var workLine = pchart16.addSeries("Indicator", dimple.plot.bar);
         

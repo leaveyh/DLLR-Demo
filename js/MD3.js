@@ -2719,6 +2719,111 @@ if(strUser712 == "2017-Q3"){
 
        
         
+var svg16 = dimple.newSvg("#Chart20", "100%", 400);
+var print16 = dimple.newSvg("#Print20", 750, 400);
+        
+                            SnapData1 = dimple.filterData(dimple.filterData(data, "Indicator", "Snap Recipient Workers"), "Location", CountyName2);
+        
+                            SnapDatap1 = dimple.filterData(dimple.filterData(data, "Indicator", "Snap Recipient Workers by Percentage"), "Location", CountyName2);
+        
+                            
+                            
+                            
+        
+        
+                    
+                    var chart16 = new dimple.chart(svg16, SnapData1);
+                            chart16.setBounds("11%", "12%", "35%", "65%")
+                            var workX = chart16.addCategoryAxis("x", "Time")
+                            var workY = chart16.addMeasureAxis("y", "Amount");
+        
+                            workY.tickFormat= ',f';
+                            //mTanfY.overrideMax = .003;
+                            var workLine = chart16.addSeries("Indicator", dimple.plot.bar);
+        
+                           // chart16.addLegend("26%", "5%", "50%", "70%", "right");
+        
+                            var chart17 = new dimple.chart(svg16, SnapDatap1);
+                            chart17.setBounds("58%", "12%", "35%", "65%")
+                            var workX = chart17.addCategoryAxis("x", "Time")
+                            var workY = chart17.addMeasureAxis("y", "Amount");
+        
+                            workY.tickFormat = '.2%';
+                            //mTanfY.overrideMax = .003;
+                            var workLine = chart17.addSeries("Indicator", dimple.plot.bar);
+        
+                            //chart17.addLegend("26%", "5%", "50%", "70%", "right");
+        
+                            chart16.draw();
+                            chart17.draw();
+        
+                var pchart16 = new dimple.chart(print16, SnapData1);
+                            pchart16.setBounds("14%", "12%", "32%", 250)
+                            var workX = pchart16.addCategoryAxis("x", "Time")
+                            var workY = pchart16.addMeasureAxis("y", "Amount");
+        
+                            workX.tickFormat = ',f';
+                            //mTanfY.overrideMax = .003;
+                            var workLine = pchart16.addSeries("Indicator", dimple.plot.bar);
+        
+                           // pchart16.addLegend("26%", "5%", "50%", "70%", "right");
+        
+                            var pchart17 = new dimple.chart(print16, SnapDatap1);
+                            pchart17.setBounds("62%", "12%", "32%", 300)
+                            var workX = pchart17.addCategoryAxis("x", "Time")
+                            var workY = pchart17.addMeasureAxis("y", "Amount");
+        
+                            workY.tickFormat = '.2%';
+                            //mTanfY.overrideMax = .003;
+                            var workLine = pchart17.addSeries("Indicator", dimple.plot.bar);
+        
+                            //pchart17.addLegend("26%", "5%", "50%", "70%", "right");
+        
+                            pchart16.draw();
+                            pchart17.draw(); 
+        
+var svg17 = dimple.newSvg("#Chart21", "100%", 400);
+var print17 = dimple.newSvg("#Print21", 750, 400);
+        
+                            SnapData2 = dimple.filterData(dimple.filterData(data, "Indicator", "Service Participants in SNAP"), "Location", CountyName2);
+        
+                            //SnapDatap1 = dimple.filterData(dimple.filterData(data, "Indicator", "Snap Recipient Workers by Percentage"), "Location", CountyName2);
+        
+                            
+                            
+                            
+        
+        
+                    
+                    var chart18 = new dimple.chart(svg17, SnapData2);
+                            chart18.setBounds("10%", "12%", "80%", "60%")
+                            var workX = chart18.addCategoryAxis("x", "Time")
+                            var workY = chart18.addMeasureAxis("y", "Amount");
+        
+                            workY.tickFormat= '.2%';
+                            //mTanfY.overrideMax = .003;
+                            var workLine = chart18.addSeries("Indicator", dimple.plot.bar);
+        
+                           // chart18.addLegend("26%", "5%", "50%", "70%", "right");
+        
+                            
+                            chart18.draw();
+        
+                var pchart18 = new dimple.chart(print17, SnapData2);
+                            pchart18.setBounds("15%", "12%", "60%", "60%")
+                            var pworkX = pchart18.addCategoryAxis("x", "Time")
+                            var pworkY = pchart18.addMeasureAxis("y", "Amount");
+        
+                            pworkY.tickFormat = '.2%';
+                            //mTanfY.overrideMax = .003;
+                            var pworkLine = pchart18.addSeries("Indicator", dimple.plot.bar);
+        
+                           // pchart18.addLegend("26%", "5%", "50%", "70%", "right");
+        
+                            
+                            pchart18.draw();
+        
+        
                 
                     window.onresize = function () {
                       
@@ -4057,6 +4162,10 @@ d3.select("#btn6").on("click", function(){
       return d3.select(this).attr("transform") + " translate(0, 0) rotate(0)";
     });
             
+            chart16.draw(0, true);
+            chart17.draw(0, true);
+            chart18.draw(0, true);
+            
                                 pchart0.draw(0, true);
                                 pchart01.draw(0, true);
                         
@@ -4091,8 +4200,9 @@ d3.select("#btn6").on("click", function(){
       return d3.select(this).attr("transform") + " translate(0, 0) rotate(0)";
     });
             
-            
-            
+            pchart16.draw(0, true);
+            pchart17.draw(0, true);
+            pchart18.draw(0, true);
             
             
             
@@ -4128,6 +4238,8 @@ function hidePrint(){
     document.getElementById("Print17").style.display="none";
     document.getElementById("Print18").style.display="none";
     document.getElementById("Print19").style.display="none";
+    document.getElementById("Print20").style.display="none";
+    document.getElementById("Print21").style.display="none";
     
     drawAll();
 }
@@ -4150,6 +4262,8 @@ function hideChart(){
     document.getElementById("Chart17").style.display="none";
     document.getElementById("Chart18").style.display="none";
     document.getElementById("Chart19").style.display="none";
+    document.getElementById("Chart20").style.display="none";
+    document.getElementById("Chart21").style.display="none";
     drawAll();
 }
 
@@ -4171,6 +4285,8 @@ function showChart(){
     document.getElementById("Chart17").style.display="inline";
     document.getElementById("Chart18").style.display="inline";
     document.getElementById("Chart19").style.display="inline";
+    document.getElementById("Chart20").style.display="inline";
+    document.getElementById("Chart21").style.display="inline";
     drawAll();
 }
 
@@ -4192,6 +4308,9 @@ function showPrint(){
     document.getElementById("Print17").style.display="inline";
     document.getElementById("Print18").style.display="inline";
     document.getElementById("Print19").style.display="inline";
+    document.getElementById("Print20").style.display="inline";
+    document.getElementById("Print21").style.display="inline";
+    
     drawAll();
 }
 
@@ -4212,6 +4331,8 @@ function collapse1() {
         document.getElementById("collapse13").style.display="none";
         document.getElementById("collapse14").style.display="none";
         document.getElementById("collapse15").style.display="none";
+        document.getElementById("collapse18").style.display="none";
+        document.getElementById("collapse19").style.display="none";
         document.getElementById("pTitle").innerHTML = "Maryland";
         whichChart = 1;
         
@@ -4237,6 +4358,8 @@ function collapse2() {
         document.getElementById("collapse15").style.display="none";
         document.getElementById("collapse16").style.display="none";
         document.getElementById("collapse17").style.display="none";
+        document.getElementById("collapse18").style.display="none";
+        document.getElementById("collapse19").style.display="none";
         document.getElementById("pTitle").innerHTML = "Maryland";
         whichChart = 2;
         drawAll();
@@ -4261,6 +4384,8 @@ function collapse3() {
         document.getElementById("collapse15").style.display="none";
         document.getElementById("collapse16").style.display="none";
         document.getElementById("collapse17").style.display="none";
+        document.getElementById("collapse18").style.display="none";
+        document.getElementById("collapse19").style.display="none";
         document.getElementById("pTitle").innerHTML = "Maryland";
         whichChart = 3;
         drawAll();
@@ -4285,6 +4410,8 @@ function collapse4() {
         document.getElementById("collapse15").style.display="none";
         document.getElementById("collapse16").style.display="none";
         document.getElementById("collapse17").style.display="none";
+        document.getElementById("collapse18").style.display="none";
+        document.getElementById("collapse19").style.display="none";
         document.getElementById("pTitle").innerHTML = "Maryland";
         whichChart = 4;
         drawAll();
@@ -4308,6 +4435,8 @@ function collapse5() {
         document.getElementById("collapse15").style.display="none";
         document.getElementById("collapse16").style.display="none";
         document.getElementById("collapse17").style.display="none";
+        document.getElementById("collapse18").style.display="none";
+        document.getElementById("collapse19").style.display="none";
         document.getElementById("pTitle").innerHTML = "Maryland";
         whichChart = 5;
         drawAll();
@@ -4331,6 +4460,8 @@ function collapse6() {
         document.getElementById("collapse15").style.display="none";
         document.getElementById("collapse16").style.display="none";
         document.getElementById("collapse17").style.display="none";
+        document.getElementById("collapse18").style.display="none";
+        document.getElementById("collapse19").style.display="none";
         document.getElementById("pTitle").innerHTML = "Maryland";
         whichChart = 6;
         drawAll();
@@ -4354,6 +4485,8 @@ function collapse7() {
         document.getElementById("collapse15").style.display="none";
         document.getElementById("collapse16").style.display="none";
         document.getElementById("collapse17").style.display="none";
+        document.getElementById("collapse18").style.display="none";
+        document.getElementById("collapse19").style.display="none";
         document.getElementById("pTitle").innerHTML = "Maryland";
         whichChart = 7;
         drawAll();
@@ -4377,6 +4510,8 @@ function collapse8() {
         document.getElementById("collapse15").style.display="none";
         document.getElementById("collapse16").style.display="none";
         document.getElementById("collapse17").style.display="none";
+        document.getElementById("collapse18").style.display="none";
+        document.getElementById("collapse19").style.display="none";
         document.getElementById("pTitle").innerHTML = "Maryland";
         whichChart = 8;
         drawAll();
@@ -4400,6 +4535,8 @@ function collapse9() {
         document.getElementById("collapse15").style.display="none";
         document.getElementById("collapse16").style.display="none";
         document.getElementById("collapse17").style.display="none";
+        document.getElementById("collapse18").style.display="none";
+        document.getElementById("collapse19").style.display="none";
         document.getElementById("pTitle").innerHTML = "Maryland";
         whichChart = 9;
         drawAll();
@@ -4423,6 +4560,8 @@ function collapse10() {
         document.getElementById("collapse15").style.display="none";
         document.getElementById("collapse16").style.display="none";
         document.getElementById("collapse17").style.display="none";
+        document.getElementById("collapse18").style.display="none";
+        document.getElementById("collapse19").style.display="none";
     
         document.getElementById("pTitle").innerHTML = "Maryland";
         whichChart = 10;
@@ -4448,6 +4587,8 @@ function collapse11() {
         document.getElementById("collapse15").style.display="none";
         document.getElementById("collapse16").style.display="none";
         document.getElementById("collapse17").style.display="none";
+        document.getElementById("collapse18").style.display="none";
+        document.getElementById("collapse19").style.display="none";
     
         document.getElementById("pTitle").innerHTML = "Maryland";
         whichChart = 11;
@@ -4473,6 +4614,8 @@ function collapse12() {
         document.getElementById("collapse15").style.display="none";
         document.getElementById("collapse16").style.display="none";
         document.getElementById("collapse17").style.display="none";
+        document.getElementById("collapse18").style.display="none";
+        document.getElementById("collapse19").style.display="none";
         document.getElementById("pTitle").innerHTML = "Maryland";
         whichChart = 12;
         
@@ -4497,6 +4640,8 @@ function collapse13() {
         document.getElementById("collapse15").style.display="none";
         document.getElementById("collapse16").style.display="none";
         document.getElementById("collapse17").style.display="none";
+        document.getElementById("collapse18").style.display="none";
+        document.getElementById("collapse19").style.display="none";
         document.getElementById("pTitle").innerHTML = "Maryland";
         whichChart = 13;
         
@@ -4521,6 +4666,8 @@ function collapse14() {
         document.getElementById("collapse15").style.display="inline";
         document.getElementById("collapse16").style.display="none";
         document.getElementById("collapse17").style.display="none";
+        document.getElementById("collapse18").style.display="none";
+        document.getElementById("collapse19").style.display="none";
         document.getElementById("pTitle").innerHTML = "Maryland";
         whichChart = 14;
         
@@ -4545,6 +4692,8 @@ function collapse15() {
         document.getElementById("collapse15").style.display="none";
         document.getElementById("collapse16").style.display="inline";
         document.getElementById("collapse17").style.display="none";
+        document.getElementById("collapse18").style.display="none";
+        document.getElementById("collapse19").style.display="none";
         document.getElementById("pTitle").innerHTML = "Maryland";
         whichChart = 15;
         
@@ -4570,8 +4719,64 @@ function collapse16() {
         document.getElementById("collapse15").style.display="none";
         document.getElementById("collapse16").style.display="none";
         document.getElementById("collapse17").style.display="inline";
+        document.getElementById("collapse18").style.display="none";
+        document.getElementById("collapse19").style.display="none";
         document.getElementById("pTitle").innerHTML = "Maryland";
         whichChart = 16;
+        
+        drawAll();
+        hidePrint();
+    }
+
+function collapse17() {
+        document.getElementById("collapse1").style.display="none";
+        document.getElementById("collapse2").style.display="none";
+        document.getElementById("collapse3").style.display="none";
+        document.getElementById("collapse4").style.display="none";
+        document.getElementById("collapse5").style.display="none";
+        document.getElementById("collapse6").style.display="none";
+        document.getElementById("collapse7").style.display="none";
+        document.getElementById("collapse8").style.display="none";
+        document.getElementById("collapse9").style.display="none";
+        document.getElementById("collapse10").style.display="none";
+        document.getElementById("collapse11").style.display="none";
+        document.getElementById("collapse12").style.display="none";
+        document.getElementById("collapse13").style.display="none";
+        document.getElementById("collapse14").style.display="none";
+        document.getElementById("collapse15").style.display="none";
+        document.getElementById("collapse16").style.display="none";
+        document.getElementById("collapse17").style.display="none";
+        document.getElementById("collapse18").style.display="inline";
+        document.getElementById("collapse19").style.display="none";
+        document.getElementById("pTitle").innerHTML = "Maryland";
+        whichChart = 17;
+        
+        drawAll();
+        hidePrint();
+    }
+
+function collapse18() {
+        document.getElementById("collapse1").style.display="none";
+        document.getElementById("collapse2").style.display="none";
+        document.getElementById("collapse3").style.display="none";
+        document.getElementById("collapse4").style.display="none";
+        document.getElementById("collapse5").style.display="none";
+        document.getElementById("collapse6").style.display="none";
+        document.getElementById("collapse7").style.display="none";
+        document.getElementById("collapse8").style.display="none";
+        document.getElementById("collapse9").style.display="none";
+        document.getElementById("collapse10").style.display="none";
+        document.getElementById("collapse11").style.display="none";
+        document.getElementById("collapse12").style.display="none";
+        document.getElementById("collapse13").style.display="none";
+        document.getElementById("collapse14").style.display="none";
+        document.getElementById("collapse15").style.display="none";
+        document.getElementById("collapse16").style.display="none";
+        document.getElementById("collapse17").style.display="none";
+        document.getElementById("collapse18").style.display="none";
+        document.getElementById("collapse19").style.display="inline";
+        document.getElementById("pTitle").innerHTML = "Maryland";
+        whichChart = 18;
         
         drawAll();
         hidePrint();
@@ -4595,6 +4800,9 @@ function showAll() {
         document.getElementById("collapse15").style.display="inline";
         document.getElementById("collapse16").style.display="inline";
         document.getElementById("collapse17").style.display="inline";
+        document.getElementById("collapse18").style.display="inline";
+        document.getElementById("collapse19").style.display="inline";
+        
         
         document.getElementById("pTitle").innerHTML = "Maryland";
         
@@ -4622,6 +4830,8 @@ function hideAll() {
         document.getElementById("collapse15").style.display="none";
         document.getElementById("collapse16").style.display="none";
         document.getElementById("collapse17").style.display="none";
+        document.getElementById("collapse18").style.display="none";
+        document.getElementById("collapse19").style.display="none";
         document.getElementById("pTitle").innerHTML = "Maryland";
         
         drawAll();
@@ -4723,6 +4933,18 @@ window.printClick = function(){
         collapse16();
         document.getElementById("Chart19").style.display="none";
         document.getElementById("Print19").style.display="inline";
+        drawAll();
+        
+    }else if(whichChart == 17){
+        collapse17();
+        document.getElementById("Chart20").style.display="none";
+        document.getElementById("Print20").style.display="inline";
+        drawAll();
+        
+    }else if(whichChart == 18){
+        collapse18();
+        document.getElementById("Chart21").style.display="none";
+        document.getElementById("Print21").style.display="inline";
         drawAll();
         
     }

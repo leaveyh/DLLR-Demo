@@ -108,6 +108,14 @@
     <div class="dropdown">
             <button class="button" id="button2" onclick="collapse2()" style="padding-left: 2%; padding-right: 5%">Long Term Unemployed</button>
                     </div>
+                    
+                    <div class="dropdown">
+            <button class="button" style="padding-left: 2%; padding-right: 5%" onclick="collapse17()">SNAP Recipients</button>
+                
+                    </div>
+                    <div class="dropdown">
+                        <button class="button" style="padding-left: 2%; padding-right: 5%" onclick="collapse18()">Service Partcipants in SNAP</button>
+                    </div>
     </div>
     
     <div id="Wrapper">
@@ -1852,6 +1860,125 @@
                     
                 
         </div>
+          
+          <div id="collapse18" style="display: none">
+              
+              <div class="ChartTitle">
+               
+                
+                <p>SNAP Recipient Workers</p> 
+                
+                
+            </div>
+        
+        <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart20" class="show">
+                        
+                    </div>
+            
+                    <div class="print">
+                <div id="Print20">
+                
+                </div>
+                </div>
+                
+                
+
+                
+            </div>
+              
+              <div class="Table">
+                
+                            <table id="table14">
+                              <tr class="HeadRow">
+                              <th>Snap Recipient Workers</th>
+                              <th></th>
+                              <th>2016</th>
+                              <th>2017</th>
+                              <th>2018</th>
+                              
+                            </tr>
+                                
+                            </table>
+        
+        <div class="Footer">
+            <div class="FootLeft"> 
+                <p>Source: In-house, accessed 4/15/2019</p>
+            </div>
+            
+            </div>
+            
+            
+            </div>
+              
+              
+              
+          </div>
+          
+          <div id="collapse19" style="display: none">
+              
+              <div class="ChartTitle">
+               
+                
+                <p>Service Participants in SNAP</p> 
+                
+                
+            </div>
+        
+        <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart21" class="show">
+                        
+                    </div>
+            
+                    <div class="print">
+                <div id="Print21">
+                
+                </div>
+                </div>
+                
+                
+
+                
+            </div>
+              
+              <div class="Table">
+                
+                            <table id="table15">
+                              <tr class="HeadRow">
+                              <th>Service Participants in SNAP</th>
+                              <th></th>
+                              <th>2016-Q3</th>
+                              <th>2016-Q4</th>
+                              
+                            </tr>
+                                
+                            </table>
+        
+        <div class="Footer">
+            <div class="FootLeft"> 
+                <p>Source: In-house, accessed 4/15/2019</p>
+            </div>
+            
+            </div>
+            
+            
+            </div>
+              
+              
+              
+          </div>
+          
+          
+          
+          
            
         </div>
         </div>
@@ -2982,4 +3109,48 @@
 
 
 </script>
+
+<script type="text/javascript"charset="utf-8">
+            d3.text("https://docs.google.com/spreadsheets/d/e/2PACX-1vSYGyb5ZuboimWwbEHuGueIRIC3MF-JnriyRzfPMfCJxJkDfJ_ikrO_8WG-OAXRYa2cam-F-rp1De6F/pub?gid=78224708&single=true&output=csv", function(data) {
+                var parsedCSV = d3.csv.parseRows(data);
+
+                var container = d3.select("#table14")
+                    //.append("table")
+
+                    .selectAll("tr")
+                        .data(parsedCSV).enter()
+                        .append("tr")
+
+                    .selectAll("td")
+                        .data(function(d) { return d; }).enter()
+                        .append("td")
+                        .text(function(d) { return d; });
+            });
+    
+       
+    
+        
+        </script>
+        
+        <script type="text/javascript"charset="utf-8">
+            d3.text("https://docs.google.com/spreadsheets/d/e/2PACX-1vSYGyb5ZuboimWwbEHuGueIRIC3MF-JnriyRzfPMfCJxJkDfJ_ikrO_8WG-OAXRYa2cam-F-rp1De6F/pub?gid=74357937&single=true&output=csv", function(data) {
+                var parsedCSV = d3.csv.parseRows(data);
+
+                var container = d3.select("#table15")
+                    //.append("table")
+
+                    .selectAll("tr")
+                        .data(parsedCSV).enter()
+                        .append("tr")
+
+                    .selectAll("td")
+                        .data(function(d) { return d; }).enter()
+                        .append("td")
+                        .text(function(d) { return d; });
+            });
+    
+       
+    
+        
+        </script>
 </html>
