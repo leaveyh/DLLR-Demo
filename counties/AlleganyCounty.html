@@ -80,6 +80,9 @@
                 <div class="dropdown">    
             <button class="button" onclick="collapse8()">Worker Experience</button>
                 </div>
+                <div class="dropdown">    
+            <button class="button" onclick="collapse9()">SNAP</button>
+                </div>
                 
             </div>
     
@@ -883,6 +886,64 @@
 
     </div>
        
+        <div id="collapse9" style="display: none;" >
+            
+             <div class="ChartTitle">
+               
+                
+                <p>SNAP Recipient Workers</p> 
+                
+                
+            </div>
+        
+        <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart12" class="show">
+                        
+                    </div>
+            
+                    <div class="print">
+                <div id="Print12">
+                
+                </div>
+                </div>
+                
+                
+
+                
+            </div>
+            
+            <div class="Table">
+                
+                            <table id="table12">
+                              <tr class="HeadRow">
+                              <th>Snap Recipient Workers</th>
+                              <th></th>
+                              <th>2016</th>
+                              <th>2017</th>
+                              <th>2018</th>
+                              
+                            </tr>
+                                
+                            </table>
+        
+        <div class="Footer">
+            <div class="FootLeft"> 
+                <p>Source: In-house, accessed 4/15/2019</p>
+            </div>
+            
+            </div>
+            
+            
+            </div>
+
+
+
+    </div>
+       
 
     </div>
     </div>
@@ -1280,6 +1341,28 @@
                 var parsedCSV = d3.csv.parseRows(data);
 
                 var container = d3.select("#table11")
+                    //.append("table")
+
+                    .selectAll("tr")
+                        .data(parsedCSV).enter()
+                        .append("tr")
+
+                    .selectAll("td")
+                        .data(function(d) { return d; }).enter()
+                        .append("td")
+                        .text(function(d) { return d; });
+            });
+    
+       
+    
+        
+        </script>
+        
+        <script type="text/javascript"charset="utf-8">
+            d3.text("https://docs.google.com/spreadsheets/d/e/2PACX-1vTeWmkeAYMcZdUOeH7sA4N4ES0EAgaVTwRQDP_DzKuPH6i2sL9SFjGQQ1mbpipglwTfyFZMO-07NEHr/pub?gid=708697505&single=true&output=csv", function(data) {
+                var parsedCSV = d3.csv.parseRows(data);
+
+                var container = d3.select("#table12")
                     //.append("table")
 
                     .selectAll("tr")
