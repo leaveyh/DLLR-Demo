@@ -77,6 +77,10 @@
                 <button class="button" onclick="collapse7()">Recipients %</button>
                 </div>
                 </div>
+                <div class="dropdown">    
+            <button class="button" onclick="collapse8()">Worker Experience</button>
+                </div>
+                
             </div>
     
     <div id="Wrapper">
@@ -803,6 +807,81 @@
 
 
     </div>
+      
+          <div id="collapse8" style="display: none;" >
+            
+             <div class="ChartTitle">
+               <div class="buttons">
+                    <p> Select Time Period: 
+                        <select id="btn10">
+                            <option>2015</option>
+                            <option>2016</option>
+                            <option>2017</option>
+                        </select>            
+                    </p>
+                    <p> Select Indicator: 
+                        <select id="btn11">
+                            <option>Gender</option>
+                            <option>Race</option>
+                            <option>Education</option>
+                            <option>Poverty</option>
+                        </select>            
+                    </p>
+                </div>
+                
+                <p>Work Experience amongst Maryland Workers</p> 
+                
+                
+            </div>
+        
+        <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart11" class="show">
+                        
+                    </div>
+            
+                    <div class="print">
+                <div id="Print11">
+                
+                </div>
+                </div>
+                
+                
+
+                
+            </div>
+            
+            <div class="Table">
+                
+                            <table id="table11">
+                              <tr class="HeadRow">
+                              <th>Work Experience Amongst Maryland Workers</th>
+                              <th></th>
+                              <th></th>
+                              <th>2015</th>
+                              <th>2016</th>
+                              <th>2017</th>
+                              
+                            </tr>
+                                
+                            </table>
+        
+        <div class="Footer">
+            <div class="FootLeft"> 
+                <p>Source: Administrative Data from Temporary Assistance to Needy Families (TANF) and MD Wage Records (Date Last Accessed: 2/28/18)</p>
+            </div>
+            
+            </div>
+            
+            
+            </div>
+
+
+
+    </div>
        
 
     </div>
@@ -1195,4 +1274,26 @@
  
     
 </script>
+
+<script type="text/javascript"charset="utf-8">
+            d3.text("../data/AGWD.csv", function(data) {
+                var parsedCSV = d3.csv.parseRows(data);
+
+                var container = d3.select("#table11")
+                    //.append("table")
+
+                    .selectAll("tr")
+                        .data(parsedCSV).enter()
+                        .append("tr")
+
+                    .selectAll("td")
+                        .data(function(d) { return d; }).enter()
+                        .append("td")
+                        .text(function(d) { return d; });
+            });
+    
+       
+    
+        
+        </script>
 </html>

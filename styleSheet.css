@@ -351,7 +351,24 @@
     }
 
 
-            
+#table11 td:nth-child(1){
+    font-weight: bold;
+
+}   
+
+#table11 td:nth-child(2){
+    font-weight: bold;
+    font-style: italic;
+    color: cornflowerblue;
+
+}   
+
+#table11 td:nth-child(3){
+   
+    font-style: italic;
+    
+
+}  
                         
             
             
