@@ -1,0 +1,1382 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../styleSheet.css"> <title>LMI Dashboard</title>
+        
+        <link href="../favicon.ico" rel="icon" type="image/x-icon" />
+        
+        
+        <style>
+            
+            .picDiv {
+                width: 600px;
+                height: 600px;
+                overflow: hidden;
+                margin-left: 20%;
+            }
+
+            .picDiv img {
+                width: 325%;
+                height: 325%;
+                margin: -110% 0 0 -108.5%;
+            }
+            
+            
+            
+        </style> 
+        
+        <script src="../js/d3.v3.min.js" charset="utf-8"></script>
+                        <script src="../js/dimple.v2.2.0.min.js"></script>    
+                        <script src="jquery.csv.min.js"></script>
+                        <script src="../js/jquery-1.12.0.min.js"></script>
+                        <script src="jquery.csv.min.js"></script>
+                        <script type="text/javascript">
+                            
+                            
+                            
+                            var CountyName = "Baltimore County";
+                            
+                            var CountyName1 = "Baltimore County, MD"
+                             
+                            var CountyName2 = "Baltimore County, Maryland"
+                            
+                            
+                            
+                        </script>
+                        
+        
+    </head>
+     <div class="sidebutton">
+                <select onChange="window.location.href=this.value" style="margin: 0px 0px 10px 10px; margin-bottom: 10px; padding-right: 0%;">
+            <option selected="selected">Choose a county...</option>
+            <option value="Maryland.html" >Maryland</option>
+          <option value="AlleganyCounty.html" >Allegany</option>
+            
+         </select>
+                <div class="dropdown">
+                <button class="button" id="button1" onclick="popchart()">Population and Median Household Income</button>
+                    </div>
+                
+            <div class="dropdown">    
+                
+            <button class="button" style="padding-left: 16%; padding-right: 16%">Demographics</button>
+                <div class="dropdown-content">
+                <button class="button" onclick="educhart()">Education and Gender</button>
+                <button class="button" onclick="racechart()">Race and Ethnicity</button>
+                <button class="button" onclick="vetchart()" style="padding-left: 14%; padding-right: 12%">Veteran Status</button>
+                </div>
+                </div>
+            <div class="dropdown">    
+            <button class="button" onclick="dischart()">Disability and Poverty</button>
+                </div>
+            <div class="dropdown">    
+            <button class="button" style="padding-left: 20%; padding-right: 20%">TANF Data</button>
+                <div class="dropdown-content">
+                <button class="button" onclick="collapse6()">Workers and Participants</button>
+                <button class="button" onclick="collapse7()">Recipients %</button>
+                </div>
+                </div>
+                <div class="dropdown">    
+            <button class="button" onclick="collapse8()">Worker Experience</button>
+                </div>
+                <div class="dropdown">    
+            <button class="button" onclick="collapse9()">SNAP</button>
+                </div>
+                
+            </div>
+    
+    <div id="Wrapper">
+        <div class="content">
+            
+    <div class="Header"><p class="RightText"><a href="../index.html">Start Over</a>    |    <button onclick="printClick()">Print This Snapshot</button>    |      <button onclick="printAll()" > Print Whole Page</button></p><p>Select Different Snapshot and/or County</p>  </div>
+            
+            <div class="County">
+            <p id="title1">Allegany</p>
+                
+            </div>
+            <div id="collapse1" style="display: none;">
+             <div class="ChartTitle">
+                <p>Population and Median Household Income</p>
+            </div>
+            
+            <div class="ChartDiv">
+                <div id="Chart0" class="show">
+                <script src="../js/stateD3.js"></script>
+                
+                
+                </div>
+                </div>
+                
+                <div class="print">
+                <div id="Print0">
+                
+                </div>
+                </div>
+                    
+            <div class="Table">
+                            <table id="table0">
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>Baltimore County:</th>
+                        <th>2012-2016</th>
+                        <th>2013-2017</th>
+                        <th>Change</th>
+                    </tr>
+                    <tr>
+                        <th>Population</th>
+                        <td id="P1">#1</td>
+                        <td id="P2">#2</td>
+                        <td id="P3">#3</td>
+                    </tr>
+                    <tr class="FootRow">
+                        <th>Median Household Income</th>
+                        <td id="H1">#1</td>
+                        <td id="H2">#2</td>
+                        <td id="H3">#3</td>
+                    </tr>
+                </table>
+                
+                
+            </div>
+                
+                <div class="Footer">
+            <div class="FootRight">
+                
+            </div>
+            <div class="FootLeft">
+                
+                <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: Today)</p>
+            </div>
+            
+            </div>
+                        
+                </div>
+                
+            
+            
+            
+            
+            
+            <div id="collapse2" style="display: none">
+            <div class="ChartTitle">
+                <div class="buttons">
+                    <p><button type="button" id="btn5">Toggle Labels</button>
+                        Employment Status: 
+                        <select id="btn3">
+                            <option>Pick a Time Period</option>
+                            <option>2016</option>
+                            <option>2017</option>
+                        </select>            
+                    </p>
+                </div>
+                
+                <p>Demographics</p>
+            </div>
+            
+            <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart3" class="show">
+                        <script src="../js/d3.v3.min.js" charset="utf-8"></script>
+                        <script src="../js/dimple.v2.2.0.min.js"></script>    
+                        <script type="text/javascript">
+
+                            
+                            
+                            
+                  /**          window.onresize = function () {
+                                chart.draw(0, true);
+                                chart1.draw(0, true);
+                                chart2.draw(0, true);
+                                chart3.draw(0, true);
+                            }; **/
+                            
+                            
+                            
+
+                        </script>
+                        <p></p>
+                    </div>
+                
+                <div class="print">
+                <div id="Print3">
+                
+                </div>
+                </div>
+                
+                
+
+                
+            </div>
+            
+            <div class="Table">
+                            <table id ="table3">
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>Baltimore County 2016: </th>
+                        <th>Less than High School Graduate</th>
+                        <th>High School Graduate (Includes Equivalency)</th>
+                        <th>Some College or Associates</th>
+                        <th>Bachelor's Degree or Higher</th>
+                        <th></th>
+                        <th>Male</th>
+                        <th>Female</th>
+                    </tr>
+                    <tr class="HeadRow" style="background-color: white;">
+                                <th>2012-2016</th>
+                            <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        
+                                </tr>
+                                
+                                <tr>
+                        <th>Employed</th>
+                        <td id="E1">#1</td>
+                        <td id="E2">#2</td>
+                        <td id="E3">#3</td>
+                        <td id="E4">#4</td>
+                        <th rowspan="5" style="border-style: solid;
+                border-color: #5281B7;">Unemployment Rate</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>Unemployed</th>
+                        <td id="EE1">#1</td>
+                        <td id="EE2">#2</td>
+                        <td id="EE3">#3</td>
+                        <td id="EE4">#4</td>
+                        <td id="EM1">#5</td>
+                        <td id="EF1">#6</td>
+                    </tr>
+                    <tr>
+                        <th>Not In Labor Force (NIL)</th>
+                        <td id="EE5">#1</td>
+                        <td id="EE6">#2</td>
+                        <td id="EE7">#3</td>
+                        <td id="EE8">#4</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th colspan="7">All</th>
+                        
+                    </tr>
+                    <tr>
+                        <th>Total Population</th>
+                        <td id="PE1">#1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td id="PM1">#5</td>
+                        <td></td>
+                    </tr>
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>2013-2017: </th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>Employed</th>
+                        <td id="E5">#1</td>
+                        <td id="E6">#2</td>
+                        <td id="E7">#3</td>
+                        <td id="E8">#4</td>
+                        <th rowspan="5" style="border-style: solid;
+                border-color: #5281B7;">Unemployment Rate</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                                
+                    <tr>
+                        <th>Unemployed</th>
+                        <td id="EE9">#1</td>
+                        <td id="EE10">#2</td>
+                        <td id="EE11">#3</td>
+                        <td id="EE12">#4</td>
+                        <td id="EM2">#5</td>
+                        <td id="EF2">#6</td>
+                    </tr>
+                    <tr>
+                        <th>Not In Labor Force (NIL)</th>
+                        <td id="EE13">#1</td>
+                        <td id="EE14">#2</td>
+                        <td id="EE15">#3</td>
+                        <td id="EE16">#4</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                    <th colspan="7">All</th>
+                    </tr>
+                     <tr class="FootRow">
+                        <th>Total Population</th>
+                        <td id="PE2">#1</td>
+                        <td></td>
+                         <td></td>
+                         <td></td>
+                        <td id="PM2">#5</td>
+                         <td></td>
+                    </tr>
+                </table>
+                
+                
+            </div>
+                
+        <div class="Footer">
+            
+                
+                <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: Today)</p>
+            
+            
+            </div>
+                
+        </div>      
+                
+                
+            
+
+            <div id="collapse3" style="display: none">
+                <div class="ChartTitle">
+                <div class="buttons">
+                    <p>
+                        Employment Status: 
+                        <select id="btn31">
+                            <option>Pick a Time Period</option>
+                            <option>2016</option>
+                            <option>2017</option>
+                        </select>            
+                    </p>
+                </div>
+                
+                <p>Demographics</p>
+            </div>
+            <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart4" class="show">
+                        
+                    </div>
+                
+                <div class="print">
+                <div id="Print4">
+                
+                </div>
+                </div>
+                
+                
+
+                
+            </div>
+            
+            <div class="Table">
+                            <table id="table4">
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>Baltimore County:</th>
+                        <th>White</th>
+                        <th>Black</th>
+                        <th>Asian</th>
+                        <th>Hispanic or Latino <br> (Any Race)</th>
+                    </tr>
+                                <tr class="HeadRow">
+                                    <th>2012-2016
+                                    </th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                    <tr>
+                        <th>Unemployment Rate</th>
+                        <td id="RE1">#1</td>
+                        <td id="RE2">#2</td>
+                        <td id="RE3">#3</td>
+                        <td id="RE4">#4</td>
+                    </tr>
+                    <tr class="HeadRow">
+                        <th>2013-2017</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr class="FootRow">
+                        <th>Unemployment Rate</th>
+                        <td id="RE8">#1</td>
+                        <td id="RE9">#2</td>
+                        <td id="RE10">#3</td>
+                        <td id="RE11">#4</td>
+                    </tr>
+                </table>
+                
+                
+            </div>
+            <div class="Footer">
+            
+                
+                <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: Today)</p>
+            
+            
+            </div>
+            
+            
+            </div>
+        
+            
+            <div id="collapse4" style="display: none">
+                <div class="ChartTitle">
+                <div class="buttons">
+                    <p>
+                        Employment Status: 
+                        <select id="btn32">
+                            <option>Pick a Time Period</option>
+                            <option>2016</option>
+                            <option>2017</option>
+                        </select>            
+                    </p>
+                </div>
+                
+                <p>Demographics</p>
+            </div>
+                
+               
+            
+            <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="ChartFive" class="show">
+                        
+                    </div>
+                <div class="print">
+                <div id="PrintFive">
+                
+                </div>
+                </div>
+                
+
+                
+            </div>
+            
+            <div class="Table">
+                            <table id="table7">
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>Baltimore County:</th>
+                        <th>Veteran</th>
+                        <th>Non Veteran</th>
+                    </tr>
+                                <tr class="HeadRow">
+                                    <th>2012-2016</th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                    <tr>
+                        <th>Unemployment Rate</th>
+                        <td id="VetU1">#5</td>
+                        <td id="VetU2">#6</td>
+                    </tr>
+                    <tr class="HeadRow">
+                        <th>2013-2017</th>
+                        <th></th>
+                        <th></th>
+                        
+                    </tr>
+                     <tr class="FootRow">
+                        <th>Unemployment Rate</th>
+                        <td id="VetU3">#5</td>
+                         <td id="VetU4">#6</td>
+                    </tr>
+                </table>
+                
+                
+            </div>
+                
+        <div class="Footer">
+            
+                
+                <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: Today)</p>
+            
+            
+            </div>    </div>
+        
+            
+            <div id="collapse5" style="display: none">
+          <div class="ChartTitle">
+                <div class="buttons">
+                    <p> Select Time Period: 
+                        <select id="btn9">
+                            <option>Pick a Time Period</option>
+                            <option>2016</option>
+                            <option>2017</option>
+                        </select>            
+                    </p>
+                </div>
+                
+                <p></p>
+            </div>  
+            
+        
+         <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart8" class="show">
+                        
+                    </div>
+             
+                    <div class="print">
+                <div id="Print8">
+                
+                </div>
+                </div>
+                
+                
+
+                
+            </div>
+        
+        <div class="Table">
+                            <table id ="table8">
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>Baltimore County: </th>
+                        <th>Disabled Individuals</th>
+                        <th>Individuals without Disabilities</th>
+                        <th></th>
+                        <th>Income in the past 12 months below poverty level</th>
+                    </tr>
+                    <tr class="HeadRow" style="background-color: white;">
+                                <th>2012-2016</th>
+                            <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                                </tr>
+                                
+                                <tr>
+                        <th>Labor Force</th>
+                        <td id="t1">#1</td>
+                        <td id="t2">#2</td>
+                        <td ></td>
+                        <td id="t3">#4</td>
+                    </tr>
+                    <tr>
+                        <th>Employed</th>
+                        <td id="t4">#1</td>
+                        <td id="t5">#2</td>
+                        <td></td>
+                        <td id="t6">#4</td>
+                    </tr>
+                    <tr>
+                        <th>Unemployed</th>
+                        <td id="t7">#1</td>
+                        <td id="t8">#2</td>
+                        <td ></td>
+                        <td id="t9">#4</td>
+                    </tr>
+                    
+                    <tr class="HeadRow" style="background-color: white;">
+                        <th>2013-2017</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>Labor Force</th>
+                        <td id="t13">#1</td>
+                        <td id="t14">#2</td>
+                        <td></td>
+                        <td id="t15">#4</td>
+                    </tr>
+                                
+                    <tr>
+                        <th>Employed</th>
+                        <td id="t16">#1</td>
+                        <td id="t17">#2</td>
+                        <td></td>
+                        <td id="t18">#4</td>
+                    </tr>
+                    <tr class="FootRow">
+                        <th>Unemployed</th>
+                        <td id="t19">#1</td>
+                        <td id="t20">#2</td>
+                        <td></td>
+                        <td id="t21">#4</td>
+                    </tr>
+                    
+                    
+                </table>
+                
+                
+            </div>
+        
+        <div class="Footer">
+            <div class="FootLeft">
+                <p>Source: American Community Survey 5-Year Estimates (Date Last Accessed: Today)</p>
+            </div>
+            
+            </div>
+                
+        </div>   
+            
+            
+            <div id="collapse6" style="display: none">
+        
+        <div class="ChartTitle">
+                <div class="buttons">
+                    <p>
+                        TANF Workers: 
+                        <select id="btn8">
+                            <option>Pick a Time Period</option>
+                            <option>All</option>
+                            <option>2015Q3-2016Q2</option>
+                            <option>2016Q3-2017Q2</option>
+                        </select>            
+                    </p>
+                </div>
+                
+                <p>TANF Stats</p> 
+            </div>
+        
+        <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart9" class="show">
+                        
+                    </div>
+            
+                    <div class="print">
+                <div id="Print9">
+                
+                </div>
+                </div>
+                
+                
+
+                
+            </div>
+        
+        <div class="Table">
+            <table id="table9">
+            <tr class="HeadRow" style="background-color: white;">
+                        <th>Baltimore County:</th>
+                        <th>TANF Recipient Workers</th>
+                        <th>Service Participants in TANF by Percentage</th>
+                    </tr>
+                                <tr class="HeadRow">
+                                    <th>2015Q3 - 2016Q2</th>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                    <tr>
+                        <th>2015 Q3</th>
+                        <td id="Tanf1">#5</td>
+                        <td id="Ptanf1">#6</td>
+                    </tr>
+                    <tr>
+                        <th>2015 Q4</th>
+                        <td id="Tanf2">#5</td>
+                        <td id="Ptanf2">#6</td>
+                    </tr>
+                    <tr>
+                        <th>2016 Q1</th>
+                        <td id="Tanf3">#5</td>
+                        <td id="Ptanf3">#6</td>
+                    </tr>
+                    <tr>
+                        <th>2016 Q2</th>
+                        <td id="Tanf4">#5</td>
+                        <td id="Ptanf4">#6</td>
+                    </tr>
+                    <tr class="HeadRow">
+                        <th>2016Q3 - 2017Q2</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>2016 Q3</th>
+                        <td id="Tanf5">#5</td>
+                        <td id="Ptanf5">#6</td>
+                    </tr>
+                    <tr>
+                        <th>2016 Q4</th>
+                        <td id="Tanf6">#5</td>
+                        <td id="Ptanf6">#6</td>
+                    </tr>
+                    <tr>
+                        <th>2017 Q1</th>
+                        <td id="Tanf7"></td>
+                        <td id="Ptanf7">#6</td>
+                    </tr>
+                    <tr class="FootRow">
+                        <th>2017 Q2</th>
+                        <td id="Tanf8"></td>
+                        <td id="Ptanf8">#6</td>
+                    </tr>
+            </table>
+        </div>
+        
+        
+        <div class="Footer">
+            <div class="FootLeft"> 
+                <p>Source: Administrative Data from Temporary Assistance to Needy Families (TANF) and MD Wage Records (Date Last Accessed: 2/28/18)</p>
+            </div>
+            
+            </div>
+                
+        </div>
+        
+        <div id="collapse7" style="display: none;" >
+            
+             <div class="ChartTitle">
+                
+                <p>Percentage of TANF Recipients amongst Maryland Workers</p> 
+            </div>
+        
+        <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart10" class="show">
+                        
+                    </div>
+            
+                    <div class="print">
+                <div id="Print10">
+                
+                </div>
+                </div>
+                
+                
+
+                
+            </div>
+            
+            <div class="Table">
+                            <table id="table10">
+                                <tr class="HeadRow">
+                                    <th>Percentage of TANF Recipients among Maryland Workers</th>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <th>2016 Q3</th>
+                                    <th>2016 Q4</th>
+                                    <th>2017 Q1</th>
+                                    <th>2017 Q2</th>
+                                </tr>
+                    <tr class="FootRow">
+                        <th>Percentage:</th>
+                        
+                        <td id="t28">#1</td>
+                        <td id="t29">#2</td>
+                        <td id="t30">#3</td>
+                        <td id="t31">#4</td>
+                    </tr>
+                </table>
+        
+        <div class="Footer">
+            <div class="FootLeft"> 
+                <p>Source: Administrative Data from Temporary Assistance to Needy Families (TANF) and MD Wage Records (Date Last Accessed: 2/28/18)</p>
+            </div>
+            
+            </div>
+            
+            
+            </div>
+
+
+
+    </div>
+      
+          <div id="collapse8" style="display: none;" >
+            
+             <div class="ChartTitle">
+               <div class="buttons">
+                    <p> Select Time Period: 
+                        <select id="btn10">
+                            <option>2015</option>
+                            <option>2016</option>
+                            <option>2017</option>
+                        </select>            
+                    </p>
+                    <p> Select Indicator: 
+                        <select id="btn11">
+                            <option>Gender</option>
+                            <option>Race</option>
+                            <option>Education</option>
+                            <option>Poverty</option>
+                        </select>            
+                    </p>
+                </div>
+                
+                <p>Work Experience amongst Maryland Workers</p> 
+                
+                
+            </div>
+        
+        <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart11" class="show">
+                        
+                    </div>
+            
+                    <div class="print">
+                <div id="Print11">
+                
+                </div>
+                </div>
+                
+                
+
+                
+            </div>
+            
+            <div class="Table">
+                
+                            <table id="table11">
+                              <tr class="HeadRow">
+                              <th>Work Experience Amongst Maryland Workers</th>
+                              <th></th>
+                              <th></th>
+                              <th>2015</th>
+                              <th>2016</th>
+                              <th>2017</th>
+                              
+                            </tr>
+                                
+                            </table>
+        
+        <div class="Footer">
+            <div class="FootLeft"> 
+                <p>Source: ACS and Microdata, accessed 4/15/2019</p>
+            </div>
+            
+            </div>
+            
+            
+            </div>
+
+
+
+    </div>
+       
+        <div id="collapse9" style="display: none;" >
+            
+             <div class="ChartTitle">
+               
+                
+                <p>SNAP Recipient Workers</p> 
+                
+                
+            </div>
+        
+        <div class="ChartDiv">
+                
+                
+                
+                
+                    <div id="Chart12" class="show">
+                        
+                    </div>
+            
+                    <div class="print">
+                <div id="Print12">
+                
+                </div>
+                </div>
+                
+                
+
+                
+            </div>
+            
+            <div class="Table">
+                
+                            <table id="table12">
+                              <tr class="HeadRow">
+                              <th>Snap Recipient Workers</th>
+                              <th></th>
+                              <th>2016</th>
+                              <th>2017</th>
+                              <th>2018</th>
+                              
+                            </tr>
+                                
+                            </table>
+        
+        <div class="Footer">
+            <div class="FootLeft"> 
+                <p>Source: In-house, accessed 4/15/2019</p>
+            </div>
+            
+            </div>
+            
+            
+            </div>
+
+
+
+    </div>
+       
+
+    </div>
+    </div>
+
+<script type="text/javascript">
+    
+
+    
+ //table script   
+    var csvData = [];
+    
+    $.ajax({
+    url: "../data/Baldata.csv",
+    async: false,
+    success: function (csvd) {
+        csvData = $.csv.toArrays(csvd);
+    },
+    dataType: "text",
+
+                        
+});
+      //  var CountyName = "Baltimore County"; 
+        
+        var myTable0 = document.getElementById('table0');
+            myTable0.rows[0].cells[0].innerHTML = CountyName;
+                            
+                            
+   //     var myTable2 = document.getElementById('table2');
+     //       myTable2.rows[0].cells[0].innerHTML = CountyName;
+                            
+        var myTable3 = document.getElementById('table3');
+            myTable3.rows[0].cells[0].innerHTML = CountyName;
+        var myTable4 = document.getElementById('table4');
+            myTable4.rows[0].cells[0].innerHTML = CountyName;
+//        var myTable5 = document.getElementById('table5');
+//            myTable5.rows[0].cells[0].innerHTML = CountyName;
+    
+    var PageTitle = document.getElementById('title1');
+            PageTitle.innerHTML = CountyName;
+
+    //table 0
+     var datacords = [200];
+    //double slash comment after means accurate, triple means had to change
+        datacords[0] = 79; //
+
+        datacords[2] = 76; //
+        datacords[4] = 31; //
+        datacords[6] = 32; //
+        datacords[8] = 33; //
+        datacords[10] = 34; //
+        
+        //employed 2016
+        datacords[85] = 33; //
+        
+        //employed 2017
+        datacords[89] = 21; //
+        //unemployed 2017
+        datacords[93] = 25; ///
+        //m-f 2017
+        datacords[98] = 81; //
+        //not in labor force 2017
+        datacords[100] = 29; /// 
+        //total pop  
+        datacords[104] = 333; 
+        //total UR
+        datacords[105] = 9;
+        //2016 unemploy 
+        datacords[106] = 37;
+        //2016 gender UR
+        datacords[110] = 83;
+        //not in labor force 2016
+        datacords[112] = 41;
+        //total pop 2015
+        datacords[116] = 334;
+        //total UR
+        datacords[117] = 12;
+        //UR by race
+        datacords[21] = 87;
+        //unemployment by vet status 2010
+        datacords[29] = 101;
+        //2015
+        datacords[31] = 99;
+    
+        //disabled and poverty2011
+        datacords[33] = 3;
+        datacords[34] = 4;
+        datacords[35] = 64;
+        
+        //2015
+        datacords[45] = 9;
+        datacords[46] = 10;
+        datacords[47] = 58;
+        
+        //tanf 
+        datacords[57] = 2499;
+        datacords[58] = 2507;
+        datacords[69] = 2513;
+        datacords[70] = 2515;
+    
+        //tanf 2
+        datacords[80] = 2517;
+    
+     var changecords = [7];
+    changecords[0] = 1;
+    
+     var indcoord = [40];
+    
+    indcoord[0] = 390;
+    indcoord[20] = 410;
+
+    
+    for(var i = 1; i < 2; i++){
+        datacords[i] = (datacords[i-1]- 1);
+    }
+    
+   
+    for(var i = 1; i < 5; i++){
+        changecords[i] = (changecords[i-1]+ 1);
+    }
+    
+   $("#P1").text(csvData[datacords[0]][7]);
+    
+    //2015
+    $("#P2").text(csvData[datacords[1]][7]);
+    
+    $("#P3").text(csvData[changecords[0]][7]);
+    
+    
+   
+    for(var i = 3; i<4; i++){
+        datacords[i] = (datacords[i-1]- 1);
+    }
+    
+    //household income data
+    
+    $("#H1").text(csvData[datacords[2]][7]);
+    $("#H2").text(csvData[datacords[3]][7]);
+    
+    $("#H3").text(csvData[changecords[1]][7]);
+    
+    //table 1
+    
+    //row 1
+    
+    
+    
+    //table 2
+    /**
+    $("#LT1").text(csvData[5721][7]);
+    $("#LT2").text(csvData[5720][7]);
+    **/
+    //table 3
+    
+    //new cells
+    
+    //employed 2016
+    
+    
+    for(var i = 86; i < 89; i++){
+        datacords[i] = datacords[i-1]+ 1;
+    }
+    $("#E1").text(csvData[datacords[85]][7]);
+    $("#E2").text(csvData[datacords[86]][7]);
+    $("#E3").text(csvData[datacords[87]][7]);
+    $("#E4").text(csvData[datacords[88]][7]);
+    
+    
+    for(var i = 90; i < 93; i++){
+        datacords[i] = datacords[i-1] + 1;
+    }
+    //employed 2017
+    $("#E5").text(csvData[datacords[89]][7]);
+    $("#E6").text(csvData[datacords[90]][7]);
+    $("#E7").text(csvData[datacords[91]][7]);
+    $("#E8").text(csvData[datacords[92]][7]);
+    
+    //unemployed and male and female percentage
+    
+    
+    for(var i = 94; i < 97; i++){
+        datacords[i] = datacords[i-1] + 1;
+    }
+    $("#EE1").text(csvData[datacords[93]][7]);
+    $("#EE2").text(csvData[datacords[94]][7]);
+    $("#EE3").text(csvData[datacords[95]][7]);
+    $("#EE4").text(csvData[datacords[96]][7]);
+    
+   
+    for(var i = 99; i < 100; i++){
+        datacords[i] = datacords[i-1]+ 1;
+    }
+    $("#EM1").text(csvData[datacords[98]][7]);
+    $("#EF1").text(csvData[datacords[99]][7]);
+    
+    //not in labor force
+    
+    
+    for(var i = 101; i < 104; i++){
+        datacords[i] = datacords[i-1] + 1;
+    }
+    $("#EE5").text(csvData[datacords[100]][7]);
+    $("#EE6").text(csvData[datacords[101]][7]);
+    $("#EE7").text(csvData[datacords[102]][7]);
+    $("#EE8").text(csvData[datacords[103]][7]);
+    
+    //total population and total pop unemployment rate
+    
+    $("#PE1").text(csvData[datacords[104]][7]);
+    $("#PM1").text(csvData[datacords[105]][7]);
+    
+    //2015 unemployed and unemploy rates by gender
+    
+    
+    for(var i = 107; i < 110; i++){
+        datacords[i] = datacords[i-1] + 1;
+    }
+    $("#EE9").text(csvData[datacords[106]][7]);
+    $("#EE10").text(csvData[datacords[107]][7]);
+    $("#EE11").text(csvData[datacords[108]][7]);
+    $("#EE12").text(csvData[datacords[109]][7]);
+    
+    
+    for(var i = 111; i < 112; i++){
+        datacords[i] = datacords[i-1]+ 1;
+    }
+    $("#EM2").text(csvData[datacords[110]][7]);
+    $("#EF2").text(csvData[datacords[111]][7]);
+    
+    
+    //not in labor force 2015
+    
+    for(var i = 113; i < 116; i++){
+        datacords[i] = datacords[i-1] + 1;
+    }
+    $("#EE13").text(csvData[datacords[112]][7]);
+    $("#EE14").text(csvData[datacords[113]][7]);
+    $("#EE15").text(csvData[datacords[114]][7]);
+    $("#EE16").text(csvData[datacords[115]][7]);
+                              
+    //total pop 2015
+    
+    $("#PE2").text(csvData[datacords[116]][7]);
+    $("#PM2").text(csvData[datacords[117]][7]);
+    
+    //unemployment rate by race
+    
+    for(var i = 22; i < 29; i++){
+        datacords[i] = datacords[i-1]+ 1;
+    }
+    //white
+    $("#RE1").text(csvData[datacords[21]][7]);
+    //black
+    $("#RE2").text(csvData[datacords[22]][7]);
+    //asian
+    $("#RE3").text(csvData[datacords[23]][7]);
+    //hispanic
+    $("#RE4").text(csvData[datacords[24]][7]);
+    
+    //row 2
+    $("#RE8").text(csvData[datacords[25]][7]);
+    $("#RE9").text(csvData[datacords[26]][7]);
+    $("#RE10").text(csvData[datacords[27]][7]);
+    $("#RE11").text(csvData[datacords[28]][7]);
+    
+
+    
+    //table 5
+    //unemployment by veteran status
+   
+    for(var i = 30; i < 31; i++){
+        datacords[i] = datacords[i-1] +1;
+    }
+    
+    for(var i = 32; i < 33; i++){
+        datacords[i] = datacords[i-1] +1;
+    }
+    $("#VetU1").text(csvData[datacords[29]][7]);
+    $("#VetU2").text(csvData[datacords[30]][7]);
+    
+    //row 2
+   
+    $("#VetU3").text(csvData[datacords[31]][7]);
+    $("#VetU4").text(csvData[datacords[32]][7]);
+    
+    
+    //tanf tables
+    
+    
+    //disabled 
+    //w/out disabilities
+    //income below poverty
+    for(var i = 36; i < 45; i++){
+        datacords[i] = datacords[i-3]+ 2;
+    }
+    
+    $("#t1").text(csvData[datacords[33]][7]);
+    $("#t2").text(csvData[datacords[34]][7]);
+   //disability
+    $("#t3").text(csvData[datacords[35]][7]);
+    
+    $("#t4").text(csvData[datacords[36]][7]);
+    $("#t5").text(csvData[datacords[37]][7]);
+    //disability
+    $("#t6").text(csvData[datacords[38]][7]);
+    
+    $("#t7").text(csvData[datacords[39]][7]);
+    $("#t8").text(csvData[datacords[40]][7]);
+    //disabilty
+    $("#t9").text(csvData[datacords[41]][7]);
+    
+    /*$("#t10").text(csvData[datacords[42]][7]);
+    $("#t11").text(csvData[datacords[43]][7]);
+    //disability
+    $("#t12").text(csvData[datacords[44]][7]);*/
+    
+    
+    
+    for(var i = 48; i < 57; i++){
+        datacords[i] = datacords[i-3]+ 2;
+    }
+    
+     
+    $("#t13").text(csvData[datacords[45]][7]);
+    $("#t14").text(csvData[datacords[46]][7]);
+    $("#t15").text(csvData[datacords[47]][7]);
+    
+    $("#t16").text(csvData[datacords[48]][7]);
+    $("#t17").text(csvData[datacords[49]][7]);
+    $("#t18").text(csvData[datacords[50]][7]);
+    
+    $("#t19").text(csvData[datacords[51]][7]);
+    $("#t20").text(csvData[datacords[52]][7]);
+    $("#t21").text(csvData[datacords[53]][7]);
+    
+    /*$("#t22").text(csvData[datacords[54]][7]);
+    $("#t23").text(csvData[datacords[55]][7]);
+    $("#t24").text(csvData[datacords[56]][7]);*/
+    
+    
+    //tanf recipient and percentage
+   
+    
+    for(var i = 59; i < 69; i++){
+        datacords[i] = datacords[i-2]+ 1;
+    }
+    
+    
+    $("#Tanf1").text(csvData[datacords[57]][7]);
+    $("#Ptanf1").text(csvData[datacords[58]][7]);
+    
+    $("#Tanf2").text(csvData[datacords[59]][7]);
+    $("#Ptanf2").text(csvData[datacords[60]][7]);
+    
+    $("#Tanf3").text(csvData[datacords[61]][7]);
+    $("#Ptanf3").text(csvData[datacords[62]][7]);
+    
+    $("#Tanf4").text(csvData[datacords[63]][7]);
+    $("#Ptanf4").text(csvData[datacords[64]][7]);
+    
+    //2016
+    $("#Tanf5").text(csvData[datacords[65]][7]);
+    $("#Ptanf5").text(csvData[datacords[66]][7]);
+    
+    $("#Tanf6").text(csvData[datacords[67]][7]);
+    $("#Ptanf6").text(csvData[datacords[68]][7]);
+    
+    //no more ptanf
+    
+    
+    
+    for(var i = 70; i < 73; i++){
+        datacords[i] = datacords[i-1]+ 1;
+    }
+    
+    $("#Tanf7").text(csvData[datacords[69]][7]);
+    $("#Ptanf7").text(csvData[datacords[71]][7]);
+    $("#Tanf8").text(csvData[datacords[70]][7]);
+    $("#Ptanf8").text(csvData[datacords[72]][7]);
+    
+    
+    for(var i = 81; i < 84; i++){
+        datacords[i] = datacords[i-1]+ 1;
+    }
+    
+    $("#t28").text(csvData[datacords[80]][7]);
+    $("#t29").text(csvData[datacords[81]][7]);
+    $("#t30").text(csvData[datacords[82]][7]);
+    $("#t31").text(csvData[datacords[83]][7]);
+ 
+    
+</script>
+
+<script type="text/javascript"charset="utf-8">
+            d3.text("../data/BCWD.csv", function(data) {
+                var parsedCSV = d3.csv.parseRows(data);
+
+                var container = d3.select("#table11")
+                    //.append("table")
+
+                    .selectAll("tr")
+                        .data(parsedCSV).enter()
+                        .append("tr")
+
+                    .selectAll("td")
+                        .data(function(d) { return d; }).enter()
+                        .append("td")
+                        .text(function(d) { return d; });
+            });
+    
+       
+    
+        
+        </script>
+        
+        <script type="text/javascript"charset="utf-8">
+            d3.text("https://docs.google.com/spreadsheets/d/e/2PACX-1vTeWmkeAYMcZdUOeH7sA4N4ES0EAgaVTwRQDP_DzKuPH6i2sL9SFjGQQ1mbpipglwTfyFZMO-07NEHr/pub?gid=708697505&single=true&output=csv", function(data) {
+                var parsedCSV = d3.csv.parseRows(data);
+
+                var container = d3.select("#table12")
+                    //.append("table")
+
+                    .selectAll("tr")
+                        .data(parsedCSV).enter()
+                        .append("tr")
+
+                    .selectAll("td")
+                        .data(function(d) { return d; }).enter()
+                        .append("td")
+                        .text(function(d) { return d; });
+            });
+    
+       
+    
+        
+        </script>
+</html>
