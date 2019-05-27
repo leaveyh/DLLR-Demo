@@ -35,11 +35,11 @@
                             
                             
                             
-                            var CountyName = "Baltimore County";
+                            var CountyName = "Baltimore City";
                             
-                            var CountyName1 = "Baltimore County, MD"
+                            var CountyName1 = "Baltimore City, MD"
                              
-                            var CountyName2 = "Baltimore County, Maryland"
+                            var CountyName2 = "Baltimore City, Maryland"
                             
                             
                             
@@ -92,7 +92,7 @@
     <div class="Header"><p class="RightText"><a href="../index.html">Start Over</a>    |    <button onclick="printClick()">Print This Snapshot</button>    |      <button onclick="printAll()" > Print Whole Page</button></p><p>Select Different Snapshot and/or County</p>  </div>
             
             <div class="County">
-            <p id="title1">Allegany</p>
+            <p id="title1">Baltimore City</p>
                 
             </div>
             <div id="collapse1" style="display: none;">
@@ -956,7 +956,7 @@
     var csvData = [];
     
     $.ajax({
-    url: "../data/Baldata.csv",
+    url: "../data/BCCdata.csv",
     async: false,
     success: function (csvd) {
         csvData = $.csv.toArrays(csvd);
@@ -1337,7 +1337,7 @@
 </script>
 
 <script type="text/javascript"charset="utf-8">
-            d3.text("../data/BCWD.csv", function(data) {
+            d3.text("../data/BCCWD.csv", function(data) {
                 var parsedCSV = d3.csv.parseRows(data);
 
                 var container = d3.select("#table11")
@@ -1359,7 +1359,7 @@
         </script>
         
         <script type="text/javascript"charset="utf-8">
-            d3.text("https://docs.google.com/spreadsheets/d/e/2PACX-1vT-SBZ5sQLrSEF4cgvj19GpHpWZwzLjeCnjbQHvXnhPADpCMLJmOHx7fbe4qjb21vCjkTV8mTXb6SXe/pub?gid=1355192549&single=true&output=csv", function(data) {
+            d3.text("https://docs.google.com/spreadsheets/d/e/2PACX-1vT-SBZ5sQLrSEF4cgvj19GpHpWZwzLjeCnjbQHvXnhPADpCMLJmOHx7fbe4qjb21vCjkTV8mTXb6SXe/pub?gid=100840178&single=true&output=csv", function(data) {
                 var parsedCSV = d3.csv.parseRows(data);
 
                 var container = d3.select("#table12")
