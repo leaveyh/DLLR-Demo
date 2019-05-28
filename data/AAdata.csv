@@ -73,9 +73,9 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2015,Employment Status By Poverty Status,Employed,Below Poverty,"Anne Arundel County, Maryland",7408,,"7,408",,
 2015,Employment Status By Poverty Status,Unemployed,Above Poverty,"Anne Arundel County, Maryland",14402,,"14,402",,
 2015,Employment Status By Poverty Status,Unemployed,Below Poverty,"Anne Arundel County, Maryland",3365,,"3,365",,
-2017,Median Household Income,,,"Anne Arundel County, Maryland",94502,," $94,502 ",,
-2016,Median Household Income,,,"Anne Arundel County, Maryland",91918,," $91,918 ",,
-2015,Median Household Income,,,"Anne Arundel County, Maryland",89860,," $89,860 ",,
+2017,Median Household Income,,,"Anne Arundel County, Maryland",94502,,"$94,502 ",,
+2016,Median Household Income,,,"Anne Arundel County, Maryland",91918,,"$91,918 ",,
+2015,Median Household Income,,,"Anne Arundel County, Maryland",89860,,"$89,860 ",,
 2017,Total Population,,,"Anne Arundel County, Maryland",564600,,"564,600",,
 2016,Total Population,,,"Anne Arundel County, Maryland",559737,,"559,737",,
 2015,Total Population,,,"Anne Arundel County, Maryland",555280,,"555,280",,
@@ -121,12 +121,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Anne Arundel County, Maryland",0.026685,0.027,2.70%,0.026685,2.70%
 2017Q1,Number of TANF Recipient Workers,Employed,,"Anne Arundel County, Maryland",229,,229,,229
 2017Q2,Number of TANF Recipient Workers,Employed,,"Anne Arundel County, Maryland",262,,262,,262
-2017Q1,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Anne Arundel County, Maryland",0.022565,,0,0.022565,2.30%
-2017Q2,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Anne Arundel County, Maryland",0.018027,,0,0.018027,1.80%
-2016Q3,Percentage of TANF Recipients among Maryland Workers,Employed,,"Anne Arundel County, Maryland",0.001041,,0,0.001041,0.10%
-2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Anne Arundel County, Maryland",0.001019,,0,0.001019,0.10%
-2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Anne Arundel County, Maryland",0.000856,,0,0.000856,0.09%
-2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Anne Arundel County, Maryland",0.000977,,0,0.000977,0.10%
+2017Q1,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Anne Arundel County, Maryland",0.022565,,2.26%,0.022565,2.30%
+2017Q2,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Anne Arundel County, Maryland",0.018027,,1.80%,0.018027,1.80%
+2016Q3,Percentage of TANF Recipients among Maryland Workers,Employed,,"Anne Arundel County, Maryland",0.001041,,0.10%,0.001041,0.10%
+2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Anne Arundel County, Maryland",0.001019,,0.10%,0.001019,0.10%
+2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Anne Arundel County, Maryland",0.000856,,0.09%,0.000856,0.09%
+2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Anne Arundel County, Maryland",0.000977,,0.10%,0.000977,0.10%
 2016,Snap Recipient Workers,,,"Anne Arundel County, Maryland",17140,,"17,140",,
 2017,Snap Recipient Workers,,,"Anne Arundel County, Maryland",17070,,"17,070",,
 2018,Snap Recipient Workers,,,"Anne Arundel County, Maryland",17398,,"17,398",,

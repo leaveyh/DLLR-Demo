@@ -121,12 +121,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Somerset County, Maryland",1,1,100.00%,1,100.00%
 2017Q1,Number of TANF Recipient Workers,Employed,,"Somerset County, Maryland",112,,112,,112
 2017Q2,Number of TANF Recipient Workers,Employed,,"Somerset County, Maryland",114,,114,,114
-2017Q1,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Somerset County, Maryland",0,,0,0,0.00%
-2017Q2,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Somerset County, Maryland",0,,0,0,0.00%
-2016Q3,Percentage of TANF Recipients among Maryland Workers,Employed,,"Somerset County, Maryland",0.001592,,0,0.001592,0.16%
-2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Somerset County, Maryland",0.001414,,0,0.001414,0.14%
-2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Somerset County, Maryland",0.001152,,0,0.001152,0.12%
-2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Somerset County, Maryland",0.00139,,0,0.00139,0.14%
+2017Q1,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Somerset County, Maryland",0,,0.00%,0,0.00%
+2017Q2,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Somerset County, Maryland",0,,0.00%,0,0.00%
+2016Q3,Percentage of TANF Recipients among Maryland Workers,Employed,,"Somerset County, Maryland",0.001592,,0.16%,0.001592,0.16%
+2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Somerset County, Maryland",0.001414,,0.14%,0.001414,0.14%
+2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Somerset County, Maryland",0.001152,,0.12%,0.001152,0.12%
+2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Somerset County, Maryland",0.00139,,0.14%,0.00139,0.14%
 2016,Snap Recipient Workers,,,"Somerset County, Maryland",2044,,"2,044",,
 2017,Snap Recipient Workers,,,"Somerset County, Maryland",2103,,"2,103",,
 2018,Snap Recipient Workers,,,"Somerset County, Maryland",2119,,"2,119",,

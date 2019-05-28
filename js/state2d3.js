@@ -1177,7 +1177,7 @@ function hidePrint(){
     document.getElementById("Print8").style.display="none";
     document.getElementById("Print9").style.display="none";
     document.getElementById("Print10").style.display="none";
-    document.getElementById("Print11").style.display="none";
+    //document.getElementById("Print11").style.display="none";
     document.getElementById("Print12").style.display="none";
 }
 
@@ -1213,7 +1213,7 @@ function showPrint(){
     document.getElementById("Print8").style.display="inline";
     document.getElementById("Print9").style.display="inline";
     document.getElementById("Print10").style.display="inline";
-    document.getElementById("Print11").style.display="inline";
+   // document.getElementById("Print11").style.display="inline";
     document.getElementById("Print12").style.display="inline";
 }
 

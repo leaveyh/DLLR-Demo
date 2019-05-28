@@ -73,9 +73,9 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2015,Employment Status By Poverty Status,Employed,Below Poverty,"Wicomico County, Maryland",3787,,3787,,
 2015,Employment Status By Poverty Status,Unemployed,Above Poverty,"Wicomico County, Maryland",2942,,2942,,
 2015,Employment Status By Poverty Status,Unemployed,Below Poverty,"Wicomico County, Maryland",1553,,1553,,
-2017,Median Household Income,,,"Wicomico County, Maryland",54493,," $54,493 ",,
-2016,Median Household Income,,,"Wicomico County, Maryland",53508,," $53,508 ",,
-2015,Median Household Income,,,"Wicomico County, Maryland",52278,," $52,278 ",,
+2017,Median Household Income,,,"Wicomico County, Maryland",54493,,"$54,493 ",,
+2016,Median Household Income,,,"Wicomico County, Maryland",53508,,"$53,508 ",,
+2015,Median Household Income,,,"Wicomico County, Maryland",52278,,"$52,278 ",,
 2017,Total Population,,,"Wicomico County, Maryland",102014,,102014,,
 2016,Total Population,,,"Wicomico County, Maryland",101527,,101527,,
 2015,Total Population,,,"Wicomico County, Maryland",101182,,101182,,
@@ -121,12 +121,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Wicomico County, Maryland",0.038145,0.038,3.81%,0.038145,3.80%
 2017Q1,Number of TANF Recipient Workers,Employed,,"Wicomico County, Maryland",123,,123,,123
 2017Q2,Number of TANF Recipient Workers,Employed,,"Wicomico County, Maryland",147,,147,,147
-2017Q1,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Wicomico County, Maryland",0.040385,,0.040385,0.040385,4.00%
-2017Q2,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Wicomico County, Maryland",0.054622,,0.054622,0.054622,5.50%
-2016Q3,Percentage of TANF Recipients among Maryland Workers,Employed,,"Wicomico County, Maryland",0.003676,,0.003676,0.003676,0.37%
-2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Wicomico County, Maryland",0.003386,,0.003386,0.003386,0.34%
-2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Wicomico County, Maryland",0.002731,,0.002731,0.002731,0.27%
-2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Wicomico County, Maryland",0.003204,,0.003204,0.003204,0.32%
+2017Q1,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Wicomico County, Maryland",0.040385,,4.04%,0.040385,4.00%
+2017Q2,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Wicomico County, Maryland",0.054622,,5.46%,0.054622,5.50%
+2016Q3,Percentage of TANF Recipients among Maryland Workers,Employed,,"Wicomico County, Maryland",0.003676,,0.37%,0.003676,0.37%
+2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Wicomico County, Maryland",0.003386,,0.34%,0.003386,0.34%
+2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Wicomico County, Maryland",0.002731,,0.27%,0.002731,0.27%
+2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Wicomico County, Maryland",0.003204,,0.32%,0.003204,0.32%
 2016,Snap Recipient Workers,,,"Wicomico County, Maryland",8171,,8171,,
 2017,Snap Recipient Workers,,,"Wicomico County, Maryland",8121,,8121,,
 2018,Snap Recipient Workers,,,"Wicomico County, Maryland",8245,,8245,,

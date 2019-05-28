@@ -247,7 +247,7 @@
                         <th>Female</th>
                     </tr>
                     <tr class="HeadRow" style="background-color: white;">
-                                <th>2012-2016</th>
+                                <th>2013-2017</th>
                             <th></th>
                         <th></th>
                         <th></th>
@@ -264,7 +264,7 @@
                         <td id="E2">#2</td>
                         <td id="E3">#3</td>
                         <td id="E4">#4</td>
-                        <th rowspan="5" style="border-style: solid;
+                        <th rowspan="3" style="border-style: solid;
                 border-color: #5281B7;">Unemployment Rate</th>
                         <td></td>
                         <td></td>
@@ -287,22 +287,9 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th></th>
-                        <th colspan="7">All</th>
-                        
-                    </tr>
-                    <tr>
-                        <th>Total Population</th>
-                        <td id="PE1">#1</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td id="PM1">#5</td>
-                        <td></td>
-                    </tr>
+                    
                     <tr class="HeadRow" style="background-color: white;">
-                        <th>2013-2017: </th>
+                        <th>2012-2016: </th>
                         <th></th>
                         <th></th>
                         <th></th>
@@ -317,7 +304,7 @@
                         <td id="E6">#2</td>
                         <td id="E7">#3</td>
                         <td id="E8">#4</td>
-                        <th rowspan="5" style="border-style: solid;
+                        <th rowspan="3" style="border-style: solid;
                 border-color: #5281B7;">Unemployment Rate</th>
                         <td></td>
                         <td></td>
@@ -342,19 +329,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th></th>
-                    <th colspan="7">All</th>
-                    </tr>
-                     <tr class="FootRow">
-                        <th>Total Population</th>
-                        <td id="PE2">#1</td>
-                        <td></td>
-                         <td></td>
-                         <td></td>
-                        <td id="PM2">#5</td>
-                         <td></td>
-                    </tr>
+                   
                 </table>
                 
                 
@@ -418,7 +393,7 @@
                         <th>Hispanic or Latino <br> (Any Race)</th>
                     </tr>
                                 <tr class="HeadRow">
-                                    <th>2012-2016
+                                    <th>2013-2017
                                     </th>
                                     <th></th>
                                     <th></th>
@@ -433,7 +408,7 @@
                         <td id="RE4">#4</td>
                     </tr>
                     <tr class="HeadRow">
-                        <th>2013-2017</th>
+                        <th>2012-2016</th>
                         <th></th>
                         <th></th>
                         <th></th>
@@ -1051,13 +1026,13 @@
         datacords[31] = 99;
     
         //disabled and poverty2011
-        datacords[33] = 3;
-        datacords[34] = 4;
+        datacords[33] = 9;
+        datacords[34] = 10;
         datacords[35] = 64;
         
         //2015
-        datacords[45] = 9;
-        datacords[46] = 10;
+        datacords[45] = 3;
+        datacords[46] = 4;
         datacords[47] = 58;
         
         //tanf 
@@ -1262,18 +1237,18 @@
         datacords[i] = datacords[i-3]+ 2;
     }
     
-    $("#t1").text(csvData[datacords[33]][7]);
-    $("#t2").text(csvData[datacords[34]][7]);
+    $("#t4").text(csvData[datacords[33]][7]);
+    $("#t5").text(csvData[datacords[34]][7]);
    //disability
     $("#t3").text(csvData[datacords[35]][7]);
     
-    $("#t4").text(csvData[datacords[36]][7]);
-    $("#t5").text(csvData[datacords[37]][7]);
+    $("#t7").text(csvData[datacords[36]][7]);
+    $("#t8").text(csvData[datacords[37]][7]);
     //disability
     $("#t6").text(csvData[datacords[38]][7]);
     
-    $("#t7").text(csvData[datacords[39]][7]);
-    $("#t8").text(csvData[datacords[40]][7]);
+    $("#t1").text(csvData[datacords[39]][7]);
+    $("#t2").text(csvData[datacords[40]][7]);
     //disabilty
     $("#t9").text(csvData[datacords[41]][7]);
     
@@ -1289,16 +1264,16 @@
     }
     
      
-    $("#t13").text(csvData[datacords[45]][7]);
-    $("#t14").text(csvData[datacords[46]][7]);
+    $("#t16").text(csvData[datacords[45]][7]);
+    $("#t17").text(csvData[datacords[46]][7]);
     $("#t15").text(csvData[datacords[47]][7]);
     
-    $("#t16").text(csvData[datacords[48]][7]);
-    $("#t17").text(csvData[datacords[49]][7]);
+    $("#t19").text(csvData[datacords[48]][7]);
+    $("#t20").text(csvData[datacords[49]][7]);
     $("#t18").text(csvData[datacords[50]][7]);
     
-    $("#t19").text(csvData[datacords[51]][7]);
-    $("#t20").text(csvData[datacords[52]][7]);
+    $("#t13").text(csvData[datacords[51]][7]);
+    $("#t14").text(csvData[datacords[52]][7]);
     $("#t21").text(csvData[datacords[53]][7]);
     
     /*$("#t22").text(csvData[datacords[54]][7]);

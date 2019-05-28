@@ -100,9 +100,7 @@
                 <button class="button" onclick="collapse7()">Recipients %</button>
                 </div>
                 </div>
-                <div class="dropdown">    
-            <button class="button" onclick="collapse8()">Worker Experience</button>
-                </div>
+               
                 <div class="dropdown">    
             <button class="button" onclick="collapse9()">SNAP</button>
                 </div>
@@ -125,7 +123,7 @@
             
             <div class="ChartDiv">
                 <div id="Chart0" class="show">
-                <script src="../js/stateD3.js"></script>
+                <script src="../js/state2d3.js"></script>
                 
                 
                 </div>
@@ -247,7 +245,7 @@
                         <th>Female</th>
                     </tr>
                     <tr class="HeadRow" style="background-color: white;">
-                                <th>2012-2016</th>
+                                <th>2013-2017</th>
                             <th></th>
                         <th></th>
                         <th></th>
@@ -264,7 +262,7 @@
                         <td id="E2">#2</td>
                         <td id="E3">#3</td>
                         <td id="E4">#4</td>
-                        <th rowspan="5" style="border-style: solid;
+                        <th rowspan="3" style="border-style: solid;
                 border-color: #5281B7;">Unemployment Rate</th>
                         <td></td>
                         <td></td>
@@ -287,22 +285,9 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th></th>
-                        <th colspan="7">All</th>
-                        
-                    </tr>
-                    <tr>
-                        <th>Total Population</th>
-                        <td id="PE1">#1</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td id="PM1">#5</td>
-                        <td></td>
-                    </tr>
+                    
                     <tr class="HeadRow" style="background-color: white;">
-                        <th>2013-2017: </th>
+                        <th>2012-2016: </th>
                         <th></th>
                         <th></th>
                         <th></th>
@@ -317,7 +302,7 @@
                         <td id="E6">#2</td>
                         <td id="E7">#3</td>
                         <td id="E8">#4</td>
-                        <th rowspan="5" style="border-style: solid;
+                        <th rowspan="3" style="border-style: solid;
                 border-color: #5281B7;">Unemployment Rate</th>
                         <td></td>
                         <td></td>
@@ -342,19 +327,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th></th>
-                    <th colspan="7">All</th>
-                    </tr>
-                     <tr class="FootRow">
-                        <th>Total Population</th>
-                        <td id="PE2">#1</td>
-                        <td></td>
-                         <td></td>
-                         <td></td>
-                        <td id="PM2">#5</td>
-                         <td></td>
-                    </tr>
+                    
                 </table>
                 
                 
@@ -418,7 +391,7 @@
                         <th>Hispanic or Latino <br> (Any Race)</th>
                     </tr>
                                 <tr class="HeadRow">
-                                    <th>2012-2016
+                                    <th>2013-2017
                                     </th>
                                     <th></th>
                                     <th></th>
@@ -1360,7 +1333,7 @@
 </script>
 
 <script type="text/javascript"charset="utf-8">
-            d3.text("../data/AGWD.csv", function(data) {
+           /* d3.text("../data/AGWD.csv", function(data) {
                 var parsedCSV = d3.csv.parseRows(data);
 
                 var container = d3.select("#table11")
@@ -1376,7 +1349,7 @@
                         .text(function(d) { return d; });
             });
     
-       
+       */
     
         
         </script>
