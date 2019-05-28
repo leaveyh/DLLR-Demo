@@ -35,11 +35,11 @@
                             
                             
                             
-                            var CountyName = "Charles County";
+                            var CountyName = "St. Mary's County";
                             
-                            var CountyName1 = "Charles County, MD"
+                            var CountyName1 = "St. Mary's County, MD"
                              
-                            var CountyName2 = "Charles County, Maryland"
+                            var CountyName2 = "St. Mary's County, Maryland"
                             
                             
                             
@@ -100,9 +100,7 @@
                 <button class="button" onclick="collapse7()">Recipients %</button>
                 </div>
                 </div>
-                <div class="dropdown">    
-            <button class="button" onclick="collapse8()">Worker Experience</button>
-                </div>
+               
                 <div class="dropdown">    
             <button class="button" onclick="collapse9()">SNAP</button>
                 </div>
@@ -115,7 +113,7 @@
     <div class="Header"><p class="RightText"><a href="../index.html">Start Over</a>    |    <button onclick="printClick()">Print This Snapshot</button>    |      <button onclick="printAll()" > Print Whole Page</button></p><p>Select Different Snapshot and/or County</p>  </div>
             
             <div class="County">
-            <p id="title1">Charles</p>
+            <p id="title1">Anne Arundel County</p>
                 
             </div>
             <div id="collapse1" style="display: none;">
@@ -287,20 +285,8 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th></th>
-                        <th colspan="7">All</th>
-                        
-                    </tr>
-                    <tr>
-                        <th>Total Population</th>
-                        <td id="PE1">#1</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td id="PM1">#5</td>
-                        <td></td>
-                    </tr>
+                   
+                    
                     <tr class="HeadRow" style="background-color: white;">
                         <th>2013-2017: </th>
                         <th></th>
@@ -342,19 +328,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
-                        <th></th>
-                    <th colspan="7">All</th>
-                    </tr>
-                     <tr class="FootRow">
-                        <th>Total Population</th>
-                        <td id="PE2">#1</td>
-                        <td></td>
-                         <td></td>
-                         <td></td>
-                        <td id="PM2">#5</td>
-                         <td></td>
-                    </tr>
+                   
                 </table>
                 
                 
@@ -979,7 +953,7 @@
     var csvData = [];
     
     $.ajax({
-    url: "../data/Chadata.csv",
+    url: "../data/Stmdata.csv",
     async: false,
     success: function (csvd) {
         csvData = $.csv.toArrays(csvd);
@@ -1051,13 +1025,13 @@
         datacords[31] = 99;
     
         //disabled and poverty2011
-        datacords[33] = 3;
-        datacords[34] = 4;
+        datacords[33] = 9;
+        datacords[34] = 10;
         datacords[35] = 64;
         
         //2015
-        datacords[45] = 9;
-        datacords[46] = 10;
+        datacords[45] = 3;
+        datacords[46] = 4;
         datacords[47] = 58;
         
         //tanf 
@@ -1360,7 +1334,7 @@
 </script>
 
 <script type="text/javascript"charset="utf-8">
-            d3.text("../data/CHWD.csv", function(data) {
+          /*  d3.text("../data/BCCWD.csv", function(data) {
                 var parsedCSV = d3.csv.parseRows(data);
 
                 var container = d3.select("#table11")
@@ -1377,12 +1351,12 @@
             });
     
        
-    
+    */
         
         </script>
         
         <script type="text/javascript"charset="utf-8">
-            d3.text("https://docs.google.com/spreadsheets/d/e/2PACX-1vT-SBZ5sQLrSEF4cgvj19GpHpWZwzLjeCnjbQHvXnhPADpCMLJmOHx7fbe4qjb21vCjkTV8mTXb6SXe/pub?gid=1282590394&single=true&output=csv", function(data) {
+            d3.text("https://docs.google.com/spreadsheets/d/e/2PACX-1vT-SBZ5sQLrSEF4cgvj19GpHpWZwzLjeCnjbQHvXnhPADpCMLJmOHx7fbe4qjb21vCjkTV8mTXb6SXe/pub?gid=498688189&single=true&output=csv", function(data) {
                 var parsedCSV = d3.csv.parseRows(data);
 
                 var container = d3.select("#table12")

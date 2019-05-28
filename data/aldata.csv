@@ -202,7 +202,7 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2015,Unemployment By Race,,Asian,"Anne Arundel County, Maryland",5.3,0.053,5.30%
 2015,Unemployment By Race,,Hispanic,"Anne Arundel County, Maryland",5.1,0.051,5.10%
 2017,Unemployment By Veteran Status,,Veteran,"Anne Arundel County, Maryland",2.9,0.029,2.90%
-2017,Unemployment By Veteran Status,,Non Veteran,"Anne Arundel County, Maryland",5,0.05,5.00%
+2017,Unemployment By Veteran Status,,Non Veteran,"Anne Arundel County, Maryland",5.0,0.05,5.00%
 2016,Unemployment By Veteran Status,,Veteran,"Anne Arundel County, Maryland",3.5,0.035,3.50%
 2016,Unemployment By Veteran Status,,Non Veteran,"Anne Arundel County, Maryland",5.4,0.054,5.40%
 2015,Unemployment By Veteran Status,,Veteran,"Anne Arundel County, Maryland",3.7,0.037,3.70%
@@ -2503,19 +2503,19 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q2,Number of TANF Recipient Workers,Employed,,"Allegany County, Maryland",60,,60
 2016Q3,Number of TANF Recipient Workers,Employed,,"Allegany County, Maryland",62,,62
 2016Q4,Number of TANF Recipient Workers,Employed,,"Allegany County, Maryland",69,,69
-2015Q1,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Allegany County, Maryland",0.055137845,,5.50%
-2015Q2,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Allegany County, Maryland",0.064610866,,6.50%
-2015Q3,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Allegany County, Maryland",0.0609375,,6.10%
-2015Q4,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Allegany County, Maryland",0.049618321,,5.00%
-2016Q1,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Allegany County, Maryland",0.056621005,,5.70%
-2016Q2,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Allegany County, Maryland",0.05234657,,5.20%
-2016Q3,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Allegany County, Maryland",0.046224961,,4.60%
-2016Q4,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Allegany County, Maryland",0.047945205,,4.80%
+2015Q1,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Allegany County, Maryland",0.055137845,,5.51%
+2015Q2,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Allegany County, Maryland",0.064610866,,6.46%
+2015Q3,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Allegany County, Maryland",0.0609375,,6.09%
+2015Q4,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Allegany County, Maryland",0.049618321,,4.96%
+2016Q1,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Allegany County, Maryland",0.056621005,,5.66%
+2016Q2,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Allegany County, Maryland",0.05234657,,5.23%
+2016Q3,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Allegany County, Maryland",0.046224961,,4.62%
+2016Q4,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Allegany County, Maryland",0.047945205,,4.79%
 2017Q1,Number of TANF Recipient Workers,Employed,,"Allegany County, Maryland",35,,35
 2017Q2,Number of TANF Recipient Workers,Employed,,"Allegany County, Maryland",44,,44
-2017Q1,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Allegany County, Maryland",0.04852071,,4.90%
-2017Q2,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Allegany County, Maryland",0.053824363,,5.40%
-2016Q3,Percentage of TANF Recipients among Maryland Workers,Employed,,"Allegany County, Maryland",0.00213985,,0.20%
-2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Allegany County, Maryland",0.002304763,,0.20%
-2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Allegany County, Maryland",0.001212289,,0.10%
-2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Allegany County, Maryland",0.001496446,,0.10%
+2017Q1,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Allegany County, Maryland",0.04852071,,4.85%
+2017Q2,Percentage of Workforce Training Program/Service Participants in TANF,Employed,,"Allegany County, Maryland",0.053824363,,5.38%
+2016Q3,Percentage of TANF Recipients among Maryland Workers,Employed,,"Allegany County, Maryland",0.00213985,,0.21%
+2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Allegany County, Maryland",0.002304763,,0.23%
+2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Allegany County, Maryland",0.001212289,,0.12%
+2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Allegany County, Maryland",0.001496446,,0.15%
