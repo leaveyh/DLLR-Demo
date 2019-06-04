@@ -127,12 +127,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Calvert County, Maryland",0.000801,,0.08%,0.000801,0.08%
 2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Calvert County, Maryland",0.00075,,0.08%,0.00075,0.07%
 2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Calvert County, Maryland",0.000955,,0.10%,0.000955,0.10%
-2016,Snap Recipient Workers,,,"Calvert County, Maryland",3187,,"3,187",,
-2017,Snap Recipient Workers,,,"Calvert County, Maryland",3225,,"3,225",,
-2018,Snap Recipient Workers,,,"Calvert County, Maryland",3198,,"3,198",,
-2016,Snap Recipient Workers by Percentage,,,"Calvert County, Maryland",0.0117,1.17,1.17%,,
-2017,Snap Recipient Workers by Percentage,,,"Calvert County, Maryland",0.0119,1.19,1.19%,,
-2018,Snap Recipient Workers by Percentage,,,"Calvert County, Maryland",0.0116,1.16,1.16%,,
+2016,SNAP Recipient Workers,,,"Calvert County, Maryland",3187,,"3,187",,
+2017,SNAP Recipient Workers,,,"Calvert County, Maryland",3225,,"3,225",,
+2018,SNAP Recipient Workers,,,"Calvert County, Maryland",3198,,"3,198",,
+2016,SNAP Recipient Workers by Percentage,,,"Calvert County, Maryland",0.0117,1.17,1.17%,,
+2017,SNAP Recipient Workers by Percentage,,,"Calvert County, Maryland",0.0119,1.19,1.19%,,
+2018,SNAP Recipient Workers by Percentage,,,"Calvert County, Maryland",0.0116,1.16,1.16%,,
 2015,Work Experience by Gender,Not Working,Male,"Baltimore City, Maryland","298,021",,"298,021",,
 2015,Work Experience by Gender,Part Time,Male,"Baltimore City, Maryland","38,593",,"38,593",,
 2015,Work Experience by Gender,Full Time,Male,"Baltimore City, Maryland","250,377",,"250,377",,

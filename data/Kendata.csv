@@ -127,12 +127,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Kent County, Maryland",0.002495,,0.25%,0.002495,0.25%
 2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Kent County, Maryland",0.001448,,0.14%,0.001448,0.14%
 2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Kent County, Maryland",0.00099,,0.10%,0.00099,0.10%
-2016,Snap Recipient Workers,,,"Kent County, Maryland",1142,,"1,142",,
-2017,Snap Recipient Workers,,,"Kent County, Maryland",1184,,"1,184",,
-2018,Snap Recipient Workers,,,"Kent County, Maryland",1198,,"1,198",,
-2016,Snap Recipient Workers by Percentage,,,"Kent County, Maryland",0.0042,0.42,0.42%,,
-2017,Snap Recipient Workers by Percentage,,,"Kent County, Maryland",0.0044,0.44,0.44%,,
-2018,Snap Recipient Workers by Percentage,,,"Kent County, Maryland",0.0043,0.43,0.43%,,
+2016,SNAP Recipient Workers,,,"Kent County, Maryland",1142,,"1,142",,
+2017,SNAP Recipient Workers,,,"Kent County, Maryland",1184,,"1,184",,
+2018,SNAP Recipient Workers,,,"Kent County, Maryland",1198,,"1,198",,
+2016,SNAP Recipient Workers by Percentage,,,"Kent County, Maryland",0.0042,0.42,0.42%,,
+2017,SNAP Recipient Workers by Percentage,,,"Kent County, Maryland",0.0044,0.44,0.44%,,
+2018,SNAP Recipient Workers by Percentage,,,"Kent County, Maryland",0.0043,0.43,0.43%,,
 2015,Work Experience by Gender,Not Working,Male,"Howard County, Maryland","114,723",,"114,723",,
 2015,Work Experience by Gender,Part Time,Male,"Howard County, Maryland","21,571",,"21,571",,
 2015,Work Experience by Gender,Full Time,Male,"Howard County, Maryland","166,220",,"166,220",,

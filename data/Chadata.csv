@@ -127,12 +127,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Charles County, Maryland",0.001786,,0.18%,0.001786,0.18%
 2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Charles County, Maryland",0.001291,,0.13%,0.001291,0.13%
 2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Charles County, Maryland",0.001403,,0.14%,0.001403,0.14%
-2016,Snap Recipient Workers,,,"Charles County, Maryland",6698,,"6,698",,
-2017,Snap Recipient Workers,,,"Charles County, Maryland",6665,,"6,665",,
-2018,Snap Recipient Workers,,,"Charles County, Maryland",6555,,"6,555",,
-2016,Snap Recipient Workers by Percentage,,,"Charles County, Maryland",0.0247,2.47,2.47%,,
-2017,Snap Recipient Workers by Percentage,,,"Charles County, Maryland",0.0246,2.46,2.46%,,
-2018,Snap Recipient Workers by Percentage,,,"Charles County, Maryland",0.0238,2.38,2.38%,,
+2016,SNAP Recipient Workers,,,"Charles County, Maryland",6698,,"6,698",,
+2017,SNAP Recipient Workers,,,"Charles County, Maryland",6665,,"6,665",,
+2018,SNAP Recipient Workers,,,"Charles County, Maryland",6555,,"6,555",,
+2016,SNAP Recipient Workers by Percentage,,,"Charles County, Maryland",0.0247,2.47,2.47%,,
+2017,SNAP Recipient Workers by Percentage,,,"Charles County, Maryland",0.0246,2.46,2.46%,,
+2018,SNAP Recipient Workers by Percentage,,,"Charles County, Maryland",0.0238,2.38,2.38%,,
 2015,Work Experience by Gender,Not Working,Male,"Charles County, Maryland","64,671",,"64,671",,
 2015,Work Experience by Gender,Part Time,Male,"Charles County, Maryland","8,453",,"8,453",,
 2015,Work Experience by Gender,Full Time,Male,"Charles County, Maryland","75,462",,"75,462",,

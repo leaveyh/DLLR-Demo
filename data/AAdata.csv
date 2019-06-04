@@ -127,12 +127,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Anne Arundel County, Maryland",0.001019,,0.10%,0.001019,0.10%
 2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Anne Arundel County, Maryland",0.000856,,0.09%,0.000856,0.09%
 2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Anne Arundel County, Maryland",0.000977,,0.10%,0.000977,0.10%
-2016,Snap Recipient Workers,,,"Anne Arundel County, Maryland",17140,,"17,140",,
-2017,Snap Recipient Workers,,,"Anne Arundel County, Maryland",17070,,"17,070",,
-2018,Snap Recipient Workers,,,"Anne Arundel County, Maryland",17398,,"17,398",,
-2016,Snap Recipient Workers by Percentage,,,"Anne Arundel County, Maryland",0.0632,6.32,6.32%,,
-2017,Snap Recipient Workers by Percentage,,,"Anne Arundel County, Maryland",0.0629,6.29,6.29%,,
-2018,Snap Recipient Workers by Percentage,,,"Anne Arundel County, Maryland",0.0631,6.31,6.31%,,
+2016,SNAP Recipient Workers,,,"Anne Arundel County, Maryland",17140,,"17,140",,
+2017,SNAP Recipient Workers,,,"Anne Arundel County, Maryland",17070,,"17,070",,
+2018,SNAP Recipient Workers,,,"Anne Arundel County, Maryland",17398,,"17,398",,
+2016,SNAP Recipient Workers by Percentage,,,"Anne Arundel County, Maryland",0.0632,6.32,6.32%,,
+2017,SNAP Recipient Workers by Percentage,,,"Anne Arundel County, Maryland",0.0629,6.29,6.29%,,
+2018,SNAP Recipient Workers by Percentage,,,"Anne Arundel County, Maryland",0.0631,6.31,6.31%,,
 2015,Work Experience by Gender,Not Working,Male,"Baltimore County, Maryland","326,727",,"326,727",,
 2015,Work Experience by Gender,Part Time,Male,"Baltimore County, Maryland","59,228",,"59,228",,
 2015,Work Experience by Gender,Full Time,Male,"Baltimore County, Maryland","394,118",,"394,118",,

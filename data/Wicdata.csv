@@ -127,12 +127,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Wicomico County, Maryland",0.003386,,0.34%,0.003386,0.34%
 2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Wicomico County, Maryland",0.002731,,0.27%,0.002731,0.27%
 2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Wicomico County, Maryland",0.003204,,0.32%,0.003204,0.32%
-2016,Snap Recipient Workers,,,"Wicomico County, Maryland",8171,,8171,,
-2017,Snap Recipient Workers,,,"Wicomico County, Maryland",8121,,8121,,
-2018,Snap Recipient Workers,,,"Wicomico County, Maryland",8245,,8245,,
-2016,Snap Recipient Workers by Percentage,,,"Wicomico County, Maryland",0.0301,3.01,3.01%,,
-2017,Snap Recipient Workers by Percentage,,,"Wicomico County, Maryland",0.0299,2.99,2.99%,,
-2018,Snap Recipient Workers by Percentage,,,"Wicomico County, Maryland",0.0299,2.99,2.99%,,
+2016,SNAP Recipient Workers,,,"Wicomico County, Maryland",8171,,8171,,
+2017,SNAP Recipient Workers,,,"Wicomico County, Maryland",8121,,8121,,
+2018,SNAP Recipient Workers,,,"Wicomico County, Maryland",8245,,8245,,
+2016,SNAP Recipient Workers by Percentage,,,"Wicomico County, Maryland",0.0301,3.01,3.01%,,
+2017,SNAP Recipient Workers by Percentage,,,"Wicomico County, Maryland",0.0299,2.99,2.99%,,
+2018,SNAP Recipient Workers by Percentage,,,"Wicomico County, Maryland",0.0299,2.99,2.99%,,
 2015,Work Experience by Gender,Not Working,Male,"Washington County, Maryland","74,744",,74744,,
 2015,Work Experience by Gender,Part Time,Male,"Washington County, Maryland","7,872",,7872,,
 2015,Work Experience by Gender,Full Time,Male,"Washington County, Maryland","69,931",,69931,,

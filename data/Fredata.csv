@@ -127,12 +127,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Frederick County, Maryland",0.000718,,0.07%,0.000718,0.07%
 2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Frederick County, Maryland",0.000621,,0.06%,0.000621,0.06%
 2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Frederick County, Maryland",0.000607,,0.06%,0.000607,0.06%
-2016,Snap Recipient Workers,,,"Frederick County, Maryland",7697,,"7,697",,
-2017,Snap Recipient Workers,,,"Frederick County, Maryland",7622,,"7,622",,
-2018,Snap Recipient Workers,,,"Frederick County, Maryland",7708,,"7,708",,
-2016,Snap Recipient Workers by Percentage,,,"Frederick County, Maryland",0.0284,2.84,2.84%,,
-2017,Snap Recipient Workers by Percentage,,,"Frederick County, Maryland",0.0281,2.81,2.81%,,
-2018,Snap Recipient Workers by Percentage,,,"Frederick County, Maryland",0.028,2.8,2.80%,,
+2016,SNAP Recipient Workers,,,"Frederick County, Maryland",7697,,"7,697",,
+2017,SNAP Recipient Workers,,,"Frederick County, Maryland",7622,,"7,622",,
+2018,SNAP Recipient Workers,,,"Frederick County, Maryland",7708,,"7,708",,
+2016,SNAP Recipient Workers by Percentage,,,"Frederick County, Maryland",0.0284,2.84,2.84%,,
+2017,SNAP Recipient Workers by Percentage,,,"Frederick County, Maryland",0.0281,2.81,2.81%,,
+2018,SNAP Recipient Workers by Percentage,,,"Frederick County, Maryland",0.028,2.8,2.80%,,
 2015,Work Experience by Gender,Not Working,Male,"Frederick County, Maryland","89,781",,"89,781",,
 2015,Work Experience by Gender,Part Time,Male,"Frederick County, Maryland","16,382",,"16,382",,
 2015,Work Experience by Gender,Full Time,Male,"Frederick County, Maryland","132,135",,"132,135",,

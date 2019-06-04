@@ -127,12 +127,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Baltimore City, Maryland",0.007355,,0.74%,0.007355,0.74%
 2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Baltimore City, Maryland",0.005411,,0.54%,0.005411,0.54%
 2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Baltimore City, Maryland",0.005596,,0.56%,0.005596,0.56%
-2016,Snap Recipient Workers,,,"Baltimore City, Maryland",71568,,"71,568",,
-2017,Snap Recipient Workers,,,"Baltimore City, Maryland",71692,,"71,692",,
-2018,Snap Recipient Workers,,,"Baltimore City, Maryland",74183,,"74,183",,
-2016,Snap Recipient Workers by Percentage,,,"Baltimore City, Maryland",0.2637,26.37,26.37%,,
-2017,Snap Recipient Workers by Percentage,,,"Baltimore City, Maryland",0.2644,26.44,26.44%,,
-2018,Snap Recipient Workers by Percentage,,,"Baltimore City, Maryland",0.2691,26.91,26.91%,,
+2016,SNAP Recipient Workers,,,"Baltimore City, Maryland",71568,,"71,568",,
+2017,SNAP Recipient Workers,,,"Baltimore City, Maryland",71692,,"71,692",,
+2018,SNAP Recipient Workers,,,"Baltimore City, Maryland",74183,,"74,183",,
+2016,SNAP Recipient Workers by Percentage,,,"Baltimore City, Maryland",0.2637,26.37,26.37%,,
+2017,SNAP Recipient Workers by Percentage,,,"Baltimore City, Maryland",0.2644,26.44,26.44%,,
+2018,SNAP Recipient Workers by Percentage,,,"Baltimore City, Maryland",0.2691,26.91,26.91%,,
 2015,Work Experience by Gender,Not Working,Male,"Baltimore City, Maryland","298,021",,"298,021",,
 2015,Work Experience by Gender,Part Time,Male,"Baltimore City, Maryland","38,593",,"38,593",,
 2015,Work Experience by Gender,Full Time,Male,"Baltimore City, Maryland","250,377",,"250,377",,

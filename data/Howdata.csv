@@ -127,12 +127,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Howard County, Maryland",0.000642,,0.06%,0.000642,0.06%
 2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Howard County, Maryland",0.000569,,0.06%,0.000569,0.06%
 2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Howard County, Maryland",0.000576,,0.06%,0.000576,0.06%
-2016,Snap Recipient Workers,,,"Howard County, Maryland",7265,,"7,265",,
-2017,Snap Recipient Workers,,,"Howard County, Maryland",7383,,"7,383",,
-2018,Snap Recipient Workers,,,"Howard County, Maryland",7493,,"7,493",,
-2016,Snap Recipient Workers by Percentage,,,"Howard County, Maryland",0.0268,2.68,2.68%,,
-2017,Snap Recipient Workers by Percentage,,,"Howard County, Maryland",0.0272,2.72,2.72%,,
-2018,Snap Recipient Workers by Percentage,,,"Howard County, Maryland",0.0272,2.72,2.72%,,
+2016,SNAP Recipient Workers,,,"Howard County, Maryland",7265,,"7,265",,
+2017,SNAP Recipient Workers,,,"Howard County, Maryland",7383,,"7,383",,
+2018,SNAP Recipient Workers,,,"Howard County, Maryland",7493,,"7,493",,
+2016,SNAP Recipient Workers by Percentage,,,"Howard County, Maryland",0.0268,2.68,2.68%,,
+2017,SNAP Recipient Workers by Percentage,,,"Howard County, Maryland",0.0272,2.72,2.72%,,
+2018,SNAP Recipient Workers by Percentage,,,"Howard County, Maryland",0.0272,2.72,2.72%,,
 2015,Work Experience by Gender,Not Working,Male,"Howard County, Maryland","114,723",,"114,723",,
 2015,Work Experience by Gender,Part Time,Male,"Howard County, Maryland","21,571",,"21,571",,
 2015,Work Experience by Gender,Full Time,Male,"Howard County, Maryland","166,220",,"166,220",,

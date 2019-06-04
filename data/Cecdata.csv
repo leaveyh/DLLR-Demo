@@ -127,12 +127,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Cecil County, Maryland",0.001839,,0.18%,0.001839,0.18%
 2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Cecil County, Maryland",0.001606,,0.16%,0.001606,0.16%
 2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Cecil County, Maryland",0.002015,,0.20%,0.002015,0.20%
-2016,Snap Recipient Workers,,,"Cecil County, Maryland",4830,,"4,830",,
-2017,Snap Recipient Workers,,,"Cecil County, Maryland",4921,,"4,921",,
-2018,Snap Recipient Workers,,,"Cecil County, Maryland",5041,,"5,041",,
-2016,Snap Recipient Workers by Percentage,,,"Cecil County, Maryland",0.0178,1.78,1.78%,,
-2017,Snap Recipient Workers by Percentage,,,"Cecil County, Maryland",0.0181,1.81,1.81%,,
-2018,Snap Recipient Workers by Percentage,,,"Cecil County, Maryland",0.0183,1.83,1.83%,,
+2016,SNAP Recipient Workers,,,"Cecil County, Maryland",4830,,"4,830",,
+2017,SNAP Recipient Workers,,,"Cecil County, Maryland",4921,,"4,921",,
+2018,SNAP Recipient Workers,,,"Cecil County, Maryland",5041,,"5,041",,
+2016,SNAP Recipient Workers by Percentage,,,"Cecil County, Maryland",0.0178,1.78,1.78%,,
+2017,SNAP Recipient Workers by Percentage,,,"Cecil County, Maryland",0.0181,1.81,1.81%,,
+2018,SNAP Recipient Workers by Percentage,,,"Cecil County, Maryland",0.0183,1.83,1.83%,,
 2015,Work Experience by Gender,Not Working,Male,"Cecil County, Maryland","40,157",,"40,157",,
 2015,Work Experience by Gender,Part Time,Male,"Cecil County, Maryland","5,986",,"5,986",,
 2015,Work Experience by Gender,Full Time,Male,"Cecil County, Maryland","46,115",,"46,115",,

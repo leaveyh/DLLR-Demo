@@ -127,12 +127,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Garrett County, Maryland",0.001364,,0.14%,0.001364,0.14%
 2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Garrett County, Maryland",0.000697,,0.07%,0.000697,0.07%
 2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Garrett County, Maryland",0.001014,,0.10%,0.001014,0.10%
-2016,Snap Recipient Workers,,,"Garrett County, Maryland",1544,,"1,544",,
-2017,Snap Recipient Workers,,,"Garrett County, Maryland",1507,,"1,507",,
-2018,Snap Recipient Workers,,,"Garrett County, Maryland",1519,,"1,519",,
-2016,Snap Recipient Workers by Percentage,,,"Garrett County, Maryland",0.0057,0.57,0.57%,,
-2017,Snap Recipient Workers by Percentage,,,"Garrett County, Maryland",0.0056,0.56,0.56%,,
-2018,Snap Recipient Workers by Percentage,,,"Garrett County, Maryland",0.0055,0.55,0.55%,,
+2016,SNAP Recipient Workers,,,"Garrett County, Maryland",1544,,"1,544",,
+2017,SNAP Recipient Workers,,,"Garrett County, Maryland",1507,,"1,507",,
+2018,SNAP Recipient Workers,,,"Garrett County, Maryland",1519,,"1,519",,
+2016,SNAP Recipient Workers by Percentage,,,"Garrett County, Maryland",0.0057,0.57,0.57%,,
+2017,SNAP Recipient Workers by Percentage,,,"Garrett County, Maryland",0.0056,0.56,0.56%,,
+2018,SNAP Recipient Workers by Percentage,,,"Garrett County, Maryland",0.0055,0.55,0.55%,,
 2015,Work Experience by Gender,Not Working,Male,"Frederick County, Maryland","89,781",,"89,781",,
 2015,Work Experience by Gender,Part Time,Male,"Frederick County, Maryland","16,382",,"16,382",,
 2015,Work Experience by Gender,Full Time,Male,"Frederick County, Maryland","132,135",,"132,135",,

@@ -127,12 +127,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"St. Mary's County, Maryland",0.021227,,2.12%,0.021227,2.12%
 2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"St. Mary's County, Maryland",0.016857,,1.69%,0.016857,1.69%
 2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"St. Mary's County, Maryland",0.016637,,1.66%,0.016637,1.66%
-2016,Snap Recipient Workers,,,"St. Mary's County, Maryland",5213,,"5,213",,
-2017,Snap Recipient Workers,,,"St. Mary's County, Maryland",5154,,"5,154",,
-2018,Snap Recipient Workers,,,"St. Mary's County, Maryland",5130,,"5,130",,
-2016,Snap Recipient Workers by Percentage,,,"St. Mary's County, Maryland",0.0192,1.92,1.92%,,
-2017,Snap Recipient Workers by Percentage,,,"St. Mary's County, Maryland",0.019,1.9,1.90%,,
-2018,Snap Recipient Workers by Percentage,,,"St. Mary's County, Maryland",0.0186,1.86,1.86%,,
+2016,SNAP Recipient Workers,,,"St. Mary's County, Maryland",5213,,"5,213",,
+2017,SNAP Recipient Workers,,,"St. Mary's County, Maryland",5154,,"5,154",,
+2018,SNAP Recipient Workers,,,"St. Mary's County, Maryland",5130,,"5,130",,
+2016,SNAP Recipient Workers by Percentage,,,"St. Mary's County, Maryland",0.0192,1.92,1.92%,,
+2017,SNAP Recipient Workers by Percentage,,,"St. Mary's County, Maryland",0.019,1.9,1.90%,,
+2018,SNAP Recipient Workers by Percentage,,,"St. Mary's County, Maryland",0.0186,1.86,1.86%,,
 2015,Work Experience by Gender,Not Working,Male,"Prince George's County, Maryland","347,078",,"347,078",,
 2015,Work Experience by Gender,Part Time,Male,"Prince George's County, Maryland","66,319",,"66,319",,
 2015,Work Experience by Gender,Full Time,Male,"Prince George's County, Maryland","453,286",,"453,286",,

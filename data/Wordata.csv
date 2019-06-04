@@ -127,12 +127,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Worcester County, Maryland",0.000625,,0.063%,0.000625,0.06%
 2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Worcester County, Maryland",0.000721,,0.072%,0.000721,0.07%
 2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Worcester County, Maryland",0.000724,,0.072%,0.000724,0.07%
-2016,Snap Recipient Workers,,,"Worcester County, Maryland",2768,,"2,768",,
-2017,Snap Recipient Workers,,,"Worcester County, Maryland",2769,,"2,769",,
-2018,Snap Recipient Workers,,,"Worcester County, Maryland",2808,,"2,808",,
-2016,Snap Recipient Workers by Percentage,,,"Worcester County, Maryland",0.0102,1.02,1.02%,,
-2017,Snap Recipient Workers by Percentage,,,"Worcester County, Maryland",0.0102,1.02,1.02%,,
-2018,Snap Recipient Workers by Percentage,,,"Worcester County, Maryland",0.0102,1.02,1.02%,,
+2016,SNAP Recipient Workers,,,"Worcester County, Maryland",2768,,"2,768",,
+2017,SNAP Recipient Workers,,,"Worcester County, Maryland",2769,,"2,769",,
+2018,SNAP Recipient Workers,,,"Worcester County, Maryland",2808,,"2,808",,
+2016,SNAP Recipient Workers by Percentage,,,"Worcester County, Maryland",0.0102,1.02,1.02%,,
+2017,SNAP Recipient Workers by Percentage,,,"Worcester County, Maryland",0.0102,1.02,1.02%,,
+2018,SNAP Recipient Workers by Percentage,,,"Worcester County, Maryland",0.0102,1.02,1.02%,,
 2015,Work Experience by Gender,Not Working,Male,"Washington County, Maryland","74,744",,"74,744",,
 2015,Work Experience by Gender,Part Time,Male,"Washington County, Maryland","7,872",,"7,872",,
 2015,Work Experience by Gender,Full Time,Male,"Washington County, Maryland","69,931",,"69,931",,

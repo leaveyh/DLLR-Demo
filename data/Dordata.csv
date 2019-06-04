@@ -127,12 +127,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Dorchester County, Maryland",0.00362,,0.36%,0.00362,0.36%
 2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Dorchester County, Maryland",0.002813,,0.28%,0.002813,0.28%
 2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Dorchester County, Maryland",0.002241,,0.22%,0.002241,0.22%
-2016,Snap Recipient Workers,,,"Dorchester County, Maryland",3345,,"3,345",,
-2017,Snap Recipient Workers,,,"Dorchester County, Maryland",3306,,"3,306",,
-2018,Snap Recipient Workers,,,"Dorchester County, Maryland",3395,,"3,395",,
-2016,Snap Recipient Workers by Percentage,,,"Dorchester County, Maryland",0.0123,1.23,1.23%,,
-2017,Snap Recipient Workers by Percentage,,,"Dorchester County, Maryland",0.0122,1.22,1.22%,,
-2018,Snap Recipient Workers by Percentage,,,"Dorchester County, Maryland",0.0123,1.23,1.23%,,
+2016,SNAP Recipient Workers,,,"Dorchester County, Maryland",3345,,"3,345",,
+2017,SNAP Recipient Workers,,,"Dorchester County, Maryland",3306,,"3,306",,
+2018,SNAP Recipient Workers,,,"Dorchester County, Maryland",3395,,"3,395",,
+2016,SNAP Recipient Workers by Percentage,,,"Dorchester County, Maryland",0.0123,1.23,1.23%,,
+2017,SNAP Recipient Workers by Percentage,,,"Dorchester County, Maryland",0.0122,1.22,1.22%,,
+2018,SNAP Recipient Workers by Percentage,,,"Dorchester County, Maryland",0.0123,1.23,1.23%,,
 2015,Work Experience by Gender,Not Working,Male,"Charles County, Maryland","64,671",,"64,671",,
 2015,Work Experience by Gender,Part Time,Male,"Charles County, Maryland","8,453",,"8,453",,
 2015,Work Experience by Gender,Full Time,Male,"Charles County, Maryland","75,462",,"75,462",,

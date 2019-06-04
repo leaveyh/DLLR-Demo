@@ -127,12 +127,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Baltimore County, Maryland",0.001775,,0.18%,0.001775,0.18%
 2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Baltimore County, Maryland",0.00137,,0.14%,0.00137,0.14%
 2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Baltimore County, Maryland",0.00151,,0.15%,0.00151,0.15%
-2016,Snap Recipient Workers,,,"Baltimore County, Maryland",41198,,"41,198",,
-2017,Snap Recipient Workers,,,"Baltimore County, Maryland",41332,,"41,332",,
-2018,Snap Recipient Workers,,,"Baltimore County, Maryland",42274,,"42,274",,
-2016,Snap Recipient Workers by Percentage,,,"Baltimore County, Maryland",0.1518,15.18,15.18%,,
-2017,Snap Recipient Workers by Percentage,,,"Baltimore County, Maryland",0.1524,15.24,15.24%,,
-2018,Snap Recipient Workers by Percentage,,,"Baltimore County, Maryland",0.1534,15.34,15.34%,,
+2016,SNAP Recipient Workers,,,"Baltimore County, Maryland",41198,,"41,198",,
+2017,SNAP Recipient Workers,,,"Baltimore County, Maryland",41332,,"41,332",,
+2018,SNAP Recipient Workers,,,"Baltimore County, Maryland",42274,,"42,274",,
+2016,SNAP Recipient Workers by Percentage,,,"Baltimore County, Maryland",0.1518,15.18,15.18%,,
+2017,SNAP Recipient Workers by Percentage,,,"Baltimore County, Maryland",0.1524,15.24,15.24%,,
+2018,SNAP Recipient Workers by Percentage,,,"Baltimore County, Maryland",0.1534,15.34,15.34%,,
 2015,Work Experience by Gender,Not Working,Male,"Baltimore County, Maryland","326,727",,"326,727",,
 2015,Work Experience by Gender,Part Time,Male,"Baltimore County, Maryland","59,228",,"59,228",,
 2015,Work Experience by Gender,Full Time,Male,"Baltimore County, Maryland","394,118",,"394,118",,

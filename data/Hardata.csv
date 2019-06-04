@@ -127,12 +127,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Harford County, Maryland",0.001117,,0.11%,0.001117,0.11%
 2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Harford County, Maryland",0.000755,,0.08%,0.000755,0.08%
 2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Harford County, Maryland",0.000952,,0.10%,0.000952,0.10%
-2016,Snap Recipient Workers,,,"Harford County, Maryland",9176,,"9,176",,
-2017,Snap Recipient Workers,,,"Harford County, Maryland",9088,,"9,088",,
-2018,Snap Recipient Workers,,,"Harford County, Maryland",9143,,"9,143",,
-2016,Snap Recipient Workers by Percentage,,,"Harford County, Maryland",0.0338,3.38,3.38%,,
-2017,Snap Recipient Workers by Percentage,,,"Harford County, Maryland",0.0335,3.35,3.35%,,
-2018,Snap Recipient Workers by Percentage,,,"Harford County, Maryland",0.0332,3.32,3.32%,,
+2016,SNAP Recipient Workers,,,"Harford County, Maryland",9176,,"9,176",,
+2017,SNAP Recipient Workers,,,"Harford County, Maryland",9088,,"9,088",,
+2018,SNAP Recipient Workers,,,"Harford County, Maryland",9143,,"9,143",,
+2016,SNAP Recipient Workers by Percentage,,,"Harford County, Maryland",0.0338,3.38,3.38%,,
+2017,SNAP Recipient Workers by Percentage,,,"Harford County, Maryland",0.0335,3.35,3.35%,,
+2018,SNAP Recipient Workers by Percentage,,,"Harford County, Maryland",0.0332,3.32,3.32%,,
 2015,Work Experience by Gender,Not Working,Male,"Harford County, Maryland","100,827",,"100,827",,
 2015,Work Experience by Gender,Part Time,Male,"Harford County, Maryland","17,978",,"17,978",,
 2015,Work Experience by Gender,Full Time,Male,"Harford County, Maryland","126,609",,"126,609",,

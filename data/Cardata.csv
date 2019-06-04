@@ -127,12 +127,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Caroline County, Maryland",0.001048,,0.10%,0.001048,0.10%
 2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Caroline County, Maryland",0.000869,,0.09%,0.000869,0.09%
 2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Caroline County, Maryland",0.001135,,0.11%,0.001135,0.11%
-2016,Snap Recipient Workers,,,"Caroline County, Maryland",2212,,"2,212",,
-2017,Snap Recipient Workers,,,"Caroline County, Maryland",2211,,"2,211",,
-2018,Snap Recipient Workers,,,"Caroline County, Maryland",2268,,"2,268",,
-2016,Snap Recipient Workers by Percentage,,,"Caroline County, Maryland",0.0082,0.82,0.82%,,
-2017,Snap Recipient Workers by Percentage,,,"Caroline County, Maryland",0.0082,0.82,0.82%,,
-2018,Snap Recipient Workers by Percentage,,,"Caroline County, Maryland",0.0082,0.82,0.82%,,
+2016,SNAP Recipient Workers,,,"Caroline County, Maryland",2212,,"2,212",,
+2017,SNAP Recipient Workers,,,"Caroline County, Maryland",2211,,"2,211",,
+2018,SNAP Recipient Workers,,,"Caroline County, Maryland",2268,,"2,268",,
+2016,SNAP Recipient Workers by Percentage,,,"Caroline County, Maryland",0.0082,0.82,0.82%,,
+2017,SNAP Recipient Workers by Percentage,,,"Caroline County, Maryland",0.0082,0.82,0.82%,,
+2018,SNAP Recipient Workers by Percentage,,,"Caroline County, Maryland",0.0082,0.82,0.82%,,
 2015,Work Experience by Gender,Not Working,Male,"Baltimore City, Maryland","298,021",,"298,021",,
 2015,Work Experience by Gender,Part Time,Male,"Baltimore City, Maryland","38,593",,"38,593",,
 2015,Work Experience by Gender,Full Time,Male,"Baltimore City, Maryland","250,377",,"250,377",,

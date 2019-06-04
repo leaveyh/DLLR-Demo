@@ -127,12 +127,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Queen Anne's County, Maryland",0.001347,,0.13%,0.001347,0.13%
 2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Queen Anne's County, Maryland",0.001414,,0.14%,0.001414,0.14%
 2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Queen Anne's County, Maryland",0.001264,,0.13%,0.001264,0.13%
-2016,Snap Recipient Workers,,,"Queen Anne's County, Maryland",1839,,"1,839",,
-2017,Snap Recipient Workers,,,"Queen Anne's County, Maryland",1791,,"1,791",,
-2018,Snap Recipient Workers,,,"Queen Anne's County, Maryland",1782,,"1,782",,
-2016,Snap Recipient Workers by Percentage,,,"Queen Anne's County, Maryland",0.0068,0.68,0.68%,,
-2017,Snap Recipient Workers by Percentage,,,"Queen Anne's County, Maryland",0.0066,0.66,0.66%,,
-2018,Snap Recipient Workers by Percentage,,,"Queen Anne's County, Maryland",0.0065,0.65,0.65%,,
+2016,SNAP Recipient Workers,,,"Queen Anne's County, Maryland",1839,,"1,839",,
+2017,SNAP Recipient Workers,,,"Queen Anne's County, Maryland",1791,,"1,791",,
+2018,SNAP Recipient Workers,,,"Queen Anne's County, Maryland",1782,,"1,782",,
+2016,SNAP Recipient Workers by Percentage,,,"Queen Anne's County, Maryland",0.0068,0.68,0.68%,,
+2017,SNAP Recipient Workers by Percentage,,,"Queen Anne's County, Maryland",0.0066,0.66,0.66%,,
+2018,SNAP Recipient Workers by Percentage,,,"Queen Anne's County, Maryland",0.0065,0.65,0.65%,,
 2015,Work Experience by Gender,Not Working,Male,"Prince George's County, Maryland","347,078",,"347,078",,
 2015,Work Experience by Gender,Part Time,Male,"Prince George's County, Maryland","66,319",,"66,319",,
 2015,Work Experience by Gender,Full Time,Male,"Prince George's County, Maryland","453,286",,"453,286",,

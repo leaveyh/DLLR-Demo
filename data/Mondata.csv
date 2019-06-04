@@ -127,12 +127,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Montgomery County, Maryland",0.000539,,0.05%,0.000539,0.05%
 2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Montgomery County, Maryland",0.000478,,0.05%,0.000478,0.05%
 2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Montgomery County, Maryland",0.000489,,0.05%,0.000489,0.05%
-2016,Snap Recipient Workers,,,"Montgomery County, Maryland",20030,,"20,030",,
-2017,Snap Recipient Workers,,,"Montgomery County, Maryland",20323,,"20,323",,
-2018,Snap Recipient Workers,,,"Montgomery County, Maryland",20674,,"20,674",,
-2016,Snap Recipient Workers by Percentage,,,"Montgomery County, Maryland",0.0738,7.38,7.38%,,
-2017,Snap Recipient Workers by Percentage,,,"Montgomery County, Maryland",0.0749,7.49,7.49%,,
-2018,Snap Recipient Workers by Percentage,,,"Montgomery County, Maryland",0.075,7.5,7.50%,,
+2016,SNAP Recipient Workers,,,"Montgomery County, Maryland",20030,,"20,030",,
+2017,SNAP Recipient Workers,,,"Montgomery County, Maryland",20323,,"20,323",,
+2018,SNAP Recipient Workers,,,"Montgomery County, Maryland",20674,,"20,674",,
+2016,SNAP Recipient Workers by Percentage,,,"Montgomery County, Maryland",0.0738,7.38,7.38%,,
+2017,SNAP Recipient Workers by Percentage,,,"Montgomery County, Maryland",0.0749,7.49,7.49%,,
+2018,SNAP Recipient Workers by Percentage,,,"Montgomery County, Maryland",0.075,7.5,7.50%,,
 2015,Work Experience by Gender,Not Working,Male,"Montgomery County, Maryland","376,637",,"376,637",,
 2015,Work Experience by Gender,Part Time,Male,"Montgomery County, Maryland","67,954",,"67,954",,
 2015,Work Experience by Gender,Full Time,Male,"Montgomery County, Maryland","545,889",,"545,889",,

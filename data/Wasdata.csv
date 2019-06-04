@@ -127,12 +127,12 @@ Time,Indicator,Employment Status,Indicator Status,Location,Amount,Unemployment R
 2016Q4,Percentage of TANF Recipients among Maryland Workers,Employed,,"Washington County, Maryland",0.002022,,0.20%,0.002022,0.20%
 2017Q1,Percentage of TANF Recipients among Maryland Workers,Employed,,"Washington County, Maryland",0.001969,,0.20%,0.001969,0.20%
 2017Q2,Percentage of TANF Recipients among Maryland Workers,Employed,,"Washington County, Maryland",0.002144,,0.21%,0.002144,0.21%
-2016,Snap Recipient Workers,,,"Washington County, Maryland",9340,,"9,340",,
-2017,Snap Recipient Workers,,,"Washington County, Maryland",9083,,"9,083",,
-2018,Snap Recipient Workers,,,"Washington County, Maryland",9015,,"9,015",,
-2016,Snap Recipient Workers by Percentage,,,"Washington County, Maryland",0.0344,3.44,3.44%,,
-2017,Snap Recipient Workers by Percentage,,,"Washington County, Maryland",0.0335,3.35,3.35%,,
-2018,Snap Recipient Workers by Percentage,,,"Washington County, Maryland",0.0327,3.27,3.27%,,
+2016,SNAP Recipient Workers,,,"Washington County, Maryland",9340,,"9,340",,
+2017,SNAP Recipient Workers,,,"Washington County, Maryland",9083,,"9,083",,
+2018,SNAP Recipient Workers,,,"Washington County, Maryland",9015,,"9,015",,
+2016,SNAP Recipient Workers by Percentage,,,"Washington County, Maryland",0.0344,3.44,3.44%,,
+2017,SNAP Recipient Workers by Percentage,,,"Washington County, Maryland",0.0335,3.35,3.35%,,
+2018,SNAP Recipient Workers by Percentage,,,"Washington County, Maryland",0.0327,3.27,3.27%,,
 2015,Work Experience by Gender,Not Working,Male,"Washington County, Maryland","74,744",,"74,744",,
 2015,Work Experience by Gender,Part Time,Male,"Washington County, Maryland","7,872",,"7,872",,
 2015,Work Experience by Gender,Full Time,Male,"Washington County, Maryland","69,931",,"69,931",,
