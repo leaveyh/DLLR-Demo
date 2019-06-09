@@ -41,9 +41,9 @@ var togNum1 = 1;
         var print81 = dimple.newSvg("#Print18", 750, 400);
         var print91 = dimple.newSvg("#Print19", 750, 400);
         
-        pData = dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", ["2016","2017"]), "Indicator", "Total Population"), "Location", CountyName2);
+        pData = dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", ["2015","2016","2017"]), "Indicator", "Total Population"), "Location", CountyName2);
         
-        wData = dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", ["2016","2017"]), "Indicator", "Median Household Income"), "Location", CountyName2);
+        wData = dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", ["2015","2016","2017"]), "Indicator", "Median Household Income"), "Location", CountyName2);
         
         
         var chart0 = new dimple.chart(svg0, pData);
@@ -269,6 +269,8 @@ var togNum1 = 1;
                             
                             genderRate1 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", "2016"), "Indicator Status", ["Male", "Female"]), "Location", CountyName2), "Indicator", "Unemployment By Gender");
         
+                            genderRate1 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", "2015"), "Indicator Status", ["Male", "Female"]), "Location", CountyName2), "Indicator", "Unemployment By Gender");
+        
                             var chart3 = new dimple.chart(svg3, genderRate);
                             chart3.setBounds("9%", "12%", "80%", "65%")
                             var ggx = chart3.addCategoryAxis("x", "Indicator Status");
@@ -323,6 +325,8 @@ var togNum1 = 1;
         
                             raceData1 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", "2016"), "Indicator", "Unemployment By Race"), "Location", CountyName2), "Indicator Status", [ "White", "Black", "Asian", "Hispanic"]);
         
+                            raceData2 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", "2015"), "Indicator", "Unemployment By Race"), "Location", CountyName2), "Indicator Status", [ "White", "Black", "Asian", "Hispanic"]);
+        
         
                             
                             var chart4 = new dimple.chart(svg4, raceData);
@@ -366,6 +370,8 @@ var togNum1 = 1;
         
         
                             ethData1 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", "2016"), "Indicator", "Unemployment By Race"), "Location", CountyName2), "Indicator Status", ["White", "Hispanic"]);
+        
+                            ethData2 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", "2015"), "Indicator", "Unemployment By Race"), "Location", CountyName2), "Indicator Status", ["White", "Hispanic"]);
         
                             var chart5 = new dimple.chart(svg4, ethData);
                             chart5.setBounds("56%", "12%", "35%", "65%")
@@ -423,6 +429,8 @@ var togNum1 = 1;
         
         
                             vetData1 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Unemployment By Veteran Status"), "Location", CountyName2), "Time", "2016");
+        
+                            vetData2 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Unemployment By Veteran Status"), "Location", CountyName2), "Time", "2015");
         
                             var chart7 = new dimple.chart(svg5, vetData);
                             chart7.setBounds("9%", "12%", "80%", "65%")
@@ -485,6 +493,13 @@ var togNum1 = 1;
         chart7.data = vetData1;
     }
      
+     if(strUser3 == "2015"){
+        chart3.data = genderRate2;
+        chart4.data = raceData2;
+        chart5.data = ethData2;
+        chart7.data = vetData2;
+    }
+     
      pchart3.data = chart3.data;
      pchart4.data = chart4.data;
      pchart5.data = chart5.data;
@@ -524,6 +539,13 @@ d3.select("#btn31").on("change", function() {
         chart7.data = vetData1;
     }
     
+    if(strUser3 == "2015"){
+        chart3.data = genderRate2;
+        chart4.data = raceData2;
+        chart5.data = ethData2;
+        chart7.data = vetData2;
+    }
+    
     pchart3.data = chart3.data;
      pchart4.data = chart4.data;
      pchart5.data = chart5.data;
@@ -561,6 +583,13 @@ d3.select("#btn32").on("change", function() {
         chart4.data = raceData1;
         chart5.data = ethData1;
         chart7.data = vetData1;
+    }
+    
+    if(strUser3 == "2015"){
+        chart3.data = genderRate2;
+        chart4.data = raceData2;
+        chart5.data = ethData2;
+        chart7.data = vetData2;
     }
          
     pchart3.data = chart3.data;
