@@ -9,9 +9,9 @@ var togNum1 = 1;
         var svg0 = dimple.newSvg("#Chart0", "100%", 400);
         var print0 = dimple.newSvg("#Print0", 750, 400);
         
-        pData = dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", ["2016", "2017"]), "Indicator", "Total Population"), "Location", CountyName2);
+        pData = dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", ["2015","2016", "2017"]), "Indicator", "Total Population"), "Location", CountyName2);
         
-        wData = dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", ["2016", "2017"]), "Indicator", "Median Household Income"), "Location", CountyName2);
+        wData = dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", ["2015","2016", "2017"]), "Indicator", "Median Household Income"), "Location", CountyName2);
         
         
         var chart0 = new dimple.chart(svg0, pData);
@@ -21,7 +21,7 @@ var togNum1 = 1;
                         y0.tickFormat = ',f';
                        var s0 = chart0.addSeries("Indicator", dimple.plot.bar);
                         s0.lineMarkers = true;
-                        x0.addOrderRule(["2016", "2017"]);
+                        x0.addOrderRule(["2015","2016", "2017"]);
                         chart0.draw();
                         x0.title = "Years";
                         y0.title = "Total Population";
@@ -37,7 +37,7 @@ var togNum1 = 1;
                //            var ethLegend = chart5.addLegend("86%", "70%", "26%", "10%", "right");
         
                             s01.lineMarkers = true;
-                            x01.addOrderRule(["2016", "2017"]);
+                            x01.addOrderRule(["2015","2016", "2017"]);
                             Y01.tickFormat = '$,f';
                             chart01.draw();
                             Y01.title = "Median Household Income";
@@ -50,7 +50,7 @@ var togNum1 = 1;
                         py0.tickFormat = ',f';
                        var ps0 = pchart0.addSeries("Indicator", dimple.plot.bar);
                         ps0.lineMarkers = true;
-                        px0.addOrderRule(["2016", "2017"]);
+                        px0.addOrderRule(["2015","2016", "2017"]);
                         //px0.title = "C1";
                         py0.title = "Total Population";
                         pchart0.draw();
@@ -66,7 +66,7 @@ var togNum1 = 1;
                //            var ethLegend = chart5.addLegend("86%", "70%", "26%", "10%", "right");
         
                             ps01.lineMarkers = true;
-                            px01.addOrderRule(["2016", "2017"]);
+                            px01.addOrderRule(["2015","2016", "2017"]);
                             pY01.tickFormat = '$,f';
                             pY01.title = "Median Household Income";
                             //px01.title = "C2";
@@ -145,6 +145,8 @@ var togNum1 = 1;
         
                             EduAttainment1 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator Status", ["Less than Highschool", "Highschool", "Some College", "Bachelor's or Higher"]), "Location", CountyName2), "Employment Status", ["Unemployed", "NIL", "Employed"]),"Time", "2017");
         
+                            EduAttainment2 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator Status", ["Less than Highschool", "Highschool", "Some College", "Bachelor's or Higher"]), "Location", CountyName2), "Employment Status", ["Unemployed", "NIL", "Employed"]),"Time", "2015"); 
+        
                             EduAttainment = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator Status", ["Less than Highschool", "Highschool", "Some College", "Bachelor's or Higher"]), "Location", CountyName2), "Employment Status", ["Unemployed", "NIL", "Employed"]),"Time", "2016");
         
         /**  var chart10 = new dimple.chart(svg8, DisAttainment);
@@ -193,6 +195,8 @@ var togNum1 = 1;
                             genderRate = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", "2017"), "Indicator Status", ["Male", "Female"]), "Location", CountyName2), "Indicator", "Unemployment By Gender");
                             
                             genderRate1 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", "2016"), "Indicator Status", ["Male", "Female"]), "Location", CountyName2), "Indicator", "Unemployment By Gender");
+        
+                             genderRate2 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", "2015"), "Indicator Status", ["Male", "Female"]), "Location", CountyName2), "Indicator", "Unemployment By Gender");
         
                             var chart3 = new dimple.chart(svg3, genderRate);
                             chart3.setBounds("58%", "12%", "35%", "65%")
@@ -244,6 +248,8 @@ var togNum1 = 1;
                             raceData = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", "2017"), "Indicator", "Unemployment By Race"), "Location", CountyName2), "Indicator Status", [ "White", "Black", "Asian", "Hispanic"]);
         
                             raceData1 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", "2016"), "Indicator", "Unemployment By Race"), "Location", CountyName2), "Indicator Status", [ "White", "Black", "Asian", "Hispanic"]);
+        
+                            raceData2 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", "2015"), "Indicator", "Unemployment By Race"), "Location", CountyName2), "Indicator Status", [ "White", "Black", "Asian", "Hispanic"]);
         
         
                             
@@ -297,6 +303,8 @@ var togNum1 = 1;
         
                             ethData1 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", "2016"), "Indicator", "Unemployment By Race"), "Location", CountyName2), "Indicator Status", ["White", "Hispanic"]);
         
+                            ethData2 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Time", "2015"), "Indicator", "Unemployment By Race"), "Location", CountyName2), "Indicator Status", ["White", "Hispanic"]);
+        
                             var chart5 = new dimple.chart(svg4, ethData);
                             chart5.setBounds("58%", "12%", "35%", "65%")
                             var ethX = chart5.addCategoryAxis("x", "Indicator Status")
@@ -347,6 +355,8 @@ var togNum1 = 1;
         
                             vetData1 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Unemployment By Veteran Status"), "Location", CountyName2), "Time", "2016");
         
+                            vetData2 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Unemployment By Veteran Status"), "Location", CountyName2), "Time", "2015");
+        
                             var chart7 = new dimple.chart(svg5, vetData);
                             chart7.setBounds("9%", "12%", "80%", "65%")
                             var vetX = chart7.addCategoryAxis("x", "Indicator Status");
@@ -387,14 +397,9 @@ var togNum1 = 1;
         
                             
                             
-        
-      
-        
-        
- d3.select("#btn3").on("change", function() {
-  
-  
-	var e3 = document.getElementById("btn3");
+window.chartChange1 = function(){
+          
+          var e3 = document.getElementById("btn3");
   var strUser3 = e3.options[e3.selectedIndex].text;
   
    if(strUser3 == "2017"){
@@ -426,6 +431,20 @@ var togNum1 = 1;
         pchart7.data = vetData1;
     }
      
+     if(strUser3 == "2015"){
+        chart2.data = EduAttainment2;
+        chart3.data = genderRate2;
+        chart4.data = raceData2;
+        chart5.data = ethData2;
+        chart7.data = vetData2;
+            
+        pchart2.data = EduAttainment2;
+        pchart3.data = genderRate2;
+        pchart4.data = raceData2;
+        pchart5.data = ethData2;
+        pchart7.data = vetData2;
+    }
+     
 //edSeries.lineWeight = 0;
      chart2.draw(1000);
      chart3.draw(1000);
@@ -441,14 +460,13 @@ var togNum1 = 1;
      
     
      
-     
-     
- });
-        
- d3.select("#btn31").on("change", function() {
-  
-  
-	var e3 = document.getElementById("btn31");
+          
+          
+      };
+    
+       window.chartChange2 = function(){
+           
+           var e3 = document.getElementById("btn31");
   var strUser3 = e3.options[e3.selectedIndex].text;
   
    if(strUser3 == "2017"){
@@ -480,6 +498,20 @@ var togNum1 = 1;
         pchart7.data = vetData1;
     }
      
+     if(strUser3 == "2015"){
+        chart2.data = EduAttainment2;
+        chart3.data = genderRate2;
+        chart4.data = raceData2;
+        chart5.data = ethData2;
+        chart7.data = vetData2;
+            
+        pchart2.data = EduAttainment2;
+        pchart3.data = genderRate2;
+        pchart4.data = raceData2;
+        pchart5.data = ethData2;
+        pchart7.data = vetData2;
+    }
+     
 //edSeries.lineWeight = 0;
      chart2.draw(1000);
      chart3.draw(1000);
@@ -494,6 +526,85 @@ var togNum1 = 1;
      pchart7.draw(1000);
      
      
+       };
+        
+        window.chartChange3 = function(){
+            var e3 = document.getElementById("btn32");
+  var strUser3 = e3.options[e3.selectedIndex].text;
+  
+   if(strUser3 == "2017"){
+        chart2.data = EduAttainment;
+        chart3.data = genderRate;
+        chart4.data = raceData;
+        chart5.data = ethData;
+        chart7.data = vetData;
+       
+        pchart2.data = EduAttainment;
+        pchart3.data = genderRate;
+        pchart4.data = raceData;
+        pchart5.data = ethData;
+        pchart7.data = vetData;
+        
+   }
+        
+    if(strUser3 == "2016"){
+        chart2.data = EduAttainment1;
+        chart3.data = genderRate1;
+        chart4.data = raceData1;
+        chart5.data = ethData1;
+        chart7.data = vetData1;
+        
+        pchart2.data = EduAttainment1;
+        pchart3.data = genderRate1;
+        pchart4.data = raceData1;
+        pchart5.data = ethData1;
+        pchart7.data = vetData1;
+    }
+     
+     if(strUser3 == "2015"){
+        chart2.data = EduAttainment2;
+        chart3.data = genderRate2;
+        chart4.data = raceData2;
+        chart5.data = ethData2;
+        chart7.data = vetData2;
+            
+        pchart2.data = EduAttainment2;
+        pchart3.data = genderRate2;
+        pchart4.data = raceData2;
+        pchart5.data = ethData2;
+        pchart7.data = vetData2;
+    }
+     
+//edSeries.lineWeight = 0;
+     chart2.draw(1000);
+     chart3.draw(1000);
+     chart4.draw(1000);
+     chart5.draw(1000);
+     chart7.draw(1000);
+     
+     pchart2.draw(1000);
+     pchart3.draw(1000);
+     pchart4.draw(1000);
+     pchart5.draw(1000);
+     pchart7.draw(1000);
+     
+     
+        };        
+      
+        
+        
+ d3.select("#btn3").on("change", function() {
+  
+  
+	   chartChange1();
+     
+     
+ });
+        
+ d3.select("#btn31").on("change", function() {
+  
+  
+	chartChange2();
      
      
      
@@ -502,53 +613,8 @@ var togNum1 = 1;
  d3.select("#btn32").on("change", function() {
   
   
-	var e3 = document.getElementById("btn32");
-  var strUser3 = e3.options[e3.selectedIndex].text;
-  
-   if(strUser3 == "2017"){
-        chart2.data = EduAttainment;
-        chart3.data = genderRate;
-        chart4.data = raceData;
-        chart5.data = ethData;
-        chart7.data = vetData;
-       
-        pchart2.data = EduAttainment;
-        pchart3.data = genderRate;
-        pchart4.data = raceData;
-        pchart5.data = ethData;
-        pchart7.data = vetData;
-        
-   }
-        
-    if(strUser3 == "2016"){
-        chart2.data = EduAttainment1;
-        chart3.data = genderRate1;
-        chart4.data = raceData1;
-        chart5.data = ethData1;
-        chart7.data = vetData1;
-        
-        pchart2.data = EduAttainment1;
-        pchart3.data = genderRate1;
-        pchart4.data = raceData1;
-        pchart5.data = ethData1;
-        pchart7.data = vetData1;
-    }
-     
-//edSeries.lineWeight = 0;
-     chart2.draw(1000);
-     chart3.draw(1000);
-     chart4.draw(1000);
-     chart5.draw(1000);
-     chart7.draw(1000);
-     
-     pchart2.draw(1000);
-     pchart3.draw(1000);
-     pchart4.draw(1000);
-     pchart5.draw(1000);
-     pchart7.draw(1000);
-     
-     
-     
+	
+     chartChange3();
      
      
  });
@@ -576,6 +642,8 @@ var togNum1 = 1;
                             DisAttainment1 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Employment Status By Disability Status"), "Location", CountyName2), "Employment Status", ["Unemployed", "Labor Force", "Employed"]),"Time", "2016");
         
                             DisAttainment = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Employment Status By Disability Status"), "Location", CountyName2), "Employment Status", ["Unemployed", "Labor Force", "Employed"]),"Time", "2017");
+        
+                             DisAttainment2 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Employment Status By Disability Status"), "Location", CountyName2), "Employment Status", ["Unemployed", "Labor Force", "Employed"]),"Time", "2008-2011");
                             
         
                             var chart10 = new dimple.chart(svg8, DisAttainment);
@@ -613,6 +681,8 @@ var togNum1 = 1;
                             povRate = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Employment Status By Poverty Status"), "Location", CountyName2), "Employment Status", ["Unemployed", "Labor Force", "Employed"]),"Time", "2017");
                             
                             povRate1 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Employment Status By Poverty Status"), "Location", CountyName2), "Employment Status", ["Unemployed", "Labor Force", "Employed"]),"Time", "2016");
+        
+                            povRate2 = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Employment Status By Poverty Status"), "Location", CountyName2), "Employment Status", ["Unemployed", "Labor Force", "Employed"]),"Time", "2015");
         
                             var chart11 = new dimple.chart(svg8, povRate);
                             chart11.setBounds("58%", "12%", "35%", "65%")
@@ -665,6 +735,13 @@ var togNum1 = 1;
         chart11.data = povRate;
         pchart10.data = DisAttainment;
         pchart11.data = povRate;
+    }
+            
+            if(strUser7 == "2015"){
+        chart10.data = DisAttainment2;
+        chart11.data = povRate2;
+        pchart10.data = DisAttainment2;
+        pchart11.data = povRate2;
     }
          
      chart10.draw(1000);
