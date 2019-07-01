@@ -986,9 +986,10 @@ var print11 = dimple.newSvg("#Print11", 750, 400);
                             
         
                             var chart15 = new dimple.chart(svg11, workerDatag1);
-                            chart15.setBounds("11%", "12%", "80%", "65%")
+                            chart15.setBounds("11%", "12%", "80%", "60%")
                             var workX = chart15.addCategoryAxis("x", "Indicator Status")
                             var workY = chart15.addMeasureAxis("y", "Amount");
+                            workX.title = " ";
                             workY.tickFormat = ",f";
         
                             //mTanfY.overrideMax = .003;
@@ -1002,10 +1003,11 @@ var print11 = dimple.newSvg("#Print11", 750, 400);
                             chart15.draw();
         
                             var pchart15 = new dimple.chart(print11, workerDatag1);
-                            pchart15.setBounds("11%", "12%", "80%", "65%")
+                            pchart15.setBounds("15%", "12%", "65%", "50%")
                             var workX = pchart15.addCategoryAxis("x", "Indicator Status")
                             var workY = pchart15.addMeasureAxis("y", "Amount");
                             workY.tickFormat = ",f";
+                            workX.title = " ";
                             //mTanfY.overrideMax = .003;
                             var workLine = pchart15.addSeries("Employment Status", dimple.plot.bar);
         
@@ -1057,7 +1059,7 @@ var print11 = dimple.newSvg("#Print11", 750, 400);
            chart15.data = workerDatap3;
        }
     }
-         
+     pchart15.data = chart15.data;
      chart15.draw(1000);
      pchart15.draw(1000);
 

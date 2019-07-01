@@ -1023,12 +1023,16 @@ var print11 = dimple.newSvg("#Print11", 750, 400);
    if(strUser7 == "2015"){
        if(strUser8 == "Gender"){
            chart15.data = workerDatag1;
+           pchart15.data = workerDatag1;
        }else if(strUser8 == "Race"){
            chart15.data = workerDatar1;
+           pchart15.data = workerDatar1;
        }else if(strUser8 == "Education"){
            chart15.data = workerDatae1;
+           pchart15.data = workerDatae1;
        }else if(strUser8 == "Poverty"){
            chart15.data = workerDatap1;
+           pchart15.data = workerDatap1;
        }
         
    }
@@ -1036,23 +1040,31 @@ var print11 = dimple.newSvg("#Print11", 750, 400);
     if(strUser7 == "2016"){
         if(strUser8 == "Gender"){
            chart15.data = workerDatag2;
+           pchart15.data = workerDatag2;
        }else if(strUser8 == "Race"){
            chart15.data = workerDatar2;
+           pchart15.data = workerDatar2;
        }else if(strUser8 == "Education"){
            chart15.data = workerDatae2;
+           pchart15.data = workerDatae2;
        }else if(strUser8 == "Poverty"){
            chart15.data = workerDatap2;
+           pchart15.data = workerDatap2;
        }
     }
             
     if(strUser7 == "2017"){
         if(strUser8 == "Gender"){
            chart15.data = workerDatag3;
+           pchart15.data = workerDatag3;
        }else if(strUser8 == "Race"){
            chart15.data = workerDatar3;
+           pchart15.data = workerDatar3;
        }else if(strUser8 == "Education"){
            chart15.data = workerDatae3;
+           pchart15.data = workerDatae3;
        }else if(strUser8 == "Poverty"){
+           chart15.data = workerDatap3;
            chart15.data = workerDatap3;
        }
     }
