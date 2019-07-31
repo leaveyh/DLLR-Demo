@@ -288,18 +288,17 @@
             }
 
 .button {
-    padding: 10px 10% 10px 10%;
-    margin: 10px 5px 0px 10px;
-    width: 90%;
-    align-items: center;
-    text-decoration: none;
-    font-size: 13.5px;
-    text-align: center;
-    color: #2196F3;
-    display:flex;
+    padding: 10px 10% 10px 10% !important;
+    margin: 10px 5px 0px 10px !important;
+    width: 90% !important;
+    text-decoration: none !important;
+    font-size: 13.5px !important;
+    text-align: center !important;
+    color: #2196F3 !important;
+    
 }
             .dropdown-content {
-    display: none;
+    display: none ;
     position: absolute;
     background-color: #404040;
     min-width: 160px;
@@ -310,6 +309,16 @@
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.ddl{
+    padding: 5px 1% 5px 10%;
+    margin: 10px 5px 0px 10px;
+    width: 90%;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    
 }
             
             

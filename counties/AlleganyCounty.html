@@ -48,7 +48,7 @@
         
     </head>
      <div class="sidebutton">
-               <select onChange="window.location.href=this.value" style="margin: 0px 0px 10px 10px; margin-bottom: 10px; padding-right: 0%;">
+               <select onChange="window.location.href=this.value" class="ddl";>
             <option selected="selected">Choose a county...</option>
             <option value="Maryland.html" >Maryland</option>
             <option value="AlleganyCounty.html" >Allegany</option>
@@ -83,18 +83,18 @@
                 
             <div class="dropdown">    
                 
-            <button class="button" style="padding-left: 16%; padding-right: 16%">Demographics</button>
+            <button class="button">Demographics</button>
                 <div class="dropdown-content">
                 <button class="button" onclick="educhart()">Education and Gender</button>
                 <button class="button" onclick="racechart()">Race and Ethnicity</button>
-                <button class="button" onclick="vetchart()" style="padding-left: 14%; padding-right: 12%">Veteran Status</button>
+                <button class="button" onclick="vetchart()">Veteran Status</button>
                 </div>
                 </div>
             <div class="dropdown">    
             <button class="button" onclick="dischart()">Disability and Poverty</button>
                 </div>
             <div class="dropdown">    
-            <button class="button" style="padding-left: 20%; padding-right: 20%">TANF Data</button>
+            <button class="button">TANF Data</button>
                 <div class="dropdown-content">
                 <button class="button" onclick="collapse6()">Workers and Participants</button>
                 <button class="button" onclick="collapse7()">Recipients %</button>
