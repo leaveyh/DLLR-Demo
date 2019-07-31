@@ -4536,6 +4536,7 @@ function hidePrint(){
     document.getElementById("Print17").style.display="none";
     //document.getElementById("Print18").style.display="none";
     //document.getElementById("Print19").style.display="none";
+    document.getElementById("Landing").style.display="none";
     
 }
 
@@ -4547,6 +4548,7 @@ function hideChart(){
     document.getElementById("Chart17").style.display="none";
     //document.getElementById("Chart18").style.display="none";
     //document.getElementById("Chart19").style.display="none";
+    document.getElementById("Landing").style.display="none";
     
 }
 
@@ -4558,6 +4560,7 @@ function showChart(){
     document.getElementById("Chart17").style.display="inline";
     //document.getElementById("Chart18").style.display="inline";
     //document.getElementById("Chart19").style.display="inline";
+    document.getElementById("Landing").style.display="none";
 }
 
 function showPrint(){
@@ -4568,6 +4571,7 @@ function showPrint(){
     document.getElementById("Print17").style.display="inline";
     //document.getElementById("Print18").style.display="inline";
     //document.getElementById("Print19").style.display="inline";
+    document.getElementById("Landing").style.display="none";
     
 }
 
@@ -4762,4 +4766,5 @@ window.printAll = function() {
 window.onafterprint = function() {
    hideAll();
    showChart();
+    document.getElementById("Landing").style.display="inline";
 };

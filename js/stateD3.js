@@ -1258,6 +1258,7 @@ function hidePrint(){
     document.getElementById("Print10").style.display="none";
     document.getElementById("Print11").style.display="none";
     document.getElementById("Print12").style.display="none";
+    document.getElementById("Landing").style.display="none";
 }
 
 function hideChart(){
@@ -1270,6 +1271,7 @@ function hideChart(){
     document.getElementById("Chart10").style.display="none";
     document.getElementById("Chart11").style.display="none";
     document.getElementById("Chart12").style.display="none";
+    document.getElementById("Landing").style.display="none";
 }
 
 function showChart(){
@@ -1282,6 +1284,7 @@ function showChart(){
     document.getElementById("Chart10").style.display="inline";
     document.getElementById("Chart11").style.display="inline";
     document.getElementById("Chart12").style.display="inline";
+    document.getElementById("Landing").style.display="none";
 }
 
 function showPrint(){
@@ -1294,6 +1297,7 @@ function showPrint(){
     document.getElementById("Print10").style.display="inline";
     document.getElementById("Print11").style.display="inline";
     document.getElementById("Print12").style.display="inline";
+    document.getElementById("Landing").style.display="none";
 }
 
     function popchart() {
@@ -1579,4 +1583,5 @@ window.printAll = function() {
 window.onafterprint = function() {
    hideAll();
    showChart();
+   document.getElementById("Landing").style.display="inline";
 };

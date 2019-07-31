@@ -986,7 +986,9 @@ var print11 = dimple.newSvg("#Print11", 750, 400);
         
                             var chart15 = new dimple.chart(svg11, workerDatag1);
                             chart15.setBounds("11%", "12%", "80%", "65%")
-                            var workX = chart15.addCategoryAxis("x", "Indicator Status")
+                            var workX = chart15.addCategoryAxis("x", "Indicator Status");
+        
+                            workX.addOrderRule(["N/A", "Nursery", "Kindergarten", "Grade 1", "Grade 2", "Grade 3", "Grade 4","Grade 5", "Grade 6", "Grade 7", "Grade 8", "Grade 9", "Grade 10", "Grade 11", "Grade 12", "GED", "Highschool", "Professional", "Some College", "Associate", "Bachlor's", "Master's", "Doctoral", "1 or More"]);
                             var workY = chart15.addMeasureAxis("y", "Amount");
                             workY.tickFormat = ",.2f";
         
@@ -1002,7 +1004,8 @@ var print11 = dimple.newSvg("#Print11", 750, 400);
         
                             var pchart15 = new dimple.chart(print11, workerDatag1);
                             pchart15.setBounds("11%", "12%", "80%", "65%")
-                            var workX = pchart15.addCategoryAxis("x", "Indicator Status")
+                            var workX = pchart15.addCategoryAxis("x", "Indicator Status");
+                            workX.addOrderRule(["N/A", "Nursery", "Kindergarten", "Grade 1", "Grade 2", "Grade 3", "Grade 4","Grade 5", "Grade 6", "Grade 7", "Grade 8", "Grade 9", "Grade 10", "Grade 11", "Grade 12", "GED", "Highschool", "Professional", "Some College", "Associate", "Bachlor's", "Master's", "Doctoral", "1 or More"]);
                             var workY = pchart15.addMeasureAxis("y", "Amount");
                             workY.tickFormat = ",.2f";
                             //mTanfY.overrideMax = .003;
@@ -1267,6 +1270,7 @@ function hidePrint(){
     document.getElementById("Print10").style.display="none";
     //document.getElementById("Print11").style.display="none";
     document.getElementById("Print12").style.display="none";
+    document.getElementById("Landing").style.display="none";
 }
 
 function hideChart(){
@@ -1279,6 +1283,7 @@ function hideChart(){
     document.getElementById("Chart10").style.display="none";
     document.getElementById("Chart11").style.display="none";
     document.getElementById("Chart12").style.display="none";
+    document.getElementById("Landing").style.display="none";
 }
 
 function showChart(){
@@ -1291,6 +1296,7 @@ function showChart(){
     document.getElementById("Chart10").style.display="inline";
     document.getElementById("Chart11").style.display="inline";
     document.getElementById("Chart12").style.display="inline";
+    document.getElementById("Landing").style.display="none";
 }
 
 function showPrint(){
@@ -1303,6 +1309,7 @@ function showPrint(){
     document.getElementById("Print10").style.display="inline";
    // document.getElementById("Print11").style.display="inline";
     document.getElementById("Print12").style.display="inline";
+    document.getElementById("Landing").style.display="none";
 }
 
     function popchart() {
@@ -1588,4 +1595,5 @@ window.printAll = function() {
 window.onafterprint = function() {
    hideAll();
    showChart();
+    document.getElementById("Landing").style.display="inline";
 };

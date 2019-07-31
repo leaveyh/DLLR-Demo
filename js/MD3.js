@@ -4269,6 +4269,7 @@ function hidePrint(){
     document.getElementById("Print19").style.display="none";
     document.getElementById("Print20").style.display="none";
     document.getElementById("Print21").style.display="none";
+    document.getElementById("Landing").style.display="none";
     
     drawAll();
 }
@@ -4293,6 +4294,7 @@ function hideChart(){
     document.getElementById("Chart19").style.display="none";
     document.getElementById("Chart20").style.display="none";
     document.getElementById("Chart21").style.display="none";
+    document.getElementById("Landing").style.display="none";
     drawAll();
 }
 
@@ -4316,6 +4318,7 @@ function showChart(){
     document.getElementById("Chart19").style.display="inline";
     document.getElementById("Chart20").style.display="inline";
     document.getElementById("Chart21").style.display="inline";
+    document.getElementById("Landing").style.display="none";
     drawAll();
 }
 
@@ -4339,6 +4342,7 @@ function showPrint(){
     document.getElementById("Print19").style.display="inline";
     document.getElementById("Print20").style.display="inline";
     document.getElementById("Print21").style.display="inline";
+    document.getElementById("Landing").style.display="none";
     
     drawAll();
 }
@@ -4364,6 +4368,7 @@ function collapse1() {
         document.getElementById("collapse19").style.display="none";
         document.getElementById("pTitle").innerHTML = "Maryland";
         whichChart = 1;
+    
         
         drawAll();
         hidePrint();
@@ -4863,6 +4868,7 @@ function hideAll() {
         document.getElementById("collapse19").style.display="none";
         document.getElementById("pTitle").innerHTML = "Maryland";
         
+        
         drawAll();
         
     }
@@ -4990,4 +4996,6 @@ window.printAll = function() {
 window.onafterprint = function() {
    hideAll();
    showChart();
+   document.getElementById("Landing").style.display="inline";
+   
 };
