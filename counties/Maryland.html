@@ -104,11 +104,8 @@
             <button class="button" onclick="collapse6()">Disability and Poverty</button>
                 </div>
             <div class="dropdown">    
-            <button class="button" style="padding-left: 20%; padding-right: 20%">TANF Data</button>
-                <div class="dropdown-content">
-                <button class="button" onclick="collapse7()">Workers and Participants</button>
-                <button class="button" onclick="collapse8()">Recipients % MD</button>
-                </div>
+            <button class="button" style="padding-left: 20%; padding-right: 20%" onclick="collapse7()">TANF</button>
+                
                 </div>
             <div class="dropdown">
             <button class="button" style="padding-left: 1%; padding-right: 1%" onclick="collapse9()">Apprenticeship Completers</button>
@@ -131,13 +128,13 @@
             <button class="button" onclick="collapse13()" style="padding-left: 20%; padding-right: 20%">Industry Metrics</button>
                 </div>
                  <div class="dropdown">    
-            <button class="button" onclick="collapse14()" style="padding-left: 20%; padding-right: 20%">Seperations</button>
+            <button class="button" onclick="collapse14()" style="padding-left: 20%; padding-right: 20%">Separations</button>
                 </div>
                 <div class="dropdown">    
             <button class="button" onclick="collapse15()" style="padding-left: 20%; padding-right: 20%">New Apprentice Programs</button>
                 </div>
                 <div class="dropdown">    
-            <button class="button" onclick="collapse16()" style="padding-left: 20%; padding-right: 20%">New/Actice Apprentices</button>
+            <button class="button" onclick="collapse16()" style="padding-left: 20%; padding-right: 20%">New/Active Apprentices</button>
                 </div>
             </div>
     <div class="dropdown">
@@ -277,7 +274,7 @@
             
             <div class="FootLeft">
                 
-                <p>Source: Current Population Survey, Latest Data Available as of Summer 2019 is 2014</p>
+                <p>Source: Current Population Survey, Latest Data Available as of Summer 2019 is 2015</p>
             </div>
             
             </div>
@@ -680,7 +677,7 @@
                     </p>
                 </div>
                 
-                <p>TANF Stats</p> 
+                <p>Temporary Aid for Needy Families (TANF) Stats</p> 
             </div>
         
         <div class="ChartDiv">
@@ -701,11 +698,13 @@
             <table id="table9">
             <tr class="HeadRow" style="background-color: white;">
                         <th>Maryland:</th>
-                        <th>TANF Recipient Workers</th>
-                        <th>Service Participants in TANF by Percentage</th>
+                        <th>TANF Recipient Workers (count)</th>
+                        <th>Service participants in TANF (percent)</th>
+                <th>Percentage of TANF Recipients among Maryland Workers</th>
                     </tr>
                                 <tr class="HeadRow">
                                     <th>2015Q3 - 2016Q2</th>
+                                    <td></td>
                                     <td></td>
                                     <td></td>
                                 </tr>
@@ -713,24 +712,33 @@
                         <th>2015 Q3</th>
                         <td id="Tanf1">#5</td>
                         <td id="Ptanf1">#6</td>
+                        <td id="t28">#1</td>
+                        
                     </tr>
                     <tr>
                         <th>2015 Q4</th>
                         <td id="Tanf2">#5</td>
                         <td id="Ptanf2">#6</td>
+                        <td id="t29">#2</td>
+                        
                     </tr>
                     <tr>
                         <th>2016 Q1</th>
                         <td id="Tanf3">#5</td>
                         <td id="Ptanf3">#6</td>
+                        <td id="t30">#3</td>
+                        
                     </tr>
                     <tr>
                         <th>2016 Q2</th>
                         <td id="Tanf4">#5</td>
                         <td id="Ptanf4">#6</td>
+                        <td id="t31">#4</td>
+                        
                     </tr>
                     <tr class="HeadRow">
                         <th>2016Q3 - 2017Q2</th>
+                        <td></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -738,21 +746,28 @@
                         <th>2016 Q3</th>
                         <td id="Tanf5">#5</td>
                         <td id="Ptanf5">#6</td>
+                        <td id="t32">#1</td>
+                        
                     </tr>
                     <tr>
                         <th>2016 Q4</th>
                         <td id="Tanf6">#5</td>
                         <td id="Ptanf6">#6</td>
+                        <td id="t33">#2</td>
+                        
                     </tr>
                     <tr>
                         <th>2017 Q1</th>
                         <td id="Tanf7"></td>
                         <td id="Ptanf7">#6</td>
+                        <td id="t34">#3</td>
+                        
                     </tr>
                     <tr class="FootRow">
                         <th>2017 Q2</th>
                         <td id="Tanf8"></td>
                         <td id="Ptanf8">#6</td>
+                        <td id="t35">#4</td>
                     </tr>
             </table>
         </div>
@@ -766,72 +781,7 @@
                 
             </div>
             
-            <div id="collapse8" style="display: none;">
-        
-        <div class="ChartDiv">
-                
-                
-                
-                
-                    <div id="Chart10">
-                        
-                    </div>
-                
-                <div id="Print10" class="print"></div>
-
-                
-            </div>
             
-            <div class="Table">
-                            <table id="table10">
-                    <tr class="HeadRow" style="background-color: white;">
-                        <th>Maryland:</th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                    </tr>
-                                <tr class="HeadRow">
-                                    <th></th>
-                                    <th>Percentage of TANF Recipients among Maryland Workers</th>
-                                    <th>2015 Q3</th>
-                                    <th>2015 Q4</th>
-                                    <th>2016 Q1</th>
-                                    <th>2016 Q2</th>
-                                    <th>2016 Q3</th>
-                                    <th>2016 Q4</th>
-                                    <th>2017 Q1</th>
-                                    <th>2017 Q2</th>
-                                </tr>
-                    <tr class="FootRow">
-                        <th>Percentage:</th>
-                        <td></td>
-                        <td id="t28">#1</td>
-                        <td id="t29">#2</td>
-                        <td id="t30">#3</td>
-                        <td id="t31">#4</td>
-                        <td id="t32">#1</td>
-                        <td id="t33">#2</td>
-                        <td id="t34">#3</td>
-                        <td id="t35">#4</td>
-                    </tr>
-                </table>
-        
-        <div class="Footer">
-            <div class="FootLeft"> 
-                <p>Source: Administrative Data from Temporary Assistance to Needy Families (TANF) and MD Wage Records (Date Last Accessed: 2/28/2018)</p>
-            </div>
-            
-            </div>
-                
-                </div>
-                
-            </div>
                 
             <div id="collapse9" style="display: none;">
                 
@@ -874,6 +824,7 @@
                 <div class="Footer">
             <div class="FootLeft"> 
                 <p>Source: United States Department of Labor (Date Last Accessed: Today)</p>
+                <p>Note: FY is the U.S. government’s fiscal year, which ends on September 20 of the indicated year.  For example, FY19 is the fiscal year running from October 1, 2018 to September 30, 2019.</p>
             </div>
             
             </div>
@@ -1161,6 +1112,16 @@
                 
             </div>
                 
+                <div class="Footer" >
+                    <p>New Hires and Job Net Change since previous quarter.</p>
+        <p class="FootLeft">New Hires: Estimated number of workers who started a new job.  More specifically, total hires that, while they worked for an employer in the specified quarter, were not employed by that employer in any of the previous four quarters. </p>
+                    
+                    <p class="FootLeft">Job Net Change: Difference between firm job gain and firm job loss.</p>
+        
+        
+                
+        </div>
+                
             </div>
             
             <div id="collapse12" style="display: none;">
@@ -1241,6 +1202,14 @@
 
                 
             </div>
+            
+                <div class="Footer" >
+                    <p>Job Turnover Rate in previous quarter.</p>
+        <p class="FootLeft">Turnover Rate: The rate at which stable jobs begin and end. It is calculated by summing the number of stable hires in the reference quarter and stable separations in the next quarter, and dividing by the average full-quarter employment.</p>
+        
+        
+                
+        </div>
 
             </div>
           
@@ -1295,7 +1264,7 @@
             <table id="table5">
                 <thead>
                     <tr>
-                        <th class="HeadRow" rowspan="7">LWDA Data by Industry</th>
+                        <th class="HeadRow" rowspan="7">Maryland by Industry</th>
                     </tr>
                     <tr class="HeadRow" style="background-color: white;">
                         <th>Workers</th>
@@ -1554,6 +1523,14 @@
                 
             </div>
         
+            <div class="Footer" >
+<p class="FootLeft">New Hires: Estimated number of workers who started a new job.  More specifically, total hires that, while they worked for an employer in the specified quarter, were not employed by that employer in any of the previous four quarters. </p>
+                    
+                    <p class="FootLeft">Job Net Change: Difference between firm job gain and firm job loss.</p>
+              
+          <p class="FootLeft">Turnover Rate: The rate at which stable jobs begin and end. It is calculated by summing the number of stable hires in the reference quarter and stable separations in the next quarter, and dividing by the average full-quarter employment.</p>
+              
+          </div>
          
         
     </div>
@@ -1583,7 +1560,7 @@
                     </select>
                 </p>
                 </div>
-                <p>Seperations</p>
+                <p>Separations</p>
             </div>
        
     
@@ -1604,11 +1581,11 @@
             <table id="table5">
                 <thead>
                     <tr>
-                        <th class="HeadRow" colspan="2">Seperations by Industry</th>
+                        <th class="HeadRow" colspan="2">Separations by Industry</th>
                     </tr>
                     <tr class="HeadRow" style="background-color: white;">
                         <th>Industry</th>
-                        <th>Seperations</th>
+                        <th>Separations</th>
                         
                     </tr>
                 </thead>
@@ -1696,11 +1673,11 @@
                 </tbody>
                 <thead>
                    <tr>
-                        <th class="HeadRow" colspan="2">Seperations by Gender</th>
+                        <th class="HeadRow" colspan="2">Separations by Gender</th>
                     </tr>
                     <tr class="HeadRow" style="background-color: white;">
                         <th>Gender</th>
-                        <th>Seperations</th>
+                        <th>Separations</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -1716,11 +1693,11 @@
                 </tbody>
                 <thead>
                    <tr>
-                        <th class="HeadRow" colspan="2">Seperations by Education</th>
+                        <th class="HeadRow" colspan="2">Separations by Education</th>
                     </tr>
                     <tr class="HeadRow" style="background-color: white;">
                         <th>Education Level</th>
-                        <th>Seperations</th>
+                        <th>Separations</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -1748,11 +1725,11 @@
                 </tbody>
                 <thead>
                    <tr>
-                        <th class="HeadRow" colspan="2">Seperations by Age</th>
+                        <th class="HeadRow" colspan="2">Separations by Age</th>
                     </tr>
                     <tr class="HeadRow" style="background-color: white;">
                         <th>Age Range</th>
-                        <th>Seperations</th>
+                        <th>Separations</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -1947,8 +1924,8 @@
         
         <div class="Footer">
             <div class="FootLeft"> 
-                <p>SNAP data is available from January 2016 to October 2016. </p>
-                <p>Source: In-house, accessed 4/15/2019</p>
+                <p>SNAP (Supplemental Nutrition Assistance Program) is available available from January 2016 to October 2018. </p>
+                <p>Source: Jacob France Institute, accessed 4/15/2019</p>
             </div>
             
             </div>
@@ -2004,8 +1981,13 @@
                             </table>
         
         <div class="Footer">
+          
             <div class="FootLeft"> 
-                <p>Source: In-house, accessed 4/15/2019</p>
+                <p>SNAP (Supplemental Nutrition Assistance Program) is available available from January 2016 to October 2018. </p>
+</div>
+            
+            <div class="FootLeft"> 
+                <p>Source: Jacob France Institute, accessed 4/15/2019</p>
             </div>
             
             </div>
@@ -2130,16 +2112,16 @@
         //program completers
         datacords[81] = 1849;//
     
-        //seperations by industry
+        //Separations by industry
         datacords[100] = 1;
     
-        //seperations by gender
+        //Separations by gender
         datacords[121] = 1;
         
-        //seperations by educations
+        //Separations by educations
         datacords[124] = 1;
     
-        //seperations by age
+        //Separations by age
     
         datacords[130] = 1;
         
@@ -3008,7 +2990,7 @@
         $("#Td99").text(csvData[coord[98]][9]);
         $("#Td100").text(csvData[coord[99]][9]);
     
-       //seperations
+       //Separations
     
     
     

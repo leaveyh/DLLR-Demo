@@ -769,12 +769,13 @@ var togNum1 = 1;
                             
         
                             var chart12 = new dimple.chart(svg9, TanfAttainment2);
-                            chart12.setBounds("9%", "12%", "37%", "65%")
+                            chart12.setBounds("9%", "12%", "24%", "65%")
                             var tanfX = chart12.addCategoryAxis("x", "Time");
                             var tanfY = chart12.addMeasureAxis("y", "Amount");
                            var tanfSeries = chart12.addSeries("Indicator", dimple.plot.line);
+                            tanfX.title = " ";
                             tanfX.addOrderRule(["2015Q3", "2015Q4","2016Q1","2016Q2","2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
-                            tanfY.title = "TANF Workers";
+                            tanfY.title = "Workers receiving TANF benefits";
         
                        //     edX.addOrderRule(["Less than high school graduate", "High school graduate (includes equivalency)", "Some college or associate's degree", "Bachelor's degree or higher"]);
                   //    var disLegend = chart12.addLegend("0%", "83%", "50%", "70%", "right");
@@ -789,12 +790,12 @@ var togNum1 = 1;
         //print chart
         
          var p1chart12 = new dimple.chart(print9, TanfAttainment2);
-                            p1chart12.setBounds("9%", "12%", "37%", "60%")
+                            p1chart12.setBounds("7%", "12%", "22%", "60%")
                             var p1tanfX = p1chart12.addCategoryAxis("x", "Time");
                             var p1tanfY = p1chart12.addMeasureAxis("y", "Amount");
                            var p1tanfSeries = p1chart12.addSeries("Indicator", dimple.plot.line);
                             p1tanfX.addOrderRule(["2015Q3", "2015Q4","2016Q1","2016Q2","2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
-                            p1tanfY.title = "TANF Workers";
+                            p1tanfY.title = "Workers receiving TANF benefits";
         
                        //     edX.addOrderRule(["Less than high school graduate", "High school graduate (includes equivalency)", "Some college or associate's degree", "Bachelor's degree or higher"]);
                   //    var disLegend = chart12.addLegend("0%", "83%", "50%", "70%", "right");
@@ -815,12 +816,12 @@ var togNum1 = 1;
                             pTanfRate = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Percentage of Workforce Training Program/Service Participants in TANF"), "Location", CountyName2), "Employment Status", "Employed"),"Time", ["2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
         
                             var chart13 = new dimple.chart(svg9, pTanfRate2);
-                            chart13.setBounds("58%", "12%", "37%", "65%")
+                            chart13.setBounds("41%", "12%", "24%", "65%")
                             var ptanfX = chart13.addCategoryAxis("x", "Time");
                             var pTanfY = chart13.addMeasureAxis("y", "Amount");
                             //pTanfY.overrideMax = .30;
                           //  genY.titleShape.text("Percentage");
-        
+                            ptanfX.title = " ";
                             var pTanfseries = chart13.addSeries("Indicator", dimple.plot.line);
                            ptanfX.addOrderRule(["2015Q3", "2015Q4","2016Q1","2016Q2","2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
         
@@ -836,7 +837,7 @@ var togNum1 = 1;
         //print chart
         
                             var p2chart13 = new dimple.chart(print9, pTanfRate2);
-                            p2chart13.setBounds("58%", "12%", "37%", "60%")
+                            p2chart13.setBounds("41%", "12%", "22%", "60%")
                             var p2ptanfX = p2chart13.addCategoryAxis("x", "Time");
                             var p2pTanfY = p2chart13.addMeasureAxis("y", "Amount");
                             //pTanfY.overrideMax = .30;
@@ -913,8 +914,8 @@ var togNum1 = 1;
  });
         
         
-var svg10 = dimple.newSvg("#Chart10", "100%", 400);
-var print10 = dimple.newSvg("#Print10", 750, 400);
+//var svg10 = dimple.newSvg("#Chart10", "100%", 400);
+//var print10 = dimple.newSvg("#Print10", 750, 400);
         
                             mTanfData2 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Percentage of TANF Recipients among Maryland Workers"), "Location", CountyName2), "Time", ["2016Q2","2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
                             
@@ -923,34 +924,38 @@ var print10 = dimple.newSvg("#Print10", 750, 400);
         
                             mTanfData = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Percentage of TANF Recipients among Maryland Workers"), "Location", CountyName2), "Time", ["2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
         
-                            var chart14 = new dimple.chart(svg10, mTanfData2);
-                            chart14.setBounds("11%", "12%", "80%", "65%")
+                            var chart14 = new dimple.chart(svg9, mTanfData2);
+                            chart14.setBounds("72%", "12%", "24%", "65%")
                             var mTanfX = chart14.addCategoryAxis("x", "Time")
                             var mTanfY = chart14.addMeasureAxis("y", "Amount");
                             //mTanfY.overrideMax = .003;
                             var mTanfLine = chart14.addSeries("Indicator", dimple.plot.line);
                             mTanfY.tickFormat = '.2%';
+                            mTanfY.title = "Recipients amongst MD Workers";
+                            mTanfX.title = " ";
                             mTanfLine.lineMarkers = true;
                             mTanfX.addOrderRule(["2015Q3", "2015Q4", "2016Q1", "2016Q2","2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
         
                        //     var vetLegend = chart7.addLegend("16%", "90%", "50%", "70%", "right");
                             chart14.draw();
         
-                            var pchart14 = new dimple.chart(print10, mTanfData2);
-                            pchart14.setBounds("11%", "12%", "80%", "65%")
+                            var pchart14 = new dimple.chart(print9, mTanfData2);
+                            pchart14.setBounds("74%", "12%", "22%", "60%")
                             var pmTanfX = pchart14.addCategoryAxis("x", "Time")
                             var pmTanfY = pchart14.addMeasureAxis("y", "Amount");
                             //mTanfY.overrideMax = .003;
                             var pmTanfLine = pchart14.addSeries("Indicator", dimple.plot.line);
                             pmTanfY.tickFormat = '.2%';
+                            pmTanfX.title = " ";
+                            pmTanfY.title = "Recipients amongst MD Workers";
                             pmTanfLine.lineMarkers = true;
                             pmTanfX.addOrderRule(["2015Q3", "2015Q4", "2016Q1", "2016Q2","2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
         
                        //     var vetLegend = chart7.addLegend("16%", "90%", "50%", "70%", "right");
                             pchart14.draw();
         
-        var svg11 = dimple.newSvg("#Chart11", "100%", 500);
-var print11 = dimple.newSvg("#Print11", 750, 400);
+    /*   // var svg11 = dimple.newSvg("#Chart11", "100%", 500);
+//var print11 = dimple.newSvg("#Print11", 750, 400);
         
                             workerDatag1 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Work Experience by Gender"), "Location", CountyName2), "Time", "2015");
         
@@ -1090,15 +1095,15 @@ var print11 = dimple.newSvg("#Print11", 750, 400);
         WorkerChart();
 	
      
- });
+ });*/
         
         
         var svg12 = dimple.newSvg("#Chart12", "100%", 400);
 var print12 = dimple.newSvg("#Print12", 750, 400);
         
-                            SnapData1 = dimple.filterData(dimple.filterData(data, "Indicator", "Snap Recipient Workers"), "Location", CountyName2);
+                            SnapData1 = dimple.filterData(dimple.filterData(data, "Indicator", "SNAP Recipient Workers"), "Location", CountyName2);
         
-                            SnapDatap1 = dimple.filterData(dimple.filterData(data, "Indicator", "Snap Recipient Workers by Percentage"), "Location", CountyName2);
+                            SnapDatap1 = dimple.filterData(dimple.filterData(data, "Indicator", "SNAP Recipient Workers by Percentage"), "Location", CountyName2);
         
                             
                             
@@ -1185,7 +1190,7 @@ var print12 = dimple.newSvg("#Print12", 750, 400);
                                 chart12.draw(0, true);
                                 chart13.draw(0, true);
                                 chart14.draw(0, true);
-                                chart15.draw(0, true);
+                                //chart15.draw(0, true);
                                 chart16.draw(0, true);
                                 chart17.draw(0, true);
             
@@ -1202,7 +1207,7 @@ var print12 = dimple.newSvg("#Print12", 750, 400);
                             p1chart12.draw(0, true);
                             p2chart13.draw(0, true);
                             pchart14.draw(0, true);
-                            pchart15.draw(0, true);
+                            //pchart15.draw(0, true);
                             pchart16.draw(0, true);
                             pchart17.draw(0, true);
                             
@@ -1267,7 +1272,7 @@ function hidePrint(){
     document.getElementById("PrintFive").style.display="none";
     document.getElementById("Print8").style.display="none";
     document.getElementById("Print9").style.display="none";
-    document.getElementById("Print10").style.display="none";
+    ////    document.getElementById("Print10").style.display="none";
     //document.getElementById("Print11").style.display="none";
     document.getElementById("Print12").style.display="none";
     document.getElementById("Landing").style.display="none";
@@ -1280,8 +1285,8 @@ function hideChart(){
     document.getElementById("ChartFive").style.display="none";
     document.getElementById("Chart8").style.display="none";
     document.getElementById("Chart9").style.display="none";
-    document.getElementById("Chart10").style.display="none";
-    document.getElementById("Chart11").style.display="none";
+    //document.getElementById("Chart10").style.display="none";
+    //document.getElementById("Chart11").style.display="none";
     document.getElementById("Chart12").style.display="none";
     document.getElementById("Landing").style.display="none";
 }
@@ -1293,8 +1298,8 @@ function showChart(){
     document.getElementById("ChartFive").style.display="inline";
     document.getElementById("Chart8").style.display="inline";
     document.getElementById("Chart9").style.display="inline";
-    document.getElementById("Chart10").style.display="inline";
-    document.getElementById("Chart11").style.display="inline";
+    //document.getElementById("Chart10").style.display="inline";
+    //document.getElementById("Chart11").style.display="inline";
     document.getElementById("Chart12").style.display="inline";
     document.getElementById("Landing").style.display="none";
 }
@@ -1306,7 +1311,7 @@ function showPrint(){
     document.getElementById("PrintFive").style.display="inline";
     document.getElementById("Print8").style.display="inline";
     document.getElementById("Print9").style.display="inline";
-    document.getElementById("Print10").style.display="inline";
+    ////document.getElementById("Print10").style.display="inline";
    // document.getElementById("Print11").style.display="inline";
     document.getElementById("Print12").style.display="inline";
     document.getElementById("Landing").style.display="none";
@@ -1319,9 +1324,9 @@ function showPrint(){
         document.getElementById("collapse4").style.display="none";
         document.getElementById("collapse5").style.display="none";
         document.getElementById("collapse6").style.display="none";
-        document.getElementById("collapse7").style.display="none";
+        ////document.getElementById("collapse7").style.display="none";
         
-        document.getElementById("collapse8").style.display="none";
+        //document.getElementById("collapse8").style.display="none";
         
         document.getElementById("collapse9").style.display="none";
         
@@ -1339,9 +1344,9 @@ function showPrint(){
         document.getElementById("collapse4").style.display="none";
         document.getElementById("collapse5").style.display="none";
         document.getElementById("collapse6").style.display="none";
-        document.getElementById("collapse7").style.display="none";
+        //document.getElementById("collapse7").style.display="none";
         
-        document.getElementById("collapse8").style.display="none";
+        //document.getElementById("collapse8").style.display="none";
         
         document.getElementById("collapse9").style.display="none";
         
@@ -1360,9 +1365,9 @@ function showPrint(){
         document.getElementById("collapse4").style.display="none";
         document.getElementById("collapse5").style.display="none";
         document.getElementById("collapse6").style.display="none";
-        document.getElementById("collapse7").style.display="none";
+        //document.getElementById("collapse7").style.display="none";
         
-        document.getElementById("collapse8").style.display="none";
+        //document.getElementById("collapse8").style.display="none";
         
         document.getElementById("collapse9").style.display="none";
         
@@ -1380,9 +1385,9 @@ function showPrint(){
         document.getElementById("collapse4").style.display="inline";
         document.getElementById("collapse5").style.display="none";
         document.getElementById("collapse6").style.display="none";
-        document.getElementById("collapse7").style.display="none";
+        //document.getElementById("collapse7").style.display="none";
         
-        document.getElementById("collapse8").style.display="none";
+        //document.getElementById("collapse8").style.display="none";
         
         document.getElementById("collapse9").style.display="none";
         
@@ -1400,9 +1405,9 @@ function showPrint(){
         document.getElementById("collapse4").style.display="none";
         document.getElementById("collapse5").style.display="inline";
         document.getElementById("collapse6").style.display="none";
-        document.getElementById("collapse7").style.display="none";
+        //document.getElementById("collapse7").style.display="none";
         
-            document.getElementById("collapse8").style.display="none";
+            //document.getElementById("collapse8").style.display="none";
         
         document.getElementById("collapse9").style.display="none";
         whichChart = 5;
@@ -1419,8 +1424,8 @@ function showPrint(){
         document.getElementById("collapse4").style.display="none";
         document.getElementById("collapse5").style.display="none";
         document.getElementById("collapse6").style.display="inline";
-        document.getElementById("collapse7").style.display="none";
-        document.getElementById("collapse8").style.display="none";
+        //document.getElementById("collapse7").style.display="none";
+        //document.getElementById("collapse8").style.display="none";
         
         document.getElementById("collapse9").style.display="none";
         
@@ -1438,9 +1443,9 @@ function collapse7() {
         document.getElementById("collapse4").style.display="none";
         document.getElementById("collapse5").style.display="none";
         document.getElementById("collapse6").style.display="none";
-        document.getElementById("collapse7").style.display="inline";
+        //document.getElementById("collapse7").style.display="inline";
     
-        document.getElementById("collapse8").style.display="none";
+        //document.getElementById("collapse8").style.display="none";
     
         document.getElementById("collapse9").style.display="none";
     whichChart = 7;
@@ -1457,9 +1462,9 @@ function collapse8() {
         document.getElementById("collapse4").style.display="none";
         document.getElementById("collapse5").style.display="none";
         document.getElementById("collapse6").style.display="none";
-        document.getElementById("collapse7").style.display="none";
+        //document.getElementById("collapse7").style.display="none";
     
-        document.getElementById("collapse8").style.display="inline";
+        //document.getElementById("collapse8").style.display="inline";
     
         document.getElementById("collapse9").style.display="none";
     whichChart = 8;
@@ -1476,9 +1481,9 @@ function collapse9() {
         document.getElementById("collapse4").style.display="none";
         document.getElementById("collapse5").style.display="none";
         document.getElementById("collapse6").style.display="none";
-        document.getElementById("collapse7").style.display="none";
+        //document.getElementById("collapse7").style.display="none";
     
-        document.getElementById("collapse8").style.display="none";
+        //document.getElementById("collapse8").style.display="none";
     
         document.getElementById("collapse9").style.display="inline";
     whichChart = 9;
@@ -1501,9 +1506,9 @@ function showAll() {
         document.getElementById("collapse4").style.display="inline";
         document.getElementById("collapse5").style.display="inline";
         document.getElementById("collapse6").style.display="inline";
-        document.getElementById("collapse7").style.display="inline";
+        //document.getElementById("collapse7").style.display="inline";
     
-         document.getElementById("collapse8").style.display="inline";
+         //document.getElementById("collapse8").style.display="inline";
     
         document.getElementById("collapse9").style.display="inline";
     
@@ -1522,9 +1527,9 @@ function hideAll() {
         document.getElementById("collapse4").style.display="none";
         document.getElementById("collapse5").style.display="none";
         document.getElementById("collapse6").style.display="none";
-        document.getElementById("collapse7").style.display="none";
+        //document.getElementById("collapse7").style.display="none";
     
-         document.getElementById("collapse8").style.display="none";
+         //document.getElementById("collapse8").style.display="none";
     
         document.getElementById("collapse9").style.display="none";
     
@@ -1567,12 +1572,12 @@ window.printClick = function(){
         drawAll();
     }else if(whichChart ==7){
         collapse7();
-        document.getElementById("Chart10").style.display="none";
-        document.getElementById("Print10").style.display="inline";
+        //document.getElementById("Chart10").style.display="none";
+        //document.getElementById("Print10").style.display="inline";
         drawAll();
     }else if(whichChart ==8){
         collapse8();
-        document.getElementById("Chart11").style.display="none";
+        //document.getElementById("Chart11").style.display="none";
         document.getElementById("Print11").style.display="inline";
         drawAll();
     }else if(whichChart == 9){

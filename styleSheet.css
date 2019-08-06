@@ -195,7 +195,8 @@
                 margin:auto;
                 width:98%;
             }
-            
+
+        
             #scrollTable{
                 margin:auto;
                 width:95%;
@@ -254,7 +255,7 @@
             } 
             
             td {
-                text-align: left;
+                text-align: center;
                 padding: 8px;
             }
 

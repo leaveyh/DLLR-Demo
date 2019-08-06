@@ -770,12 +770,13 @@ window.chartChange1 = function(){
                             
         
                             var chart12 = new dimple.chart(svg9, TanfAttainment2);
-                            chart12.setBounds("9%", "12%", "37%", "65%")
+                            chart12.setBounds("9%", "12%", "24%", "65%")
                             var tanfX = chart12.addCategoryAxis("x", "Time");
                             var tanfY = chart12.addMeasureAxis("y", "Amount");
                            var tanfSeries = chart12.addSeries("Indicator", dimple.plot.line);
+                            tanfX.title = " ";
                             tanfX.addOrderRule(["2015Q3", "2015Q4","2016Q1","2016Q2","2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
-                            tanfY.title = "TANF Workers";
+                            tanfY.title = "Workers receiving TANF benefits";
         
                        //     edX.addOrderRule(["Less than high school graduate", "High school graduate (includes equivalency)", "Some college or associate's degree", "Bachelor's degree or higher"]);
                   //    var disLegend = chart12.addLegend("0%", "83%", "50%", "70%", "right");
@@ -790,12 +791,12 @@ window.chartChange1 = function(){
         //print chart
         
          var p1chart12 = new dimple.chart(print9, TanfAttainment2);
-                            p1chart12.setBounds("9%", "12%", "37%", "60%")
+                            p1chart12.setBounds("7%", "12%", "22%", "60%")
                             var p1tanfX = p1chart12.addCategoryAxis("x", "Time");
                             var p1tanfY = p1chart12.addMeasureAxis("y", "Amount");
                            var p1tanfSeries = p1chart12.addSeries("Indicator", dimple.plot.line);
                             p1tanfX.addOrderRule(["2015Q3", "2015Q4","2016Q1","2016Q2","2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
-                            p1tanfY.title = "TANF Workers";
+                            p1tanfY.title = "Workers receiving TANF benefits";
         
                        //     edX.addOrderRule(["Less than high school graduate", "High school graduate (includes equivalency)", "Some college or associate's degree", "Bachelor's degree or higher"]);
                   //    var disLegend = chart12.addLegend("0%", "83%", "50%", "70%", "right");
@@ -816,12 +817,12 @@ window.chartChange1 = function(){
                             pTanfRate = dimple.filterData(dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Percentage of Workforce Training Program/Service Participants in TANF"), "Location", CountyName2), "Employment Status", "Employed"),"Time", ["2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
         
                             var chart13 = new dimple.chart(svg9, pTanfRate2);
-                            chart13.setBounds("58%", "12%", "37%", "65%")
+                            chart13.setBounds("41%", "12%", "24%", "65%")
                             var ptanfX = chart13.addCategoryAxis("x", "Time");
                             var pTanfY = chart13.addMeasureAxis("y", "Amount");
                             //pTanfY.overrideMax = .30;
                           //  genY.titleShape.text("Percentage");
-        
+                            ptanfX.title = " ";
                             var pTanfseries = chart13.addSeries("Indicator", dimple.plot.line);
                            ptanfX.addOrderRule(["2015Q3", "2015Q4","2016Q1","2016Q2","2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
         
@@ -837,7 +838,7 @@ window.chartChange1 = function(){
         //print chart
         
                             var p2chart13 = new dimple.chart(print9, pTanfRate2);
-                            p2chart13.setBounds("58%", "12%", "37%", "60%")
+                            p2chart13.setBounds("41%", "12%", "22%", "60%")
                             var p2ptanfX = p2chart13.addCategoryAxis("x", "Time");
                             var p2pTanfY = p2chart13.addMeasureAxis("y", "Amount");
                             //pTanfY.overrideMax = .30;
@@ -914,8 +915,8 @@ window.chartChange1 = function(){
  });
         
         
-var svg10 = dimple.newSvg("#Chart10", "100%", 400);
-var print10 = dimple.newSvg("#Print10", 750, 400);
+//var svg10 = dimple.newSvg("#Chart10", "100%", 400);
+//var print10 = dimple.newSvg("#Print10", 750, 400);
         
                             mTanfData2 = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Percentage of TANF Recipients among Maryland Workers"), "Location", CountyName2), "Time", ["2016Q2","2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
                             
@@ -924,26 +925,30 @@ var print10 = dimple.newSvg("#Print10", 750, 400);
         
                             mTanfData = dimple.filterData(dimple.filterData(dimple.filterData(data, "Indicator", "Percentage of TANF Recipients among Maryland Workers"), "Location", CountyName2), "Time", ["2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
         
-                            var chart14 = new dimple.chart(svg10, mTanfData2);
-                            chart14.setBounds("11%", "12%", "80%", "65%")
+                            var chart14 = new dimple.chart(svg9, mTanfData2);
+                            chart14.setBounds("72%", "12%", "24%", "65%")
                             var mTanfX = chart14.addCategoryAxis("x", "Time")
                             var mTanfY = chart14.addMeasureAxis("y", "Amount");
                             //mTanfY.overrideMax = .003;
                             var mTanfLine = chart14.addSeries("Indicator", dimple.plot.line);
                             mTanfY.tickFormat = '.2%';
+                            mTanfY.title = "Recipients amongst MD Workers";
+                            mTanfX.title = " ";
                             mTanfLine.lineMarkers = true;
                             mTanfX.addOrderRule(["2015Q3", "2015Q4", "2016Q1", "2016Q2","2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
         
                        //     var vetLegend = chart7.addLegend("16%", "90%", "50%", "70%", "right");
                             chart14.draw();
         
-                            var pchart14 = new dimple.chart(print10, mTanfData2);
-                            pchart14.setBounds("11%", "12%", "80%", "65%")
+                            var pchart14 = new dimple.chart(print9, mTanfData2);
+                            pchart14.setBounds("74%", "12%", "22%", "60%")
                             var pmTanfX = pchart14.addCategoryAxis("x", "Time")
                             var pmTanfY = pchart14.addMeasureAxis("y", "Amount");
                             //mTanfY.overrideMax = .003;
                             var pmTanfLine = pchart14.addSeries("Indicator", dimple.plot.line);
                             pmTanfY.tickFormat = '.2%';
+                            pmTanfX.title = " ";
+                            pmTanfY.title = "Recipients amongst MD Workers";
                             pmTanfLine.lineMarkers = true;
                             pmTanfX.addOrderRule(["2015Q3", "2015Q4", "2016Q1", "2016Q2","2016Q3", "2016Q4", "2017Q1", "2017Q2"]);
         
@@ -1084,9 +1089,9 @@ var print11 = dimple.newSvg("#Print11", 750, 400);
         var svg12 = dimple.newSvg("#Chart12", "100%", 400);
 var print12 = dimple.newSvg("#Print12", 750, 400);
         
-                            SnapData1 = dimple.filterData(dimple.filterData(data, "Indicator", "Snap Recipient Workers"), "Location", CountyName2);
+                            SnapData1 = dimple.filterData(dimple.filterData(data, "Indicator", "SNAP Recipient Workers"), "Location", CountyName2);
         
-                            SnapDatap1 = dimple.filterData(dimple.filterData(data, "Indicator", "Snap Recipient Workers by Percentage"), "Location", CountyName2);
+                            SnapDatap1 = dimple.filterData(dimple.filterData(data, "Indicator", "SNAP Recipient Workers by Percentage"), "Location", CountyName2);
         
                             
                             
@@ -1255,7 +1260,7 @@ function hidePrint(){
     document.getElementById("PrintFive").style.display="none";
     document.getElementById("Print8").style.display="none";
     document.getElementById("Print9").style.display="none";
-    document.getElementById("Print10").style.display="none";
+    //document.getElementById("Print10").style.display="none";
     document.getElementById("Print11").style.display="none";
     document.getElementById("Print12").style.display="none";
     document.getElementById("Landing").style.display="none";
@@ -1281,7 +1286,7 @@ function showChart(){
     document.getElementById("ChartFive").style.display="inline";
     document.getElementById("Chart8").style.display="inline";
     document.getElementById("Chart9").style.display="inline";
-    document.getElementById("Chart10").style.display="inline";
+    //document.getElementById("Chart10").style.display="inline";
     document.getElementById("Chart11").style.display="inline";
     document.getElementById("Chart12").style.display="inline";
     document.getElementById("Landing").style.display="none";
@@ -1307,7 +1312,7 @@ function showPrint(){
         document.getElementById("collapse4").style.display="none";
         document.getElementById("collapse5").style.display="none";
         document.getElementById("collapse6").style.display="none";
-        document.getElementById("collapse7").style.display="none";
+        //document.getElementById("collapse7").style.display="none";
         
         document.getElementById("collapse8").style.display="none";
         
@@ -1327,7 +1332,7 @@ function showPrint(){
         document.getElementById("collapse4").style.display="none";
         document.getElementById("collapse5").style.display="none";
         document.getElementById("collapse6").style.display="none";
-        document.getElementById("collapse7").style.display="none";
+        //document.getElementById("collapse7").style.display="none";
         
         document.getElementById("collapse8").style.display="none";
         
@@ -1348,7 +1353,7 @@ function showPrint(){
         document.getElementById("collapse4").style.display="none";
         document.getElementById("collapse5").style.display="none";
         document.getElementById("collapse6").style.display="none";
-        document.getElementById("collapse7").style.display="none";
+        //document.getElementById("collapse7").style.display="none";
         
         document.getElementById("collapse8").style.display="none";
         
@@ -1368,7 +1373,7 @@ function showPrint(){
         document.getElementById("collapse4").style.display="inline";
         document.getElementById("collapse5").style.display="none";
         document.getElementById("collapse6").style.display="none";
-        document.getElementById("collapse7").style.display="none";
+        //document.getElementById("collapse7").style.display="none";
         
         document.getElementById("collapse8").style.display="none";
         
@@ -1388,7 +1393,7 @@ function showPrint(){
         document.getElementById("collapse4").style.display="none";
         document.getElementById("collapse5").style.display="inline";
         document.getElementById("collapse6").style.display="none";
-        document.getElementById("collapse7").style.display="none";
+        //document.getElementById("collapse7").style.display="none";
         
             document.getElementById("collapse8").style.display="none";
         
@@ -1407,7 +1412,7 @@ function showPrint(){
         document.getElementById("collapse4").style.display="none";
         document.getElementById("collapse5").style.display="none";
         document.getElementById("collapse6").style.display="inline";
-        document.getElementById("collapse7").style.display="none";
+        //document.getElementById("collapse7").style.display="none";
         document.getElementById("collapse8").style.display="none";
         
         document.getElementById("collapse9").style.display="none";
@@ -1426,7 +1431,7 @@ function collapse7() {
         document.getElementById("collapse4").style.display="none";
         document.getElementById("collapse5").style.display="none";
         document.getElementById("collapse6").style.display="none";
-        document.getElementById("collapse7").style.display="inline";
+        //document.getElementById("collapse7").style.display="inline";
     
         document.getElementById("collapse8").style.display="none";
     
@@ -1445,7 +1450,7 @@ function collapse8() {
         document.getElementById("collapse4").style.display="none";
         document.getElementById("collapse5").style.display="none";
         document.getElementById("collapse6").style.display="none";
-        document.getElementById("collapse7").style.display="none";
+        //document.getElementById("collapse7").style.display="none";
     
         document.getElementById("collapse8").style.display="inline";
     
@@ -1464,7 +1469,7 @@ function collapse9() {
         document.getElementById("collapse4").style.display="none";
         document.getElementById("collapse5").style.display="none";
         document.getElementById("collapse6").style.display="none";
-        document.getElementById("collapse7").style.display="none";
+        //document.getElementById("collapse7").style.display="none";
     
         document.getElementById("collapse8").style.display="none";
     
@@ -1489,7 +1494,7 @@ function showAll() {
         document.getElementById("collapse4").style.display="inline";
         document.getElementById("collapse5").style.display="inline";
         document.getElementById("collapse6").style.display="inline";
-        document.getElementById("collapse7").style.display="inline";
+        //document.getElementById("collapse7").style.display="inline";
     
          document.getElementById("collapse8").style.display="inline";
     
@@ -1510,7 +1515,7 @@ function hideAll() {
         document.getElementById("collapse4").style.display="none";
         document.getElementById("collapse5").style.display="none";
         document.getElementById("collapse6").style.display="none";
-        document.getElementById("collapse7").style.display="none";
+        //document.getElementById("collapse7").style.display="none";
     
          document.getElementById("collapse8").style.display="none";
     

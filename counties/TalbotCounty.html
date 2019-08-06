@@ -83,7 +83,7 @@
                 
             <div class="dropdown">    
                 
-            <button class="button" style="padding-left: 16%; padding-right: 16%">Demographics</button>
+            <button class="button" style="padding-left: 16%; padding-right: 16%">Demographics and Employment</button>
                 <div class="dropdown-content">
                 <button class="button" onclick="educhart()">Education and Gender</button>
                 <button class="button" onclick="racechart()">Race and Ethnicity</button>
@@ -94,7 +94,7 @@
             <button class="button" onclick="dischart()">Disability and Poverty</button>
                 </div>
             <div class="dropdown">    
-            <button class="button" style="padding-left: 20%; padding-right: 20%">TANF Data</button>
+            <button class="button" style="padding-left: 20%; padding-right: 20%">TANF</button>
                 <div class="dropdown-content">
                 <button class="button" onclick="collapse6()">Workers and Participants</button>
                 <button class="button" onclick="collapse7()">Recipients %</button>
@@ -387,41 +387,43 @@
             <div class="Table">
                             <table id="table4">
                     <tr class="HeadRow" style="background-color: white;">
-                        <th>Baltimore County:</th>
+                        <th>Talbot County:</th>
                         <th>White</th>
                         <th>Black</th>
                         <th>Asian</th>
                         <th>Hispanic or Latino <br> (Any Race)</th>
+                        
                     </tr>
                                 <tr class="HeadRow">
-                                    <th>2013-2017
-                                    </th>
-                                    <th></th>
-                                    <th></th>
-                                    <th></th>
-                                    <th></th>
-                                </tr>
-                    <tr>
-                        <th>Unemployment Rate</th>
-                        <td id="RE1">#1</td>
-                        <td id="RE2">#2</td>
-                        <td id="RE3">#3</td>
-                        <td id="RE4">#4</td>
-                    </tr>
-                    <tr class="HeadRow">
-                        <th>2012-2016</th>
+                        <th>2013-2017</th>
                         <th></th>
                         <th></th>
                         <th></th>
                         <th></th>
                     </tr>
-                    <tr class="FootRow">
+                    <tr >
                         <th>Unemployment Rate</th>
                         <td id="RE8">#1</td>
                         <td id="RE9">#2</td>
                         <td id="RE10">#3</td>
                         <td id="RE11">#4</td>
                     </tr>
+                                <tr class="HeadRow">
+                                    <th>2012-2016
+                                    </th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                    <tr class="FootRow">
+                        <th>Unemployment Rate</th>
+                        <td id="RE1">#1</td>
+                        <td id="RE2">#2</td>
+                        <td id="RE3">#3</td>
+                        <td id="RE4">#4</td>
+                    </tr>
+                    
                 </table>
                 
                 
@@ -476,21 +478,11 @@
             </div>
             
             <div class="Table">
-                            <table id="table7">
+                           <table id="table7">
                     <tr class="HeadRow" style="background-color: white;">
-                        <th>Baltimore County:</th>
+                        <th>Talbot County:</th>
                         <th>Veteran</th>
                         <th>Non Veteran</th>
-                    </tr>
-                                <tr class="HeadRow">
-                                    <th>2012-2016</th>
-                                    <th></th>
-                                    <th></th>
-                                </tr>
-                    <tr>
-                        <th>Unemployment Rate</th>
-                        <td id="VetU1">#5</td>
-                        <td id="VetU2">#6</td>
                     </tr>
                     <tr class="HeadRow">
                         <th>2013-2017</th>
@@ -498,13 +490,23 @@
                         <th></th>
                         
                     </tr>
-                     <tr class="FootRow">
+                     <tr>
                         <th>Unemployment Rate</th>
                         <td id="VetU3">#5</td>
                          <td id="VetU4">#6</td>
                     </tr>
+                                <tr class="HeadRow">
+                                    <th>2012-2016</th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                    <tr class="FootRow">
+                        <th>Unemployment Rate</th>
+                        <td id="VetU1">#5</td>
+                        <td id="VetU2">#6</td>
+                    </tr>
+                    
                 </table>
-                
                 
             </div>
                 
@@ -654,7 +656,7 @@
                     </p>
                 </div>
                 
-                <p>TANF Stats</p> 
+                <p>Temporary Aid for Needy Families (TANF) Stats</p> 
             </div>
         
         <div class="ChartDiv">
@@ -681,8 +683,8 @@
             <table id="table9">
             <tr class="HeadRow" style="background-color: white;">
                         <th>Baltimore County:</th>
-                        <th>TANF Recipient Workers</th>
-                        <th>Service Participants in TANF by Percentage</th>
+                        <th>TANF Recipient Workers (count)</th>
+                        <th>Service participants in TANF (percent)</th>
                     </tr>
                                 <tr class="HeadRow">
                                     <th>2015Q3 - 2016Q2</th>
@@ -935,7 +937,7 @@
         <div class="Footer">
             <div class="FootLeft"> 
                 <p>SNAP data is available from January 2016 to October 2016. </p>
-                <p>Source: In-house, accessed 4/15/2019</p>
+                <p>Source: Jacob France Institute, accessed 4/15/2019</p>
             </div>
             
             </div>
