@@ -51,7 +51,7 @@
             .print{
                 margin: auto;
                 margin-left: 0%;
-                width: 100%
+                width: 100%;
             }
             
             #Chart1{
@@ -193,7 +193,7 @@
             
             .Table{
                 margin:auto;
-                width:98%;
+                width:80%;
             }
 
         
@@ -327,6 +327,9 @@
             
             tr:nth-child(even){background-color: #D3DFEF}
             tr:nth-child(odd){background-color: #FFFFFF}
+td:nth-child(1){width: 25%};
+td:nth-child(2){width: 10%};
+
 
 @page {
        

@@ -201,6 +201,8 @@ var togNum1 = 1;
                             var chart3 = new dimple.chart(svg3, genderRate);
                             chart3.setBounds("58%", "12%", "35%", "65%")
                             var genX = chart3.addCategoryAxis("x", "Indicator Status");
+        
+                            
                             var genY = chart3.addMeasureAxis("y", "Unemployment Rate");
                             //genY.overrideMax = .30;
                           //  genY.titleShape.text("Percentage");
@@ -208,7 +210,7 @@ var togNum1 = 1;
                             chart3.addSeries("Indicator Status", dimple.plot.bar);
                            // var genLegend = chart3.addLegend("38%", "10%", "50%", "70%", "right");
                             genY.tickFormat = '.1%';
-                            genX.title = "Totals";
+                            genX.title = "Gender";
         
                             chart3.assignColor("Male", "#3366ff","black", 0.7);
                             chart3.assignColor("Female", "pink","black", 0.7);
@@ -1602,3 +1604,17 @@ window.onafterprint = function() {
    showChart();
     document.getElementById("Landing").style.display="inline";
 };
+
+window.onload = function() {
+    $(document).ready(
+    function(){
+        $("button[class=button]").each( //add more selector here if you want
+            function(){
+                if($(this).attr("disabled"))
+                    $(this).attr("disabled", false); //enable button again
+            }
+        );
+    }
+);
+    
+}

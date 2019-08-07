@@ -208,7 +208,7 @@ var togNum1 = 1;
                             chart3.addSeries("Indicator Status", dimple.plot.bar);
                            // var genLegend = chart3.addLegend("38%", "10%", "50%", "70%", "right");
                             genY.tickFormat = '.1%';
-                            genX.title = "Totals";
+                            genX.title = "Gender";
         
                             chart3.assignColor("Male", "#3366ff","black", 0.7);
                             chart3.assignColor("Female", "pink","black", 0.7);
@@ -990,12 +990,15 @@ var print11 = dimple.newSvg("#Print11", 750, 400);
                             
                             
         
-                            var chart15 = new dimple.chart(svg11, workerDatag1);
+                            var chart15 = new dimple.chart(svg11, workerDatag3);
                             chart15.setBounds("11%", "12%", "80%", "60%")
                             var workX = chart15.addCategoryAxis("x", "Indicator Status")
                             var workY = chart15.addMeasureAxis("y", "Amount");
                             workX.title = " ";
                             workY.tickFormat = ",f";
+                            workY.title = "Number of Workers";
+        
+                            workX.addOrderRule(["N/A","No School", "Nursery", "Kindergarten","Grade 1","Grade 2","Grade 3","Grade 4", "Grade 5", "Grade 6", "Grade 7","Grade 8","Grade 9", "Grade 10", "Grade 11", "Grade 12", "GED", "Highschool","Professional","Some College", "Associate","Bachlor's","Master's","Doctoral","1 or More","0-25","26-50","51-75","76-100","100-500","501"]);
         
                             //mTanfY.overrideMax = .003;
                             var workLine = chart15.addSeries("Employment Status", dimple.plot.bar);
@@ -1007,11 +1010,12 @@ var print11 = dimple.newSvg("#Print11", 750, 400);
                        //     var vetLegend = chart7.addLegend("16%", "90%", "50%", "70%", "right");
                             chart15.draw();
         
-                            var pchart15 = new dimple.chart(print11, workerDatag1);
+                            var pchart15 = new dimple.chart(print11, workerDatag3);
                             pchart15.setBounds("15%", "12%", "65%", "50%")
                             var workX = pchart15.addCategoryAxis("x", "Indicator Status")
                             var workY = pchart15.addMeasureAxis("y", "Amount");
                             workY.tickFormat = ",f";
+                            workY.title = "Number of Workers";
                             workX.title = " ";
                             //mTanfY.overrideMax = .003;
                             var workLine = pchart15.addSeries("Employment Status", dimple.plot.bar);
@@ -1103,6 +1107,8 @@ var print12 = dimple.newSvg("#Print12", 750, 400);
                             chart16.setBounds("11%", "12%", "35%", "65%")
                             var workX = chart16.addCategoryAxis("x", "Time")
                             var workY = chart16.addMeasureAxis("y", "Amount");
+                            workX.title = "Year";
+                            
         
                             workY.tickFormat= ',f';
                             //mTanfY.overrideMax = .003;
@@ -1590,3 +1596,14 @@ window.onafterprint = function() {
    showChart();
    document.getElementById("Landing").style.display="inline";
 };
+
+$(document).ready(
+    function(){
+        $("button[class=button]").each( //add more selector here if you want
+            function(){
+                if($(this).attr("disabled"))
+                    $(this).attr("disabled", false); //enable button again
+            }
+        );
+    }
+);

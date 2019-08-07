@@ -84,17 +84,17 @@ var togNum1 = 1;
                             edX.title = " ";
                             
         
-                          edX.addOrderRule(["Age 14-18", "Age 19-21", "Age 22-24", "Age 25-34", "Age 35-44", "Age 45-54", "Age 55-64", "Age 65-99", "Female", "Male"]);
+                          edX.addOrderRule(["14-18", "19-21", "22-24", "25-34", "35-44", "45-54", "55-64", "65-99", "Female", "Male"]);
                      // var edLegend = wChart.addLegend("0%", "83%", "50%", "70%", "right");
         
-                            wChart.assignColor("Age 14-18", "#4dc3ff", "black", 0.7);
-                            wChart.assignColor("Age 19-21", "#ff5c33", "black", 0.7);
-                            wChart.assignColor("Age 22-24", "#66ff66", "black", 0.7);
-                            wChart.assignColor("Age 25-34", "#ffdb4d", "black", 0.7);
-                            wChart.assignColor("Age 35-44", "#ffb84d", "black", 0.7);
-                            wChart.assignColor("Age 45-54", "#00cccc", "black", 0.7);
-                            wChart.assignColor("Age 55-64", "#6666ff", "black", 0.7);
-                            wChart.assignColor("Age 65-99", "#ffcc99", "black", 0.7);
+                            wChart.assignColor("14-18", "#4dc3ff", "black", 0.7);
+                            wChart.assignColor("19-21", "#ff5c33", "black", 0.7);
+                            wChart.assignColor("22-24", "#66ff66", "black", 0.7);
+                            wChart.assignColor("25-34", "#ffdb4d", "black", 0.7);
+                            wChart.assignColor("35-44", "#ffb84d", "black", 0.7);
+                            wChart.assignColor("45-54", "#00cccc", "black", 0.7);
+                            wChart.assignColor("55-64", "#6666ff", "black", 0.7);
+                            wChart.assignColor("65-99", "#ffcc99", "black", 0.7);
                             wChart.assignColor("Male", "#3366ff","black", 0.7);
                             wChart.assignColor("Female", "pink","black", 0.7);
                             
@@ -114,16 +114,16 @@ var togNum1 = 1;
                             peduY.title = "Number of Workers";
                             pedX.title = " ";
         
-                            pedX.addOrderRule(["Age 14-18", "Age 19-21", "Age 22-24", "Age 25-34", "Age 35-44", "Age 45-54", "Age 55-64", "Age 65-99", "Female", "Male"]);
+                            pedX.addOrderRule(["14-18", "19-21", "22-24", "25-34", "35-44", "45-54", "55-64", "65-99", "Female", "Male"]);
         
-                            pwChart.assignColor("Age 14-18", "#4dc3ff", "black", 0.7);
-                            pwChart.assignColor("Age 19-21", "#ff5c33", "black", 0.7);
-                            pwChart.assignColor("Age 22-24", "#66ff66", "black", 0.7);
-                            pwChart.assignColor("Age 25-34", "#ffdb4d", "black", 0.7);
-                            pwChart.assignColor("Age 35-44", "#ffb84d", "black", 0.7);
-                            pwChart.assignColor("Age 45-54", "#00cccc", "black", 0.7);
-                            pwChart.assignColor("Age 55-64", "#6666ff", "black", 0.7);
-                            pwChart.assignColor("Age 65-99", "#ffcc99", "black", 0.7);
+                            pwChart.assignColor("14-18", "#4dc3ff", "black", 0.7);
+                            pwChart.assignColor("19-21", "#ff5c33", "black", 0.7);
+                            pwChart.assignColor("22-24", "#66ff66", "black", 0.7);
+                            pwChart.assignColor("25-34", "#ffdb4d", "black", 0.7);
+                            pwChart.assignColor("35-44", "#ffb84d", "black", 0.7);
+                            pwChart.assignColor("45-54", "#00cccc", "black", 0.7);
+                            pwChart.assignColor("55-64", "#6666ff", "black", 0.7);
+                            pwChart.assignColor("65-99", "#ffcc99", "black", 0.7);
                             pwChart.assignColor("Male", "#3366ff","black", 0.7);
                             pwChart.assignColor("Female", "pink","black", 0.7);
                             
@@ -185,20 +185,20 @@ var togNum1 = 1;
                             avgChart.addSeries("Indicator Value", dimple.plot.bar);
                            // var genLegend = avgChart.addLegend("38%", "10%", "50%", "70%", "right");
         
-                            avgChart.assignColor("Age 14-18", "#4dc3ff", "black", 0.7);
-                            avgChart.assignColor("Age 19-21", "#ff5c33", "black", 0.7);
-                            avgChart.assignColor("Age 22-24", "#66ff66", "black", 0.7);
-                            avgChart.assignColor("Age 25-34", "#ffdb4d", "black", 0.7);
-                            avgChart.assignColor("Age 35-44", "#ffb84d", "black", 0.7);
-                            avgChart.assignColor("Age 45-54", "#00cccc", "black", 0.7);
-                            avgChart.assignColor("Age 55-64", "#6666ff", "black", 0.7);
-                            avgChart.assignColor("Age 65-99", "#ffcc99", "black", 0.7);
+                            avgChart.assignColor("14-18", "#4dc3ff", "black", 0.7);
+                            avgChart.assignColor("19-21", "#ff5c33", "black", 0.7);
+                            avgChart.assignColor("22-24", "#66ff66", "black", 0.7);
+                            avgChart.assignColor("25-34", "#ffdb4d", "black", 0.7);
+                            avgChart.assignColor("35-44", "#ffb84d", "black", 0.7);
+                            avgChart.assignColor("45-54", "#00cccc", "black", 0.7);
+                            avgChart.assignColor("55-64", "#6666ff", "black", 0.7);
+                            avgChart.assignColor("65-99", "#ffcc99", "black", 0.7);
                             avgChart.assignColor("Male", "#3366ff","black", 0.7);
                             avgChart.assignColor("Female", "pink","black", 0.7);
         
                             
                             avgChart.draw();
-                            genX.addOrderRule(["Age 14-18", "Age 19-21", "Age 22-24", "Age 25-34", "Age 35-44", "Age 45-54", "Age 55-64", "Age 65-99", "Female", "Male"]);
+                            genX.addOrderRule(["14-18", "19-21", "22-24", "25-34", "35-44", "45-54", "55-64", "65-99", "Female", "Male"]);
         
                             genX.title = " ";
                             genY.tickFormat = '$,f';
@@ -210,14 +210,14 @@ var togNum1 = 1;
                             var pgenY = pavgChart.addMeasureAxis("y", "Amount");
                             pavgChart.addSeries("Indicator Value", dimple.plot.bar);
         
-                            pavgChart.assignColor("Age 14-18", "#4dc3ff", "black", 0.7);
-                            pavgChart.assignColor("Age 19-21", "#ff5c33", "black", 0.7);
-                            pavgChart.assignColor("Age 22-24", "#66ff66", "black", 0.7);
-                            pavgChart.assignColor("Age 25-34", "#ffdb4d", "black", 0.7);
-                            pavgChart.assignColor("Age 35-44", "#ffb84d", "black", 0.7);
-                            pavgChart.assignColor("Age 45-54", "#00cccc", "black", 0.7);
-                            pavgChart.assignColor("Age 55-64", "#6666ff", "black", 0.7);
-                            pavgChart.assignColor("Age 65-99", "#ffcc99", "black", 0.7);
+                            pavgChart.assignColor("14-18", "#4dc3ff", "black", 0.7);
+                            pavgChart.assignColor("19-21", "#ff5c33", "black", 0.7);
+                            pavgChart.assignColor("22-24", "#66ff66", "black", 0.7);
+                            pavgChart.assignColor("25-34", "#ffdb4d", "black", 0.7);
+                            pavgChart.assignColor("35-44", "#ffb84d", "black", 0.7);
+                            pavgChart.assignColor("45-54", "#00cccc", "black", 0.7);
+                            pavgChart.assignColor("55-64", "#6666ff", "black", 0.7);
+                            pavgChart.assignColor("65-99", "#ffcc99", "black", 0.7);
                             pavgChart.assignColor("Male", "#3366ff","black", 0.7);
                             pavgChart.assignColor("Female", "pink","black", 0.7);
                             pavgChart.draw();
@@ -225,7 +225,7 @@ var togNum1 = 1;
                             pgenX.title = " ";
                             pgenY.tickFormat = '$,f';
                             pgenY.title = "Average Monthly Earnings";
-                            pgenX.addOrderRule(["Age 14-18", "Age 19-21", "Age 22-24", "Age 25-34", "Age 35-44", "Age 45-54", "Age 55-64", "Age 65-99", "Female", "Male"]);
+                            pgenX.addOrderRule(["14-18", "19-21", "22-24", "25-34", "35-44", "45-54", "55-64", "65-99", "Female", "Male"]);
                             
 
         
@@ -921,14 +921,14 @@ var togNum1 = 1;
                             chart61.assignColor("Some college", "#66ff66", "black", 0.7);
                             chart61.assignColor("Bachelor's or Higher", "#ffdb4d", "black", 0.7);
                             chart61.assignColor("N/A", "#919191", "black", 0.7);
-                            chart61.assignColor("Age 14-18", "#4dc3ff", "black", 0.7);
-                            chart61.assignColor("Age 19-21", "#ff5c33", "black", 0.7);
-                            chart61.assignColor("Age 22-24", "#66ff66", "black", 0.7);
-                            chart61.assignColor("Age 25-34", "#ffdb4d", "black", 0.7);
-                            chart61.assignColor("Age 35-44", "#ffb84d", "black", 0.7);
-                            chart61.assignColor("Age 45-54", "#00cccc", "black", 0.7);
-                            chart61.assignColor("Age 55-64", "#6666ff", "black", 0.7);
-                            chart61.assignColor("Age 65-99", "#ffcc99", "black", 0.7);
+                            chart61.assignColor("14-18", "#4dc3ff", "black", 0.7);
+                            chart61.assignColor("19-21", "#ff5c33", "black", 0.7);
+                            chart61.assignColor("22-24", "#66ff66", "black", 0.7);
+                            chart61.assignColor("25-34", "#ffdb4d", "black", 0.7);
+                            chart61.assignColor("35-44", "#ffb84d", "black", 0.7);
+                            chart61.assignColor("45-54", "#00cccc", "black", 0.7);
+                            chart61.assignColor("55-64", "#6666ff", "black", 0.7);
+                            chart61.assignColor("65-99", "#ffcc99", "black", 0.7);
                             
                             chart61.assignColor("Male", "#3366ff","black", 0.7);
                             chart61.assignColor("Female", "pink","black", 0.7);
@@ -979,14 +979,14 @@ var togNum1 = 1;
                             pchart61.assignColor("Some college", "#66ff66", "black", 0.7);
                             pchart61.assignColor("Bachelor's or Higher", "#ffdb4d", "black", 0.7);
                             pchart61.assignColor("N/A", "#919191", "black", 0.7);
-                            pchart61.assignColor("Age 14-18", "#4dc3ff", "black", 0.7);
-                            pchart61.assignColor("Age 19-21", "#ff5c33", "black", 0.7);
-                            pchart61.assignColor("Age 22-24", "#66ff66", "black", 0.7);
-                            pchart61.assignColor("Age 25-34", "#ffdb4d", "black", 0.7);
-                            pchart61.assignColor("Age 35-44", "#ffb84d", "black", 0.7);
-                            pchart61.assignColor("Age 45-54", "#00cccc", "black", 0.7);
-                            pchart61.assignColor("Age 55-64", "#6666ff", "black", 0.7);
-                            pchart61.assignColor("Age 65-99", "#ffcc99", "black", 0.7);
+                            pchart61.assignColor("14-18", "#4dc3ff", "black", 0.7);
+                            pchart61.assignColor("19-21", "#ff5c33", "black", 0.7);
+                            pchart61.assignColor("22-24", "#66ff66", "black", 0.7);
+                            pchart61.assignColor("25-34", "#ffdb4d", "black", 0.7);
+                            pchart61.assignColor("35-44", "#ffb84d", "black", 0.7);
+                            pchart61.assignColor("45-54", "#00cccc", "black", 0.7);
+                            pchart61.assignColor("55-64", "#6666ff", "black", 0.7);
+                            pchart61.assignColor("65-99", "#ffcc99", "black", 0.7);
                             
                             pchart61.assignColor("Male", "#3366ff","black", 0.7);
                             pchart61.assignColor("Female", "pink","black", 0.7);
@@ -4475,6 +4475,18 @@ window.dataSwap23 = function () {
                                 pchart61.draw(0, true);
                                // paprogChart.draw(0, true);
                                 //paNewChart.draw(0, true);
+                 
+                                 edX.shapes.selectAll("text").attr("transform",
+                                function (d) {
+                                  return d3.select(this).attr("transform") + " translate(0, -10) rotate(-45)";
+                                });
+                 
+                                
+                 
+                                genX.shapes.selectAll("text").attr("transform",
+                                function (d) {
+                                  return d3.select(this).attr("transform") + " translate(0, -10) rotate(-45)";
+                                });
                                 
                                 /**     vetX.shapes.selectAll("text").attr("transform",
     function (d) {
@@ -4763,3 +4775,17 @@ window.onafterprint = function() {
    hideAll();
    showChart();
 };
+
+window.onload = function() {
+    $(document).ready(
+    function(){
+        $("button[class=button]").each( //add more selector here if you want
+            function(){
+                if($(this).attr("disabled"))
+                    $(this).attr("disabled", false); //enable button again
+            }
+        );
+    }
+);
+    
+}

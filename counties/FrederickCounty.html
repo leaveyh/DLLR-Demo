@@ -78,33 +78,29 @@
             
          </select>
                 <div class="dropdown">
-                <button class="button" id="button1" onclick="popchart()">Population and Median Household Income</button>
+                <button class="button" disabled id="button1" onclick="popchart()">Population and Median Household Income</button>
                     </div>
                 
             <div class="dropdown">    
                 
-            <button class="button" style="padding-left: 16%; padding-right: 16%">Demographics and Employment</button>
+            <button class="button" disabled style="padding-left: 16%; padding-right: 16%">Demographics and Employment</button>
                 <div class="dropdown-content">
-                <button class="button" onclick="educhart()">Education and Gender</button>
-                <button class="button" onclick="racechart()">Race and Ethnicity</button>
-                <button class="button" onclick="vetchart()" style="padding-left: 14%; padding-right: 12%">Veteran Status</button>
+                <button class="button" disabled onclick="educhart()">Education and Gender</button>
+                <button class="button" disabled onclick="racechart()">Race and Ethnicity</button>
+                <button class="button" disabled onclick="vetchart()" style="padding-left: 14%; padding-right: 12%">Veteran Status</button>
                 </div>
                 </div>
             <div class="dropdown">    
-            <button class="button" onclick="dischart()">Disability and Poverty</button>
+            <button class="button" disabled onclick="dischart()">Disability and Poverty</button>
                 </div>
             <div class="dropdown">    
-            <button class="button" style="padding-left: 20%; padding-right: 20%">TANF</button>
-                <div class="dropdown-content">
-                <button class="button" onclick="collapse6()">Workers and Participants</button>
-                <button class="button" onclick="collapse7()">Recipients %</button>
-                </div>
+            <button class="button" disabled onclick="collapse6()">TANF</button>
                 </div>
                 <div class="dropdown">    
-            <button class="button" onclick="collapse8()">Worker Experience</button>
+            <button class="button" disabled onclick="collapse8()">Worker Time Status</button>
                 </div>
                 <div class="dropdown">    
-            <button class="button" onclick="collapse9()">SNAP</button>
+            <button class="button" disabled onclick="collapse9()">SNAP</button>
                 </div>
                 
             </div>
@@ -782,7 +778,7 @@
                     </p>
                 </div>
                 
-                <p>Work Experience amongst Maryland Workers</p> 
+                <p>Worker Time Status amongst Maryland Workers</p> 
                 
                 
             </div>
@@ -811,7 +807,7 @@
                 
                             <table id="table11">
                               <tr class="HeadRow">
-                              <th>Work Experience Amongst Maryland Workers</th>
+                              <th>Worker Time Status Amongst Maryland Workers</th>
                               <th></th>
                               <th></th>
                               <th>2015</th>
@@ -979,7 +975,7 @@
         //2015
         datacords[31] = 99;
     
-        //disabled and poverty2011
+        //disabled  and poverty2011
         datacords[33] = 9;
         datacords[34] = 10;
         datacords[35] = 64;
@@ -1184,7 +1180,7 @@
     //tanf tables
     
     
-    //disabled 
+    //disabled  
     //w/out disabilities
     //income below poverty
     for(var i = 36; i < 45; i++){

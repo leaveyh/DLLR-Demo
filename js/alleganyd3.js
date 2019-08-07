@@ -991,3 +991,16 @@ d3.select("#btn10").on("change", function() {
         
     });
 
+window.onload = function() {
+    $(document).ready(
+    function(){
+        $("button[class=button]").each( //add more selector here if you want
+            function(){
+                if($(this).attr("disabled"))
+                    $(this).attr("disabled", false); //enable button again
+            }
+        );
+    }
+);
+    
+}
