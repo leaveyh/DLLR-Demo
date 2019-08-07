@@ -1597,7 +1597,8 @@ window.onafterprint = function() {
    document.getElementById("Landing").style.display="inline";
 };
 
-$(document).ready(
+window.onload = function() {
+    $(document).ready(
     function(){
         $("button[class=button]").each( //add more selector here if you want
             function(){
@@ -1607,3 +1608,5 @@ $(document).ready(
         );
     }
 );
+    
+}
